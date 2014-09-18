@@ -15,3 +15,8 @@ html {
   box-sizing: inherit;
 }
 
+.clearfix{
+	clear: both;
+	content: "";
+	display: table;
+}

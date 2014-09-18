@@ -396,11 +396,102 @@ html {
   -moz-box-sizing: inherit;
        box-sizing: inherit; }
 
+.clearfix {
+  clear: both;
+  content: "";
+  display: table; }
+
 /* ==========================================================================
 
 	LAYOUT
 
 ========================================================================== */
+html, body {
+  width: 100%; }
+
+img {
+  float: left;
+  height: auto;
+  max-width: 100%;
+  width: 100%; }
+
+#wrapper-homepage {
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 95%; }
+
+.wrapper-slider {
+  background: #454545;
+  margin-bottom: 36px; }
+
+.content-row {
+  margin-bottom: 18px;
+  width: 100%; }
+
+.col-3 {
+  float: left;
+  max-width: 288px;
+  width: 49%;
+  margin-right: 2%; }
+  .col-3.product-category {
+    width: 100%;
+    margin-bottom: 18px; }
+  .col-3:last-child {
+    margin-right: 0; }
+
+@media only screen and (min-width: 800px) {
+  .col-3.product-category {
+    float: left;
+    width: 24%; } }
+
+.col-6, .col-9, .gender {
+  float: left;
+  margin-bottom: 18px;
+  width: 100%; }
+  .col-6:last-child, .col-9:last-child, .gender:last-child {
+    margin-bottom: 0; }
+
+@media only screen and (min-width: 634px) {
+  .col-6 {
+    float: left;
+    margin-bottom: 0;
+    width: 50%; } }
+
+.gender-split {
+  margin-top: 18px; }
+  @media only screen and (min-width: 600px) {
+    .gender-split {
+      margin-top: 0; } }
+  @media only screen and (min-width: 800px) {
+    .gender-split {
+      float: right;
+      width: 75%; } }
+
+@media only screen and (min-width: 500px) {
+  .gender {
+    margin-bottom: 0;
+    width: 50%; } }
+@media only screen and (min-width: 700px) {
+  .gender {
+    margin-bottom: 0;
+    width: 44.063927%; } }
+
+.gender-transition {
+  display: none;
+  float: left; }
+  @media only screen and (min-width: 700px) {
+    .gender-transition {
+      display: block;
+      width: 11.872146%; } }
+
+.center-mobile {
+  float: none;
+  margin: 0 auto 18px; }
+  @media only screen and (min-width: 600px) {
+    .center-mobile {
+      float: left;
+      margin: 0; } }
+
 /* ==========================================================================
 
 	MODULES

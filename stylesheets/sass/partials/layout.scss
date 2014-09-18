@@ -3,3 +3,125 @@
 	LAYOUT
 
 ========================================================================== */
+
+// GRID
+
+$baseFontSize: 12px;
+$baseline: 18px;
+
+html, body{
+	width: 100%;
+}
+
+img{
+	float: left;
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}
+
+#wrapper-homepage{
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 95%;
+}
+
+.wrapper-slider{
+	background: #454545;
+	//height: 400px;
+	margin-bottom: $baseline * 2;
+}
+
+.content-row{
+	//background: pink;
+	margin-bottom: $baseline;
+	width: 100%;
+}
+
+.col-3{
+	float: left;
+	//height: 200px;
+	max-width: 288px;
+	width: 49%;
+	margin-right: 2%;
+
+	&.product-category{
+		width: 100%;
+		margin-bottom: $baseline;
+	}
+
+	&:last-child{
+		margin-right: 0;
+	}
+}
+
+.col-3.product-category{
+	@media only screen and(min-width: 800px){
+		float: left;
+		width: 24%;
+	}
+}
+
+.col-6, .col-9, .gender{
+	float: left;
+	//height: 200px;
+	margin-bottom: $baseline;
+	width: 100%;
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}
+
+.col-6{
+	@media only screen and(min-width: 634px){
+		float: left;
+		margin-bottom: 0;
+		width: 50%;
+	}
+}
+
+.gender-split{
+	margin-top: $baseline;
+
+	@media only screen and(min-width: 600px){
+		margin-top: 0;
+	}
+
+	@media only screen and(min-width: 800px){
+		float: right;
+		width: 75%;
+	}
+}
+
+.gender{
+	@media only screen and(min-width: 500px){
+		margin-bottom: 0;
+		width: 50%;
+	}
+
+	@media only screen and(min-width: 700px){
+		margin-bottom: 0;
+		width: 44.063927%;
+	}
+}
+
+.gender-transition{
+	display: none;
+	float: left;
+
+	@media only screen and(min-width: 700px) {
+		display: block;
+		width: 11.872146%;
+	}
+}
+
+.center-mobile{
+	float: none;
+	margin: 0 auto $baseline;
+
+	@media only screen and(min-width: 600px){
+		float: left;
+		margin: 0;
+	}
+}

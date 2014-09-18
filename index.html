@@ -11,41 +11,51 @@
   <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
   <link rel="stylesheet" href="stylesheets/css/screen.css">
-  <script src="js/vendor/modernizr-2.8.0.min.js"></script>
 </head>
 
 <body>
-  <!--[if lt IE 8]>
-    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
+  <div id="wrapper-homepage">
+		<div class="wrapper-slider">
+			<div class="slide"></div>
+			<div class="slide"></div>
+			<div class="slide"></div>
+			<div class="slide"></div>
+		</div>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+		<div class="content-row clearfix">
+			<div class="col-6 department-block">
+				<div class="col-3 product-department">
+					<img src="images/outdoor_clothing.jpg" alt="">
+				</div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+				<div class="col-3 product-department">
+					<img src="images/outdoor_shoes.jpg" alt="">
+				</div>
+			</div>
 
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-    (function(b, o, i, l, e, r) {
-      b.GoogleAnalyticsObject = l;
-      b[l] || (b[l] =
-        function() {
-          (b[l].q = b[l].q || []).push(arguments)
-        });
-      b[l].l = +new Date;
-      e = o.createElement(i);
-      r = o.getElementsByTagName(i)[0];
-      e.src = '//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-XXXXX-X');
-    ga('send', 'pageview');
-  </script>
+			<div class="col-6 product-category">
+				<img class="center" src="images/fleece_sweaters.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="content-row clearfix">
+			<div class="col-3 product-category center-mobile">
+				<img src="images/backpacks.jpg" alt="">
+			</div>
+			<div class="col-9 gender-split">
+				<div class="gender">
+					<img src="images/mens_fashion.jpg" alt="">
+				</div>
+
+				<div class="gender-transition">
+					<img src="images/fashion_connector.jpg" alt="">
+				</div>
+
+				<div class="gender">
+					<img src="images/womens_fashion.jpg" alt="">
+				</div>
+			</div>
+		</div>
+  </div>
 </body>
-
 </html>
