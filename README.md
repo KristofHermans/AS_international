@@ -1,4 +1,4 @@
-KRISTOF'S BOILERPLATE
-=====================
+A.S.Adventure international homepage
+====================================
 
-A First attempt at making a standardized starting point for future projects
+
