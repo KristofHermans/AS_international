@@ -60,7 +60,7 @@
 		"outputAbbreviatedPath": "\/images\/backpacks.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/fashion_connector.jpg": {
 		"fileType": 16384,
@@ -71,7 +71,7 @@
 		"outputAbbreviatedPath": "\/images\/fashion_connector.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/fleece_sweaters.jpg": {
 		"fileType": 16384,
@@ -82,7 +82,7 @@
 		"outputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/mens_fashion.jpg": {
 		"fileType": 16384,
@@ -93,7 +93,7 @@
 		"outputAbbreviatedPath": "\/images\/mens_fashion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/outdoor_clothing.jpg": {
 		"fileType": 16384,
@@ -104,7 +104,7 @@
 		"outputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/outdoor_shoes.jpg": {
 		"fileType": 16384,
@@ -115,7 +115,7 @@
 		"outputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/slide1.jpg": {
 		"fileType": 16384,
@@ -126,7 +126,7 @@
 		"outputAbbreviatedPath": "\/images\/slide1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/slide2.jpg": {
 		"fileType": 16384,
@@ -137,7 +137,7 @@
 		"outputAbbreviatedPath": "\/images\/slide2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/slide3.jpg": {
 		"fileType": 16384,
@@ -148,7 +148,7 @@
 		"outputAbbreviatedPath": "\/images\/slide3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/slide4.jpg": {
 		"fileType": 16384,
@@ -159,7 +159,7 @@
 		"outputAbbreviatedPath": "\/images\/slide4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/womens_fashion.jpg": {
 		"fileType": 16384,
@@ -170,7 +170,7 @@
 		"outputAbbreviatedPath": "\/images\/womens_fashion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
