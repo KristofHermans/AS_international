@@ -1,0 +1,17 @@
+/* ==========================================================================
+
+	BASE
+
+========================================================================== */
+
+// NORMALIZE THROUGH BOWER_COMPONENTS
+@import "../../../bower_components/normalize-scss/normalize.scss";
+
+// BORDER BOX 
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
