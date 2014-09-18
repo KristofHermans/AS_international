@@ -51,6 +51,127 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/backpacks.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22737,
+		"inputAbbreviatedPath": "\/images\/backpacks.jpg",
+		"outputAbbreviatedPath": "\/images\/backpacks.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fashion_connector.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13871,
+		"inputAbbreviatedPath": "\/images\/fashion_connector.jpg",
+		"outputAbbreviatedPath": "\/images\/fashion_connector.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/fleece_sweaters.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34286,
+		"inputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
+		"outputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/mens_fashion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43212,
+		"inputAbbreviatedPath": "\/images\/mens_fashion.jpg",
+		"outputAbbreviatedPath": "\/images\/mens_fashion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/outdoor_clothing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45432,
+		"inputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
+		"outputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/outdoor_shoes.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41472,
+		"inputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
+		"outputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59537,
+		"inputAbbreviatedPath": "\/images\/slide1.jpg",
+		"outputAbbreviatedPath": "\/images\/slide1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80200,
+		"inputAbbreviatedPath": "\/images\/slide2.jpg",
+		"outputAbbreviatedPath": "\/images\/slide2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23119,
+		"inputAbbreviatedPath": "\/images\/slide3.jpg",
+		"outputAbbreviatedPath": "\/images\/slide3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64883,
+		"inputAbbreviatedPath": "\/images\/slide4.jpg",
+		"outputAbbreviatedPath": "\/images\/slide4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/womens_fashion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39567,
+		"inputAbbreviatedPath": "\/images\/womens_fashion.jpg",
+		"outputAbbreviatedPath": "\/images\/womens_fashion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
