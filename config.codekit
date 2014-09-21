@@ -51,49 +51,82 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/images\/3-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78391,
+		"inputAbbreviatedPath": "\/images\/3-6.jpg",
+		"outputAbbreviatedPath": "\/images\/3-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63138,
+		"inputAbbreviatedPath": "\/images\/3-7.jpg",
+		"outputAbbreviatedPath": "\/images\/3-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/3-8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47591,
+		"inputAbbreviatedPath": "\/images\/3-8.jpg",
+		"outputAbbreviatedPath": "\/images\/3-8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/backpacks.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 22737,
+		"initialSize": 18726,
 		"inputAbbreviatedPath": "\/images\/backpacks.jpg",
 		"outputAbbreviatedPath": "\/images\/backpacks.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/fashion_connector.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 13871,
+		"initialSize": 9365,
 		"inputAbbreviatedPath": "\/images\/fashion_connector.jpg",
 		"outputAbbreviatedPath": "\/images\/fashion_connector.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/fleece_sweaters.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 34286,
+		"initialSize": 30096,
 		"inputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/mens_fashion.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 43212,
+		"initialSize": 39433,
 		"inputAbbreviatedPath": "\/images\/mens_fashion.jpg",
 		"outputAbbreviatedPath": "\/images\/mens_fashion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/outdoor_clothing.jpg": {
 		"fileType": 16384,
@@ -104,7 +137,7 @@
 		"outputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/outdoor_shoes.jpg": {
 		"fileType": 16384,
@@ -115,7 +148,18 @@
 		"outputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/images\/overlay.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3733,
+		"inputAbbreviatedPath": "\/images\/overlay.png",
+		"outputAbbreviatedPath": "\/images\/overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/slide1.jpg": {
 		"fileType": 16384,
@@ -126,7 +170,7 @@
 		"outputAbbreviatedPath": "\/images\/slide1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/slide2.jpg": {
 		"fileType": 16384,
@@ -137,7 +181,7 @@
 		"outputAbbreviatedPath": "\/images\/slide2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/slide3.jpg": {
 		"fileType": 16384,
@@ -148,7 +192,7 @@
 		"outputAbbreviatedPath": "\/images\/slide3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/images\/slide4.jpg": {
 		"fileType": 16384,
@@ -159,18 +203,128 @@
 		"outputAbbreviatedPath": "\/images\/slide4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/images\/slider.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 313359,
+		"inputAbbreviatedPath": "\/images\/slider.jpg",
+		"outputAbbreviatedPath": "\/images\/slider.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8412,
+		"inputAbbreviatedPath": "\/images\/thumbs\/1.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26690,
+		"inputAbbreviatedPath": "\/images\/thumbs\/1.png",
+		"outputAbbreviatedPath": "\/images\/thumbs\/1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3458,
+		"inputAbbreviatedPath": "\/images\/thumbs\/2.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12275,
+		"inputAbbreviatedPath": "\/images\/thumbs\/2.png",
+		"outputAbbreviatedPath": "\/images\/thumbs\/2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4656,
+		"inputAbbreviatedPath": "\/images\/thumbs\/3.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17192,
+		"inputAbbreviatedPath": "\/images\/thumbs\/3.png",
+		"outputAbbreviatedPath": "\/images\/thumbs\/3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5797,
+		"inputAbbreviatedPath": "\/images\/thumbs\/4.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20021,
+		"inputAbbreviatedPath": "\/images\/thumbs\/4.png",
+		"outputAbbreviatedPath": "\/images\/thumbs\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/transparent-bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 941,
+		"inputAbbreviatedPath": "\/images\/transparent-bg.png",
+		"outputAbbreviatedPath": "\/images\/transparent-bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/images\/womens_fashion.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 39567,
+		"initialSize": 35171,
 		"inputAbbreviatedPath": "\/images\/womens_fashion.jpg",
 		"outputAbbreviatedPath": "\/images\/womens_fashion.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -181,15 +335,79 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/README.md": {
+	"\/lib\/jquery.bxslider\/images\/controls.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2806,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/images\/controls.png",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/images\/controls.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/lib\/jquery.bxslider\/jquery.bxslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/jquery.bxslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/jquery.bxslider\/jquery.bxslider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/jquery.bxslider.js",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/min\/jquery.bxslider-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/lib\/jquery.bxslider\/jquery.bxslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/jquery.bxslider.min.js",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/min\/jquery.bxslider.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/lib\/jquery.bxslider\/plugins\/jquery.easing.1.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/plugins\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/plugins\/min\/jquery.easing.1.3-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/lib\/jquery.bxslider\/plugins\/jquery.fitvids.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/plugins\/jquery.fitvids.js",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/plugins\/min\/jquery.fitvids-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/lib\/jquery.bxslider\/readme.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/README.md",
-		"outputAbbreviatedPath": "\/README.html",
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/jquery.bxslider\/readme.md",
+		"outputAbbreviatedPath": "\/lib\/jquery.bxslider\/readme.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -295,7 +513,7 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		}
 	},
@@ -307,8 +525,8 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "AS_international",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "pencil_gray"
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "pencil_darkGray"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
