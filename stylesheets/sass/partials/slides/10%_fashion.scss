@@ -1,0 +1,44 @@
+
+// 10% Fashion
+
+.slide-fashion-copy{
+	color: #ffffff;
+	display: block;
+	position: absolute;
+	bottom: 75px;
+	text-align: center;
+	text-shadow: 0 1px 1px #ACBDC8;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+	width: 100%;
+
+	h2{
+		margin-bottom: 5px; 
+	}
+
+	p{
+		margin-top: 0;
+		padding: 0 28%;
+	}
+}
+
+.slide-fashion-cta{
+	background: url(../../../../images/transparent-bg.png);
+	border: 3px solid #ffffff;
+	border-radius: 3px;
+	color: #ffffff;
+	display: block;
+	height: 40px;
+	line-height: 36px;
+	padding: 0 1em;
+	position: absolute;
+		bottom: 110px;
+		right: 2.5%;
+	text-decoration: none;
+	width: 20%;
+
+	&:after{
+		content: "";
+		float: right;
+		font-family: "FontAwesome";
+	}
+}

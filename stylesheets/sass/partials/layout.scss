@@ -18,14 +18,15 @@ $baseline: 18px;
 
 .slider-wrapper{
 	width: 100%;
-	padding-bottom: percentage(390/1170);
-	margin-bottom: $baseline * 2 + 10;
+	padding-bottom: percentage(410/1170);
+	margin-bottom: $baseline * 4;
 	position: relative;
 }
 
 .bottom-bar{
 	position: absolute;
-		bottom: -23px;
+		//bottom: -23px;
+		bottom: -40px;
 	width: 100%;
 }
 
@@ -50,6 +51,7 @@ $baseline: 18px;
 		font-family: "Proxima Nova Extra Condensed";
 		font-size: 72px;
 		font-weight: 100;
+		line-height: 72px;
 		margin: 0 0 .6em;
 		padding-bottom: .05em;
 	}
@@ -106,7 +108,7 @@ $baseline: 18px;
 	margin: 0 auto;
 	//position: relative;
 		//bottom: 90px;
-	width: 437px;
+	width: 297px;			// AANPASSEN BIJ EXTRA SLIDES
 
 	a{
 		margin-right: 34px;
@@ -135,6 +137,7 @@ $baseline: 18px;
 ================================ */
 
 .content-row{
+	display: flex;
 	margin-bottom: $baseline;
 
 	&:after{
@@ -148,6 +151,14 @@ $baseline: 18px;
 	display: inline-block;
 	float: left;
 	line-height: 100%;
+
+	&:last-child{
+		margin-right: 0;
+	}
+}
+
+.gender-transition{
+	width: 98px;
 }
 
 .product-department{
