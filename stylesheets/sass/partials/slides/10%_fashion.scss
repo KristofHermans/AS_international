@@ -4,29 +4,56 @@
 .slide-fashion-copy{
 	color: #ffffff;
 	display: block;
+	font-size: 133.33%;
 	position: absolute;
-	bottom: 75px;
+		bottom: 65px;
 	text-align: center;
 	text-shadow: 0 1px 1px #ACBDC8;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
 	width: 100%;
 
+	@media only screen and(max-width: 1199px){
+		bottom: 50px;
+	}
+
+	@media only screen and(max-width: 979px){
+		bottom: 0;
+	}
+
 	h2{
 		margin-bottom: 5px; 
+
+		@media only screen and (max-width: 1199px){
+			font-size: 1.5em;
+		}
+
+		@media only screen and(max-width: 979px){
+			font-size: 1.3em;
+			margin-bottom: 0;
+		}
 	}
 
 	p{
 		margin-top: 0;
 		padding: 0 28%;
+
+		@media only screen and (max-width: 1199px){
+			font-size: 0.8em;
+		}
+
+		@media only screen and (max-width: 1199px){
+			font-size: 0.7em;
+		}
 	}
 }
 
 .slide-fashion-cta{
-	background: url(../../../../images/transparent-bg.png);
+	background: url(../../images/transparent-bg.png);
 	border: 3px solid #ffffff;
 	border-radius: 3px;
 	color: #ffffff;
 	display: block;
+	font-size: 133.33%;
 	height: 40px;
 	line-height: 36px;
 	padding: 0 1em;
@@ -40,5 +67,13 @@
 		content: "";
 		float: right;
 		font-family: "FontAwesome";
+	}
+
+	@media only screen and(max-width: 1199px){
+		bottom: 86px;
+	}
+
+	@media only screen and(max-width: 979px){
+		bottom: 15px;
 	}
 }
