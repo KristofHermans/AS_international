@@ -14,7 +14,7 @@ $(document).ready(function(){
 			pagerCustom: '#bx-pager'
 		};
 		return ($(window).width()<768) ? settings1 : settings2;
-	}
+	};
 
 
 	var mySlider;

@@ -129,7 +129,7 @@ $baseline: 18px;
 }
 
 .bx-pager{
-	display: block;
+	display: block !important;
 	margin: 0 auto;
 	//position: relative;
 		//bottom: 90px;
@@ -140,7 +140,7 @@ $baseline: 18px;
 	}
 
 	@media only screen and(max-width: 767px){
-		display: none;
+		display: none !important;
 	}
 
 	a{
@@ -162,23 +162,37 @@ $baseline: 18px;
 	}
 }
 
+.bx-controls, .bx-controls-direction{
+	height: 100%;
+	width: 100%;
+}
+
 .bx-controls{
 	display: none;
+	height: 95%;
+	position: absolute;
+		top: 0;
 
 	@media only screen and(max-width: 767px) {
 		display: block;
 	}
 
  	.bx-prev.bx-prev {
-    left: 4px;
     background: url(../../images/slider-controls@2x.png) no-repeat 0px center;
     background-size: cover;
+    position: absolute;
+    	top: inherit;
+    	bottom: 10px;
+	    left: 4px;
   }
 
   .bx-next.bx-next {
-    right: 4px;
     background: url(../../images/slider-controls@2x.png) no-repeat -34px center;
     background-size: cover;
+    position: absolute;
+    	top: inherit;
+    	bottom: 10px;
+    	right: 4px;
   }
 }
 

@@ -3,6 +3,23 @@
 
 // 10% Fashion
 
+.slide-outdoor-image{
+	height: 0;
+	max-width: 100%;
+
+	@media only screen and(min-width: 768px){
+		background: url(../../images/bg-lookbook-outdoor.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(410/1170);
+	}
+
+	@media only screen and(max-width: 767px){
+		background: url(../../images/bg-lookbook-outdoor-mobile@2x.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(160/302);
+	}
+}
+
 .slide-outdoor-copy{
 	color: #ffffff;
 	display: block;
@@ -23,6 +40,12 @@
 		top: 35px;
 	}
 
+	@media only screen and(max-width: 767px){
+		top: 45px;
+		left: 34px;
+		width: 60%;
+	}
+
 	h2{	
 		color: #BDE369;
 		font-size: 1.7em;
@@ -31,6 +54,12 @@
 
 		@media only screen and(max-width: 1199px){
 			font-size: 1.4em;
+		}
+
+		@media only screen and(max-width: 767px){
+			color: #ffffff;
+			font-size: .8em;
+			line-height: 1.5em;
 		}
 	}
 
@@ -73,5 +102,20 @@
 
 	@media only screen and(max-width: 979px){
 		bottom: 20px;
+	}
+
+	@media only screen and(max-width: 767px){
+		background: #5B903A;
+		border: none;
+		border-radius: 0;
+		font-size: 1em;
+		height: 25px;
+		line-height: 25px;
+		margin-left: -40%;
+		position: absolute;
+			right: inherit;
+			bottom: 20px;
+			left: 50%;
+		width: 50%;
 	}
 }

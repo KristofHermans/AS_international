@@ -505,7 +505,7 @@ html, body, #main {
     height: auto !important;
     left: 0; }
   #homepage-wrapper .bx-pager {
-    display: block;
+    display: block !important;
     margin: 0 auto;
     width: 274px; }
     @media only screen and (max-width: 979px) {
@@ -513,7 +513,7 @@ html, body, #main {
         width: 200px; } }
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .bx-pager {
-        display: none; } }
+        display: none !important; } }
     #homepage-wrapper .bx-pager a {
       float: left;
       margin-right: 34px; }
@@ -525,24 +525,37 @@ html, body, #main {
           width: 90px; } }
     #homepage-wrapper .bx-pager img {
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+  #homepage-wrapper .bx-controls, #homepage-wrapper .bx-controls-direction {
+    height: 100%;
+    width: 100%; }
   #homepage-wrapper .bx-controls {
-    display: none; }
+    display: none;
+    height: 95%;
+    position: absolute;
+    top: 0; }
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .bx-controls {
         display: block; } }
     #homepage-wrapper .bx-controls .bx-prev.bx-prev {
-      left: 4px;
       background: url(../../images/slider-controls@2x.png) no-repeat 0px center;
-      background-size: cover; }
+      background-size: cover;
+      position: absolute;
+      top: inherit;
+      bottom: 10px;
+      left: 4px; }
     #homepage-wrapper .bx-controls .bx-next.bx-next {
-      right: 4px;
       background: url(../../images/slider-controls@2x.png) no-repeat -34px center;
-      background-size: cover; }
+      background-size: cover;
+      position: absolute;
+      top: inherit;
+      bottom: 10px;
+      right: 4px; }
   #homepage-wrapper .bxslider {
     margin-left: 0; }
     #homepage-wrapper .bxslider li {
       position: relative; }
   #homepage-wrapper .content-row {
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -700,6 +713,19 @@ html, body, #main {
   /* ================================
   	CLOSE NESTING
   ================================ */ }
+  #homepage-wrapper .slide-fashion-image {
+    height: 0;
+    max-width: 100%; }
+    @media only screen and (min-width: 768px) {
+      #homepage-wrapper .slide-fashion-image {
+        background: url(../../images/bg-fashion.jpg) no-repeat;
+        background-size: contain;
+        padding-bottom: 35.04274%; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-fashion-image {
+        background: url(../../images/bg-fashion-mobile@2x.jpg) no-repeat;
+        background-size: contain;
+        padding-bottom: 52.98013%; } }
   #homepage-wrapper .slide-fashion-copy {
     color: #ffffff;
     display: block;
@@ -716,8 +742,13 @@ html, body, #main {
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-fashion-copy {
         bottom: 0; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-fashion-copy {
+        bottom: 28px; } }
     #homepage-wrapper .slide-fashion-copy h2 {
-      margin-bottom: 5px; }
+      color: #63899E;
+      margin-bottom: 5px;
+      text-shadow: none; }
       @media only screen and (max-width: 1199px) {
         #homepage-wrapper .slide-fashion-copy h2 {
           font-size: 1.5em; } }
@@ -725,6 +756,9 @@ html, body, #main {
         #homepage-wrapper .slide-fashion-copy h2 {
           font-size: 1.3em;
           margin-bottom: 0; } }
+      @media only screen and (max-width: 767px) {
+        #homepage-wrapper .slide-fashion-copy h2 {
+          font-size: 1em; } }
     #homepage-wrapper .slide-fashion-copy p {
       margin-top: 0;
       padding: 0 28%; }
@@ -759,6 +793,33 @@ html, body, #main {
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-fashion-cta {
         bottom: 15px; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-fashion-cta {
+        background: #63899E;
+        border: none;
+        border-radius: 0;
+        font-size: 1em;
+        height: 25px;
+        line-height: 25px;
+        margin-left: -40%;
+        position: absolute;
+        right: inherit;
+        bottom: 7px;
+        left: 50%;
+        width: 80%; } }
+  #homepage-wrapper .slide-outdoor-image {
+    height: 0;
+    max-width: 100%; }
+    @media only screen and (min-width: 768px) {
+      #homepage-wrapper .slide-outdoor-image {
+        background: url(../../images/bg-lookbook-outdoor.jpg) no-repeat;
+        background-size: contain;
+        padding-bottom: 35.04274%; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-outdoor-image {
+        background: url(../../images/bg-lookbook-outdoor-mobile@2x.jpg) no-repeat;
+        background-size: contain;
+        padding-bottom: 52.98013%; } }
   #homepage-wrapper .slide-outdoor-copy {
     color: #ffffff;
     display: block;
@@ -776,6 +837,11 @@ html, body, #main {
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-outdoor-copy {
         top: 35px; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-outdoor-copy {
+        top: 45px;
+        left: 34px;
+        width: 60%; } }
     #homepage-wrapper .slide-outdoor-copy h2 {
       color: #BDE369;
       font-size: 1.7em;
@@ -784,6 +850,11 @@ html, body, #main {
       @media only screen and (max-width: 1199px) {
         #homepage-wrapper .slide-outdoor-copy h2 {
           font-size: 1.4em; } }
+      @media only screen and (max-width: 767px) {
+        #homepage-wrapper .slide-outdoor-copy h2 {
+          color: #ffffff;
+          font-size: .8em;
+          line-height: 1.5em; } }
     #homepage-wrapper .slide-outdoor-copy p {
       font-size: 1em;
       margin-top: 0; }
@@ -816,6 +887,20 @@ html, body, #main {
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-outdoor-cta {
         bottom: 20px; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .slide-outdoor-cta {
+        background: #5B903A;
+        border: none;
+        border-radius: 0;
+        font-size: 1em;
+        height: 25px;
+        line-height: 25px;
+        margin-left: -40%;
+        position: absolute;
+        right: inherit;
+        bottom: 20px;
+        left: 50%;
+        width: 50%; } }
 
 /* ==========================================================================
 

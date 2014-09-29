@@ -1,6 +1,23 @@
 
 // 10% Fashion
 
+.slide-fashion-image{
+	height: 0;
+	max-width: 100%;
+
+	@media only screen and(min-width: 768px){
+		background: url(../../images/bg-fashion.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(410/1170);
+	}
+
+	@media only screen and(max-width: 767px){
+		background: url(../../images/bg-fashion-mobile@2x.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(160/302);
+	}
+}
+
 .slide-fashion-copy{
 	color: #ffffff;
 	display: block;
@@ -20,8 +37,14 @@
 		bottom: 0;
 	}
 
+	@media only screen and(max-width: 767px){
+		bottom: 28px;
+	}
+
 	h2{
-		margin-bottom: 5px; 
+		color: #63899E;
+		margin-bottom: 5px;
+		text-shadow: none;
 
 		@media only screen and (max-width: 1199px){
 			font-size: 1.5em;
@@ -30,6 +53,10 @@
 		@media only screen and(max-width: 979px){
 			font-size: 1.3em;
 			margin-bottom: 0;
+		}
+
+		@media only screen and (max-width: 767px){
+			font-size: 1em;
 		}
 	}
 
@@ -75,5 +102,20 @@
 
 	@media only screen and(max-width: 979px){
 		bottom: 15px;
+	}
+
+	@media only screen and(max-width: 767px){
+		background: #63899E;
+		border: none;
+		border-radius: 0;
+		font-size: 1em;
+		height: 25px;
+		line-height: 25px;
+		margin-left: -40%;
+		position: absolute;
+			right: inherit;
+			bottom: 7px;
+			left: 50%;
+		width: 80%;
 	}
 }
