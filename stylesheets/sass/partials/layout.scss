@@ -11,6 +11,8 @@ $baseline: 18px;
 ================================ */
 
 #homepage-wrapper{
+	background: #ffffff;
+	//box-shadow: 0 0 5px rgba(0,0,0,0.4);
 	font-size: 13px;
 	margin-left: 30px;
 	max-width: 1170px;
@@ -137,6 +139,10 @@ $baseline: 18px;
 		width: 200px;
 	}
 
+	@media only screen and(max-width: 767px){
+		display: none;
+	}
+
 	a{
 		float: left;
 		margin-right: 34px;
@@ -158,6 +164,22 @@ $baseline: 18px;
 
 .bx-controls{
 	display: none;
+
+	@media only screen and(max-width: 767px) {
+		display: block;
+	}
+
+ 	.bx-prev.bx-prev {
+    left: 4px;
+    background: url(../../images/slider-controls@2x.png) no-repeat 0px center;
+    background-size: cover;
+  }
+
+  .bx-next.bx-next {
+    right: 4px;
+    background: url(../../images/slider-controls@2x.png) no-repeat -34px center;
+    background-size: cover;
+  }
 }
 
 .bxslider{

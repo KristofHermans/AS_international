@@ -392,6 +392,9 @@ th {
 html, body, #main {
   background: #ffffff !important; }
 
+#navigationHolderContainer #navigationHolder {
+  background: #555555; }
+
 #homepage-wrapper {
   -moz-box-sizing: border-box;
        box-sizing: border-box;
@@ -413,6 +416,7 @@ html, body, #main {
 	OPEN NESTING
 ================================ */
 #homepage-wrapper {
+  background: #ffffff;
   font-size: 13px;
   margin-left: 30px;
   max-width: 1170px;
@@ -507,6 +511,9 @@ html, body, #main {
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .bx-pager {
         width: 200px; } }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .bx-pager {
+        display: none; } }
     #homepage-wrapper .bx-pager a {
       float: left;
       margin-right: 34px; }
@@ -520,12 +527,22 @@ html, body, #main {
       box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
   #homepage-wrapper .bx-controls {
     display: none; }
+    @media only screen and (max-width: 767px) {
+      #homepage-wrapper .bx-controls {
+        display: block; } }
+    #homepage-wrapper .bx-controls .bx-prev.bx-prev {
+      left: 4px;
+      background: url(../../images/slider-controls@2x.png) no-repeat 0px center;
+      background-size: cover; }
+    #homepage-wrapper .bx-controls .bx-next.bx-next {
+      right: 4px;
+      background: url(../../images/slider-controls@2x.png) no-repeat -34px center;
+      background-size: cover; }
   #homepage-wrapper .bxslider {
     margin-left: 0; }
     #homepage-wrapper .bxslider li {
       position: relative; }
   #homepage-wrapper .content-row {
-    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
