@@ -1,4 +1,4 @@
-AS_international
+A.S.Adventure - international
 ================
 
 International homepage for A.S.Adventure
