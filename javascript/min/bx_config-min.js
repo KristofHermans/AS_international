@@ -1,0 +1,1 @@
+$(document).ready(function(){function e(){o.reloadSlider(r())}var r=function(){var e={mode:"horizontal",pager:!1},r={mode:"horizontal",pager:!0,auto:!0,pause:5e3,preloadImages:"visible",pagerCustom:"#bx-pager"};return $(window).width()<768?e:r},o;o=$(".bxslider").bxSlider(r()),$(window).resize(e)});

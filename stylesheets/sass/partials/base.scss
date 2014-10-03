@@ -1,0 +1,36 @@
+/* ==========================================================================
+
+	BASE
+
+========================================================================== */
+
+// NORMALIZE THROUGH BOWER_COMPONENTS
+@import "../../../bower_components/normalize-scss/normalize.scss";
+
+// SITE BACKGROUND REMOVAL
+
+html, body, #main{
+	background: #ffffff !important;
+}
+
+// NAVBAR FIX
+#navigationHolderContainer #navigationHolder{
+	background: #555555;
+}
+
+// BORDER BOX 
+#homepage-wrapper{
+	box-sizing: border-box;
+  color: #454545;
+  font-size: 75%;
+  line-height: 1.5;
+
+  *, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	img{
+		max-width: 100%;
+	}
+}
+
