@@ -387,6 +387,12 @@ $baseline: 18px;
 		box-shadow: 0 0 10px rgba(0,0,0,.6);
 		color: #ffffff;
 	}
+	// little .de fix
+	@media only screen and(max-width: 767px){
+		&.de-fix{
+			font-size: 11px;
+		}
+	}
 }
 
 .cta-light{
