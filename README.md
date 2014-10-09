@@ -1,7 +1,8 @@
 A.S.Adventure - international
 ================
 
-International homepage for A.S.Adventure
+International homepage(s) for A.S.Adventure
 
-  * Each Homepage is defined with the date it was published
+  * [United Kingdom](http://www.asadventure.co.uk/)
+  * [Germany](http://www.asadventure.de/)
 
