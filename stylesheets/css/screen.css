@@ -307,8 +307,7 @@ input {
  */
 input[type="checkbox"],
 input[type="radio"] {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */ }
@@ -331,6 +330,7 @@ input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -396,14 +396,12 @@ html, body, #main {
   background: #555555; }
 
 #homepage-wrapper {
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
   color: #454545;
   font-size: 75%;
   line-height: 1.5; }
   #homepage-wrapper *, #homepage-wrapper *:before, #homepage-wrapper *:after {
-    -moz-box-sizing: inherit;
-         box-sizing: inherit; }
+    box-sizing: inherit; }
   #homepage-wrapper img {
     max-width: 100%; }
 
@@ -555,8 +553,6 @@ html, body, #main {
     #homepage-wrapper .bxslider li {
       position: relative; }
   #homepage-wrapper .content-row {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
     margin-bottom: 18px;
     max-width: 100%;
@@ -690,8 +686,7 @@ html, body, #main {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
     color: #ededed;
-    -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
+    transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-dark:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       color: #ffffff; }
@@ -702,8 +697,7 @@ html, body, #main {
     background: #ffffff;
     border: 2px solid #454545;
     color: #454545;
-    -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
+    transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-light:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 767px) {
@@ -959,7 +953,9 @@ html, body, #main {
         right: 3%; } }
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-outdoor-cta {
-        bottom: 20px; } }
+        bottom: 20px; }
+        #homepage-wrapper .slide-outdoor-cta.de-fix {
+          width: 40%; } }
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .slide-outdoor-cta {
         background: #5B903A;
@@ -973,7 +969,9 @@ html, body, #main {
         right: inherit;
         bottom: 20px;
         left: 50%;
-        width: 50%; } }
+        width: 50%; }
+        #homepage-wrapper .slide-outdoor-cta.de-fix {
+          width: 40%; } }
 
 /* ==========================================================================
 
