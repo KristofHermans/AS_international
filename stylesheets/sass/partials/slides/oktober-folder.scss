@@ -32,11 +32,14 @@
 	text-shadow: 0 1px 1px #ACBDC8;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
 	width: 40%;
+	&.de-fix {
+			top: 15%;
+		}
 
 	@media only screen and(max-width: 1199px){
 		top: 70px;
 		&.de-fix {
-			top: 40px;
+			top: 15%;
 		}
 	}
 
@@ -55,6 +58,9 @@
 		width: 80%;
 		&.de-fix {
 			width: 80%;
+		}
+		&.en-fix {
+			top: 0;
 		}
 	}
 
