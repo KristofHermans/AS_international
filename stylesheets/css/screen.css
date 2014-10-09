@@ -756,7 +756,9 @@ html, body, #main {
       #homepage-wrapper .slide-folder-copy {
         top: 45px;
         left: 20%;
-        width: 80%; } }
+        width: 80%; }
+        #homepage-wrapper .slide-folder-copy.de-fix {
+          width: 80%; } }
     #homepage-wrapper .slide-folder-copy h2 {
       color: #282625;
       font-size: 38px;
