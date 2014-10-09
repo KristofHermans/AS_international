@@ -261,9 +261,18 @@ $baseline: 18px;
 }
 
 .product-department{
+	height: 323px;
 	margin-right: 6px;
 	max-width: 288px;
 	width: percentage(288/1170);
+
+	@media only screen and(max-width: 1199px){
+		height: 260px;
+	}
+
+	@media only screen and(max-width: 979px){
+		height: 201px;
+	}
 
 	@media only screen and (max-width: 767px){
 		margin-bottom: 1em;
@@ -290,7 +299,16 @@ $baseline: 18px;
 }
 
 .product-category{
+	height: 324px;
 	max-width: 49.6280%;
+
+	@media only screen and(max-width: 1199px){
+		height: 259px;
+	}
+
+	@media only screen and(max-width: 979px){
+		height: 199px;
+	}
 
 	@media only screen and(max-width: 767px){
 		max-width: 100%;
