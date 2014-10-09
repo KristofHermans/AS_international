@@ -781,6 +781,8 @@ html, body, #main {
     color: #3f3f3f;
     margin-bottom: 4,5%;
     font-weight: 100; }
+    #homepage-wrapper p.folder-date.de-fix {
+      margin-top: -22px; }
     #homepage-wrapper p.folder-date:before {
       content: "";
       width: 10%;
@@ -916,6 +918,8 @@ html, body, #main {
     left: 3%;
     text-decoration: none;
     width: 20%; }
+    #homepage-wrapper .slide-outdoor-cta.de-fix {
+      width: 25%; }
     #homepage-wrapper .slide-outdoor-cta:after {
       content: "";
       float: right;

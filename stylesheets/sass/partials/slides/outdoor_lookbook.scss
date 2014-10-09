@@ -88,7 +88,9 @@
 		left: 3%;
 	text-decoration: none;
 	width: 20%;
-
+	&.de-fix {
+		width: 25%;
+	}
 	&:after{
 		content: "";
 		float: right;

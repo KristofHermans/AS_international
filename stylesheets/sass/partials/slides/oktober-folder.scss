@@ -91,6 +91,9 @@ p.folder-date {
 	color: #3f3f3f;
 	margin-bottom: 4,5%;
 	font-weight: 100;
+	&.de-fix {
+		margin-top: -22px;
+	}
 	&:before {
 		content: "";
 		width: 10%;
