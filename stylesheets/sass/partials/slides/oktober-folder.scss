@@ -35,10 +35,18 @@
 
 	@media only screen and(max-width: 1199px){
 		top: 70px;
+		&.de-fix {
+			top: 40px;
+		}
 	}
 
 	@media only screen and(max-width: 979px){
 		top: 35px;
+		&.de-fix {
+			top: 10px;
+			width: 50%;
+			right: 28%;
+		}
 	}
 
 	@media only screen and(max-width: 767px){
@@ -66,7 +74,7 @@
 		@media only screen and(max-width: 767px){
 			color: #282625;
 			font-size: .8em;
-			line-height: 1.5em;
+			line-height: 15px;
 		}
 	}
 
@@ -93,6 +101,10 @@ p.folder-date {
 	font-weight: 100;
 	&.de-fix {
 		margin-top: -22px;
+		@media only screen and(max-width: 767px){
+			margin-top: 15px;
+			line-height: 15px;
+		}
 	}
 	&:before {
 		content: "";
@@ -154,7 +166,7 @@ p.folder-date {
 	}
 
 	@media only screen and(max-width: 767px){
-		background: #5B903A;
+		background: #b11116;
 		border: none;
 		border-radius: 0;
 		font-size: 1em;
@@ -163,7 +175,7 @@ p.folder-date {
 		margin-left: -40%;
 		position: absolute;
 			right: inherit;
-			bottom: 75px;
+			bottom: 12%;
 			left: 75%;
 		width: 50%;
 	}
