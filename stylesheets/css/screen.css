@@ -760,14 +760,16 @@ html, body, #main {
       #homepage-wrapper .slide-folder-copy {
         top: 70px; }
         #homepage-wrapper .slide-folder-copy.de-fix {
-          top: 15%; } }
+          top: 10%;
+          width: 42%;
+          right: 31%; } }
     @media only screen and (max-width: 979px) {
       #homepage-wrapper .slide-folder-copy {
         top: 35px; }
         #homepage-wrapper .slide-folder-copy.de-fix {
-          top: 10px;
-          width: 50%;
-          right: 28%; } }
+          top: 5%;
+          right: 28%;
+          width: 48%; } }
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .slide-folder-copy {
         top: 45px;
@@ -784,11 +786,15 @@ html, body, #main {
       text-transform: uppercase;
       line-height: 45px;
       text-align: center; }
+      #homepage-wrapper .slide-folder-copy h2.en-fix {
+        line-height: 35px; }
       #homepage-wrapper .slide-folder-copy h2 .thin {
         font-weight: 300; }
       @media only screen and (max-width: 1199px) {
         #homepage-wrapper .slide-folder-copy h2 {
-          font-size: 1.4em; } }
+          font-size: 1.4em; }
+          #homepage-wrapper .slide-folder-copy h2.en-fix {
+            line-height: 35px; } }
       @media only screen and (max-width: 767px) {
         #homepage-wrapper .slide-folder-copy h2 {
           color: #282625;
@@ -952,7 +958,7 @@ html, body, #main {
     text-decoration: none;
     width: 20%; }
     #homepage-wrapper .slide-outdoor-cta.de-fix {
-      width: 25%; }
+      width: 30%; }
     #homepage-wrapper .slide-outdoor-cta:after {
       content: "";
       float: right;
