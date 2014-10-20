@@ -33,10 +33,12 @@ $baseline: 18px;
 ================================ */
 
 .slider-wrapper{
-	width: 100%;
-	padding-bottom: percentage(410/1170);
+	// box-shadow: 0 0 5px #454545;
+	// box-shadow: 0 0 5px rgba(0,0,0,0.4);
 	margin-bottom: $baseline * 4;
+	padding-bottom: percentage(410/1170);
 	position: relative;
+	width: 100%;
 }
 
 .bottom-bar{

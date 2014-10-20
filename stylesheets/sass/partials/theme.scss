@@ -3,3 +3,17 @@
 	THEME
 
 ========================================================================== */
+
+// FONTS 
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('../../font/helvetica_neue_condensed_bold/HelveticaNeue-CondensedBold.eot'); /* IE9 Compat Modes */
+  src: url('../../font/helvetica_neue_condensed_bold/HelveticaNeue-CondensedBold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../../font/helvetica_neue_condensed_bold/HelveticaNeue-CondensedBold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../../font/helvetica_neue_condensed_bold/HelveticaNeue-CondensedBold.svg#453667434e93dceb51173a1d61030e95') format('svg'), /* Legacy iOS */
+       url('../../font/helvetica_neue_condensed_bold/HelveticaNeue-CondensedBold.woff') format('woff'); /* Modern Browsers */
+       
+  font-style:   normal;
+  font-weight:  700;
+}
