@@ -8,15 +8,27 @@
 	max-width: 100%;
 
 	@media only screen and(min-width: 768px){
-		background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14.jpg) no-repeat;
+		background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14-EN.jpg) no-repeat;
 		background-size: contain;
 		padding-bottom: percentage(410/1170);
+
+		&.de-img-fix{
+			background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14-DE.jpg) no-repeat;
+			background-size: contain;
+			padding-bottom: percentage(410/1170);
+		}
 	}
 
 	@media only screen and(max-width: 767px){
-		background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14-mobile@2x.jpg) no-repeat;
+		background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14-EN-mobile@2x.jpg) no-repeat;
 		background-size: contain;
 		padding-bottom: percentage(160/302);
+
+		&.de-img-fix{
+			background: url(http://static.asadventure.com/includes/homepage/international/UK/images/bg-mid-season-nov-14-DE-mobile@2x.jpg) no-repeat;
+			background-size: contain;
+			padding-bottom: percentage(160/302);
+		}
 	}
 }
 
@@ -30,16 +42,17 @@
 		top: 12%;
 		left: 10.6%;
 	text-align: left;
+	text-decoration: none;
 	text-shadow: 0 1px 1px #ACBDC8;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
 	width: 29%;
 
 	@media only screen and(max-width: 1199px){
-		top: 70px;
+		top: 40px;
 	}
 
 	@media only screen and(max-width: 979px){
-		top: 35px;
+		top: 27px;
 	}
 
 	@media only screen and(max-width: 767px){
@@ -66,14 +79,29 @@
 			font-weight: 900;
 			line-height: 118px;
 			padding: 0px 10px 3px;
+
+			@media only screen and(max-width: 1199px){
+				font-size: 96px;
+				line-height: 85px;
+			}
+
+			@media only screen and(max-width: 1199px){
+				font-size: 74px;
+				line-height: 64px;
+			}
 		}
 
 		@media only screen and(max-width: 1199px){
 			font-size: 1.4em;
+			line-height: 35px;
+		}
+
+		@media only screen and(max-width: 979px){
+			font-size: .9em;
+			line-height: 35px;
 		}
 
 		@media only screen and(max-width: 767px){
-			color: #3C241E;
 			font-size: .8em;
 			line-height: 15px;
 		}
@@ -91,7 +119,18 @@
 
 		@media only screen and(max-width: 1199px){
 			font-size: .9em;
-		}	
+		}
+
+		@media only screen and(max-width: 979px){
+			font-size: .6em;
+			line-height: 1.2em;
+		}
+	}
+
+	a{
+		&:hover{
+			text-decoration: none;
+		}
 	}
 }
 
