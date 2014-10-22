@@ -1,0 +1,198 @@
+
+/* *********************************************************************************************************** */
+/* **                                         WINTERSPORT SOLDEN                                            ** */
+/* *********************************************************************************************************** */
+
+/***********************************************
+    Variables 
+***********************************************/
+$wss_red: #b4262b;
+
+/*******************************************     
+  STYLES                                              
+*******************************************/
+
+#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+  position: absolute;
+  z-index: 2;
+  top: 44px;
+  right: 55px;
+  width: 423px;
+
+  .main-title {
+    display: none;
+  }
+
+  .main-content {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    @include text-shadow(0px 0px 16px rgba(28, 77, 131, 0.8));
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta,
+#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-weight: 600;
+  width: 189px;
+  height: 40px;
+  background-color: #ffffff;
+  color: $wss_red;
+  padding-left: 13px;
+  margin-top: 14px;
+
+  @include transition(all 0.3s ease-in-out);
+
+  &:after {
+    content: "";
+    /* box */
+    width: 40px;
+    height: 40px;
+    float: right;
+    /* background */
+    background: url('../images/arrow-red.png') no-repeat center center;
+  }
+
+  &:hover {
+    background-color: $wss_red;
+    color: #ffffff;
+
+    &:after {
+      background: url('../images/arrow-white.png') no-repeat center center;
+    }
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+  margin-left: 14px;
+}
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+ 
+ #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+  top: 24px;
+  right: 30px;
+  width: 385px;
+
+  .main-content {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
+  width: 174px;
+  margin-top: 8px;
+  font-size: 12px;
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+  margin-left: 6px;
+ }
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+   top: 35px;
+   width: 298px;
+
+   .main-content {
+    display: none;
+   }
+
+   img {
+    margin-bottom: 10px;
+   }
+
+  }
+
+ #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
+  width: 140px;
+  margin-top: 4px;
+  font-size: 10px;
+  padding-left: 7px;
+
+  &:after {
+    width: 32px;
+  }
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+  margin-left: 0px;
+ }
+ 
+
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss {
+    position: relative;
+    background-image: url('../images/mobile_wss.jpg');
+    width: 302px;
+    height: 384px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    z-index: 2;
+    /* box */
+    width: 302px;
+    color: $wss_red; 
+    text-align: center;
+
+    h2 {
+      display: none;
+    }
+
+    img {
+      display: inline-block;
+      width: 270px;
+    }
+
+    .xx_cta_container {
+      position: absolute;
+      text-align: right;
+      top: 105px;
+      right: 15px;
+    }
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
+    width: 152px;
+    font-size: 11px;
+    padding-left: 8px;
+
+    &:after {
+      width: 30px;
+    }
+  }
+  
+}
+

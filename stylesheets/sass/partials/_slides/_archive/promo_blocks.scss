@@ -1,0 +1,289 @@
+
+/* *********************************************************************************************************** */
+/* **                                         PROMO BLOCKS                                                  ** */
+/* *********************************************************************************************************** */
+
+/***********************************************
+    General styles 
+***********************************************/
+
+.span6.promo_block{
+	margin-bottom: 30px;
+	position: relative;
+
+	&:nth-child(n+3){
+		margin-bottom: 0;
+	}
+
+	&:first-child + .promo_block + .promo_block{
+		margin-left: 0;
+	}
+
+	&:nth-child(3n+3){
+		margin-left: 0;
+	}
+}
+
+#xx_wrapper .promo_row .promo-content {
+	color: #ffffff;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	p, h2 {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-weight: normal;
+	}
+
+	a{
+		color: #ffffff;
+		text-decoration: none;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+	.main-title {
+		color: #ffffff;
+		font-family: Georgia, serif;
+		font-style: italic;
+		font-weight: 800;
+		font-size: 23px;
+		line-height: 30px;
+		margin-bottom: 18px;
+		margin-top: 10px;
+	}
+}
+
+#xx_wrapper .promo_row a.promo-button {
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 35px;
+  font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-weight: 600;
+  width: 165px;
+  height: 35px;
+  background-color: #faa21b;
+  color: #ffffff;
+  padding-left: 13px;
+  margin-top: 14px;
+  text-align: left;
+
+  &:after {
+    content: "";
+    /* box */
+    width: 40px;
+    height: 35px;
+    float: right;
+    /* background */
+    background: url('../images/arrow-white.png') no-repeat center center;
+    background-size: 11px 11px;
+  }
+
+  &:hover {
+    background-color: #e9971a;
+    color: #ffffff;
+  }
+}
+
+#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+	display: none;
+}
+
+
+/*==========================================     
+  GOPRO BLOCK                                              
+===========================================*/
+#xx_wrapper .promo_row .promo-content.block3 {
+	bottom: 11px;
+	text-align: center;
+
+	h2 {
+		display: inline-block;
+		font-family: 'proxima_nova_rgbold';
+		font-size: 35px;
+		text-transform: uppercase;
+		color: #ffffff;
+		line-height: 95%;
+		text-align: left;
+
+		.smaller {
+			color: inherit;
+			font-family: inherit;
+			font-size: 34px;
+		}
+	}
+
+	p {
+		display: inline-block;
+		width: 56%;
+		font-family: 'proxima_nova_rgbold';
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 123%;
+		vertical-align: middle;
+		margin-bottom: 0;
+		text-align: left;
+		margin-left: 0%;
+	}
+
+	.promo-button {
+		width: 31.9%;
+		margin-top: 0;
+	}
+	
+}
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+		display: none;
+	}
+
+
+	/*==========================================     
+	  GOPRO BLOCK                                             
+	===========================================*/
+
+	#xx_wrapper .promo_row .promo-content.block3 {
+		bottom: 11px;
+		text-align: center;
+
+		h2 {
+			font-size: 28px;
+			line-height: 95%;
+			text-align: center;
+
+			.smaller {
+				font-size: 28px;
+			}
+		}
+
+		p {
+			width: 59%;
+			font-size: 12px;
+			line-height: 123%;
+		}
+
+		.promo-button {
+			width: 27.9%;
+			margin-top: 0;
+
+			&:after {
+				display: none;
+			}
+		}
+		
+	}
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+		display: none;
+	}
+
+	/*==========================================     
+	  GOPRO BLOCK                                             
+	===========================================*/
+	#xx_wrapper .promo_row .promo-content.block3 {
+		bottom: 9px;
+		text-align: center;
+
+		h2 {
+			font-size: 21px;
+			line-height: 95%;
+			text-align: center;
+
+			.smaller {
+				font-size: 20px;
+			}
+		}
+
+		p {
+			display: none;
+		}
+
+		.promo-button {
+			width: 31.2%;
+			height: 30px;
+			line-height: 30px;
+			font-size: 11px;
+
+			&:after {
+				display: none;
+			}
+		}
+		
+	}
+}
+
+	
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+		display: block;
+	}
+
+	#xx_wrapper .promo_row .span12.promo_block .hide_on_mobile {
+		display: none;
+	}
+
+
+	/*==========================================     
+	  GOPRO BLOCK                                             
+	===========================================*/
+	#xx_wrapper .promo_row .promo-content.block3 {
+
+		h2 {
+			font-size: 19px;
+
+			.smaller {
+				font-size: 18px;
+			}
+		}
+
+		.promo-button {
+			width: 34.4%;
+		}
+		
+	}
+
+	/*==========================================     
+	  BLOCK 4                                              
+	===========================================*/
+  
+}
+
+@media
+only screen and (                     max-width: 1200px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  #xx_wrapper .promo_row a.promo-button:after {
+    background: url('../images/arrow-white@2x.png') no-repeat center center;
+    background-size: 11px 11px;
+  }
+}
+

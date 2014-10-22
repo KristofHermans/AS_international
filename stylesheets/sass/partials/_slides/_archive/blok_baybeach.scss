@@ -1,0 +1,139 @@
+
+/* *********************************************************************************************************** */
+/* **                                      BLOCK ONDERGAANDE PRIJZEN                                        ** */
+/* *********************************************************************************************************** */
+
+
+#xx_wrapper .promo_row .promo-content.block_baybeach {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+	position: relative;
+
+	.hidden {
+		display: none;
+	}
+
+
+	.promo-button {
+		position: absolute;
+		background-color: #ffffff;
+		color: #68aea5;
+		width: 38%;
+		right: 5%;
+		bottom: 17px;
+
+		&:after {
+			background: url('../images/arrow-teal.png') no-repeat center center;
+		}
+
+		&:hover {
+			background-color: #f6f6f6;
+		}
+	}
+
+}
+
+// FR FIX
+#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+	.promo-button {
+		width: 49%;
+	}
+}
+
+// EN FIX
+#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+	.promo-button {
+		width: 40%;
+	}
+}
+
+// IE8 fix 
+@media \0screen {
+    // #xx_wrapper .promo_row .promo-content.block_staycation h2 {
+    // 	font-size: 38px;
+    // }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+	#xx_wrapper .promo_row .promo-content.block_baybeach {
+
+		.promo-button {
+			width: 38%;
+			padding-left: 0;
+			text-align: center;
+			font-size: 12px;
+			bottom: 10px;
+			right: 3%;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+		.promo-button {
+			width: 42%;
+		}
+	}
+	
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	#xx_wrapper .promo_row .promo-content.block_baybeach {
+
+		.promo-button {
+			width: 44%;
+			height: 30px;
+			line-height: 30px;
+			font-size: 11px;
+			bottom: 6px;
+		}
+	}
+
+	// FR FIX
+	#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+		.promo-button {
+			width: 59%;
+		}
+	}
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+		.promo-button {
+			width: 50%;
+		}
+	}
+
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	// FR FIX
+	#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+		.promo-button {
+			width: 63%;
+		}
+	}
+
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+		.promo-button {
+			width: 55%;
+		}
+	}
+}
+
+

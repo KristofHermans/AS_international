@@ -1,0 +1,208 @@
+#homepageWrapper .brandRow{
+	margin: 0 auto 6px;
+	max-width: 100%;
+	width: 1170px;
+
+	@media only screen and(max-width: 767px){
+		display: none;
+	}
+}
+
+#homepageWrapper .brandRow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+// #homepageWrapper .brandRow:first-child {
+//   margin-top: 30px;
+// }
+
+// #homepageWrapper .brandRow:last-child {
+//   margin-bottom: 30px;
+// }
+
+#homepageWrapper .brandRow .brandCard{
+	background: #ffffff;
+	float: left;
+	margin: 0 0.2564103%;
+
+	-webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	box-shadow: 0 0 2px rgba(0,0,0,0.3);
+
+	max-height: 100px;
+	max-width: 12.0512821%;
+	padding: 0;
+
+	-webkit-transition: all .2s ease-out;
+	-moz-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
+	-ms-transition: all .2s ease-out;
+	transition: all .2s ease-out;
+}
+
+#homepageWrapper .brandCard:hover{
+	box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+
+	position: relative;
+		top: -2px;
+
+	-webkit-transform: scale(1.03);
+	-moz-transform: scale(1.03);
+	-o-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+}
+
+#homepageWrapper .brandRow .brandCard img{
+	max-width: 100%;
+	width: 100%;
+}
+
+#homepageWrapper .brandRow .brandCard:first-child{
+	margin-left: 0;
+}
+
+#homepageWrapper .brandRow .brandCard:last-child{
+	margin-right: 0;
+}
+
+/********************************
+	Individual brands
+********************************/
+
+#homepageWrapper .brandRow .jack_wolfskin_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/jack_wolfskin.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/jack_wolfskin_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .millet_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/millet.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/millet_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .tom_tailor_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/tom_tailor.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/tom_tailor_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .gore_bike_wear_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/gore_bike_wear.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/gore_bike_wear_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .ayacucho_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/ayacucho.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/ayacucho_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .camel_active_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/camel_active.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/camel_active_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .asics_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/asics.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/asics_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .care_plus_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/care_plus.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/care_plus_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .superdry_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/superdry.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/superdry_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .the_north_face_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/the_north_face.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/the_north_face_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .salomon_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/salomon.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/salomon_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .king_louie_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/king_louie.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/king_louie_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .deby_debo_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/deby_debo.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/deby_debo_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .eider_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/eider.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/eider_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .garmin_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/garmin.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/garmin_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .vaude_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/vaude.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/vaude_hover.jpg) no-repeat center center;
+	}
+}
+
+#homepageWrapper .brandRow .cks_logo img{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/logo/cks.jpg) no-repeat center center;
+	background-size: 100%;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/logo/cks_hover.jpg) no-repeat center center;
+	}
+}

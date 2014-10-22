@@ -1,0 +1,409 @@
+
+/* *********************************************************************************************************** */
+/* **                                                SOLDEN JULI                                            ** */
+/* *********************************************************************************************************** */
+
+
+/*******************************************     
+  STYLES                                              
+  *******************************************/
+
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt {
+  	position: relative;
+  	z-index: 2;
+  	/* background */
+  	background: url('../images/bg-presolden.jpg') repeat-x;
+  	/* box */
+  	width: 400px;
+  	height: 386px;
+  	-moz-box-sizing: border-box;
+  	-webkit-box-sizing: border-box;
+  	box-sizing: border-box;
+  	padding: 22px 19px 0;
+  	margin-left: 61%;
+  	color: #ffffff;
+  	-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+  	-moz-box-shadow:    0px 0px 15px rgba(0, 0, 0, 1);
+  	box-shadow:         0px 0px 15px rgba(0, 0, 0, 1);
+    -webkit-font-smoothing: antialiased;
+
+  	img {
+  		position: relative;
+  		z-index: 2;
+  		margin-bottom: 25px;
+  	}
+
+  	h2 {
+  		/* position */
+  		position: relative;
+  		z-index: 2;
+  		/* font */
+  		color: #ffffff;
+  		font-size: 84px;
+  		line-height: 82px;
+  		font-weight: 600;
+  		text-shadow: 0px 2px 1px #000000;
+  		text-transform: uppercase;
+      margin-bottom: 20px;
+  	}
+
+  	.footnote {
+		position: absolute;
+		z-index: 2;
+		color: #ffffff;
+		font-size: 10px;
+		margin-bottom: 0px;
+		bottom: 4px;
+  	}
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta {
+  	position: relative;
+  	bottom: 8px;
+  	z-index: 2;
+  	width: 150px;
+  	font-weight: 600;
+  	font-size: 11px;
+  	display: -moz-inline-box;
+  	-moz-box-orient: vertical;
+  	display: inline-block;
+  	vertical-align: middle;
+  	text-decoration: none;
+  	color: white;
+  	text-align: left;
+  	line-height: 38px;
+  	background-color: #5ea6d0;
+  	height: 37px;
+  	padding: 0 10px;
+  	background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5ea6d0), color-stop(100%, #306a8b));
+  	background-image: -webkit-linear-gradient(top, #5ea6d0, #306a8b);
+  	background-image: -moz-linear-gradient(top, #5ea6d0, #306a8b);
+  	background-image: -o-linear-gradient(top, #5ea6d0, #306a8b);
+  	background-image: -ms-linear-gradient(top, #5ea6d0, #306a8b);
+  	background-image: linear-gradient(top, #5ea6d0, #306a8b);
+  	padding-right: 0;
+  	margin-left: 2px;
+  	margin-top: 10px;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta {
+  	*display: inline;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:hover {
+  	text-decoration: none;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:hover {
+  	background-color: #3e95c7;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:hover {
+  	background: #3782ad; /* Old browsers */
+  	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  	background: -moz-linear-gradient(top,  #3782ad 0%, #2b5c79 100%); /* FF3.6+ */
+  	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3782ad), color-stop(100%,#2b5c79)); /* Chrome,Safari4+ */
+  	background: -webkit-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* Chrome10+,Safari5.1+ */
+  	background: -o-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* Opera 11.10+ */
+  	background: -ms-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* IE10+ */
+  	background: linear-gradient(to bottom,  #3782ad 0%,#2b5c79 100%); /* W3C */
+  	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3782ad', endColorstr='#2b5c79',GradientType=0 ); /* IE6-8 */
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:hover:after {
+  	border-left: 1px solid #15446c;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:after {
+  	content: "";
+  	/* box */
+  	width: 40px;
+  	height: 37px;
+  	float: right;
+  	/* background */
+  	background: url('../images/arrow-white.png') no-repeat center center;
+  	background-size: 11px 11px;
+  	border-left: 1px solid #30627f;
+  	background-size: 11px 11px;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:nth-child(2n) {
+    margin-left: 6px;
+  }
+
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli.fr_fix .xx_txt h2 {
+  	font-size: 88px;
+    line-height: 85px;
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli.en_fix .xx_txt h2 {
+    font-size: 104px;
+    line-height: 96px;
+  }
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+  	#xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt {
+  		padding-top: 13px;
+  		padding-right: 10px;
+  		width: 39.5%;
+	  	background-position: 0px -35px;
+		margin-left: 57%;
+
+  		img {
+  			width: 27%;
+  			height: 14%;
+  			margin-bottom: 15px;
+  		}
+
+  		h2 {
+
+  		}
+
+  		p {
+  			font-size: 11px;
+  			line-height: 16px;
+  		}
+
+  		.footnote {
+  			bottom: 80px;
+  		}
+  	}
+
+    // EN FIX
+    #xx_wrapper #xx_header .xx_slider ul li.solden_juli.en_fix .xx_txt h2 {
+      line-height: 84px;
+    }
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	#xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt {
+  		width: 28%;
+		margin: 0 3% 0 60%;
+		padding: 12px 11px 0;
+  		background-position: 0px -48px;
+  		text-align: center;
+
+  		img {
+  			display: none;
+  		}
+
+  		h2 {
+  			font-size: 41px;
+  			line-height: 36px;
+			margin-top: 4px;
+			margin-bottom: 23px;
+  		}
+
+  		.footnote {
+  			bottom: 146px;
+  			margin-left: 10px;
+  			font-size: 10px;
+  		}
+  	}
+
+  	#xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta {
+  		width: 151px;
+  		text-align: left;
+  		margin-left: 0px;
+      margin-top: 7px;
+      height: 30px;
+      line-height: 30px;
+
+      &:after {
+        height: 30px;
+      }
+  	}
+
+    #xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:nth-child(2n) {
+      margin-left: 0px;
+    }
+
+	// FR FIX
+	  #xx_wrapper #xx_header .xx_slider ul li.solden_juli.fr_fix .xx_txt h2 {
+	  	font-size: 43px;
+      line-height: 37px;
+	  }
+
+    // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.solden_juli.en_fix .xx_txt h2 {
+    font-size: 50px;
+    line-height: 37px;
+  }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	/**** Solden ***/
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden {
+  		position: relative;
+  		background-image: url('../images/bg-solden-mobile.jpg');
+  		width: 302px;
+  		height: 478px;
+  		margin-top: 20px;
+  		-webkit-box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  		box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+  	}
+
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt {
+  		position: absolute;
+  		top: 175px;
+  		left: 0;
+  		z-index: 2;
+  		/* background */
+  		background: url('../images/bg-presolden.jpg') repeat-x;
+  		background-position: 0px -31px;
+  		/* box */
+  		width: 100%;
+  		height: 295px;
+  		color: #ffffff;
+  		padding-left: 0 10px;
+  		-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  		-moz-box-shadow:    0px 0px 15px rgba(0, 0, 0, 0.2);
+  		box-shadow:         0px 0px 15px rgba(0, 0, 0, 0.2);
+  		padding-top: 8px;
+  		text-align: center;
+
+  		img {
+  			display: none;
+  		}
+
+  		h2 {
+  			/* position */
+  			position: relative;
+  			z-index: 2;
+  			/* font */
+  			color: #ffffff;
+			font-size: 63px;
+			line-height: 49px;
+			font-weight: 600;
+  			text-shadow: 0px 2px 1px #000000;
+  			text-transform: uppercase;
+        margin-bottom: 19px;
+  		}
+
+  		p {
+  			/* position */
+  			position: relative;
+  			z-index: 2;
+  			/* font */
+  			color: #ffffff;
+  			font-size: 11px;
+  			line-height: 16px;
+  			padding-right: 10px;
+  		}
+
+  		.footnote {
+  			/* position */
+  			position: relative;
+  			z-index: 2;
+  			/* font */
+  			color: #ffffff;
+  			margin-top: 12px;
+			font-size: 9px;
+			text-align: left;
+			margin-left: 25px;
+  		}
+
+
+
+  	}
+
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:first-child {
+  		margin-top: 5px;
+  	}
+
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta {
+  		position: relative;
+  		width: 243px;
+  		margin-top: 16px;
+  		bottom: 0px;
+  		z-index: 2;
+  		font-weight: 600;
+  		font-size: 10px;
+  		display: -moz-inline-box;
+  		-moz-box-orient: vertical;
+  		display: inline-block;
+  		vertical-align: middle;
+  		text-decoration: none;
+  		color: white;
+  		text-align: left;
+  		line-height: 38px;
+  		background-color: #5ea6d0;
+  		height: 37px;
+  		padding: 0 10px;
+  		background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5ea6d0), color-stop(100%, #306a8b));
+  		background-image: -webkit-linear-gradient(top, #5ea6d0, #306a8b);
+  		background-image: -moz-linear-gradient(top, #5ea6d0, #306a8b);
+  		background-image: -o-linear-gradient(top, #5ea6d0, #306a8b);
+  		background-image: -ms-linear-gradient(top, #5ea6d0, #306a8b);
+  		background-image: linear-gradient(top, #5ea6d0, #306a8b);
+  		padding-right: 0;
+  		margin-top: 10px;
+  	}
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta {
+  		*display: inline;
+  	}
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:hover {
+  		text-decoration: none;
+  	}
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:hover {
+  		background-color: #3e95c7;
+  	}
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:hover {
+  		background: #3782ad; /* Old browsers */
+  		/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  		background: -moz-linear-gradient(top,  #3782ad 0%, #2b5c79 100%); /* FF3.6+ */
+  		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3782ad), color-stop(100%,#2b5c79)); /* Chrome,Safari4+ */
+  		background: -webkit-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* Chrome10+,Safari5.1+ */
+  		background: -o-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* Opera 11.10+ */
+  		background: -ms-linear-gradient(top,  #3782ad 0%,#2b5c79 100%); /* IE10+ */
+  		background: linear-gradient(to bottom,  #3782ad 0%,#2b5c79 100%); /* W3C */
+  		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3782ad', endColorstr='#2b5c79',GradientType=0 ); /* IE6-8 */
+  	}
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:after {
+  		content: "";
+  		/* box */
+  		width: 33px;
+  		height: 37px;
+  		float: right;
+  		/* background */
+  		background: url('../images/arrow-white.png') no-repeat center center;
+  		background-size: 11px 11px;
+  		border-left: 1px solid #30627f;
+  	}
+
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:hover:after {
+  		border-left: 1px solid #15446c;
+  	}
+
+  	//FR FIX 
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden.fr_fix .xx_txt h2 {
+  		font-size: 68px;
+  	}
+
+
+  }
+
+  @media
+  only screen and (                     max-width: 1200px),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+
+  	#xx_wrapper #xx_header .xx_slider ul li.solden_juli .xx_txt .xx_cta:after,
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_solden .xx_txt .xx_cta:after {
+  		background: url('../images/arrow-white@2x.png') no-repeat center center;
+  		background-size: 11px 11px;
+  	}
+  }
+

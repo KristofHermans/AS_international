@@ -1,0 +1,223 @@
+
+/* *********************************************************************************************************** */
+/* **                                             MID SEASON SALES                                          ** */
+/* *********************************************************************************************************** */
+
+/*******************************************     
+  STYLES                                              
+  *******************************************/
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+	  position: absolute;
+	  z-index: 2;
+	  width: 224px;
+	  top: 41px;
+	  left: 103px;
+
+	.main-logo {
+		padding-bottom: 5px;
+  		margin: 0 auto;
+	}
+
+  	.main-content {
+	    font-size: 15px;
+	    color: #3c241e;
+	    font-weight: 400;
+	    margin-bottom: 11px;
+	    border-top: 2px solid #3c241e;
+		margin-top: 10px;
+		padding-top: 10px;
+  	}
+
+
+  }
+
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta,
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
+  	position: relative;
+  	display: -moz-inline-box;
+  	-moz-box-orient: vertical;
+  	display: block;
+  	vertical-align: middle;
+  	line-height: 40px;
+  	font-family: 'Open Sans', sans-serif;
+  	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
+  	font-size: 13px;
+  	font-weight: 600;
+  	width: 95%;
+  	height: 40px;
+  	background-color: #3c241e;
+  	color: #ffffff;
+  	padding-left: 13px;
+  	margin: 14px auto;
+
+  	&:after {
+  		content: "";
+  		/* box */
+  		width: 40px;
+  		height: 40px;
+  		float: right;
+  		/* background */
+  		background: url('../images/arrow-white.png') no-repeat center center;
+  	}
+
+  	&:hover {
+  		background-color: #4D3934;
+  	}
+  }
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+		width: 174px;
+		top: 33px;
+		left: 83px;
+
+		.main-logo {
+			
+		}
+
+	  	.main-content {
+		    font-size: 13px;
+			margin-top: 8px;
+			padding-top: 8px;
+			line-height: 130%;
+	  	}
+
+	  	.xx_cta {
+	  		margin: 8px 0;
+	  		font-size: 12px;
+	  	}
+
+
+	  }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+		width: 162px;
+		top: 32px;
+		left: 52px;
+
+		.main-logo {
+			// display: block;
+			// width: 130px;
+			// margin: 0 auto;
+			width: 165px;
+		}
+
+	  	.main-content {
+		 	//font-size: 11px;
+			// margin-top: 5px;
+			// padding-top: 5px;
+			// line-height: 130%;
+			display: none;
+	  	}
+
+	  	.xx_cta {
+	  		// margin: 8px 0;
+	  		// font-size: 11px;
+	  		// height: 35px;
+	  		// line-height: 36px;
+	  		margin: 14px 0;
+			font-size: 11px;
+			height: 35px;
+			line-height: 36px;
+			width: 93%;
+
+	  		&:after {
+	  			height: 35px;
+	  		}
+	  	}
+
+
+	  }
+
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	#xx_header_mobile .xx_item1 .xx_mobile_mss {
+	    position: relative;
+	    background: url('../images/bg_mss_mobile.jpg') top no-repeat;
+	    width: 302px;
+	    height: 324px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
+	}
+
+	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt {
+		position: absolute;
+		z-index: 2;
+		width: 186px;
+		top: 28px;
+		left: 58px;
+
+		.main-logo {
+			width: 154px;
+			margin: 0 auto;
+			display: block;
+			padding-bottom: 10px;
+			border-bottom: 2px solid #3c241e;
+		}
+
+		p {
+			text-align: center;
+			font-family: 'proxima_nova_extra_condensXBd', 'Open Sans', sans-serif;
+			color: #3c241e;
+			font-weight: normal;
+			-webkit-font-smoothing: antialiased;
+  	        -moz-device-pixel-ratiooz-osx-font-smoothing: grayscale;
+		}
+
+		p.main-content {
+			font-size: 72px;
+			margin-top: 34px;
+			margin-bottom: 17px;
+
+		}
+
+		p.side_note {
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 11px;
+		}
+	}
+
+	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
+		text-align: left;
+		margin-top: 13px;
+	}
+
+
+  }
+
+  @media
+  only screen and (                     max-width: 1200px),
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) { 
+
+  	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta:after,
+  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta:after {
+  		background: url('../images/arrow-white@2x.png') no-repeat center center;
+  		background-size: 11px 11px;
+  	}
+  }
+

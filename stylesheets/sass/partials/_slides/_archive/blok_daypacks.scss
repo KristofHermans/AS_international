@@ -1,0 +1,274 @@
+
+/* *********************************************************************************************************** */
+/* **                                           BLOCK STAYCATION                                            ** */
+/* *********************************************************************************************************** */
+
+$orange: #a55a45;
+
+#xx_wrapper .promo_row .promo-content.block_daypacks {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	width: 100%;
+	text-align: center;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+
+	h2, h3, p, span, a {
+		color: #ffffff;
+		-webkit-font-smoothing: antialiased;
+	    -moz-device-pixel-ratiooz-osx-font-smoothing: grayscale;
+	    font-weight: normal; 
+	}
+
+	.left-block, .right-block {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.left-block {
+		width: 40%;
+	}
+
+	.right-block {
+		width: 47%;
+		margin-left: 7%;
+	}
+
+	.left-block ul {
+		margin-left: 0;
+	}
+
+	.link-container {
+		display: inline-block;
+		width: 47%;
+
+		&:nth-child(3), &:last-child {
+			margin-top: 16px;
+		}
+
+		.daypack-link {
+			text-align: center;
+
+			span {
+				display: block;
+				margin: 0 auto 0;
+				font-family: 'proxima_nova_excn_rgbold', sans-serif;
+				font-size: 12px;
+				color: $orange;
+
+				&:after {
+					content: "";
+					display: inline-block;
+					width: 9px;
+					height: 9px;
+					margin-left: 6px;
+					background: url('../images/arrow-orange.png') no-repeat center center;
+				}
+			}
+		}
+
+		&:hover span {
+			text-decoration: underline;
+		}
+	}
+
+	.promo-button {
+		background-color: $orange;
+		color: #ffffff;
+		width: 95%;
+		margin-top: 13px;
+
+		&:after {
+			background: url('../images/arrow-white.png') no-repeat center center;
+			background-size: 11px;
+		}
+
+		&:hover {
+			background-color: #9b4f3a;
+		}
+	}
+
+	.right-block {
+		
+		.legal {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 9px;
+			color: #343434;
+			font-weight: normal;
+
+			span {
+				font: inherit;
+				color: inherit;
+				margin-left: 10%;
+
+				&.fr_fix {
+					margin-left: 4%;
+				}
+			}
+		}
+	}
+
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+	#xx_wrapper .promo_row .promo-content.block_daypacks {
+
+		.main-title {
+			font-size: 19px;
+			line-height: 30px;
+			margin-bottom: 15px;
+			margin-top: 5px;
+		}
+
+		.link-container {
+			width: 43%;
+
+			.daypack-link img {
+				width: 80%;
+			}
+
+			&:nth-child(3), &:last-child {
+				margin-top: 16px;
+			}
+		}
+
+		.right-block img {
+			width: 80%;
+		}
+
+		.right-block .legal {
+			font-size: 7px;
+		}
+
+		.promo-button {
+			padding-left: 0;
+			text-align: center;
+
+			&.en_fix {
+				width: 100%;
+			}
+		}
+
+		.promo-button:after {
+			display: none;
+		}
+	}
+	
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	#xx_wrapper .promo_row .promo-content.block_daypacks {
+
+		.main-title {
+			font-size: 14px;
+			line-height: 24px;
+			margin-bottom: 4px;
+			margin-top: 5px;
+		}
+
+		.left-block {
+			display: none;
+		}
+
+		.right-block {
+			width: 65%;
+			margin-left: 0;
+
+			 img {
+				width: 64%;
+			}
+		}
+
+		.promo-button {
+			width: 91%;
+			height: 30px;
+			line-height: 30px;
+			font-size: 11px;
+			text-align: center;
+			padding-left: 0;
+			margin-top: 6px;
+
+		}
+
+	}
+	
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	#xx_wrapper .promo_row .promo-content.block_daypacks {
+
+		.main-title {
+			font-size: 14px;
+			line-height: 18px;
+			margin-bottom: 0;
+			margin-top: 5px;
+		}
+
+		.left-block {
+			display: none;
+		}
+
+		.right-block {
+			width: 65%;
+			margin-left: 0;
+
+			 img {
+				width: 64%;
+			}
+
+			.legal span {
+				margin-left: 3%;
+
+				&.fr_fix {
+					margin-left: 3%;
+				}
+			}
+
+			&.fr_fix {
+				width: 69%;
+
+				img {
+					width: 59%;
+				}
+			}
+		}
+
+
+		.promo-button {
+			width: 98%;
+			height: 30px;
+			line-height: 30px;
+			font-size: 11px;
+			text-align: center;
+			padding-left: 0;
+			margin-top: 3px;
+
+		}
+
+	}
+	
+
+}
+
+

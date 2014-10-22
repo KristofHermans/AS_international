@@ -1,0 +1,214 @@
+
+/* *********************************************************************************************************** */
+/* **                                         BLOCK RONDEPRIJZEN                                            ** */
+/* *********************************************************************************************************** */
+
+
+#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: absolute;
+	z-index: 2;
+	top: 25%;
+	right: 22px;
+	width: 291px;
+
+	h2, p {
+		font-family: 'proxima_nova_rgbold', 'Open Sans', sans-serif;
+		font-weight: normal;
+		-webkit-font-smoothing: antialiased;
+		text-transform: uppercase;
+		color: #404041;
+		text-align: left;
+	}
+
+	.main-title {
+		text-transform: uppercase;
+  		text-align: left;
+  		font-size: 38px;
+	}
+
+	.main-content {
+		font-size: 16px;
+  		margin-top: 22px;
+  		text-transform: none;
+  		padding-left: 2px;
+	}
+
+
+	.promo-button {
+		-webkit-border-radius: 20px;
+  		-moz-border-radius: 20px;
+  		-ms-border-radius: 20px;
+		background-color: #404041;
+		color: #ffffff;
+		width: 94%;
+		margin-top: 0px;
+
+		&:hover {
+			background-color: #505052;
+		}
+	}
+
+}
+
+// FR FIX
+#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+	
+	.main-title {
+		font-size: 48px;
+	}
+}
+
+// EN FIX
+#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+
+	top: 28%;
+	
+	.main-title {
+		font-size: 34px;
+	}
+}
+
+// IE8 fix 
+@media \0screen {
+    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    	font-size: 38px;
+    }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+		top: 22%;
+		right: 22px;
+		width: 225px;
+
+		.main-title {
+	  		font-size: 29px;
+		}
+
+		.main-content {
+			font-size: 15px;
+			margin-top: 14px;
+		}
+	}
+
+	// FR FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+		
+		.main-title {
+			font-size: 38px;
+		}
+	}
+
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+
+		top: 21%;
+		
+		.main-title {
+			font-size: 25px;
+		}
+	}
+
+	
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+		top: 22%;
+		right: 22px;
+		width: 165px;
+
+		.main-title {
+	  		font-size: 21px;
+		}
+
+		.main-content {
+			font-size: 12px;
+			line-height: 110%;
+			margin-top: 0px;
+			margin-bottom: 18px;
+		}
+
+		.promo-button {
+			height: 30px;
+			padding-left: 0px;
+			text-align: center;
+			line-height: 30px;
+			font-size: 11px;
+
+			&:after {
+				display: none;
+			}
+		}
+	}
+
+	// FR FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+		
+		.main-title {
+			font-size: 27px;
+		}
+	}
+
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+		
+		.main-title {
+			font-size: 19px;
+		}
+	}
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+		top: 16%;
+		width: 138px;
+
+		.main-title {
+	  		font-size: 18px;
+		}
+
+		.main-content {
+			font-size: 10px;
+			line-height: 110%;
+			margin-top: 0px;
+			margin-bottom: 18px;
+		}
+
+	}
+
+	// FR FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+		
+		.main-title {
+			font-size: 22px;
+		}
+	}
+
+	// EN FIX
+	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+
+		top: 7%;
+		
+		.main-title {
+			font-size: 16px;
+		}
+	}
+
+}
+
+

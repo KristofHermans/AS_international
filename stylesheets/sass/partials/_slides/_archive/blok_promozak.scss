@@ -1,0 +1,201 @@
+
+/* *********************************************************************************************************** */
+/* **                                            BLOCK PROMOZAK                                             ** */
+/* *********************************************************************************************************** */
+
+
+#xx_wrapper .promo_row .promo-content.block_promozak {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+
+	h2, p, a {
+		font-weight: normal;
+		-webkit-font-smoothing: antialiased;
+		text-align: left;
+	}
+
+	h2{
+		text-align: center;
+	}
+
+	img.patch {
+		display: inline-block;
+		float: left;
+		margin-left: 10px;
+	}
+
+	.content {
+		display: inline-block;
+		vertical-align: middle;
+		//margin-left: 5%;
+		position: absolute;
+			bottom: 0;
+			left: 0;
+		text-align: center;
+		width: 100%;
+
+		&.fr_fix {
+			width: 56%;
+		}
+
+		.promo-button {
+			background-color: #A55A45;
+			color: #ffffff;
+			width: 50%;
+			margin-top: 0px;
+			margin-bottom: 5px;
+			font-family: 'proxima_nova_excn_rgbold','Open Sans', sans-serif;
+
+			&:hover {
+				background-color: #9B4F3A;
+			}
+
+			&:after {
+				background: url('../images/arrow-white.png') no-repeat center center;
+				background-size: 11px;
+			}
+		}
+
+		.legal {
+			font-family: 'Open Sans', sans-serif;
+			font-size: 9px;
+			color: #333333;
+			margin-bottom: 0;
+			text-align: center;
+		}
+	}
+}
+
+// IE8 fix 
+@media \0screen {
+    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    	font-size: 38px;
+    }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+	#xx_wrapper .promo_row .promo-content.block_promozak { 
+		bottom: 7px;
+
+		img.patch {
+			width: 122px;
+		}
+
+		.main-title {
+			font-size: 19px;
+			line-height: 30px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+
+		.content {
+			.promo-button {
+				margin-bottom: 1px;
+			}
+
+			.legal {
+				font-size: 8px;
+
+				&.fr_fix {
+					font-size: 7px;
+				}
+			}
+		}
+	}
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	#xx_wrapper .promo_row .promo-content.block_promozak { 
+		bottom: 7px;
+
+		img.patch {
+			display: none;
+		}
+
+		.main-title {
+			font-size: 14px;
+			line-height: 24px;
+			margin-top: 5px;
+			margin-bottom: 10px;
+		}
+
+		.content {
+			width: 100%;
+
+			&.fr_fix {
+				width: 93%;
+			}
+
+			.promo-button {
+				height: 30px;
+				line-height: 30px;
+				font-size: 11px;
+				float: right;
+				text-align: center;
+				padding-left: 0;
+				margin-top: 6px;
+				margin-right: 5px;
+				width:40%;
+
+				&:after {
+					display: none;
+				}
+			}
+
+			.legal {
+				font-size: 8px;
+				float: left;
+				line-height: 12px;
+				margin-top: 5px;
+				text-align: center;
+				width: 50%;
+			}
+
+		}
+	}
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	#xx_wrapper .promo_row .promo-content.block_promozak { 
+		bottom: 6px;
+
+		.main-title {
+			font-size: 14px;
+			line-height: 18px;
+		}
+
+		.content {
+			.promo-button {
+				background: #A55A45;
+				color: #ffffff;
+				font-size: 9px;
+				margin-top: 1px;
+
+				&:hover{
+					background: #9B4F3A;
+				}
+			}
+		}
+	}
+}
+
+

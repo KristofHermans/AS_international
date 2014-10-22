@@ -1,0 +1,293 @@
+
+/* *********************************************************************************************************** */
+/* **                                               GOPRO TAB                                               ** */
+/* *********************************************************************************************************** */
+
+/***********************************************
+    General styles 
+***********************************************/
+#xx_wrapper #xx_header .xx_slider ul li.gopro {
+  background: url('../images/bg-gopro.jpg') no-repeat center center;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+	position: absolute;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+
+	p, h2 {
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		font-weight: normal;
+
+	}
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.gopro .content .xx_cta {
+  font-weight: 600;
+  width: 21%;
+  background-color: #faa21b;
+  margin-top: -2px;
+
+  &:hover {
+    background-color: #e9971a;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+	bottom: 6%;
+	text-align: center;
+	left: 3%;
+	width: 70%;
+
+	h2 {
+		display: inline-block;
+		font-family: 'proxima_nova_rgbold';
+		font-size: 35px;
+		text-transform: uppercase;
+		color: #ffffff;
+		line-height: 95%;
+		text-align: left;
+
+		.smaller {
+			color: inherit;
+			font-family: inherit;
+			font-size: 34px;
+		}
+	}
+
+	p {
+		display: inline-block;
+		width: 40%;
+		font-family: 'proxima_nova_rgbold';
+		color: #ffffff;
+		font-size: 14px;
+		line-height: 123%;
+		vertical-align: middle;
+		margin-bottom: 0;
+		text-align: left;
+		margin-left: 0%;
+	}
+	
+}
+
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+
+	h2 {
+		font-size: 32px;
+
+		.smaller {
+			font-size: 26px;
+		}
+	}
+
+	p {
+		width: 38%;
+	}
+
+	.xx_cta {
+		width: 23%;
+	}
+	
+}
+
+//EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+
+	h2 {
+		font-size: 33px;
+	}
+	
+}
+
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+
+		h2 {
+			font-size: 31px;
+			line-height: 95%;
+			text-align: center;
+
+			.smaller {
+				font-size: 30px;
+			}
+		}
+
+		p {
+			width: 42%;
+			font-size: 13px;
+			line-height: 123%;
+		}
+
+		.xx_cta {
+			width: 25%;
+			margin-top: 0;
+		}
+		
+	}
+
+	//FR FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+
+		h2 {
+			font-size: 28px;
+
+			.smaller {
+				font-size: 23px;
+			}
+		}
+
+		p {
+			width: 38%;
+		}
+
+		.xx_cta {
+			width: 28%;
+			font-size: 12px;
+		}
+		
+	}
+
+	//EN FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+
+		h2 {
+			font-size: 27px;
+		}
+		
+	}
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	/*==========================================     
+	  GOPRO BLOCK                                             
+	===========================================*/
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+		text-align: center;
+		width: 65%;
+
+		h2 {
+			font-size: 25px;
+
+			.smaller {
+				font-size: 25px;
+			}
+		}
+
+		p {
+			font-size: 11px;
+			width: 50%
+		}
+
+		.xx_cta {
+			width: 28.2%;
+		}
+		
+	}
+
+	//FR FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+
+		h2 {
+			font-size: 21px;
+
+			.smaller {
+				font-size: 17px;
+			}
+		}
+
+		p {
+			width: 43%;
+		}
+
+		.xx_cta {
+			width: 28%;
+			font-size: 11px;
+		}
+		
+	}
+
+	//EN FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+
+		h2 {
+			font-size: 20px;
+		}
+		
+	}
+ 
+
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+	#xx_wrapper #xx_header .xx_slider ul li.gopro {
+	  background: url('../images/bg-gopro-mobile@2x.jpg') no-repeat;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+		width: 100%;
+		left: 0;
+
+		h2 {
+			font-size: 14px;
+			.smaller {
+				font-size: 14px;
+			}
+		}
+
+		p {
+			display:none;
+		}
+
+		.xx_cta {
+			width: 45%;
+		}
+	}
+	
+
+	//FR FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+
+		h2 {
+			font-size: 13px;
+
+			.smaller {
+				font-size: 13px;
+			}
+		}
+
+		.xx_cta {
+			width: 50%;
+			font-size: 9px;
+		}
+		
+	}
+
+	//EN FIX
+	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+
+		h2 {
+			font-size: 18px;
+		}
+		
+	}
+
+  
+}
+
