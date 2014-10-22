@@ -1,0 +1,212 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER OUTDOOR XL                                             ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
+  background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-outdoor-xl.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  position: absolute;
+  width: 33%;
+  top: 17%;
+  left: 3.8%;
+  text-align: center;
+
+  background-color: rgba(0,0,0,0.5);
+  padding: 2.5%;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  
+  .main-title {
+    display: inline-block;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 41px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: #fff;
+    margin-bottom: 9%;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .post-it-note {
+    display: block;
+    position: absolute;
+    width: 190px;
+    height: 140px;
+    padding: 0;
+    background: none;
+    right: -41%;
+    top: 84%;
+
+    &:after {
+      display: none;
+    }
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta { 
+   width: 95%;
+  font-weight: 600;
+  display: block;
+  text-align: left;
+  margin-top: 0;
+  background-color: #969677;
+
+  &:hover {
+    background-color: #7E7E60;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    top: 19%;
+    width: 37%;
+
+    .main-title {
+      font-size: 34px;
+    }
+
+    .post-it-note {
+      width: 120px;
+      height: 88px;
+      right: -27%;
+      top: 76%;
+    }
+
+    .xx_cta {
+      width: 95%;
+    }
+    
+  }
+
+  //EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+    font-size: 12px;
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    top: 19%;
+    width: 41%;
+
+    .main-title {
+      font-size: 29px;
+    }
+
+    .post-it-note {
+      width: 80px;
+      height: 60px;
+      right: -22%;
+      top: 77%;
+    }
+
+    .xx_cta {
+      width: 95%;
+      text-align: left;
+      padding-left: 4%;
+
+      &:after {
+        display: block;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 97%;
+  }
+
+  //EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+    font-size: 10px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
+    background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-outdoor-xl-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    top: 11%;
+    width: 75%;
+    left: 8%;
+    padding: 4%;
+
+    .main-title {
+      font-size: 19px;
+      margin-bottom: 8%;
+    }
+
+    .post-it-note {
+      right: -20%;
+      top: 56%;
+    }
+
+    .xx_cta {
+      width: 92%;
+      font-size: 8px;
+    }
+
+    .post-it-note {
+      right: 0%;
+      top: 87%;
+      width: 50px;
+      height: 40px;
+    }
+    
+  }
+
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 97%;
+  }
+
+  //EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+    font-size: 7.5px;
+  }
+
+}
+
+

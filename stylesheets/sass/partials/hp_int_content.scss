@@ -1,0 +1,651 @@
+/***********************************************
+		General 
+***********************************************/
+
+#xx_wrapper #xx_header_mobile{
+  display: none;
+}
+
+#homepageWrapper *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{
+	width: 100%;
+}
+
+body{
+	margin: 0 auto;
+	//max-width: 1170px;
+	width: 100%;
+}
+
+/***********************************************
+		Variables 
+***********************************************/
+$ayacucho: #91A23F;
+
+$blue: #1580C7;
+
+$brown: #7D4C27;
+
+$gray: #EDEDED;
+
+$green: #72B425;
+
+$orange: #E56D1E;
+
+$purple: #900742;
+
+$red: #B5232C;
+
+$tomato: #B0382B;
+
+$yellow: #E69426;
+
+/***********************************************
+		Onderdelen 
+***********************************************/
+
+#homepageWrapper .ayacucho{
+	background: $ayacucho;
+}
+
+#homepageWrapper .blue{
+	background: $blue;
+}
+
+#homepageWrapper .brown{
+	background: $brown;
+	border: 1px solid #603A15;
+}
+
+#homepageWrapper .gray{
+	background: $gray;
+}
+
+#homepageWrapper .green{
+	background: $green;
+}
+
+#homepageWrapper .orange{
+	background: $orange;
+}
+
+#homepageWrapper .purple{
+	background: $purple;
+}
+
+#homepageWrapper .asMagazine{
+	background: $red;
+}
+
+#homepageWrapper .tomato{
+	background: $tomato;
+}
+
+#homepageWrapper .yellow{
+	background: $yellow;
+	border: 1px solid #A35E1E;
+}
+
+#homepageWrapper .blockHeader{
+	-webkit-box-shadow: 0 3px 3px #cccccc;
+	box-shadow: 0 3px 3px #cccccc;
+
+	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+
+#homepageWrapper .boxShadow{
+	-webkit-box-shadow: 0 0 5px #aaaaaa;
+	box-shadow: 0 0 5px #aaaaaa;
+
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#homepageWrapper b{
+	font-weight: bold;
+}
+
+/***********************************************
+		Grid 
+***********************************************/
+
+#homepageWrapper .row{
+	margin: 30px 0 0 0; 
+	max-width: 1170px;
+
+	@media only screen and(max-width: 767px){
+		margin: 0 0 0 0;
+	}
+}
+
+#homepageWrapper .oneCol{
+	max-width: 1170px;
+	width: 100%;
+}
+
+#homepageWrapper .twoCol{
+	float: left;
+	height: inherit;
+	max-width: 570px;
+	position: relative;
+	width: 48.7179487%;
+
+	@media only screen and (max-width: 767px){
+		margin: 15px 0;
+		width: 100%;
+	}
+}
+
+#homepageWrapper .twoCol:first-child{
+	float: left;
+	margin-right: 1.2820513%;
+	@media only screen and (max-width: 767px){
+		margin-right: 0;
+	}
+}
+
+#homepageWrapper .twoCol:last-child{
+	float: right;
+	margin-left: 1.2820513%;
+
+	@media only screen and (max-width: 767px){
+		margin-left: 0;
+	}
+}
+
+#homepageWrapper .threeCol{
+	background: #ffffff;
+	float: left;
+	height: inherit;
+	margin: 0 1.2820513%;
+	max-height: 320px;
+	max-width: 370px;
+	min-height: 320px;
+	position: relative;
+	width: 31.6239316%;
+
+	@media only screen and (max-width: 979px) and (min-width: 768px){
+		margin: 0 2.0718232%;
+		width: 47.9281768%;
+	}
+
+	@media only screen and (max-width: 767px){
+		border-left: 1px solid #efefef;
+		border-right: 1px solid #efefef;
+		margin: 15px 0;
+		width: 100%;
+	}
+}
+
+#homepageWrapper .threeCol:first-child{
+	margin-left: 0;
+}
+
+#homepageWrapper .threeCol:nth-child(2){
+	@media only screen and(max-width: 979px) and (min-width: 768px){
+		margin-right: 0;
+	}
+}
+
+#homepageWrapper .threeCol:last-child{
+	margin-right: 0;
+}
+
+
+/***********************************************
+		Hacks 
+***********************************************/
+
+#xx_header_mobile{
+	@media only screen and(min-width: 768px){
+		display: none;
+	}
+}
+
+#homepageWrapper .clearfix:after{
+	clear: both;
+	content: "";
+	display: table;
+}
+
+#homepageWrapper .lastCol{
+	margin-right: 0 !important;
+}
+
+/***********************************************
+	Rows 
+***********************************************/
+
+#homepageWrapper{
+	font-family: 'Open Sans', Arial, sans-serif;
+	margin: 0 auto;
+	max-width: 1170px;
+	width: 100%;
+}
+
+#homepageWrapper .label{
+	border-radius: 0;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	padding: 10px;
+	position: absolute;
+		top: 0;
+		left: 0;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+	z-index: 10;
+
+	@media only screen and (max-width: 1200px){
+		font-size: 13px;
+		padding: 5px;
+	}
+
+	@media only screen and(max-width: 979px){
+		font-size: 11px;
+	}
+}
+
+#homepageWrapper .twoCol img{
+	max-width: 100%;
+	z-index: 1;
+}
+
+/*********************************
+		Three Columns 
+*********************************/
+
+#homepageWrapper .threeCol img{
+	max-width: 100%;
+	z-index: 1;
+}
+
+/***********************
+		Blockcolumn 
+***********************/
+
+#homepageWrapper #stores{
+	background: url('http://www.asadventure.com/images/homepage/international/images/winkels.jpg') no-repeat center center;
+	background-size: contain;
+	height: 297px;
+}
+
+#homepageWrapper .outdoor, #homepageWrapper .fashion{
+	height: 300px;
+
+	@media only screen and (max-width: 1199px){
+		height: 236px;
+	}
+
+	@media only screen and (max-width: 979px){
+		height: 182px;
+	}
+}
+
+#homepageWrapper .outdoor{
+	background: url('http://static.asadventure.com/includes/homepage/international/images/outdoor_bg.jpg') no-repeat;
+	background-size: contain;
+}
+
+#homepageWrapper .fashion{
+	background: url('http://static.asadventure.com/includes/homepage/international/images/fashion_bg.jpg') no-repeat;
+	background-size: contain;
+}
+
+#homepageWrapper .blockColumn{
+	float: left;
+	padding-top: 53px;
+	width: 50%;
+	@media only screen and(max-width: 1199px){
+		padding-top: 40px;
+	}
+}
+
+#homepageWrapper .blockColumn h2{
+	color: #e76d00;
+	font-size: 35px;
+	font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
+	line-height: 35px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-shadow: 0 2px 0 rgba(0,0,0,0.2);
+	text-transform: uppercase;
+
+	@media only screen and(max-width: 767px) {
+		font-size: 22px;
+	}
+}
+
+#homepageWrapper .blockColumn img{
+	box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.3);
+	margin: 0 5.6756757% 30px;
+	max-width: 100%;
+	position: relative;
+	width: 88.6486486%;
+}
+
+#homepageWrapper .blockColumn p{
+	color: #545454;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 5.6756757%;
+	text-align: center;
+
+	@media only screen and(max-width: 1199px){
+		font-size: 11px;
+	}
+}
+
+#homepageWrapper .orangeText{
+	color: #e76d00;
+
+	@media only screen and(max-width: 1199px){
+		font-size: 11px;
+	}
+}
+
+/***********************
+		Copyblocks 
+***********************/
+
+#homepageWrapper .copyBlock{
+	color: #545454;
+	height: 188px;
+	padding: 1em 10px 4em;
+	text-align: center;
+
+	@media only screen and(max-width: 1200px) and (min-width: 979px){
+		height: 213px;
+	}
+}
+
+#homepageWrapper .copyBlock h2{
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 1.5em;
+	margin: 0 1em 1em;
+
+	@media only screen and(max-width: 1199px) and (min-width: 767px){
+		min-height: 48px;
+	}
+}
+
+#homepageWrapper .copyBlock p{
+	font-size: 13px;
+	line-height: 1.5em;
+
+	@media only screen and(max-width: 979px){
+		font-size: 11px;
+	}
+}
+
+/***********************
+		Magazineblock 
+***********************/
+
+#homepageWrapper #magazine.threeCol{
+	@media only screen and(max-width: 979px) and (min-width: 768px){
+		clear: both;
+		margin: 30px 0 0 0;
+		max-width: 100%;
+		width: 100%;
+	}
+}
+
+#homepageWrapper .magazineHeader{
+	background: url("http://www.asadventure.com/images/homepage/international/images/as-magazine.jpg");
+	border-bottom: 1px solid #D8D8D8;
+	color: #323232;
+	height: 57px;
+	text-align: left;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+}
+
+#homepageWrapper .magazineHeader img{
+	float: left;
+	margin-right: 15px;
+	max-width: 89px;
+	width: 24.3243243%;
+
+	@media only screen and (max-width: 1199px){
+		margin-right: 7px;
+		width: 30%;
+	}
+
+	@media only screen and (max-width: 979px){
+		margin-right: 180px;
+	}
+
+	@media only screen and (max-width: 767px){
+		margin-right: 7px;
+	}
+}
+
+#homepageWrapper .magazineHeader h3{
+	display: inline;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 57px;
+
+	@media only screen and (max-width: 1199px){
+		font-size: 13px;
+	}
+
+	@media only screen and(max-width: 979px){
+		font-size: 16px;
+	}
+
+	@media only screen and(max-width: 767px){
+		font-size: 13px;
+	}
+}
+
+#homepageWrapper .magazineOverview{
+	color: #545454;
+	height: 262px;
+	text-align: left;
+}
+
+#homepageWrapper a, #homepageWrapper a:visited{
+	color: #545454;
+}
+
+#homepageWrapper .magArticle{
+	border-bottom: 1px solid #D8D8D8;
+	clear: both;
+	height: 41px;
+	padding: 0 10px;
+	text-decoration: none;
+}
+
+#homepageWrapper .magArticle:hover h4{
+	text-decoration: underline;
+}
+
+#homepageWrapper .magArticle img{
+	float: left;
+	padding: 3px 0;
+}
+
+#homepageWrapper .magArticle h4{
+	float: left;
+	font-size: 13px;
+	line-height: 41px;
+	margin: 0 0 0 15px;
+
+	@media only screen and (max-width: 1199px) and (min-width: 980px){
+		line-height: 20px;
+		width: 200px;
+	}
+
+	@media only screen and (max-width: 767px){
+		line-height: 20px;
+		width: 200px;
+	}
+}
+
+/*********************************
+		CTA's 
+*********************************/
+
+#homepageWrapper .twoCol .ctaBlock{
+	margin-top: 16px;
+	padding: 140px 0 0 0;
+	width: percentage(165px / 570px);
+
+	@media only screen and(max-width: 1199px){
+		padding: 108px 0 0 0;
+	}
+
+	@media only screen and(max-width: 979px){
+		padding: 82px 0 0 0;
+	}
+}
+
+#homepageWrapper .twoCol .ctaBlock.center{
+	margin-left: percentage(205px / 570px);
+}
+
+#homepageWrapper .twoCol .ctaBlock.right{
+	margin-right: percentage(25px / 570px);
+}
+
+#homepageWrapper .twoCol .ctaBlock li{
+	height: 33px;
+	margin-bottom: 5px;
+	list-style-type: none;
+
+	@media only screen and (max-width: 1199px){
+		height: 26px;
+	}
+
+	@media only screen and(max-width: 979px){
+		height: 18px;
+	}
+}
+
+#homepageWrapper .twoCol .ctaBlock li a{
+	display: block;
+	font-size: 14px;
+	height: 100%;
+	line-height: 33px;
+	padding-left: 10px;
+	text-decoration: none;
+	width: 100%;
+
+	&::after{
+		content: '\f0da';
+		float: right;
+		font-family: 'FontAwesome';
+		padding-right: 10px;
+	}
+
+	@media only screen and (max-width: 1199px){
+		line-height: 26px;
+	}
+
+	@media only screen and (max-width: 1199px){
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+#homepageWrapper .copyBlock .cta, #homepageWrapper .magazineOverview .cta{
+	color: #ffffff;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 100;
+	height: 38px;
+	letter-spacing: 1px;
+	line-height: 38px;
+	padding-left: 10px;
+	position: absolute;
+		bottom: 10px;
+		left: 10px;
+	text-align: left;
+	text-decoration: none;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+	width: 94.5945946%;
+
+	@media only screen and(max-width: 767px){
+		font-size: 10px;
+		width: 93.2659933%;
+	}
+
+	@media only screen and (max-width: 979px) and (min-width: 768px){
+		width: 94.2363112%;
+	}
+
+	@media only screen and (max-width: 1200px) and (min-width: 980px){
+		font-size: 11px;
+		width: 93.2659933%;
+	}
+}
+
+#homepageWrapper .magazineOverview .cta{
+	@media only screen and (max-width: 979px) and (min-width: 768px){
+		width: 97.2375691%;
+	}
+}
+
+#homepageWrapper .copyBlock .cta:after, #homepageWrapper .magazineOverview .cta:after{
+	border-left: 1px solid rgba(0,0,0,0.1);
+	content: url("http://www.asadventure.com/images/homepage/international/images/arrow.png");
+	float: right;
+	padding: 0 0 0 15px;
+	width: 26px; 
+}
+
+#homepageWrapper .cta.blue:hover{
+	background: darken($blue, 5%);
+}
+
+#homepageWrapper .cta.brown:hover{
+	background: darken($brown, 5%);
+}
+
+#homepageWrapper .cta.yellow:hover{
+	background: darken($yellow, 5%);
+}
+
+#homepageWrapper .cta.green:hover{
+	background: darken($green, 5%);
+}
+
+#homepageWrapper .cta.orange:hover{
+	background: darken($orange, 5%);
+}
+
+#homepageWrapper .cta.purple:hover{
+	background: darken($purple, 5%);
+}
+
+#homepageWrapper .cta.ayacucho:hover{
+	background: darken($ayacucho, 5%);
+}
+
+#homepageWrapper .cta.asMagazine:hover{
+	background: darken($red, 5%);
+}
+
+#homepageWrapper a.cta, #homepageWrapper a.cta:visited{
+	color: #ffffff;
+}
+
+/*******************************************     
+  Important                                              
+*******************************************/
+
+@media only screen and (max-width: 768px){
+  #xx_wrapper #xx_header_mobile{
+    display: block;
+  }
+}

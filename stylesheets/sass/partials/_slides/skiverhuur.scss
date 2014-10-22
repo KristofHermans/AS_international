@@ -1,0 +1,207 @@
+
+/* *********************************************************************************************************** */
+/* **                                             SLIDER SKIVERHUUR                                         ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur {
+  background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-skiverhuur.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content {
+  position: absolute;
+  width: 29%;
+  top: 35%;
+  right: 32%;
+  text-align: right;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content {
+  
+  .main-title {
+    display: inline-block;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 100%;
+    color: #545454;
+  }
+
+  .main-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: #565656;
+    line-height: 130%;
+    margin-bottom: 3%;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content .xx_cta { 
+  width: 66%;
+  background-color: #ea8a24;
+  font-weight: 600;
+  display: inline-block;
+
+  &:hover {
+    background-color: #d67e20;
+  }
+}
+
+
+// FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.fr_fix {
+  top: 27%;
+}
+
+// EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.en_fix {
+  width: 30%;
+}
+
+// IE8 fix 
+@media \0screen {
+    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+      font-size: 38px;
+    }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content {
+    top: 32%;
+
+    .main-title {
+      font-size: 22px;
+      line-height: 100%;
+    }
+
+    .main-content {
+      font-size: 13px;
+
+    }
+
+    .xx_cta {
+      width: 77%;
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.fr_fix {
+    top: 23%;
+  }
+
+  
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content {
+    top: 32%;
+    width: 31%;
+    right: 31%;
+
+    .main-title {
+      font-size: 18px;
+    }
+
+    .main-content {
+      font-size: 11px;
+
+    }
+
+    .xx_cta {
+      width: 77%;
+       text-align: left;
+      padding-left: 4%;
+
+      &:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.fr_fix {
+    top: 20%;
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.en_fix {
+    width: 33%;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur {
+    background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-skiverhuur-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content {
+    top: 18%;
+    width: 65%;
+    right: 14%;
+
+    .main-title {
+      font-size: 11px;
+    }
+
+    .main-content {
+      font-size: 9px;
+      width: 80%;
+      float: right;
+    }
+
+    .xx_cta {
+
+      &:after {
+        height: 25px;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.fr_fix {
+    top: 12%;
+    width: 58%;
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.skiverhuur .content.en_fix {
+    width: 65%;
+  }
+
+
+}
+
+

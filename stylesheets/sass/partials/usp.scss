@@ -1,0 +1,74 @@
+#homepageWrapper .uspRow{
+	background: #fff;
+	box-shadow: 0 0 2px rgba(0,0,0,0.3);
+	height: 130px;
+	margin: 20px 0 0 0;
+	padding: 20px 0;
+	@media only screen and(max-width: 767px){
+		height: 260px;
+	}
+}
+
+#homepageWrapper #uspBlock{
+	@media only screen and(max-width: 767px){
+		margin: 0 auto 30px;
+		max-width: 585px;	
+	}
+}
+
+/* COLUMNS */
+
+#homepageWrapper .fourCol{
+	float: left;
+	max-width: 293px;
+	width: 25%;
+
+	@media only screen and(max-width: 767px){
+		height: 120px;
+		margin: 0;
+		width: 50%;
+	}
+}
+
+#homepageWrapper .fourCol .usp{
+	color: #9f9f9f;
+	display: block;
+	font-family: 'Open Sans', arial, sans-serif;
+	font-size: 13px;
+	height: 90px;
+	line-height: 14px;
+	padding-top: 65px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+/* BACKGROUNDS */
+
+#homepageWrapper .fourCol .levering{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/verzending.png) no-repeat center 20px;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/verzending_hover.png) no-repeat center 20px;
+	}
+}
+
+#homepageWrapper .fourCol .retour{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/retour.png) no-repeat center 0px;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/retour_hover.png) no-repeat center 0px;
+	}
+}
+
+#homepageWrapper .fourCol .naverkoop{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/naverkoop.png) no-repeat center 3px;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/naverkoop_hover.png) no-repeat center 3px;
+	}
+}
+
+#homepageWrapper .fourCol .garantie{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/garantie.png) no-repeat center 10px;
+	&:hover{
+		background: url(http://static.asadventure.com/includes/homepage/international/images/garantie_hover.png) no-repeat center 10px;
+	}
+}

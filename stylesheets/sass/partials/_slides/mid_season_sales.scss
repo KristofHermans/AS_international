@@ -1,0 +1,225 @@
+
+/* *********************************************************************************************************** */
+/* **                                             MID SEASON SALES                                          ** */
+/* *********************************************************************************************************** */
+
+// special TAB
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight {
+// 	background-color: #75c043;
+// }
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-title,
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-intro {
+// 	color: #ffffff;
+// }
+
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight:hover {
+// background-color: #61A534;
+// }
+
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active, 
+// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active:hover {
+// background-color: #434343;
+// border-right: 4px solid #f98319;
+//}
+//END special TAB
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nl.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-fr.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-en.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  position: absolute;
+  width: 224px;
+	top: 17%;
+	left: 15.4%;
+  text-align: center;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+
+	.main-logo {
+		padding-bottom: 5px;
+  		margin: 0 auto;
+	}
+
+  	.main-content {
+	    font-size: 15px;
+	    color: #3c241e;
+	    font-weight: 400;
+	    text-align: left;
+
+	    margin-bottom: 11px;
+	    border-top: 2px solid #3c241e;
+		margin-top: 14px;
+		padding-top: 11px;
+  	}
+
+  	.legal {
+  		font-size: 11px;
+		margin-top: 3%;
+		color: #3c241e;
+  	}
+
+
+  }
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta { 
+   width: 95%;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #3c241e;
+
+  &:hover {
+    background-color: #4D3934;
+  }
+}
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+		width: 174px;
+		top: 15%;
+
+		.main-logo {
+			
+		}
+
+	  	.main-content {
+		    font-size: 13px;
+			margin-top: 8px;
+			padding-top: 8px;
+			line-height: 130%;
+			margin-bottom: 9px;
+	  	}
+
+	  	.xx_cta {
+	  		margin: 0;
+	  		font-size: 11px;
+	  	}
+
+	  	.legal {
+	  		font-size: 9px;
+			margin-top: 1px;
+			color: #3c241e;
+	  	}
+
+
+	  }
+
+	//EN FIX
+	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+	  	font-size: 11px;
+	  }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+		width: 140px;
+		left: 15.5%;
+
+		.main-logo {
+			width: 100%;
+		}
+
+	  	.main-content {
+	  		border-top: none;
+		 	font-size: 11px;
+			margin-top: 3px;
+			padding-top: 0;
+			line-height: 130%;
+			margin-bottom: 6px;
+	  	}
+
+	  	.xx_cta {
+	  		width: 100%;
+	  	}
+
+	  	.legal {
+	  		margin-top: 0;
+	  		font-size: 8px;
+	  		margin-bottom: 0;
+	  	}
+	  }
+
+	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+	 	font-size: 10px;
+	}
+
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-nl@2x.jpg') no-repeat;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-fr@2x.jpg') no-repeat;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-en@2x.jpg') no-repeat;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+		width: 93px;
+		left: 43px;
+		top: 9%;
+
+	    .main-logo {
+			padding-bottom: 5px;
+	  		margin: 0 auto;
+		}
+
+	  	.main-content {
+		    font-size: 7px;
+			border-top: 1px solid #3c241e;
+			margin-top: 1px;
+			padding-top: 3px;
+			margin-bottom: 3px;
+	  	}
+
+	  	.xx_cta {
+	  		font-size: 8px;
+	  		padding-left: 0;
+	  		text-align: center;
+
+	  		&:after {
+	  			display: none;
+	  		}
+	  	}
+
+	  	.legal {
+	  		font-size: 6px;
+			margin-top: -2%;
+	  	}
+	}
+
+
+  }
+
+

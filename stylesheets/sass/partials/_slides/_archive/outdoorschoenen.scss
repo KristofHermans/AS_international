@@ -1,0 +1,249 @@
+/* *********************************************************************************************************** */
+/* **                                          Outdoorschoenen                                              ** */
+/* *********************************************************************************************************** */
+
+/* ***************************************************************** */
+/* **                          VARIABLES                          ** */
+/* ***************************************************************** */
+$primary-color: #ffffff;
+$bg-title: #2e2822;
+$bg_content: #a4131a;
+
+/* ***************************************************************** */
+/* **                        MAIN STYLES                          ** */
+/* ***************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt,
+#xx_wrapper #xx_header_mobile .xx_mobile_outdoorschoenen .xx_txt {
+  position: absolute;
+  z-index: 2;
+  //width: 100%;
+  height: 100%;
+
+  .main-title {
+  	position: absolute;
+  	z-index: 3;
+  	width: 220px;
+  	height: 198px;
+	padding: 42px 10px 0 10px;
+  	@include border-radius(150px);
+  	background-color: $bg-title;
+  	text-align: center;
+  	top: 22px;
+  	left: 52px;
+  	font-size: 30px;
+  	font-weight: 800;
+  	text-transform: uppercase;
+  	color: $primary-color;
+  	line-height: 130%
+  }
+
+  .main-content {
+  	position: absolute;
+  	width: 140px;
+  	height: 140px;
+  	padding: 30px 15px 0 15px;
+  	@include border-radius(150px);
+  	background-color: $bg-content;
+  	text-align: center;
+  	top: 180px;
+  	left: 240px;
+  	font-size: 14px;
+  	line-height: 130%;
+	font-weight: 400;
+  	color: $primary-color;
+  }
+
+  .main-content.fr_fix {
+  	height: 145px;
+	padding: 25px 15px 0 15px;
+	top: 185px;
+	left: 244px;
+  }
+
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt .cta_container {
+	position: absolute;
+	bottom:	20px;
+	right: 13px;
+	width: 500px;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt .cta_container .xx_cta,
+#xx_wrapper #xx_header_mobile .xx_mobile_outdoorschoenen .xx_txt .cta_container .xx_cta {
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  width: 44%;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  background-color: $bg-content;
+  color: $primary-color;
+  padding-left: 14px;
+  margin-left: 1.5%;
+
+  &:after {
+  	content: "";
+	/* box */
+	width: 45px;
+	height: 40px;
+	float: right;
+	border-left: 1px solid #6D0C11;
+	/* background */
+	background: url('../images/arrow-white.png') no-repeat center center;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt .cta_container .xx_cta:hover,
+#xx_wrapper #xx_header_mobile .xx_mobile_outdoorschoenen .xx_txt .cta_container .xx_cta:hover {
+	background-color: #8b1016;
+
+	&:after {
+	 border-left: 1px solid #5f090e;
+	}
+}
+
+/* ***************************************************************** */
+/* **                            DESKTOP                          ** */
+/* ***************************************************************** */
+@media (max-width: 1199px) {
+	#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt {
+
+		.main-title {
+			width: 180px;
+			height: 158px;
+			font-size: 23px;
+		}
+
+		.main-content {
+			width: 120px;
+			height: 120px;
+			top: 140px;
+			left: 210px;
+			font-size: 12px;
+		}
+
+		.main-content.fr_fix {
+  			height: 123px;
+			padding: 22px 15px 0 15px;
+			top: 144px;
+			left: 222px;
+  		}
+
+		.cta_container {
+			width: 450px;
+
+			.xx_cta {
+				font-size: 13px;
+			}
+		}
+
+	}
+}
+
+/* ***************************************************************** */
+/* **                            TABLET                           ** */
+/* ***************************************************************** */
+@media (max-width: 979px) {
+	#xx_wrapper #xx_header .xx_slider ul li.outdoorschoenen .xx_txt {
+
+		.main-title {
+			width: 150px;
+			height: 138px;
+			padding: 32px 10px 0 10px;
+			top: 0px;
+			left: 25px;
+			font-size: 20px;
+		}
+
+		.main-content {
+			width: 120px;
+			height: 117px;
+			padding: 23px 10px 0 10px;
+			top: 90px;
+			left: 166px;
+			line-height: 135%;
+		}
+
+		.main-content.fr_fix {
+			top: 74px;
+			left: 174px;
+			width: 110px;
+			height: 125px;
+			padding: 20px 20px 0 20px;
+		}
+
+		.cta_container {
+			width: 360px;
+
+			.xx_cta {
+				font-size: 10px;
+			}
+		}
+
+	}
+}
+
+/* ***************************************************************** */
+/* **                            MOBILE                           ** */
+/* ***************************************************************** */
+@media (max-width: 767px) {
+	#xx_wrapper #xx_header_mobile .xx_mobile_outdoorschoenen {
+	    position: relative;
+	    background-image: url('../images/bg_outdoorschoenen_mobile.jpg');
+	    width: 302px;
+	    height: 384px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	    @include box-shadow(0px 0px 8px 0px rgba(0, 0, 0, 0.2));
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_mobile_outdoorschoenen .xx_txt {
+
+	  .main-title {
+		width: 120px;
+		height: 112px;
+		padding: 28px 10px 0 10px;
+		top: 0px;
+		left: 29px;
+		font-size: 16px;
+	  }
+
+	  .main-content {
+		width: 110px;
+		height: 108px;
+		padding: 22px 10px 0 10px;
+		top: 80px;
+		left: 137px;
+		line-height: 135%;
+		font-size: 11px;
+	  }
+
+	  .main-content.fr_fix {
+	  	top: 89px;
+	  	left: 130px;
+	  	width: 120px;
+		height: 111px;
+		padding: 19px 10px 0 10px;
+	  }
+
+	  .cta_container {
+	  		position: absolute;
+			bottom: 13px;
+			text-align: center;
+
+			.xx_cta {
+				font-size: 12px;
+				width: 65%;
+				margin-top: 10px;
+				text-align: left;
+			}
+		}
+  }
+}

@@ -1,0 +1,277 @@
+
+/* *********************************************************************************************************** */
+/* **                                            SLIDER KINDERJASSEN                                        ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
+  background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-promo-kinderjassen.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+  position: absolute;
+  width: 28%;
+  top: 24%;
+  left: 15.7%;
+  text-align: left;
+
+  h2, span {
+      -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+  
+  .main-title {
+    display: inline-block;
+    font-family: 'proxima_nova_rgbold';
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 120%;
+    margin: 3% 0;
+  }
+
+  .main-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 130%;
+    margin-bottom: 3%;
+  }
+
+  .legal {
+    position: absolute;
+    left: -16%;
+    font-size: 11px;
+    color: #BBB;
+    top: 273px;
+    line-height: 120%;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta { 
+  width: 58%;
+  background-color: #fff;
+  color: #434343;
+  font-weight: 600;
+  display: inline-block;
+
+  &:hover {
+    background-color: #ededed;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    font-family: "FontAwesome";
+    font-size: 10px;
+    color: inherit;
+    float: right;
+    margin-right: 6%;
+    width: 11px;
+    height: 0;
+  }
+}
+
+// FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+  top: 17%;
+  left: 16.7%;
+  
+  .main-content {
+    width: 90%;
+  }
+
+  .legal {
+    top: 292px;
+  }
+}
+
+// EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+  font-size: 24px;
+}
+
+
+// IE8 fix 
+@media \0screen {
+    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+      font-size: 38px;
+    }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+ #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+
+    .main-title {
+      font-size: 22px;
+      line-height: 120%;
+      margin: 3% 0;
+    }
+
+    .main-content {
+      font-size: 12px;
+      line-height: 130%;
+      margin-bottom: 3%;
+    }
+
+    .xx_cta {
+      width: 65%;
+    }
+
+    .legal {
+      font-size: 9px;
+      top: 203px;
+    }
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
+    top: 222px;
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+    font-size: 17px;
+  }
+
+  
+}
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+    top: 18%;
+
+    .main-title {
+      font-size: 16px;
+      line-height: 120%;
+     margin: 3% 0 2%;
+    }
+
+    .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 3%;
+    }
+
+    .xx_cta {
+      width: 70%;
+      text-align: left;
+      padding-left: 4%;
+
+      &:after {
+        display: block;
+        font-size: 9px;
+      }
+    }
+
+    .legal {
+      left: -17%;
+      font-size: 7px;
+      top: 169px;
+    }
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+    top: 13%;
+  }
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
+    top: 182px;
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+    font-size: 14px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
+    background: url('http://static1.asadventure.com/includes/homepage/international/images/bg-promo-kinderjassen-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+    width: 50%;
+    top: 7.5%;
+    left: 22.5%;
+
+    .main-title {
+      font-size: 12px;
+    }
+
+    .main-content {
+      font-size: 9px;
+    }
+
+    .xx_cta {
+      width: 80%;
+
+      &:after {
+        height: 25px;
+      }
+    }
+
+    .legal {
+      font-size: 5px;
+      top: 124px;
+    }
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+
+    top: 6%;
+    left: 21.7%;
+    
+    .main-title {
+      font-size: 10px;
+    }
+
+    .main-content {
+      margin-bottom: 0px;
+    }
+
+    .legal {
+      top: 130px;
+    }
+  }
+
+  // EN FIX
+
+  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content {
+    top: 11.5%;
+
+    .main-title {
+      font-size: 10px;
+    }
+
+    .main-content {
+      font-size: 7px;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,332 @@
+
+/* *********************************************************************************************************** */
+/* **                                         FOLDER JUNI                                                  ** */
+/* *********************************************************************************************************** */
+
+
+/*******************************************     
+  STYLES                                              
+*******************************************/
+
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt {
+  position: absolute;
+  z-index: 2;
+  top: 41px;
+  right: 82px;
+  width: 393px;
+
+  .title-image {
+    width: 100%;  }
+
+  .main-title {
+    display: none;
+  }
+
+  .xx_cta_container {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+
+    &:after {
+      content: "";
+      display: inline-block;
+      height: 5px;
+      width: 372px;
+      background: url("../images/juni-folder-divider.png") no-repeat;
+      margin-top: 21px;
+    }
+  }
+
+  .folder_container {
+    margin-top: 6px;
+
+    img {
+      position: relative;
+      display: inline-block;
+      z-index: 10;
+      margin-left: 15%;
+    }
+
+    .xx_cta_folder {
+      position: relative;
+      display: inline-block;
+      width: 46%;
+      height: 40px;
+      line-height: 40px;
+      font-size: 13px;
+      color: #ffffff;
+      background-color: #5c625a;
+      padding-left: 11%;
+      margin-left: -42px;
+
+      &:hover {
+        background-color: #363636;
+      }
+
+      &:after {
+        content: "";
+        /* box */
+        width: 40px;
+        height: 40px;
+        float: right;
+        /* background */
+        background: url('../images/arrow-white.png') no-repeat center center;
+        background-size: 11px 11px;
+      }
+    }
+
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta,
+#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-weight: 600;
+  width: 165px;
+  height: 40px;
+  background-color: #363636;
+  color: #ffffff;
+  padding-left: 13px;
+  margin-top: 14px;
+  text-align: left;
+
+  &:after {
+    content: "";
+    /* box */
+    width: 40px;
+    height: 40px;
+    float: right;
+    /* background */
+    background: url('../images/arrow-white.png') no-repeat center center;
+    background-size: 11px 11px;
+  }
+
+  &:hover {
+    background-color: #5c625a;
+    color: #ffffff;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta:nth-of-type(2n) {
+  margin-left: 14px;
+}
+
+/* LUX FIX */
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni.lux_en_fix .xx_txt {
+  top: 94px;
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+ 
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt {
+  top: 23px;
+  right: 64px;
+  width: 322px;
+
+  .xx_cta_container:after {
+    width: 312px;
+  }
+
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt.lux_fix {
+  top: 136px;
+}
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta {
+  width: 140px;
+  margin-top: 8px;
+  font-size: 12px;
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .folder_container {
+  margin-top: 5px;
+
+  img {
+    width: 72px;
+    margin-left: 10%;
+  }
+
+  .xx_cta_folder{
+    width: 54%;
+    margin-left: -31px;
+  }
+
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta:nth-of-type(2n) {
+  margin-left: 6px;
+ }
+
+ /* LUX FIX */
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni.lux_en_fix .xx_txt {
+  top: 69px;
+}
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt {
+  top: 15px;
+  right: 47px;
+  width: 254px;
+
+  .xx_cta_container:after {
+    width: 250px;
+    margin-top: 11px;
+  }
+
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt.lux_fix {
+  top: 103px;
+}
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta {
+  width: 109px;
+  margin-top: 5px;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+
+  &:after {
+    height: 37px;
+  }
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta:nth-of-type(2n) {
+  margin-left: 2px;
+ }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .folder_container {
+  margin-top: 0px;
+
+  img {
+    width: 57px;
+    margin-left: 5.5%;
+  }
+
+  .xx_cta_folder{
+    width: 64%;
+    margin-left: -25px;
+    font-size: 11px;
+  }
+
+ }
+
+  /* LUX FIX */
+#xx_wrapper #xx_header .xx_slider ul li.folder_juni.lux_en_fix .xx_txt {
+  top: 54px;
+}
+ 
+
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder {
+    position: relative;
+    background-image: url('../images/bg_folder_juni_mobile.jpg');
+    width: 302px;
+    height: 384px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder.fr_fix {
+    background-image: url('../images/bg_folder_juni_mobile_FR.jpg');
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder.en_fix {
+    background-image: url('../images/bg_folder_juni_mobile_EN.jpg');
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt {
+    position: absolute;
+    top: 173px;
+    left: 0;
+    z-index: 2;
+    /* box */
+    width: 302px;
+    text-align: center;
+
+    h2 {
+      display: none;
+    } 
+
+    .xx_cta_container {
+      position: absolute;
+      right: 27px;
+      width: 255px;
+      top: 0;
+    }
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
+    width: 114px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+    padding-left: 8px;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 6px;
+
+    &:after {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder {
+    width: 242px;
+    color: #ffffff;
+    background-color: #5c625a;
+
+    &:after {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  // LUX fix
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder.hide {
+    display: none;
+  }
+  
+}
+
+@media
+only screen and (                     max-width: 1200px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder_juni .xx_txt .xx_cta_container .xx_cta:after,
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta:after {
+    background: url('../images/arrow-white@2x.png') no-repeat center center;
+    background-size: 11px 11px;
+  }
+}
+
