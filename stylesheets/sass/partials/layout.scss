@@ -36,9 +36,13 @@ $baseline: 18px;
 	// box-shadow: 0 0 5px #454545;
 	// box-shadow: 0 0 5px rgba(0,0,0,0.4);
 	margin-bottom: $baseline * 4;
-	padding-bottom: percentage(410/1170);
+	//padding-bottom: percentage(410/1170);
 	position: relative;
 	width: 100%;
+
+	@media only screen and(max-width: 767px){
+		margin: 10px 0;
+	}
 }
 
 .bottom-bar{
@@ -116,11 +120,11 @@ $baseline: 18px;
 
 .bx-wrapper{
 	margin-bottom: 0;
-	position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
+	// position: absolute;
+	// 	top: 0;
+	// 	bottom: 0;
+	// 	left: 0;
+	// 	right: 0;
 }
 
 .bx-viewport.bx-viewport{
@@ -184,7 +188,7 @@ $baseline: 18px;
     background-size: cover;
     position: absolute;
     	top: inherit;
-    	bottom: 10px;
+    	bottom: 40%;
 	    left: 4px;
   }
 
@@ -193,7 +197,7 @@ $baseline: 18px;
     background-size: cover;
     position: absolute;
     	top: inherit;
-    	bottom: 10px;
+    	bottom: 40%;
     	right: 4px;
   }
 }
@@ -217,7 +221,7 @@ $baseline: 18px;
 	width: 100%;
 
 	@media only screen and(max-width: 767px){
-		display: block;
+		display: none;
 	}
 
 	&:after{
