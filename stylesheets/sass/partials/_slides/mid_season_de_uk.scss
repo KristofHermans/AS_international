@@ -32,6 +32,23 @@
 	}
 }
 
+.slide-mss-image-no-em{
+	height: 0;
+	max-width: 100%;
+
+	@media only screen and(min-width: 768px){
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nov-14-no-EM.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(410/1170);
+	}
+
+	@media only screen and(max-width: 767px){
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-no-em@2x.jpg) no-repeat;
+		background-size: contain;
+		padding-bottom: percentage(160/302);
+	}
+}
+
 .slide-mss-copy{
 	color: #3C241E;
 	display: block;
@@ -228,7 +245,7 @@ p.legal {
 		background: #3C241E;
 		border: none;
 		border-radius: 0;
-		font-size: 0.7em;
+		font-size: 0.6em;
 		height: 35px;
 		line-height: 35px;
 		margin-left: -40%;
