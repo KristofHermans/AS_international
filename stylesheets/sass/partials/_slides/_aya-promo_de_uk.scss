@@ -3,11 +3,11 @@
 /* **                                          SLIDER AYACUCHO PROMO                                        ** */
 /* *********************************************************************************************************** */
 
-.aya-promo {
+ul li.aya-promo {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo.jpg') no-repeat;
 }
 
-.aya-promo .content {
+ul li.aya-promo .content {
   position: absolute;
   width: 26%;
   top: 19%;
@@ -20,7 +20,7 @@
   }
 }
 
-.aya-promo .content {
+ul li.aya-promo .content {
   
   .main-title {
     font-family: 'Open Sans', sans-serif;
@@ -46,7 +46,7 @@
   }
 }
 
-.aya-promo .content .xx_cta { 
+ul li.aya-promo .content .xx_cta { 
   width: 70%;
   background-color: #875b3a;
   font-weight: 600;
@@ -57,7 +57,7 @@
   }
 }
 
-.aya-promo .content .xx_cta.mobile-only {
+ul li.aya-promo .content .xx_cta.mobile-only {
   display: none;
 }
 
@@ -91,7 +91,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-.aya-promo .content {
+ul li.aya-promo .content {
     top: 16%;
 
     .main-title {
@@ -157,7 +157,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-.aya-promo .content {
+ul li.aya-promo .content {
 
     .main-title {
       font-size: 12px;
@@ -221,11 +221,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  .aya-promo {
+  ul li.aya-promo {
     background: url('http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg') no-repeat;
   }
 
-  .aya-promo .content {
+  ul li.aya-promo .content {
     top: 40%;
     width: 50%;
     left: 14%;
@@ -253,7 +253,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  .aya-promo.fr_fix .content {
+  ul li.aya-promo.fr_fix .content {
     top: 36%;
     left: 14%;
 
@@ -266,7 +266,7 @@ and (orientation : portrait) {
   }
 
   // EN FIX
-  .aya-promo.en_fix .content {
+  ul li.aya-promo.en_fix .content {
     top: 38%;
 
     .main-title {
