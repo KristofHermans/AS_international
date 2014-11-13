@@ -1014,6 +1014,8 @@ body {
 /* *********************************************************************************************************** */
 #xx_wrapper #xx_header .xx_slider ul li.aya-promo {
   background: url("http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.aya-promo.fr_fix {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-fr.jpg") no-repeat; }
 
 #xx_wrapper #xx_header .xx_slider ul li.aya-promo .content {
   position: absolute;
