@@ -1049,13 +1049,12 @@ html, body, #main {
     background: #3C241E;
     color: #ffffff;
     display: block;
-    font-size: 85%;
+    font-size: 60%;
     height: 40px;
     line-height: 43px;
     margin: -18px auto 0;
     padding: 0 1em;
     text-decoration: none;
-    width: 90%;
     font-weight: 200; }
     #homepage-wrapper .slide-mss-cta:after {
       content: "";
