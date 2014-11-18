@@ -1154,6 +1154,11 @@ body {
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.aya-promo-new {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-new-NL-mobile@2x.jpg") no-repeat; }
+    #xx_wrapper #xx_header .xx_slider ul li.aya-promo-new.newfr_fix {
+      background: url("http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-new-FR-mobile@2x.jpg") no-repeat; }
+
   #xx_wrapper #xx_header .xx_slider ul li.aya-promo {
     background: url("http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg") no-repeat; }
 
