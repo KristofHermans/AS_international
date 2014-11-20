@@ -1087,16 +1087,36 @@ html, body, #main {
   #homepage-wrapper .slide-ayacucho {
     height: 0;
     max-width: 100%; }
+    #homepage-wrapper .slide-ayacucho.dk-img-fix {
+      background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-dk.jpg) no-repeat;
+      background-size: contain;
+      padding-bottom: 35.0427350427%; }
     @media only screen and (min-width: 768px) {
       #homepage-wrapper .slide-ayacucho {
         background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-de-uk.jpg) no-repeat;
         background-size: contain;
-        padding-bottom: 35.0427350427%; } }
+        padding-bottom: 35.0427350427%; }
+        #homepage-wrapper .slide-ayacucho.uk-img-fix {
+          background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-uk.jpg) no-repeat;
+          background-size: contain;
+          padding-bottom: 35.0427350427%; }
+        #homepage-wrapper .slide-ayacucho.de-img-fix {
+          background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-de.jpg) no-repeat;
+          background-size: contain;
+          padding-bottom: 35.0427350427%; } }
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .slide-ayacucho {
         background: url(http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg) no-repeat;
         background-size: contain;
-        padding-bottom: 52.9801324503%; } }
+        padding-bottom: 52.9801324503%; }
+        #homepage-wrapper .slide-ayacucho.uk-img-fix {
+          background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-uk.jpg) no-repeat;
+          background-size: contain;
+          padding-bottom: 35.0427350427%; }
+        #homepage-wrapper .slide-ayacucho.de-img-fix {
+          background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-de.jpg) no-repeat;
+          background-size: contain;
+          padding-bottom: 52.9801324503%; } }
   #homepage-wrapper .slide-ayacucho-copy {
     color: #434244;
     display: block;
@@ -1111,6 +1131,55 @@ html, body, #main {
     text-shadow: 0 1px 1px #ACBDC8;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
     width: 30%; }
+    #homepage-wrapper .slide-ayacucho-copy.de-copy {
+      position: absolute;
+      left: 33%;
+      top: 61%; }
+      @media only screen and (max-width: 1199px) {
+        #homepage-wrapper .slide-ayacucho-copy.de-copy {
+          top: 60%; } }
+      @media only screen and (max-width: 979px) {
+        #homepage-wrapper .slide-ayacucho-copy.de-copy {
+          top: 59%; } }
+      @media only screen and (max-width: 767px) {
+        #homepage-wrapper .slide-ayacucho-copy.de-copy {
+          top: 44%;
+          left: 29%; } }
+      #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de {
+        background: #88A927;
+        color: #fff;
+        display: block;
+        height: 40px;
+        line-height: 40px;
+        margin: 5px auto 0;
+        padding: 0 10px;
+        text-decoration: none;
+        width: 115%;
+        font-weight: 200; }
+        @media only screen and (max-width: 1199px) {
+          #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de {
+            width: 90%;
+            height: 30px;
+            line-height: 28px; } }
+        @media only screen and (max-width: 979px) {
+          #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de {
+            height: 35px;
+            width: 90%;
+            font-size: 14px;
+            line-height: 34px; } }
+        @media only screen and (max-width: 767px) {
+          #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de {
+            height: 35px;
+            width: 90%; } }
+        @media only screen and (max-width: 545px) {
+          #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de {
+            width: 100%; } }
+        #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de:after {
+          content: "";
+          float: right;
+          font-family: "FontAwesome"; }
+        #homepage-wrapper .slide-ayacucho-copy.de-copy a.slide-ayacucho-cta-de:hover {
+          background: #4D3934; }
     @media only screen and (max-width: 1199px) {
       #homepage-wrapper .slide-ayacucho-copy {
         top: 20px;
