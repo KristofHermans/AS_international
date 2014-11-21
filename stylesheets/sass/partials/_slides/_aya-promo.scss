@@ -3,34 +3,8 @@
 /* **                                          SLIDER AYACUCHO PROMO                                        ** */
 /* *********************************************************************************************************** */
 
-
-
-#xx_wrapper #xx_header .xx_slider ul li.aya-promo-new {
-  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-new.jpg') no-repeat;
-    &.newfr_fix {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-new-fr.jpg') no-repeat;
-    }
-}
-
-
-#xx_wrapper #xx_header .xx_slider ul li.aya-promo .content .xx_cta-new { 
-  width: 70%;
-  background-color: #875b3a;
-  font-weight: 600;
-  display: inline-block;
-
-  &:hover {
-    background-color: #6c462a;
-  }
-}
-
-// old css
-
 #xx_wrapper #xx_header .xx_slider ul li.aya-promo {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo.jpg') no-repeat;
-    &.fr_fix {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-fr.jpg') no-repeat;
-    }
 }
 
 #xx_wrapper #xx_header .xx_slider ul li.aya-promo .content {
@@ -82,8 +56,6 @@
     background-color: #6c462a;
   }
 }
-
-
 
 #xx_wrapper #xx_header .xx_slider ul li.aya-promo .content .xx_cta.mobile-only {
   display: none;

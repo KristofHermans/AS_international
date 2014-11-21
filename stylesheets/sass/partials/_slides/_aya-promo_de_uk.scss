@@ -3,218 +3,278 @@
 /* **                                          SLIDER AYACUCHO PROMO                                        ** */
 /* *********************************************************************************************************** */
 
-.slide-ayacucho{
-  height: 0;
-  max-width: 100%;
+ul li.aya-promo {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo.jpg') no-repeat;
+}
 
-  @media only screen and(min-width: 768px){
-    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-de-uk.jpg) no-repeat;
-    background-size: contain;
-    padding-bottom: percentage(410/1170);
+ul li.aya-promo .content {
+  position: absolute;
+  width: 26%;
+  top: 19%;
+  left: 10.3%;
+  text-align: center;
 
-    // &.de-img-fix{
-    //   background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nov-14-DE.jpg) no-repeat;
-    //   background-size: contain;
-    //   padding-bottom: percentage(410/1170);
-    // }
-  }
-
-  @media only screen and(max-width: 767px){
-    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg) no-repeat;
-    background-size: contain;
-    padding-bottom: percentage(160/302);
-
-    // &.de-img-fix{
-    //   background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-en@2x.jpg) no-repeat;
-    //   background-size: contain;
-    //   padding-bottom: percentage(160/302);
-    // }
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   }
 }
 
-.slide-ayacucho-copy{
-  color: #434244;
-  display: block;
-  font-size: 133.33%;
-  height: 86%;
-  padding: 0 3%;
-  position: absolute;
-    top: 5%;
-    left: 32%;
-  text-align: left;
-  text-decoration: none;
-  text-shadow: 0 1px 1px #ACBDC8;
-  text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
-  width: 30%;
-
-  @media only screen and(max-width: 1199px){
-    top: 20px;
-    width: 35%;
-    left: 29%;;
-  }
-
-  @media only screen and(max-width: 979px){
-    top: 20px;
-  }
-
-  @media only screen and(max-width: 767px){
-    height: 55%;
-    top: 40%;
-    left: 18%;
-    width: 42%;
-  }
-
-  h2{ 
-    color: #434244;
-    // font-size: 1.7em;
+ul li.aya-promo .content {
+  
+  .main-title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
+    line-height: 120%;
+    color: #434244;
+    font-weight: 600;
+  }
+
+  .main-content {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #434244;
+    line-height: 130%;
+    margin-bottom: 3%;
+  }
+
+  .legal {
+    font-size: 11px;
+    margin-top: 3%;
     margin-bottom: 0;
-    line-height: 25px;
-    text-align: center;
+  }
+}
 
-    @media only screen and(max-width: 1199px){
+ul li.aya-promo .content .xx_cta { 
+  width: 70%;
+  background-color: #875b3a;
+  font-weight: 600;
+  display: inline-block;
+
+  &:hover {
+    background-color: #6c462a;
+  }
+}
+
+ul li.aya-promo .content .xx_cta.mobile-only {
+  display: none;
+}
+
+
+// FR FIX
+.aya-promo.fr_fix .content {
+  .main-title {
+    font-size: 22px;
+  }
+  .main-content {
+    font-size: 15px;
+  }
+}
+
+// EN FIX
+.aya-promo.en_fix .content {
+  .main-title {
+    font-size: 24px;
+  }
+}
+
+// IE8 fix 
+@media \0screen {
+    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+      font-size: 38px;
+    }
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+ul li.aya-promo .content {
+    top: 16%;
+
+    .main-title {
+      font-size: 16px;
+      line-height: 100%;
+    }
+
+    .main-content {
+      font-size: 11px;
+      margin-bottom: 0;
+    }
+
+    .legal {
+      font-size: 9px;
+      margin-top: 2%;
+    }
+
+    .xx_cta {
+      width: 77%;
+      height: 30px;
+      line-height: 30px;
+      font-size: 11px;
+
+      &:after {
+        height: 30px;
+        background-size: 9px 9px;
+      }
+    }
+    
+  }
+
+  // FR FIX
+.aya-promo.fr_fix .content {
+    top: 21%;
+
+    .main-title {
       font-size: 18px;
-      line-height: 22px;
+    }
+    .main-content {
+      font-size: 13px;
     }
 
-    @media only screen and(max-width: 979px){
-      font-size: .9em;
-      line-height: 18px;
-    }
-
-    @media only screen and(max-width: 767px){
-      font-size: 1em;
-      line-height: 1em;
+    .xx_cta {
+      margin-top: 6px;
     }
   }
 
-  p{
-    font-size: 15px;
-    margin-top: 30px;
-    color: #3C241E;
-    text-align: center;
+  // EN FIX
+.aya-promo.en_fix .content {
+    top: 25%;
+    .main-title {
+      font-size: 19px;
+    }
+  }
 
-    @media only screen and(max-width: 1199px){
-      font-size: .9em;
-      margin-top: 20px;
+  
+}
+
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+ul li.aya-promo .content {
+
+    .main-title {
+      font-size: 12px;
+      margin-bottom: 1%;
     }
 
-    @media only screen and(max-width: 979px){
-      font-size: .6em;
-      line-height: 1.2em;
-      margin: 10px 0;
+    .main-content {
+      display: none;
+
     }
 
-    @media only screen and(max-width: 545px){
+    .xx_cta {
+      width: 77%;
+       text-align: left;
+      padding-left: 4%;
+      margin-top: 3%;
+
+      &:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px;
+      }
+    }
+
+    .legal {
+      font-size: 7px;
+      margin-top: 0%;
+    }
+    
+  }
+
+  // FR FIX
+.aya-promo.fr_fix .content {
+    .main-title {
+      font-size: 16px;
+      margin-bottom: 2%;
+    }
+
+  }
+
+  // EN FIX
+.aya-promo.en_fix .content {
+    top: 22%;
+    .main-title {
+      font-size: 14px;
+    }
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  .aya-promo .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  ul li.aya-promo {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg') no-repeat;
+  }
+
+  ul li.aya-promo .content {
+    top: 40%;
+    width: 50%;
+    left: 14%;
+
+    .main-title {
+      font-size: 10px;
+      margin-bottom: 2%;
+    }
+
+    .xx_cta {
       display: none;
     }
+
+    .xx_cta.mobile-only {
+      display: inline-block;
+      font-size: 10px;
+      height: 25px;
+      line-height: 25px;
+      &:after {
+        height: 25px;
+        background-size: 8px 8px;
+      }
+    }
+    
   }
 
-  a{
-    &:hover{
-      text-decoration: none;
+  // FR FIX
+  ul li.aya-promo.fr_fix .content {
+    top: 36%;
+    left: 14%;
+
+    .main-title {
+      font-size: 11px;
+    }
+    .xx_cta {
+      width: 70%;
     }
   }
-}
 
-p.legal {
-  font-size: 10px;
-  color: #3C241E;
-  font-weight: 100;
-  position: absolute;
-    bottom: 20px;
-  width: 78%;
-  
-  &:before {
-    content: "";
-    width: 10%;
-    height: 3px;
-    border-top: solid 1px #3C241E;
-    border-bottom: solid 1px #3C241E;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 4%;
+  // EN FIX
+  ul li.aya-promo.en_fix .content {
+    top: 38%;
+
+    .main-title {
+      font-size: 11px;
+    }
   }
 
-  &:after {
-    content: "";
-    width: 10%;
-    height: 3px;
-    border-top: solid 1px #3C241E;
-    border-bottom: solid 1px #3C241E;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 4%;
-  }
-
-  @media only screen and(max-width: 979px){
-    bottom: 8px;
-    width: 78%;
-    &:before { width: 5%; }
-    &:after { width: 5%; }
-  }
-
-  @media only screen and(max-width: 767px){
-    position: relative;
-    font-size: 9px;
-    bottom: 0;
-    &:before { width: 5%; }
-    &:after { width: 5%; }
-  }
 
 }
 
 
-.slide-ayacucho-cta{
-  background: #875b3a;
-  color: #fff;
-  display: block;
-  height: 40px;
-  line-height: 40px;
-  margin: 18px auto 0;
-  padding: 0 10px;
-
-  text-decoration: none;
-  width: 90%;
-  font-weight: 200;
-
-  &:after{
-    content: "";
-    float: right;
-    font-family: "FontAwesome";
-  }
-
-  &:hover{
-    background: #4D3934;
-  }
-
-  @media only screen and(max-width: 1199px){
-    left: inherit;
-    width: 80%;
-    height: 35px;
-    margin: 8px auto 0;
-  }
-
-  @media only screen and(max-width: 979px){
-    width: 100%;
-    height: 30px;
-    line-height: 32px;
-  }
-
-  @media only screen and(max-width: 767px){
-    background: #875b3a;
-    border: none;
-    border-radius: 0;
-    font-size: 0.7em;
-    height: 30px;
-    line-height: 32px;
-    margin-left: 9%;
-      right: inherit;
-      bottom: 23%;
-      left: 48%;
-    width: 100%;
-  }
-}
-
-/* end nieuwe stylinh */

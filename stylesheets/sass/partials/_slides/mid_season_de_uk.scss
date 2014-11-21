@@ -128,10 +128,6 @@
 			font-size: 2em;
 			line-height: 1em;
 		}
-		@media only screen and(max-width: 490px){
-			font-size: 11px;
-			line-height: 1em;
-		}
 	}
 
 	p{
@@ -213,7 +209,7 @@ p.legal {
 	background: #3C241E;
 	color: #ffffff;
 	display: block;
-	font-size: 60%;
+	font-size: 85%;
 	height: 40px;
 	line-height: 43px;
 	margin: -18px auto 0;
@@ -222,7 +218,7 @@ p.legal {
 	// 	bottom: 90px;
 	// 	right: 42%;
 	text-decoration: none;
-	// width: 90%;
+	width: 90%;
 	font-weight: 200;
 
 	&:after{

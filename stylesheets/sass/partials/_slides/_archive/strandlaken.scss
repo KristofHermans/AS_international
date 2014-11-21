@@ -1,0 +1,440 @@
+
+/* *********************************************************************************************************** */
+/* **                                         STRANDLAKEN                                                   ** */
+/* *********************************************************************************************************** */
+
+/*******************************************     
+  STYLES                                              
+*******************************************/
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+  position: absolute;
+  z-index: 2;
+  top: 42px;
+  left: 29px;
+  width: 520px;
+
+  .main-title {
+    font-weight: 800 !important;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 72%;
+    @include text-shadow(#000000 0px 2px 0px);
+
+    .smaller {
+    	font-size: 29px;
+    	color: inherit;
+    	font-weight: inherit;
+    }
+  }
+
+  .main-content {
+  	font-size: 17px;
+  	font-weight: 600;
+  	color: #3d3d3d;
+  	text-align: center;
+  	margin-top: 32px;
+	margin-bottom: 5px;
+  }
+  
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container {
+	text-align: center;
+	position: relative;
+	top: 0;
+	right: 0;
+}
+
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta,
+#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
+  position: relative;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 35px;
+  font-family: 'Open Sans', sans-serif;
+   -webkit-font-smoothing: antialiased;
+  font-size: 13px;
+  font-weight: 600;
+  width: 138px;
+  height: 35px;
+  background-color: #d25f54;
+  color: #ffffff;
+  padding-left: 13px;
+  margin-top: 14px;
+  text-align: left;
+  margin-left: 12px;
+
+  &:after {
+    content: "";
+    /* box */
+    width: 40px;
+    height: 35px;
+    float: right;
+    /* background */
+    background: url('../images/arrow-white.png') no-repeat center center;
+  }
+
+  &:hover {
+    background-color: #c1564c;
+    color: #ffffff;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:first-child {
+	margin-left: 0;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {
+	position: absolute;
+	bottom: 4px;
+	left: 133px;
+	z-index: 2;
+	margin-bottom: 0;
+	font-size: 10px;
+}
+
+
+// FR FIX
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+  top: 32px;
+
+  .main-title {
+    font-size: 26px;
+    line-height: 140%;
+
+    .smaller {
+    	font-size: 32px;
+    }
+  }
+
+  .main-content {
+  	font-size: 17px;
+  	margin-top: 32px;
+	margin-bottom: 5px;
+  }
+  
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+	left: 100px;
+}
+
+// EN FIX
+
+#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+  top: 38px;
+
+  .main-title {
+    font-size: 31px;
+    line-height: 100%;
+
+    .smaller {
+    	font-size: 32px;
+    }
+  }
+  
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+ 
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+		top: 30px;
+		left: 23px;
+		width: 423px;
+
+		.main-title {
+			font-size: 35px;
+
+			.smaller {
+				font-size: 26px;
+			}
+		}
+
+		.main-content {
+			font-size: 16px;
+			margin-top: 19px;
+		}
+
+		.xx_cta_container {
+			margin-top: 9px;
+		}
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+		width: 113px;
+		margin-top: 0;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
+		left: 74px;
+		font-size: 10px;
+	}
+
+	// FR FIX
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+	  top: 27px;
+
+	  .main-title {
+	    font-size: 21px;
+	    line-height: 140%;
+
+	    .smaller {
+	    	font-size: 25px;
+	    }
+	  }
+
+	  .main-content {
+	  	font-size: 14px;
+	  	margin-top: 15px;
+		margin-bottom: 5px;
+	  }
+	  
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+		left: 36px;
+	}
+
+	// EN FIX
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+	  top: 38px;
+
+	  .main-title {
+	    font-size: 25px;
+	  }
+
+	  .main-content {
+	  	font-size: 15px;
+	  }
+	  
+	}
+
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+		top: 21px;
+		left: 18px;
+		width: 325px;
+
+		.main-title {
+			font-size: 27px;
+
+			.smaller {
+				font-size: 20px;
+			}
+		}
+
+		.main-content {
+			font-size: 12px;
+			margin-top: 14px;
+			line-height: 100%;
+		}
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+		width: 83px;
+		font-size: 10px;
+		height: 30px;
+		line-height: 30px;
+
+		&:after {
+			height: 30px;
+		}
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
+		left: 48px;
+		bottom: 1px;
+		font-size: 9px;
+	}
+
+	// FR FIX
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+	  top: 17px;
+
+	  .main-title {
+	    font-size: 18px;
+	    line-height: 140%;
+
+	    .smaller {
+	    	font-size: 22px;
+	    }
+	  }
+
+	  .main-content {
+	  	font-size: 12px;
+	  	margin-top: 10px;
+		margin-bottom: 5px;
+	  }
+	  
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+		left: 12px;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+		width: 87px;
+		margin-left: 7px;
+	}
+
+	// EN FIX
+
+	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+	  top: 23px;
+
+	  .main-title {
+	    font-size: 19px;
+	  }
+	  
+	}
+ 
+
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken {
+    position: relative;
+    background-image: url('../images/strandlaken_bg_mobile.jpg');
+    width: 302px;
+    height: 388px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
+  }
+
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt {
+  	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+	padding: 0 20px 20px 20px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 2;
+    /* box */
+    width: 302px;
+    text-align: center;
+
+	  .main-title {
+	    font-weight: 800 !important;
+	    text-transform: uppercase;
+	    text-align: center;
+	    color: #ffffff;
+	    font-size: 27px;
+	    line-height: 72%;
+	    @include text-shadow(#000000 0px 2px 0px);
+
+	    .smaller {
+	    	font-size: 20px;
+	    	color: inherit;
+	    	font-weight: inherit;
+	    }
+	  }
+
+	  .main-content {
+	  	font-size: 14px;
+	  	font-weight: 600;
+	  	color: #3d3d3d;
+	  	text-align: center;
+	  	margin-top: 32px;
+		margin-bottom: 5px;
+	  }
+
+	  .xx_cta_container {
+	  	position: relative;
+	  	right: 0;
+	  	top: 0;
+	  	text-align: center;
+	  	margin-top: 10px;
+	  }
+
+	  .legal {
+	  	font-size: 10px;
+	  	line-height: 100%;
+	  	margin-top: 15px;
+	  	margin-bottom: 0;
+	  }
+  }
+
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
+    width: 114px;
+    font-size: 11px;
+    padding-left: 8px;
+    text-align: left;
+    margin-left: 2px;
+    margin-top: 6px;
+
+    &:after {
+      width: 30px;
+    }
+  }
+
+  // FR FIX
+	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.fr_fix {
+
+	 	.main-title {
+	 		font-size: 17px;
+	 		line-height: 140%;
+
+	 		.smaller {
+	 			font-size: 21px;
+	 		}
+	 	}
+
+	 	.main-content {
+	 		font-size: 13px;
+	 	}
+	}
+
+  // EN FIX
+	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.en_fix {
+
+	 	.main-title {
+	 		font-size: 22px;
+	 		line-height: 100%;
+
+	 		.smaller {
+	 			font-size: 23px;
+	 		}
+	 	}
+	}
+  
+}
+
+@media
+only screen and (                     max-width: 1200px),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+
+  #xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:after,
+  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta:after {
+    background: url('../images/arrow-white@2x.png') no-repeat center center;
+    background-size: 11px 11px;
+  }
+}
+
