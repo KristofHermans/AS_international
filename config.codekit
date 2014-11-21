@@ -38,11 +38,65 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141118_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141118_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/141118_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/141118_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141124_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141124_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141124_hp_dk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141124_hp_dk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141124_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141124_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141124_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141124_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141124_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141124_hp_uk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3931,6 +3985,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/slide_kerstcadeaus_de.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141175,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_de_mobile@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70236,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139737,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_en_mobile@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68544,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139953,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_fr_mobile@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69720,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_fr_mobile@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_fr_mobile@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138547,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_nl.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/slide_kerstcadeaus_nl_mobile@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70257,
+		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_nl_mobile@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_nl_mobile@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/slider-controls@2x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5393,6 +5535,18 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/stylesheets\/css\/styles_de_uk.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -5779,22 +5933,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/stylesheets\/sass\/partials\/_slides\/_aya-promo.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_aya-promo.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_aya-promo.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/stylesheets\/sass\/partials\/_slides\/_aya-promo_de_uk.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -5804,6 +5942,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_aya-promo_de_uk.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_aya-promo_de_uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/aya-promo.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/aya-promo.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/aya-promo.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/christmas.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/christmas.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/christmas.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6142,9 +6312,9 @@
 		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_de_uk.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/stylesheets\/sass\/styles_fr_nl.scss": {
@@ -6158,9 +6328,9 @@
 		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_fr_nl.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/test\/hp_training_nl.html": {
