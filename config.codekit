@@ -4216,6 +4216,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/thumbs\/thumb-kerstcadeaus.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6098,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/thumbs\/thumb-lookbook-outdoor.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5534,6 +5545,18 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/css\/styles_de_uk.css": {
 		"fileType": 16,

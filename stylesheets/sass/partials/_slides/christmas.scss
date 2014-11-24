@@ -3,16 +3,42 @@
 /* **                                             SLIDER KERST                                              ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.christmas-shopping, .slide-christmas {
+#xx_wrapper #xx_header .xx_slider ul li.christmas-shopping, #xx_wrapper #xx_header .xx_slider ul li.slide-christmas {
   background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl.jpg') no-repeat;
   position: relative;
 
   &.fr-fix{
     background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr.jpg') no-repeat;
   }
+
+  &.de-fix{
+    background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg') no-repeat;
+  }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.christmas-shopping .xx_cta{
+.christmas-shopping.de-fix{
+  background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg') no-repeat;
+  height: 410px;
+}
+
+.christmas-shopping.uk-fix{
+  background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_en.jpg') no-repeat;
+  height: 410px;
+}
+
+.christmas-shopping-copy{
+  position: absolute;
+    bottom: 70px;
+  width: 100%;
+
+  .xx_cta{
+    margin-left: -11.5% !important;
+    position: absolute;
+      left: 50%;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li .christmas-shopping .xx_cta, .christmas-shopping-copy .xx_cta{
   background: #ffffff;
   border: 1px solid #AC1316;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
@@ -205,6 +231,10 @@
 
     &.fr-fix{
       background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr_mobile@x2.jpg') no-repeat;
+    }
+
+    &.de-fix{
+      background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de_mobile@x2.jpg') no-repeat;
     }
   }
 

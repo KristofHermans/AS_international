@@ -3,27 +3,39 @@
 /* **                                          SLIDER AYACUCHO PROMO                                        ** */
 /* *********************************************************************************************************** */
 
-ul li.aya-promo {
-  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo.jpg') no-repeat;
+ul li .slide-ayacucho {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-uk.jpg') no-repeat;
+  height: 410px;
+
+  &.de-img-fix{
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-de.jpg');
+  }
+
+  &.dk-img-fix{
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho-promo-dk.jpg');
+  }
 }
 
-ul li.aya-promo .content {
+ul li.slide-ayacucho .content {
   position: absolute;
+    top: 19%;
+    left: 10.3%;
   width: 26%;
-  top: 19%;
-  left: 10.3%;
   text-align: center;
 
   h2, span {
     -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
-ul li.aya-promo .content {
+ul li .slide-ayacucho-copy{
+  position: absolute;
+    bottom: 70px;
+    left: 37.5%;
   
   .main-title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 20px;
     line-height: 120%;
     color: #434244;
@@ -46,21 +58,38 @@ ul li.aya-promo .content {
   }
 }
 
-ul li.aya-promo .content .xx_cta { 
-  width: 70%;
+ul li .slide-ayacucho-cta-de, ul li .slide-ayacucho-cta-uk {
   background-color: #875b3a;
-  font-weight: 600;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 16px;
+  //font-weight: 600;
   display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  margin-bottom: 5px;
+  padding: 0 10px;
+  text-decoration: none;
+  width: 72%;
+
+  &.slide-ayacucho-cta-uk{
+    width: 84%;
+  }
 
   &:hover {
     background-color: #6c462a;
   }
-}
 
-ul li.aya-promo .content .xx_cta.mobile-only {
-  display: none;
-}
+  &:after{
+    content: "";
+    font-family: "FontAwesome";
+    float: right;
+  }
 
+  @media only screen and(max-width: 767px){
+    display: none;
+  }
+}
 
 // FR FIX
 .aya-promo.fr_fix .content {
@@ -91,7 +120,7 @@ ul li.aya-promo .content .xx_cta.mobile-only {
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-ul li.aya-promo .content {
+ul li.slide-ayacucho .content {
     top: 16%;
 
     .main-title {
@@ -157,7 +186,7 @@ ul li.aya-promo .content {
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-ul li.aya-promo .content {
+ul li.slide-ayacucho .content {
 
     .main-title {
       font-size: 12px;
@@ -221,11 +250,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  ul li.aya-promo {
+  ul li.slide-ayacucho {
     background: url('http://static.asadventure.com/includes/homepage/international/images/bg-aya-promo-mobile@2x.jpg') no-repeat;
   }
 
-  ul li.aya-promo .content {
+  ul li.slide-ayacucho .content {
     top: 40%;
     width: 50%;
     left: 14%;
@@ -253,7 +282,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  ul li.aya-promo.fr_fix .content {
+  ul li.slide-ayacucho.fr_fix .content {
     top: 36%;
     left: 14%;
 
@@ -266,7 +295,7 @@ and (orientation : portrait) {
   }
 
   // EN FIX
-  ul li.aya-promo.en_fix .content {
+  ul li.slide-ayacucho.en_fix .content {
     top: 38%;
 
     .main-title {
