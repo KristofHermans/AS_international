@@ -1,0 +1,176 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER SNOW XL                                             ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+  background: url('../../images/bg-snow-xl.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 17%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 65px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 1%;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+  }
+
+  .main-content {
+    font-size: 34px;
+    color: inherit;
+    line-height: 120%;
+    padding: 0 18%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta { 
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background-color: #425e98;
+
+  &:hover {
+    background-color: #3f5480;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 15%;
+
+    .main-title {
+      font-size: 52px;
+    }
+
+    .main-content {
+      font-size: 28px;
+    }
+
+    .xx_cta {
+      width: 30%;
+    }
+    
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 15%;
+    width: 74%;
+
+    .main-title {
+      font-size: 37px;
+    }
+
+    .main-content {
+      font-size: 22px;
+    }
+
+    .xx_cta {
+      width: 30%;
+      text-align: left;
+      padding-left: 2%;
+
+      &:after {
+        display: block;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+    background: url('../../images/bg-snow-xl-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 11%;
+    width: 100%;
+
+    .main-title {
+      font-size: 23px;
+      margin-bottom: 2%;
+    }
+
+    .main-content {
+      font-size: 13px;
+    }
+
+    .xx_cta {
+      width: 50%;
+      font-size: 8px;
+    }
+    
+  }
+
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
+    width: 97%;
+  }
+
+  //EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+    font-size: 7.5px;
+  }
+
+}
+
+

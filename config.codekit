@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141203_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141203_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/141203_hp_nl.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1607,6 +1616,28 @@
 		"initialSize": 253371,
 		"inputAbbreviatedPath": "\/images\/bg-gopro.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-gopro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-kerstfolder-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28229,
+		"inputAbbreviatedPath": "\/images\/bg-kerstfolder-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-kerstfolder-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-kerstfolder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129077,
+		"inputAbbreviatedPath": "\/images\/bg-kerstfolder.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-kerstfolder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6011,6 +6042,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_snow-xl.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_snow-xl.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_snow-xl.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
