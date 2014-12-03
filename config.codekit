@@ -101,6 +101,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141203_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141203_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_archive\/141022_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3820,6 +3829,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/ribbon-fr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8694,
+		"inputAbbreviatedPath": "\/images\/ribbon-fr.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-fr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ribbon-nl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8922,
+		"inputAbbreviatedPath": "\/images\/ribbon-nl.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-nl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/schaduw.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4245,6 +4276,17 @@
 		"initialSize": 7505,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-mid-season-nov-14.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-mid-season-nov-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title-kerstfolder.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8234,
+		"inputAbbreviatedPath": "\/images\/title-kerstfolder.png",
+		"outputAbbreviatedPath": "\/images\/title-kerstfolder.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5960,6 +6002,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_kerstfolder.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/aya-promo.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6356,7 +6414,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Kristof Hermans",
+"lastSavedByUser": "Pieter ",
 "manualImportLinks": {
 	},
 "projectAttributes": {
