@@ -4368,7 +4368,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6098,
+		"initialSize": 6371,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -6135,6 +6135,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_uk_de.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_uk_de.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder_uk_de.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_snow-xl.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6547,7 +6563,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Lies.Wouters",
+"lastSavedByUser": "Kristof Hermans",
 "manualImportLinks": {
 	},
 "projectAttributes": {
