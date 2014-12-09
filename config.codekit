@@ -119,6 +119,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141209_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141209_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_archive\/141022_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1917,6 +1926,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-snow-xl-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38847,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-snow-xl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96838,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-solden-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2390,6 +2421,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/christmas-special.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37144,
+		"inputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/cone.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2771,6 +2813,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83021,
+		"inputAbbreviatedPath": "\/images\/header.jpg",
+		"outputAbbreviatedPath": "\/images\/header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/header_bg_de.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3141,6 +3194,17 @@
 		"initialSize": 21635,
 		"inputAbbreviatedPath": "\/images\/korting_FR.png",
 		"outputAbbreviatedPath": "\/images\/korting_FR.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/large-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38214,
+		"inputAbbreviatedPath": "\/images\/large-snow.png",
+		"outputAbbreviatedPath": "\/images\/large-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3537,6 +3601,17 @@
 		"initialSize": 1821,
 		"inputAbbreviatedPath": "\/images\/logo\/vaude_hover.jpg",
 		"outputAbbreviatedPath": "\/images\/logo\/vaude_hover.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/medium-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43753,
+		"inputAbbreviatedPath": "\/images\/medium-snow.png",
+		"outputAbbreviatedPath": "\/images\/medium-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4197,6 +4272,17 @@
 		"initialSize": 67739,
 		"inputAbbreviatedPath": "\/images\/slider_home_solden_FR.jpg",
 		"outputAbbreviatedPath": "\/images\/slider_home_solden_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/small-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59110,
+		"inputAbbreviatedPath": "\/images\/small-snow.png",
+		"outputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6461,7 +6547,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Pieter ",
+"lastSavedByUser": "Lies.Wouters",
 "manualImportLinks": {
 	},
 "projectAttributes": {
