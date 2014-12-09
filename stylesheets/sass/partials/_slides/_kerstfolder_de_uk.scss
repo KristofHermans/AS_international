@@ -29,11 +29,11 @@
     top: 0px;
     left: 0; } }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder {
-  background: url(../../images/bg-kerstfolder.jpg) no-repeat;
+ul li.kerstfolder {
+  background: url(../../images/bg-kerstfolder-INT.jpg) no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+ul li.kerstfolder .content {
   position: absolute;
   width: 308px;
   top: 19%;
@@ -46,7 +46,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+ul li.kerstfolder .content {
 
   .ribbon {
     display: block;
@@ -83,11 +83,34 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta { 
-  width: 70%;
+a.kerst_cta {
+  color:#FFFFFF;
+  text-decoration:none;
+  margin-top:20px;
+  height:40px;
+  line-height:42px;
+  padding:0 15px;
+  text-align:left;
+
+  &:after{
+    content:"";
+    font-family:"FontAwesome";
+    color:#FFFFFF;
+    float:right;
+    line-height:44px;
+  }
+}
+
+.button{
+  font-family:FontAwesome;
+  text-align:right;
+  color:#FFFFFF;
+}
+ul li.kerstfolder .content .kerst_cta { 
   background-color: #b11116;
-  font-weight: 600;
+  font-weight: 500;
   display: inline-block;
+  width: 70%;
 
   &:hover {
     background-color: #9c0d12;
@@ -100,11 +123,11 @@
   overflow: hidden;
   position: absolute;
   top: 25px;
-  right: 27%;
-  width: 38.9812%;
+  right: 5.3%;
+  width: 60.1%;
 }
 .small-snow{
-  background: url(../images/small-snow.png) no-repeat center center;
+  background: url(../../images/snow-small-kerst.png) no-repeat center center;
   background-size: contain;
   height: 100%;
   position: absolute;
@@ -129,7 +152,7 @@
 }
 
 .medium-snow{
-  background: url(../images/medium-snow.png) no-repeat center center;
+  background: url(../../images/snow-medium-kerst.png) no-repeat center center;
   background-size: contain;
   height: 100%;
   position: absolute;
@@ -154,7 +177,7 @@
 }
 
 .large-snow{
-  background: url(../images/large-snow.png) no-repeat center center;
+  background: url(../../images/snow-large-kerst.png) no-repeat center center;
   background-size: contain;
   height: 100%;
   position: absolute;
@@ -180,7 +203,7 @@
 
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+ul li.kerstfolder.en_fix .content {
   top: 25%;
 
   .ribbon {
@@ -198,7 +221,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  ul li.kerstfolder .content {
     top: 16%;
     left: 4%;
     width: 259px;
@@ -221,6 +244,7 @@
       font-size: 11px;
 
       &:after {
+        display: block;
         height: 30px;
         background-size: 9px 9px;
       }
@@ -234,7 +258,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  ul li.kerstfolder.en_fix .content {
     .ribbon {
       top: -75px;
     }
@@ -249,7 +273,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  ul li.kerstfolder .content {
     top: 13%;
     left: 4%;
     width: 204px;
@@ -286,7 +310,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  ul li.kerstfolder.en_fix .content {
     top: 22%;
     .ribbon {
       top: -55px;
@@ -308,11 +332,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder {
+  ul li.kerstfolder {
     background: url('../images/bg-kerstfolder-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  ul li.kerstfolder .content {
     top: 10%;
     width: 54%;
     left: 22%;
@@ -349,7 +373,7 @@ and (orientation : portrait) {
 
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  ul li.kerstfolder.en_fix .content {
     top: 14%;
 
     .main-image {

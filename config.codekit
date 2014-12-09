@@ -1629,6 +1629,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-kerstfolder-INT.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 346691,
+		"inputAbbreviatedPath": "\/images\/bg-kerstfolder-INT.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-kerstfolder-INT.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-kerstfolder-mobile@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4287,6 +4298,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/snow-large-kerst.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5494,
+		"inputAbbreviatedPath": "\/images\/snow-large-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-large-kerst.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/snow-medium-kerst.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5992,
+		"inputAbbreviatedPath": "\/images\/snow-medium-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-medium-kerst.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/snow-small-kerst.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9952,
+		"inputAbbreviatedPath": "\/images\/snow-small-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-small-kerst.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/store_foetz.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4368,9 +4412,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6371,
+		"initialSize": 6098,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/thumb-kerstfolder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24224,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstfolder.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstfolder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6135,15 +6190,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_uk_de.scss": {
+	"\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_de_uk.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_uk_de.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder_uk_de.css",
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_de_uk.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder_de_uk.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6563,7 +6618,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Kristof Hermans",
+"lastSavedByUser": "Lies.Wouters",
 "manualImportLinks": {
 	},
 "projectAttributes": {
