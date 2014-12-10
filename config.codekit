@@ -119,6 +119,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141209_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141209_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/141209_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4386,6 +4395,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/thumbs\/ribbon-de.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10185,
+		"inputAbbreviatedPath": "\/images\/thumbs\/ribbon-de.png",
+		"outputAbbreviatedPath": "\/images\/thumbs\/ribbon-de.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/thumbs\/thumb-ayacucho.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4404,6 +4424,17 @@
 		"initialSize": 4781,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-folder.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-folder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26619,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

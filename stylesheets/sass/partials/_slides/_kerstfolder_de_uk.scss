@@ -1,6 +1,6 @@
 
 /* *********************************************************************************************************** */
-/* **                                          SLIDER KERSTFOLDER 14                                        ** */
+/* **                                          SLIDER KERSTFOLDER 14 INT DE - UK                                      ** */
 /* *********************************************************************************************************** */
 
 @-webkit-keyframes letItSnow1 {
@@ -30,7 +30,7 @@
     left: 0; } }
 
 ul li.kerstfolder {
-  background: url(../../images/bg-kerstfolder-INT.jpg) no-repeat;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
 }
 
 ul li.kerstfolder .content {
@@ -98,6 +98,7 @@ a.kerst_cta {
     color:#FFFFFF;
     float:right;
     line-height:44px;
+    padding-left:15px;
   }
 }
 
@@ -110,7 +111,6 @@ ul li.kerstfolder .content .kerst_cta {
   background-color: #b11116;
   font-weight: 500;
   display: inline-block;
-  width: 70%;
 
   &:hover {
     background-color: #9c0d12;
@@ -220,16 +220,21 @@ ul li.kerstfolder.en_fix .content {
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
+  ul li.kerstfolder{
+      background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
+      background-size:contain;
+      height:342px;
+  }
 
   ul li.kerstfolder .content {
-    top: 16%;
-    left: 4%;
-    width: 259px;
+    top: 25%;
+    left: 7%;
+    width: 230px;
 
     .ribbon {
-      width: 128px;
-      top: -50px;
-      left: -40px;
+      width: 150px;
+      margin-top: -8px;
+      left: -65.5px;
     }
 
     .legal {
@@ -252,6 +257,10 @@ ul li.kerstfolder.en_fix .content {
     
   }
 
+  ul li.kerstfolder .content .kerst_cta { 
+  font-size:11px;
+}
+
   .animated-area {
     height: 273px;
     top: 19px;
@@ -269,12 +278,92 @@ ul li.kerstfolder.en_fix .content {
 
 
 /* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
+/* **                                        SMALL DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
+  ul li.kerstfolder {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
+  background-size:contain;
+  height:265px;
+}
+
   ul li.kerstfolder .content {
-    top: 13%;
+    top: 25%;
+    left: 7%;
+    width: 180px;
+
+    .ribbon {
+      width: 100px;
+      top: -103px;
+      left: -66px;
+    }
+
+    .xx_cta {
+      width: 90%;
+      text-align: left;
+      padding-left: 4%;
+      margin-top: 3%;
+
+      &:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px;
+      }
+    }
+
+    .legal {
+      font-size: 7px;
+      margin-top: 0%;
+    }
+    
+  }
+
+  .animated-area {
+    height: 211px;
+    top: 15px;
+  }
+
+  // EN FIX
+  ul li.kerstfolder.en_fix .content {
+    top: 22%;
+    .ribbon {
+      top: -55px;
+    }
+  }
+
+}
+
+ul li.kerstfolder .content .kerst_cta { 
+  font-size:9px;
+
+    &:after{
+    padding-left:10px;
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
+    height: 25px;
+  }
+}
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  ul li.kerstfolder {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
+  background-size:contain;
+  height:260px;
+}
+
+  ul li.kerstfolder .content {
+    top: 15%;
     left: 4%;
     width: 204px;
 
@@ -330,15 +419,17 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
-@media (max-width: 767px) {
+@media (max-width: 414px) {
 
   ul li.kerstfolder {
-    background: url('../images/bg-kerstfolder-mobile@2x.jpg') no-repeat;
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-mobile@2x.jpg) no-repeat;
+    display:contain;
+
   }
 
   ul li.kerstfolder .content {
     top: 10%;
-    width: 54%;
+    width: 80%;
     left: 22%;
 
     .ribbon {
@@ -363,6 +454,10 @@ and (orientation : portrait) {
     }
     
   }
+
+  a.kerst_cta {
+  font-size:10px;
+}
 
   .animated-area {
     height: 145px;
