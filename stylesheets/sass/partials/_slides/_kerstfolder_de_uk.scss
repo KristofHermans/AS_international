@@ -91,6 +91,7 @@ a.kerst_cta {
   line-height:42px;
   padding:0 15px;
   text-align:left;
+  font-size:15px !important;
 
   &:after{
     content:"";
@@ -288,15 +289,23 @@ ul li.kerstfolder.en_fix .content {
   height:265px;
 }
 
+  #homepage-wrapper .bxslider li{
+    height:0px;
+  }
+
+  #homepage-wrapper .bx-viewport{
+    height:265px !important;
+  }
+
   ul li.kerstfolder .content {
-    top: 25%;
+    top: 20%;
     left: 7%;
     width: 180px;
 
     .ribbon {
       width: 100px;
-      top: -103px;
-      left: -66px;
+      top: -58px;
+      left: -51px;
     }
 
     .xx_cta {
@@ -335,7 +344,7 @@ ul li.kerstfolder.en_fix .content {
 }
 
 ul li.kerstfolder .content .kerst_cta { 
-  font-size:9px;
+  font-size:11px;
 
     &:after{
     padding-left:10px;
@@ -357,7 +366,7 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   ul li.kerstfolder {
-  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-mobile@2x.jpg) no-repeat;
   background-size:contain;
   height:260px;
 }
@@ -408,14 +417,14 @@ and (orientation : portrait) {
 
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
-    height: 25px;
-  }
-}
+// @media only screen 
+// and (min-device-width : 768px) 
+// and (max-device-width : 1024px) 
+// and (orientation : portrait) { 
+//   #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
+//     height: 25px;
+//   }
+// }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
@@ -424,7 +433,7 @@ and (orientation : portrait) {
   ul li.kerstfolder {
     background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-mobile@2x.jpg) no-repeat;
     display:contain;
-
+    height:250px;
   }
 
   ul li.kerstfolder .content {

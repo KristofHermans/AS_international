@@ -4,15 +4,15 @@
 /* *********************************************************************************************************** */
 
 #xx_wrapper #xx_header .xx_slider ul li.christmas-shopping, #xx_wrapper #xx_header .xx_slider ul li.slide-christmas {
-  background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl.jpg') no-repeat;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl.jpg) no-repeat;
   position: relative;
 
   &.fr-fix{
-    background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr.jpg') no-repeat;
+    background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr.jpg) no-repeat;
   }
 
   &.de-fix{
-    background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg') no-repeat;
+    background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg) no-repeat;
   }
 }
 
@@ -50,14 +50,45 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 .christmas-shopping.de-fix{
-  background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg') no-repeat;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg) no-repeat;
+  background-size:contain;
+  height: 350px;
+}
+
+.christmas-shopping.uk-fix{
+  background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_en.jpg) no-repeat;
+  height: 350px;
+}
+
+.christmas-shopping-copy{
+  position: absolute;
+    bottom: 70px;
+  width: 100%;
+
+  .xx_cta{
+    margin-left: -11.5% !important;
+    position: absolute;
+      left: 50%;
+  }
+}
+}
+
+#homepage-wrapper .bxslider li{
+  height:0px !important;
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+.christmas-shopping.de-fix{
+  background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg) no-repeat;
   background-size:contain;
   height: 342px;
 }
 
 .christmas-shopping.uk-fix{
-  background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_en.jpg') no-repeat;
-  height: 410px;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_en.jpg) no-repeat;
+  height: 350px;
 }
 
 .christmas-shopping-copy{
@@ -73,23 +104,19 @@
 }
 }
 /* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-
-/* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
   #xx_wrapper #xx_header .xx_slider ul li.christmas-shopping {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl_mobile@x2.jpg') no-repeat;
+    background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl_mobile@x2.jpg) no-repeat;
 
     &.fr-fix{
-      background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr_mobile@x2.jpg') no-repeat;
+      background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_fr_mobile@x2.jpg) no-repeat;
     }
 
     &.de-fix{
-      background: url('http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de_mobile@x2.jpg') no-repeat;
+      background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de_mobile@x2.jpg) no-repeat;
     }
   }
 
