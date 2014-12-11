@@ -3,7 +3,7 @@
 /* **                                             SLIDER KERST                                              ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.christmas-shopping, #xx_wrapper #xx_header .xx_slider ul li.slide-christmas {
+#xx_wrapper #xx_header .xx_slider ul li.christmas-shopping, .christmas-shopping {
   background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_nl.jpg) no-repeat;
   position: relative;
 
@@ -14,6 +14,10 @@
   &.de-fix{
     background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg) no-repeat;
   }
+}
+
+.christmas-shopping{
+  height: 410px;
 }
 
 #xx_wrapper #xx_header .xx_slider ul li .christmas-shopping .xx_cta, .christmas-shopping-copy .xx_cta{
