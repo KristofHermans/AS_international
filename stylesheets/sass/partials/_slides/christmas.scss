@@ -51,8 +51,6 @@
 @media (max-width: 1199px) {
 .christmas-shopping.de-fix{
   background: url(http://static.asadventure.com/includes/homepage/international/images/slide_kerstcadeaus_de.jpg) no-repeat;
-  background-size:contain;
-  height: 350px;
 }
 
 .christmas-shopping.uk-fix{
@@ -71,10 +69,9 @@
       left: 50%;
   }
 }
-}
-
 #homepage-wrapper .bxslider li{
   height:0px !important;
+}
 }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
