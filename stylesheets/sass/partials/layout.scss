@@ -211,6 +211,39 @@ $baseline: 18px;
 	}
 }
 
+@media (max-width:1199px){
+	.bxslider{
+		margin-left: 0;
+
+		li{
+			position: relative;
+			height: 330px;
+		}
+	}
+}
+
+@media (max-width:979px){
+	.bxslider{
+		margin-left: 0;
+
+		li{
+			position: relative;
+			height: 256px;
+		}
+	}
+}
+
+@media (max-width:767px){
+	.bxslider{
+		margin-left: 0;
+
+		li{
+			position: relative;
+			height: 260px;
+		}
+	}
+}
+
 /* ================================
 	MAIN-CONTENT
 ================================ */
