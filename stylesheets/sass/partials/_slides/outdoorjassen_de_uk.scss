@@ -1,0 +1,66 @@
+/* =====================================
+  Outdoorjassenactie
+===================================== */
+
+.outdoorjassen-uk{
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-en.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.outdoorjassen-de{
+  background: url(http://static1.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-de.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.cta-block{
+  float: right;
+  height: percentage(168/410);
+  position: absolute;
+    bottom: percentage(60/410);
+    right: percentage(15/1170);
+  width: percentage(216/1170);
+}
+
+.outdoorjassen-cta{
+  background: url(http://static1.asadventure.com/includes/homepage/international/images/bg-cta-blauw.gif);
+  background-size: contain;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  color: #ffffff;
+  display: block;
+  height: percentage(46/168);
+  line-height: 47px;
+  padding: 0 15px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+  transition: background .1s linear;
+  width: 100%;
+
+  & + .outdoorjassen-cta{
+    margin-top: percentage(15/168);
+  }
+
+  &:after{
+    content: "";
+    float: right;
+    font-family: "FontAwesome";
+  }
+
+  &:hover{
+    background: url(http://static1.asadventure.com/includes/homepage/international/images/bg-cta-blauw-hover.gif);
+    background-size: contain;
+  }
+
+  @media only screen and(max-width: 1199px) {
+    line-height: 37px;
+  }
+
+  @media only screen and(max-width: 979px) {
+    line-height: 29px;
+  }
+
+  @media only screen and(max-width: 767px) {
+    line-height: 46px;
+  }
+}

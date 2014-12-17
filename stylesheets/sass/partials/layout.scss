@@ -35,10 +35,18 @@ $baseline: 18px;
 .slider-wrapper{
 	// box-shadow: 0 0 5px #454545;
 	// box-shadow: 0 0 5px rgba(0,0,0,0.4);
-	margin-bottom: $baseline * 4;
+	margin-bottom: $baseline * 6;
 	//padding-bottom: percentage(410/1170);
 	position: relative;
 	width: 100%;
+
+	@media only screen and(max-width: 1199px) {
+		margin-bottom: $baseline * 5;
+	}
+
+	@media only screen and(max-width: 979px) {
+		margin-bottom: $baseline * 3;
+	}
 
 	@media only screen and(max-width: 767px){
 		margin: 10px 0;
@@ -48,11 +56,15 @@ $baseline: 18px;
 .bottom-bar{
 	position: absolute;
 		//bottom: -23px;
-		bottom: -25px;
+		bottom: -60px;
 	width: 100%;
 
-	@media only screen and(max-width: 979px){
+	@media only screen and(max-width: 1199px){
 		bottom: -50px;
+	}
+
+	@media only screen and(max-width: 979px){
+		bottom: -30px;
 	}
 }
 
@@ -95,6 +107,12 @@ $baseline: 18px;
 }
 
 // CTA
+
+.overall-cta{
+	display: block;
+	height: 100%;
+	width: 100%;
+}
 
 .slide-cta{
 	background: url(../../images/transparent-bg.png);
@@ -139,11 +157,6 @@ $baseline: 18px;
 	margin: 0 auto;
 	//position: relative;
 		//bottom: 90px;
-	width: 274px;			// AANPASSEN BIJ EXTRA SLIDES
-
-	@media only screen and(max-width: 979px){
-		width: 200px;
-	}
 
 	@media only screen and(max-width: 767px){
 		display: none !important;
@@ -206,6 +219,7 @@ $baseline: 18px;
 	margin-left: 0;
 
 	li{
+		display: block;
 		position: relative;
 		height: 410px;
 	}
@@ -308,6 +322,7 @@ $baseline: 18px;
 
 	@media only screen and(max-width: 1199px){
 		height: 260px;
+		margin-right: 4px;
 	}
 
 	@media only screen and(max-width: 979px){
@@ -478,6 +493,12 @@ $baseline: 18px;
 	@media only screen and(max-width: 767px){
 		display: none;
 	}
+}
+
+.clearfix{
+	clear: both;
+	content: "";
+	display: table;
 }
 
 /* ================================

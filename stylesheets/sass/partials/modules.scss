@@ -9,8 +9,22 @@
 ================================ */
 
 #homepage-wrapper{
+// AANPASSEN AAN HET AANTAL SLIDES
+.bx-pager{
+	//width: 120px;			// 1 SLIDE
+	//width: 274px;			// 2 SLIDES
+	width: 428px;			// 3 SLIDES
 
-// SLIDERS
+	@media only screen and(max-width: 979px){
+		//width: 200px;		// 2 SLIDES
+		width: 310px;		// 3 SLIDES
+	}
+}
+
+// TRAINING SLIDERS
+@import "_slides/outdoorjassen_de_uk";
+
+// LIVE SLIDERS
 @import "_slides/kerstfolder_de_uk";
 @import "_slides/christmas";
 

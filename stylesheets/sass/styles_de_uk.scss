@@ -13,17 +13,17 @@ Date: September, 18th 2014
 
 ========================================================================== */
 
-// BASE
+// BASE: applies resets
 @import "partials/base.scss";
 
-// LAYOUT
+// LAYOUT: controls the layout of the page
 @import "partials/layout.scss";
 
-// MODULES
+// MODULES: contains the sliders
 @import "partials/modules.scss";
 
-// STATE
+// STATE: controls states of modules
 @import "partials/state.scss";
 
-// THEME
+// THEME: overall theming
 @import "partials/theme.scss";

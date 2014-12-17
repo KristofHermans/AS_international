@@ -3,32 +3,6 @@
 /* **                                          SLIDER KERSTFOLDER 14 INT DE - UK                                      ** */
 /* *********************************************************************************************************** */
 
-@-webkit-keyframes letItSnow1 {
-  0% {
-    top: 0px; }
-  100% {
-    top: 360px;
-    left: 0; } }
-
-@keyframes letItSnow1 {
-  0% {
-    top: 0px; }
-  100% {
-    top: 360px;
-    left: 0; } }
-@-webkit-keyframes letItSnow2 {
-  0% {
-    top: -360px; }
-  100% {
-    top: 0px;
-    left: 0; } }
-@keyframes letItSnow2 {
-  0% {
-    top: -360px; }
-  100% {
-    top: 0px;
-    left: 0; } }
-
 ul li.kerstfolder {
   background: url(http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-INT.jpg) no-repeat;
 }
@@ -53,7 +27,7 @@ ul li.kerstfolder .content {
     width: 163px;
     position: absolute;
     top: -78px;
-    left: -59px;
+    left: -58px;
   }
 
   .main-image {
