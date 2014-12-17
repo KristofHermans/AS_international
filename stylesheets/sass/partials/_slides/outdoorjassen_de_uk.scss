@@ -6,12 +6,22 @@
   background: url(http://static.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-en.jpg) no-repeat;
   background-size: contain;
   position: relative;
+
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-en-mob-x2.jpg) no-repeat;
+    background-size: contain;
+  }
 }
 
 .outdoorjassen-de{
   background: url(http://static1.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-de.jpg) no-repeat;
   background-size: contain;
   position: relative;
+
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-outdoorjassenactie-de-mob-x2.jpg) no-repeat;
+    background-size: contain;
+  }
 }
 
 .cta-block{
@@ -21,6 +31,10 @@
     bottom: percentage(60/410);
     right: percentage(15/1170);
   width: percentage(216/1170);
+
+  @media only screen and(max-width: 767px) {
+    display: none;
+  }
 }
 
 .outdoorjassen-cta{

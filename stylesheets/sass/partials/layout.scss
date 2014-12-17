@@ -109,9 +109,14 @@ $baseline: 18px;
 // CTA
 
 .overall-cta{
-	display: block;
 	height: 100%;
+	position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
 	width: 100%;
+	z-index: 100;
 }
 
 .slide-cta{
@@ -182,8 +187,13 @@ $baseline: 18px;
 }
 
 .bx-controls, .bx-controls-direction{
+	pointer-events: none;
 	height: 100%;
 	width: 100%;
+
+	.bx-prev, .bx-next{
+		pointer-events: auto;
+	}
 }
 
 .bx-controls{
