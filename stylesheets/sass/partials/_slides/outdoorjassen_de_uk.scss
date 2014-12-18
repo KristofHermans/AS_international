@@ -33,7 +33,29 @@
   width: percentage(216/1170);
 
   @media only screen and(max-width: 767px) {
+    height: percentage(46/260);
+    position: absolute;
+      bottom: 12%;
+      left: 20%;
+    width: 60%;
+  }
+
+  .desktop-cta{
+    display: block;
+
+    @media only screen and(max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .mobile-cta{
     display: none;
+
+    @media only screen and(max-width: 767px) {
+      display: block;
+      height: 100%;
+      margin-top: 0;
+    }
   }
 }
 
