@@ -31,6 +31,7 @@
     bottom: percentage(60/410);
     right: percentage(15/1170);
   width: percentage(216/1170);
+  z-index: 2;
 
   @media only screen and(max-width: 767px) {
     height: percentage(46/260);
