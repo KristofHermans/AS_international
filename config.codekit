@@ -137,6 +137,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141217_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141217_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141217_hp_lu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141217_hp_lu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141217_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141217_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_archive\/141022_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -6248,6 +6275,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_outdoorjassen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_snow-xl.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6413,7 +6456,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/wasservice.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/wasservice.css",
