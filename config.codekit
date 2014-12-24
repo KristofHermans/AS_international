@@ -56,6 +56,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/141224_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141224_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/141224_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/141224_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/141224_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1980,7 +1998,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 108328,
+		"initialSize": 71448,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -6005,15 +6023,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/stylesheets\/sass\/css\/presolden.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/sass\/css\/presolden.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/stylesheets\/sass\/partials\/3_tabs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6685,15 +6694,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
-		},
-	"\/stylesheets\/sass\/partials\/css\/presolden.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/presolden.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/stylesheets\/sass\/partials\/fonts.scss": {
 		"createSourceMap": 0,
