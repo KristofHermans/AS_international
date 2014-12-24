@@ -18,6 +18,7 @@
 
 	@media only screen and(max-width: 767px) {
 		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-fr-mob@2x.jpg) no-repeat;
+		background-size: contain;
 	}
 }
 
@@ -27,7 +28,8 @@
 	position: relative;
 
 	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-mobile.jpg) no-repeat;
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-uk-mob@x2.jpg) no-repeat;
+		background-size: contain;
 	}
 }
 
@@ -37,7 +39,8 @@
 	position: relative;
 
 	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-mobile.jpg) no-repeat;
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-de-mob@x2.jpg) no-repeat;
+		background-size: contain;
 	}
 }
 
@@ -125,7 +128,7 @@
 .presolden-cta{
 	background: #57A5D3 !important;
 	box-sizing: border-box;
-	color: #ffffff;
+	color: #ffffff !important;
 	display: block;
 	height: 40px;
 	line-height: 40px;
@@ -133,24 +136,41 @@
 	position: absolute;
 		bottom: 40px;
 	text-align: left !important;
-	text-decoration: none;
+	text-decoration: none !important;
 	text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
 	width: percentage(276/320) !important;
 
 	@media only screen and(max-width: 1199px) {
 		font-size: 12px;
 		height: 37px;
+		line-height: 37px;
 	}
 
 	@media only screen and(max-width: 979px) {
 		font-size: 10px;
 		height: 30px;
+		line-height: 30px;
 		padding: 0 8px;
 	}
 
 	@media only screen and(max-width: 767px) {
 		position: absolute;
 			bottom: 15px;
+			left: 20%;
+	}
+
+	&.desktop-cta{
+		@media only screen and(max-width: 767px) {
+			display: none;
+		}
+	}
+
+	&.mobile-cta{
+		width: 60% !important;
+
+		@media only screen and(min-width: 767px) {
+			display: none;
+		}
 	}
 
 	&:after{

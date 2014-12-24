@@ -1983,6 +1983,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-presolden-dec14-de-mob@x2.jpg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37968,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-de-mob@x2.jpg.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-de-mob@x2.jpg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-presolden-dec14-de.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2027,6 +2038,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-presolden-dec14-uk-mob@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38599,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-presolden-dec14-uk.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2045,6 +2067,17 @@
 		"initialSize": 42548,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45033,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
