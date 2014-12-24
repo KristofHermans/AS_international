@@ -1994,6 +1994,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-presolden-dec14-fr-mob@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18969,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr-mob@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr-mob@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-presolden-dec14-fr.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2034,17 +2045,6 @@
 		"initialSize": 42548,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/bg-presolden-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
