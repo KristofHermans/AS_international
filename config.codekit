@@ -2,119 +2,101 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
-	"\/141118_hp_de.html": {
+	"\/141217_hp_fr.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_de.html",
+		"inputAbbreviatedPath": "\/141217_hp_fr.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141118_hp_dk.html": {
+	"\/141217_hp_lu.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_dk.html",
+		"inputAbbreviatedPath": "\/141217_hp_lu.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141118_hp_fr.html": {
+	"\/141217_hp_nl.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_fr.html",
+		"inputAbbreviatedPath": "\/141217_hp_nl.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141118_hp_lu.html": {
+	"\/141218_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_lu.html",
+		"inputAbbreviatedPath": "\/141218_hp_de.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141118_hp_nl.html": {
+	"\/141218_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_nl.html",
+		"inputAbbreviatedPath": "\/141218_hp_uk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141118_hp_uk.html": {
+	"\/141224_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141118_hp_uk.html",
+		"inputAbbreviatedPath": "\/141224_hp_de.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141124_hp_de.html": {
+	"\/141224_hp_fr.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141124_hp_de.html",
+		"inputAbbreviatedPath": "\/141224_hp_fr.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141124_hp_dk.html": {
+	"\/141224_hp_nl.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141124_hp_dk.html",
+		"inputAbbreviatedPath": "\/141224_hp_nl.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141124_hp_fr.html": {
+	"\/141224_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141124_hp_fr.html",
+		"inputAbbreviatedPath": "\/141224_hp_uk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141124_hp_nl.html": {
+	"\/150102_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141124_hp_nl.html",
+		"inputAbbreviatedPath": "\/150102_hp_de.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/141124_hp_uk.html": {
+	"\/150102_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141124_hp_uk.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/141203_hp_fr.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141203_hp_fr.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/141203_hp_nl.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/141203_hp_nl.html",
+		"inputAbbreviatedPath": "\/150102_hp_uk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -241,6 +223,141 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_archive\/141112_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_dk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_dk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_lu.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_lu.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141118_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141118_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141124_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141124_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141124_hp_dk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141124_hp_dk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141124_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141124_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141124_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141124_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141124_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141124_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141203_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141203_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141203_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141203_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141209_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141209_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_archive\/141209_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_archive\/141209_hp_uk.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1620,6 +1737,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-kerstfolder-INT.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170507,
+		"inputAbbreviatedPath": "\/images\/bg-kerstfolder-INT.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-kerstfolder-INT.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-kerstfolder-mobile@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1829,13 +1957,123 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/bg-presolden-mobile(2).jpg": {
+	"\/images\/bg-outdoorjassenactie-de-mob-x2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 42548,
-		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
-		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile(2).jpg",
+		"initialSize": 96047,
+		"inputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-de-mob-x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-de-mob-x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-outdoorjassenactie-de.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98063,
+		"inputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-de.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-de.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-outdoorjassenactie-en-mob-x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101629,
+		"inputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-en-mob-x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-en-mob-x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-outdoorjassenactie-en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101208,
+		"inputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-en.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-outdoorjassenactie-en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-de-mob@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89062,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-de-mob@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-de-mob@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-de.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104965,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-de.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-de.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-fr-mob@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18969,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr-mob@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr-mob@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71448,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105981,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-nl.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-uk-mob@x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38599,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-presolden-dec14-uk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105578,
+		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1844,7 +2082,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 45033,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-mobile.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1895,6 +2133,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-sidebar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2469,
+		"inputAbbreviatedPath": "\/images\/bg-sidebar.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-sidebar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-skiverhuur-mobile@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1917,6 +2166,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-snow-xl-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38847,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-snow-xl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96838,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-dec14-30-50-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62595,
+		"inputAbbreviatedPath": "\/images\/bg-solden-dec14-30-50-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-dec14-30-50-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-dec14-30-50.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80459,
+		"inputAbbreviatedPath": "\/images\/bg-solden-dec14-30-50.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-dec14-30-50.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-fr-mobile-x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68201,
+		"inputAbbreviatedPath": "\/images\/bg-solden-fr-mobile-x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-fr-mobile-x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83848,
+		"inputAbbreviatedPath": "\/images\/bg-solden-fr.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-mobile-x2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74412,
+		"inputAbbreviatedPath": "\/images\/bg-solden-mobile-x2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-mobile-x2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-solden-mobile.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1924,17 +2250,6 @@
 		"initialSize": 42548,
 		"inputAbbreviatedPath": "\/images\/bg-solden-mobile.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-solden-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/bg-solden.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5882,
-		"inputAbbreviatedPath": "\/images\/bg-solden.jpg",
-		"outputAbbreviatedPath": "\/images\/bg-solden.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2390,6 +2705,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/christmas-special.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37144,
+		"inputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputAbbreviatedPath": "\/images\/christmas-special.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/cone.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2599,7 +2925,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 26142,
+		"initialSize": 41959,
 		"inputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2767,6 +3093,17 @@
 		"initialSize": 64547,
 		"inputAbbreviatedPath": "\/images\/groene_doelen_long.jpg",
 		"outputAbbreviatedPath": "\/images\/groene_doelen_long.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83021,
+		"inputAbbreviatedPath": "\/images\/header.jpg",
+		"outputAbbreviatedPath": "\/images\/header.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3141,6 +3478,17 @@
 		"initialSize": 21635,
 		"inputAbbreviatedPath": "\/images\/korting_FR.png",
 		"outputAbbreviatedPath": "\/images\/korting_FR.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/large-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38214,
+		"inputAbbreviatedPath": "\/images\/large-snow.png",
+		"outputAbbreviatedPath": "\/images\/large-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3541,6 +3889,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/medium-snow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43753,
+		"inputAbbreviatedPath": "\/images\/medium-snow.png",
+		"outputAbbreviatedPath": "\/images\/medium-snow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mens_fashion.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3732,7 +4091,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 27904,
+		"initialSize": 61594,
 		"inputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3743,7 +4102,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28716,
+		"initialSize": 53667,
 		"inputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3856,6 +4215,17 @@
 		"initialSize": 1429,
 		"inputAbbreviatedPath": "\/images\/retour_hover.png",
 		"outputAbbreviatedPath": "\/images\/retour_hover.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ribbon-de.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10162,
+		"inputAbbreviatedPath": "\/images\/ribbon-de.png",
+		"outputAbbreviatedPath": "\/images\/ribbon-de.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4062,7 +4432,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 70236,
+		"initialSize": 54900,
 		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
 		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4084,7 +4454,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 68544,
+		"initialSize": 54879,
 		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
 		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -4168,35 +4538,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/slider_home_presolden.png": {
+	"\/images\/small-snow.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 238184,
-		"inputAbbreviatedPath": "\/images\/slider_home_presolden.png",
-		"outputAbbreviatedPath": "\/images\/slider_home_presolden.png",
+		"initialSize": 59110,
+		"inputAbbreviatedPath": "\/images\/small-snow.png",
+		"outputAbbreviatedPath": "\/images\/small-snow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/slider_home_presolden_FR.jpg": {
-		"fileType": 16384,
+	"\/images\/snow-large-kerst.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 68641,
-		"inputAbbreviatedPath": "\/images\/slider_home_presolden_FR.jpg",
-		"outputAbbreviatedPath": "\/images\/slider_home_presolden_FR.jpg",
+		"initialSize": 20060,
+		"inputAbbreviatedPath": "\/images\/snow-large-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-large-kerst.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/slider_home_solden_FR.jpg": {
-		"fileType": 16384,
+	"\/images\/snow-medium-kerst.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 67739,
-		"inputAbbreviatedPath": "\/images\/slider_home_solden_FR.jpg",
-		"outputAbbreviatedPath": "\/images\/slider_home_solden_FR.jpg",
+		"initialSize": 35192,
+		"inputAbbreviatedPath": "\/images\/snow-medium-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-medium-kerst.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/snow-small-kerst.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46961,
+		"inputAbbreviatedPath": "\/images\/snow-small-kerst.png",
+		"outputAbbreviatedPath": "\/images\/snow-small-kerst.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4278,13 +4659,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7754,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus-rood.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/thumbs\/thumb-kerstcadeaus.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6098,
+		"initialSize": 6371,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstcadeaus.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/thumb-kerstfolder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6190,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstfolder.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-kerstfolder.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4307,6 +4710,28 @@
 		"initialSize": 7505,
 		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-mid-season-nov-14.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-mid-season-nov-14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumbs\/thumb-presolden-dec14.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7567,
+		"inputAbbreviatedPath": "\/images\/thumbs\/thumb-presolden-dec14.jpg",
+		"outputAbbreviatedPath": "\/images\/thumbs\/thumb-presolden-dec14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/title-kerstfolder-de.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11828,
+		"inputAbbreviatedPath": "\/images\/title-kerstfolder-de.png",
+		"outputAbbreviatedPath": "\/images\/title-kerstfolder-de.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6049,6 +6474,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_de_uk.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_kerstfolder_de_uk.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_kerstfolder_de_uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_outdoorjassen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_snow-xl.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -6170,6 +6627,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/outdoor-xl.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/outdoor-xl.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/outdoorjassen_de_uk.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/outdoorjassen_de_uk.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/outdoorjassen_de_uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/presolden.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/presolden.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/presolden.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -6461,7 +6950,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Pieter ",
+"lastSavedByUser": "Kristof Hermans",
 "manualImportLinks": {
 	},
 "projectAttributes": {

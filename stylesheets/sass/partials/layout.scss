@@ -160,8 +160,30 @@ $baseline: 18px;
 .bx-pager{
 	display: block !important;
 	margin: 0 auto;
-	//position: relative;
-		//bottom: 90px;
+
+	&.one-slide{
+		width: 120px;
+
+		@media only screen and(max-width: 979px){
+			width: 90px;
+		}
+	}
+
+	&.two-slides{
+		width: 274px;
+
+		@media only screen and(max-width: 979px){
+			width: 200px;
+		}
+	}
+
+	&.three-slides{
+		width: 428px;
+
+		@media only screen and(max-width: 979px){
+			width: 310px;
+		}
+	}
 
 	@media only screen and(max-width: 767px){
 		display: none !important;
