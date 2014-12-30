@@ -1,0 +1,212 @@
+/* =====================================
+  Solden
+===================================== */
+.solden-nl, .solden-uk, .solden-de{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.solden-fr{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr-mobile-x2.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.solden-sidebar{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-sidebar.jpg) repeat-x;
+	background-size: contain;
+	box-sizing: border-box;
+	color: #ffffff !important;
+	font-family: "Open Sans", sans-serif;
+	height: 100%;
+	padding: 22px 22px 0;
+	position: absolute;
+		top: 0;
+		right: 6%;
+	width: percentage(320/1170);
+	z-index: 2;
+
+	@media only screen and(max-width: 1199px) {
+		padding: 17px 17px 0;
+	}
+
+	@media only screen and(max-width: 767px) {
+		display: none;
+	}
+
+	.solden-main-title{
+		font-size: 90px;
+		font-weight: 100;
+		line-height: 90px;
+		margin: 40px 0 25px;
+		text-shadow: 0px 2px 1px #000000;
+		text-transform: uppercase;
+
+		&.de-fix{
+			font-size: 40px;
+			line-height: 50px;
+			margin: 50px 0 25px;
+
+			@media only screen and(max-width: 1199px) {
+				font-size: 30px;
+				line-height: 35px;
+				margin: 37px 0 15px;
+			}
+
+			@media only screen and(max-width: 979px) {
+				font-size: 23px;
+				line-height: 25px;
+				margin: 23px 0 15px;
+			}
+		}
+
+		@media only screen and(max-width: 1199px) {
+			font-size: 24px;
+			line-height: 28px;
+			margin-bottom: 20px;
+		}
+
+		@media only screen and(max-width: 979px) {
+			font-size: 18px;
+			line-height: 20px;
+			margin-top: 20px;
+			margin-bottom: 10px;
+		}
+
+		@media only screen and(max-width: 767px) {
+			font-size: 15px;
+			margin-top: 0;
+		}
+	}
+
+	.solden-copy{
+		font-family: "Open Sans", sans-serif;
+		font-weight: 100;
+		line-height: 1.5;
+		
+		@media only screen and(max-width: 1199px) {
+			font-size: 14px;
+		}
+
+		@media only screen and(max-width: 979px) {
+			font-size: 11px;
+		}
+	}
+}
+
+.solden-icons{
+	max-width: percentage(123/276);
+
+	@media only screen and(max-width: 979px) {
+		margin-bottom: 0;
+	}
+
+	@media only screen and(max-width: 767px) {
+		display: none;
+	}
+}
+
+.solden-cta{
+	background: #57A5D3 !important;
+	box-sizing: border-box;
+	color: #ffffff !important;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px !important;
+	position: absolute;
+		bottom: 40px;
+	text-align: left !important;
+	text-decoration: none !important;
+	text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
+	width: percentage(276/320) !important;
+
+	@media only screen and(max-width: 1199px) {
+		font-size: 12px;
+		height: 37px;
+		line-height: 37px;
+	}
+
+	@media only screen and(max-width: 979px) {
+		font-size: 10px;
+		height: 30px;
+		line-height: 30px;
+		padding: 0 8px;
+	}
+
+	@media only screen and(max-width: 767px) {
+		font-size: 13px;
+		position: absolute;
+			bottom: 15px;
+			left: 20%;
+	}
+
+	&.desktop-cta{
+		@media only screen and(max-width: 767px) {
+			display: none;
+		}
+	}
+
+	&.mobile-cta{
+		box-shadow: 0 0 3px rgba(0,0,0,0.3);
+		height: 40px;
+		line-height: 42px;
+		width: 60% !important;
+
+		@media only screen and(min-width: 767px) {
+			display: none;
+		}
+	}
+
+	&:after{
+		background: none;
+		content: "" !important;
+		display: block !important;
+		font-family: "FontAwesome";
+		float: right;
+		line-height: 42px;
+
+		@media only screen and(max-width: 1199px) {
+			line-height: 37px;
+		}
+
+		@media only screen and(max-width: 979px) {
+			line-height: 30px;
+		}
+
+		@media only screen and(max-width: 767px) {
+			line-height: 42px;
+		}
+	}
+
+	&:hover{
+		background: #4991BB !important;
+		text-shadow: 0 1px 1px darken(#4991BB, 30%);
+	}
+}
+
+.legal{
+	font-size: 9px !important;
+	margin: 0;
+	position: absolute;
+		bottom: 5px;
+
+	@media only screen and(max-width: 767px) {
+		font-size: 7px !important;
+		position: absolute;
+			bottom: -3px;
+	}
+}
