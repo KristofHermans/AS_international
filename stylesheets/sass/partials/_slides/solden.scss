@@ -1,8 +1,20 @@
 /* =====================================
   Solden
 ===================================== */
-.solden-nl, .solden-uk, .solden-de{
+.solden-uk, .solden-de{
 	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.solden-nl{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl.jpg) no-repeat;
 	background-size: contain;
 	position: relative;
 	text-rendering: optimizeLegibility;
@@ -39,6 +51,11 @@
 	width: percentage(320/1170);
 	z-index: 2;
 
+	&.nl-fix, &.fr-fix{
+		left: 5%;
+		right: inherit;
+	}
+
 	@media only screen and(max-width: 1199px) {
 		padding: 17px 17px 0;
 	}
@@ -70,6 +87,24 @@
 				font-size: 23px;
 				line-height: 25px;
 				margin: 23px 0 15px;
+			}
+		}
+
+		&.fr-fix{
+			font-size: 50px;
+			line-height: 50px;
+			margin: 40px 0 30px;
+
+			@media only screen and(max-width: 1199px) {
+				font-size: 30px;
+				line-height: 35px;
+				margin: 24px 0 15px;
+			}
+
+			@media only screen and(max-width: 979px) {
+				font-size: 21px;
+				line-height: 21px;
+				margin: 23px 0 10px;
 			}
 		}
 

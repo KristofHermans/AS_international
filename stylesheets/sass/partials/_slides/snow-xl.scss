@@ -27,6 +27,8 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 65px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     text-transform: uppercase;
     line-height: 100%;
     color: inherit;
@@ -36,6 +38,8 @@
 
   .main-content {
     font-size: 34px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     color: inherit;
     line-height: 120%;
     padding: 0 18%;
