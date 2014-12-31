@@ -5264,6 +5264,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/thumb-jackets-de.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4913,
+		"inputAbbreviatedPath": "\/images\/thumb-jackets-de.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-jackets-de.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/thumb-jackets-uk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4915,
+		"inputAbbreviatedPath": "\/images\/thumb-jackets-uk.jpg",
+		"outputAbbreviatedPath": "\/images\/thumb-jackets-uk.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/thumb-jackets.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
