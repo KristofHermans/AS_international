@@ -1,0 +1,387 @@
+
+/* *********************************************************************************************************** */
+/*                                                       JACKETS - UK                                       ** */
+/* *********************************************************************************************************** */
+
+.jackets-uk {
+  font-family: 'Open Sans', sans-serif;  
+  position:relative;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-jackets-uk.jpg) no-repeat;
+
+  @media only screen and(max-width:1199px){
+    background-size:contain;
+  }
+  @media only screen and(max-width:767px){
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-jackets-de-uk-mobile.jpg) no-repeat;
+  }
+}
+
+.jacketscontainer-uk{
+  position:absolute;
+  width:296px;
+  top:20%;
+  left:36.5%;
+
+  @media only screen and (max-width:1199px){
+    top:10%;
+    left:35.3%;
+    width:28%;
+  }
+
+  @media only screen and (max-width:979px){
+    width:26%;
+    top:9%;
+    left:37%;
+  }
+
+  @media only screen and (max-width:767px){
+    width:60%;
+    top:16%;
+    left:20%;
+    
+  }
+
+  .title-jackets{
+    font-size:49px;
+    font-weight:bold;
+    text-align: center;    
+
+    @media only screen and (max-width:1199px){
+      font-size:46px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:33px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 25px;
+      margin-bottom:10px;
+    }
+  }
+
+  .subtitle-jackets{
+    font-size: 72px;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+
+    @media only screen and (max-width:1199px){
+      font-size:67px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:50px;
+      margin-top:-13px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 35px;
+      margin-bottom:20px;
+    }
+  }
+
+  .thirdtitle-jackets{
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+
+    @media only screen and (max-width:1199px){
+      font-size:22px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:15px;
+      margin-top:-14px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 12px;   
+    }
+  }
+
+  .jackets-logo{
+    margin-top:-15px;
+
+    @media only screen and (max-width:979px){
+      margin-top:-21px;
+    }
+  }
+
+   a.cta-jackets-left {
+      padding:5px;
+      padding-left:10px;
+      padding-right:10px;
+      font-size:15px;
+      margin-top:10px;
+      width:135px;
+      color:#FFFFFF;
+      background-color: #000;
+      display: inline-block;
+      text-align:right;
+
+      &:hover{
+        background: lighter(#ffffff, 5%);
+      }
+
+      &:before{
+        padding-right:10px;
+        content: "";
+        float: left;
+        font-family: 'FontAwesome';
+      }
+
+      @media only screen and (max-width:1199px){
+        font-size:13px;
+        width:125px;
+      }
+
+      @media only screen and (max-width:979px){
+        font-size:12px;
+        width:90px;
+        padding:2px 7px;
+      }
+
+     @media only screen and (max-width:767px){
+        font-size: 12px;
+        width: 90px;
+        padding: 2px 7px;
+     }       
+    }  
+
+
+   a.cta-jackets-right{
+      padding:5px;
+      padding-left:10px;
+      font-size:15px;
+      margin-top:10px;
+      width:135px;
+      color:#FFFFFF;
+      background-color: #000;
+      display: inline-block;
+      float:right;
+
+      &:hover{
+        background: lighter(#ffffff, 5%);
+      }
+
+      &:after{
+        padding-right:10px;
+        content: "";
+        float: right;
+        font-family: 'FontAwesome';
+      }
+
+      @media only screen and (max-width:1199px){
+        font-size:13px;
+        width:125px;
+      }
+
+     @media only screen and (max-width:979px){
+        font-size:12px;
+        width:90px;
+        padding:2px 7px;
+      }
+
+     @media only screen and (max-width:767px){
+        font-size: 12px;
+        width: 90px;
+        padding: 2px 7px;
+     } 
+    }      
+  }
+
+
+/* *********************************************************************************************************** */
+/*                                                       JACKETS - DE                                       ** */
+/* *********************************************************************************************************** */
+
+.jackets-de {
+  font-family: 'Open Sans', sans-serif;  
+  position:relative;
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-jackets-de.jpg) no-repeat;
+
+  @media only screen and(max-width:1199px){
+    background-size:contain;
+  }
+  @media only screen and(max-width:767px){
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-jackets-de-uk-mobile.jpg) no-repeat;
+  }
+}
+
+.jacketscontainer-de{
+  position:absolute;
+  width:296px;
+  top:20%;
+  left:37.5%;
+
+  @media only screen and (max-width:1199px){
+    top:12%;
+    left:38%;
+    width:25%;
+  }
+
+  @media only screen and (max-width:979px){
+    width:24%;
+    top:9%;
+    left:38%;
+  }
+
+  @media only screen and (max-width:767px){
+    width:60%;
+    top:12%;
+    left:20%;
+    
+  }
+
+  .title-jackets{
+    font-size: 57px;
+    font-weight: bold;
+    text-align: center;   
+
+    @media only screen and (max-width:1199px){
+      font-size:45px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:33px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 29px;
+      margin-bottom:15px;
+    }
+  }
+
+  .subtitle-jackets{
+    font-size: 84px;
+    font-weight: bold;
+    padding-top: 17px;
+    text-align: center;
+
+    @media only screen and (max-width:1199px){
+      font-size: 67px;
+      margin-top: -10px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:50px;
+      margin-top:-20px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 45px;
+      margin-bottom:30px;
+    }
+  }
+
+  .thirdtitle-jackets{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+    @media only screen and (max-width:1199px){
+      font-size: 16px;
+      margin-top: -10px;
+    }
+
+    @media only screen and (max-width:979px){
+      font-size:12px;
+      margin-top:-17px;
+    }
+
+    @media only screen and (max-width:767px){
+      font-size: 10px;  
+    }
+  }
+
+  .jackets-logo{
+    margin-top:-15px;
+
+    @media only screen and (max-width:979px){
+      margin-top:-21px;
+    }
+  }
+
+   a.cta-jackets-left {
+      padding:5px;
+      padding-left:10px;
+      padding-right:10px;
+      font-size:15px;
+      margin-top:10px;
+      width:135px;
+      color:#FFFFFF;
+      background-color: #000;
+      display: inline-block;
+      text-align:right;
+
+      &:hover{
+        background: lighter(#ffffff, 5%);
+      }
+
+      &:before{
+        padding-right:10px;
+        content: "";
+        float: left;
+        font-family: 'FontAwesome';
+      }
+
+      @media only screen and (max-width:1199px){
+        font-size:13px;
+        width:112px;
+      }
+
+      @media only screen and (max-width:979px){
+        font-size:12px;
+        width:82px;
+        padding:2px 7px;
+      }
+
+     @media only screen and (max-width:767px){
+        font-size: 12px;
+        width: 90px;
+        padding: 2px 7px;
+     }       
+    }  
+
+
+   a.cta-jackets-right{
+      padding:5px;
+      padding-left:10px;
+      font-size:15px;
+      margin-top:10px;
+      width:135px;
+      color:#FFFFFF;
+      background-color: #000;
+      display: inline-block;
+      float:right;
+
+      &:hover{
+        background: lighter(#ffffff, 5%);
+      }
+
+      &:after{
+        padding-right:10px;
+        content: "";
+        float: right;
+        font-family: 'FontAwesome';
+      }
+
+      @media only screen and (max-width:1199px){
+        font-size:13px;
+        width:112px;
+      }
+
+     @media only screen and (max-width:979px){
+        font-size:12px;
+        width:82px;
+        padding:2px 7px;
+      }
+
+     @media only screen and (max-width:767px){
+        font-size: 12px;
+        width: 90px;
+        padding: 2px 7px;
+     } 
+    }      
+  }
