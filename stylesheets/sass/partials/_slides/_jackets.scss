@@ -38,20 +38,20 @@
   }
 
   .title-jackets{
-    font-size:49px;
+    font-size:3.063em;
     font-weight:bold;
     text-align: center;    
 
     @media only screen and (max-width:1199px){
-      font-size:46px;
+      font-size:2.875em;
     }
 
     @media only screen and (max-width:979px){
-      font-size:33px;
+      font-size:2.063em;
     }
 
     @media only screen and (max-width:767px){
-      font-size: 25px;
+      font-size:1.563em;
       margin-bottom:10px;
     }
   }
