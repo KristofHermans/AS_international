@@ -55,7 +55,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     
     // Two tabs instead of four
     &.two-tabs{
-      height: 203px;
+      height: 49.4%;
       margin-bottom: 1.6%;
     }
 
@@ -139,6 +139,16 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 
   opacity: 0;
   transition: opacity 0.35s ease-in-out;
+
+  @media only screen and(max-width: 1199px){
+    margin-left: -40px;
+    width: 26px;
+  }
+
+  @media only screen and(max-width: 979px){
+    margin-left: -31px;
+    width: 20px;
+  }
 }
 
 #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
