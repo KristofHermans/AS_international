@@ -74,6 +74,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/150108_hp_de.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150108_hp_de.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150108_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150108_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_archive\/2014\/02_februari\/140206_hp_fr.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1185,6 +1203,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/bg-solden-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74026,
+		"inputAbbreviatedPath": "\/bg-solden-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/bg-solden-30-50-70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/font\/helvetica_neue_condensed_bold\/font.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -1817,6 +1846,17 @@
 		"initialSize": 7567,
 		"inputAbbreviatedPath": "\/images\/_thumbs\/thumb-presolden-dec14.jpg",
 		"outputAbbreviatedPath": "\/images\/_thumbs\/thumb-presolden-dec14.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/_thumbs\/thumb-solden-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10410,
+		"inputAbbreviatedPath": "\/images\/_thumbs\/thumb-solden-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/images\/_thumbs\/thumb-solden-30-50-70.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6615,6 +6655,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/mobile-bg-solden-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64070,
+		"inputAbbreviatedPath": "\/mobile-bg-solden-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/mobile-bg-solden-30-50-70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
