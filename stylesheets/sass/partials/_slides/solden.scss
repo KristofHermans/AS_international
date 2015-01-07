@@ -13,6 +13,18 @@
 	}
 }
 
+.solden-uk2, .solden-de2{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-30-50-70.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/mobile-bg-solden-30-50-70.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
 .solden-nl{
 	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl.jpg) no-repeat;
 	background-size: contain;
@@ -25,6 +37,18 @@
 	}
 }
 
+.solden-nl-2{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
 .solden-fr{
 	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr.jpg) no-repeat;
 	background-size: contain;
@@ -33,6 +57,18 @@
 
 	@media only screen and(max-width: 767px) {
 		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr-mobile-x2.jpg) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+.solden-fr2{
+	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
+	background-size: contain;
+	position: relative;
+	text-rendering: optimizeLegibility;
+
+	@media only screen and(max-width: 767px) {
+		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
 		background-size: cover;
 	}
 }
@@ -130,10 +166,16 @@
 	.solden-main-title2{
 		font-size: 90px;
 		font-weight: 100;
-		line-height: 90px;
-		margin: 40px 0 25px;
 		text-shadow: 0px 2px 1px #000000;
 		text-transform: uppercase;
+
+			@media only screen and(max-width:1199px){
+				font-size:60px;
+			}
+
+			@media only screen and (max-width:979px){
+				font-size:50px;
+			}
 
 		&.fr-fix{
 			font-size: 50px;
