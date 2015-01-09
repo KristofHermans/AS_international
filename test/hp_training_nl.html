@@ -1,355 +1,110 @@
-<link href="https://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_fr_nl.css?v=1412301353" rel="stylesheet" />
+<!-- BXSLIDER STYLING -->
+<link rel="stylesheet" href="https://static.asadventure.com/includes/homepage/international/javascript/lib/jquery.bxslider/jquery.bxslider.css">
+<!-- ================ -->
 
-<div id="xx_wrapper" class="xx_page_home">
-  <!-- PASTE SLIDER UNDERNEATH THIS COMMENT -->
-  <div class="span12" id="xx_header">
-    <div class="xx_slider">
-      <ul class="bxslider">
+<!--   HOMEPAGE CSS   -->
+<!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
+
+<link rel="stylesheet" href="https://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_de_uk.css">
+<!-- ================ -->
+
+<!-- BXSLIDER SCRIPTS -->
+<script defer="" src="https://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>
+<script defer="" src="https://static.asadventure.com/includes/homepage/international/javascript/min/bx_config-min.js"></script>
+<!-- ================ -->
+
+<!-- Internal link tracking will be handled by parameters (icn and ici) added at the end of the link. Icn stands for: Internal campaign name and contains the name of the campaign which is visualised and ici stands for: internal campaign initiator which is the spot the link is located at in the document. For example: ?icn=sales&ici=homepage-main-banner1 means that this is a link which guides people to our sales campaign and the link is featured in the homepage-main-banner on the first spot. -->
+
+<div id="homepage-wrapper">
+  <!-- SLIDER -->
+  <div class="slider-wrapper">
+    <ul class="bxslider">
+      <!-- Slides are marked up using a <li>-tag. Each slide should have a unique class which can be used as a stylehook. The background is a background-image on that unique class. Overall cta's are lying on top of the content (z-index), make sure to put individual cta's on top of that. Cta's are marked up using an <a>-tag. -->
+
+      <!-- SOLDEN -->
+      <li class="solden-uk2">
+        <a class="overall-cta" href="/sales?icn=sales&ici=homepage-main-banner1"></a>
+        <div class="solden-sidebar">
+          <img class="solden-icons" src="http://static.asadventure.com/includes/homepage/international/images/icons-presolden.png" alt="">
+          <h2 class="solden-main-title2"><span class="second">2nd discount</span></br>Sales!</h2>
+          <p class="solden-copy2">Up to 70% off on a large part of our collection! Come check out our sales!</p>
+          <a href="/sales?icn=sales&ici=homepage-main-banner1" class="solden-cta desktop-cta">Check out our sales</a>
+          <p class="legal">valid until 31/01/2015</p>
+        </div>
+        <a href="/sales?icn=sales&ici=homepage-main-banner1" class="solden-cta mobile-cta">Check out our sales</a>
+      </li>
+
+      <!-- JACKETS -->
+      <li class="jackets-uk">
+        <a class="overall-cta" href="/ski-snowboard/clothing/coats"></a>
+        <div class="jacketscontainer-uk">
+          <p class="title-jackets">LET IT SNOW</p>
+          <p class="subtitle-jackets">JACKETS</p>
+          <p class="thirdtitle-jackets ">DRESS AGAINST THE COLD</p>
+          <img class="jackets-logo" src="http://static.asadventure.com/includes/homepage/international/images/logo-outdoorjassen-de-uk.png" alt="Bench, Brunotti, Millet, Poivre blanc, burton, Sun Valley, Protest, The north face, O'neill">
+          <a class="cta-jackets-left" href="/women/ski-snowboard/coats">For her</a>
+          <a class="cta-jackets-right" href="/men/ski-snowboard/coats">For him</a>
+        </div>
+      </li>
+    </ul>
+
+    <!-- PAGER-THUMBS -->
+    <div class="bottom-bar">
+      <!-- Change class below to change the amount of slides. (Options: one-slide, two-slides, three-slides) -->
+      <div id="bx-pager" class="bx-pager two-slides">
+        <!-- Change data-slide-index to link to the correct slide (zero-indexed) -->
+
         <!-- SOLDEN -->
-        <li class="solden-fr2">
-          <a class="overall-cta" href="/soldes?icn=soldes&ici=homepage-main-banner1"></a>
-          <div class="solden-sidebar fr-fix">
-            <img class="solden-icons" src="http://static.asadventure.com/includes/homepage/international/images/icons-presolden.png" alt="">
-            <h2 class="solden-main-title2 fr-fix">Soldes&nbsp;!</h2>
-            <h3 class="solden-subtitle">2ième réduction</h3>
-            <p class="solden-copy2">Belles r&eacute;ductions sur de nombreux produits. Profitez-en&nbsp;!</p>
-            <a href="/soldes?icn=soldes&ici=homepage-main-banner1" class="solden-cta desktop-cta">Vers les r&eacute;ductions</a>
-            <p class="legal">valable jusqu'au 31/01/2015</p>
-          </div>
-          <a href="/soldes?icn=soldess&ici=homepage-main-banner1" class="solden-cta mobile-cta">Vers les r&eacute;ductions</a>
-        </li>
-
-        <!-- SKIVERHUUR -->
-        <li class="skiverhuur">
-          <a href="/content/fr/location-ski?icn=skiverhuur&ici=homepage-main-banner3" class="overall-cta"></a>
-          <div class="content fr_fix">
-            <h2 class="main-title">Location pour les sports d'hiver</h2>
-            <p class="main-content">Faut-il acheter du mat&eacute;riel ou non ? Jouez la s&eacute;curit&eacute; et louez-le d&rsquo;abord chez A.S.Adventure.</p>
-            <a href="/content/fr/location-ski?icn=skiverhuur&ici=homepage-main-banner3" class="xx_cta">Tous les tarifs</a>
-          </div>
-        </li>
-
-        <!-- EMBRACE THE COLD -->
-        <li class="snow-xl">
-          <a href="/content/fr/snow-2014-embrace-the-cold?icn=snowxl&ici=homepage-main-banner2" class="overall-cta"></a>
-          <div class="content">
-            <h2 class="main-title">Domptez le froid</h2>
-            <p class="main-content">De l&rsquo;inspiration &agrave; la pelle pour profiter au maximum de l&rsquo;hiver</p>
-            <a href="/content/fr/snow-2014-embrace-the-cold?icn=snowxl&ici=homepage-main-banner2" class="xx_cta">Pr&eacute;parez-vous &agrave; l&rsquo;hiver</a>
-          </div>
-        </li>
-      </ul>
-
-      <!-- Sidebar TABS -->
-      <div id="bx-pager">
-        <a data-slide-index="0" href="" class="tab three-tabs active">
-          <div class="tab-content">
-            <h2 class="tab-title">Soldes&nbsp;!</h2>
-            <p class="tab-intro">Belles r&eacute;ductions de 30% et de 50% sur de nombreux produits.</p>
-          </div>
+        <a data-slide-index="0" href="">
+          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-solden-30-50-70.jpg" alt="Already discounts" />
         </a>
 
-        <a data-slide-index="1" href="" class="tab three-tabs highlight">
-          <div class="tab-content">
-            <h2 class="tab-title">Location pour les sports d'hiver</h2>
-            <p class="tab-intro">Set de ski &agrave; partir de &euro; 49</p>
-          </div>
-        </a>
-
-        <a data-slide-index="2" href="" class="tab three-tabs">
-          <div class="tab-content">
-            <h2 class="tab-title">Domptez le froid</h2>
-            <p class="tab-intro">Le meilleur de l&rsquo;hiver rassembl&eacute;</p>
-          </div>
+        <!-- JACKETS -->
+        <a data-slide-index="1" href="">
+          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-jackets-uk.jpg" alt="Jackets for him and for her" />
         </a>
       </div>
-      <!-- END Sidebar TABS -->
     </div>
   </div>
 
-  <!-- PASTE SLIDER ABOVE THIS COMMENT -->
-
-</div>
-
-<div class="span12" id="xx_content">
-  <div id="homepageWrapper" class="clearfix">
-    <!-- Row 1 -->
-    <!-- Row 2 -->
-    <div id="row-2" class="row clearfix">
-
-      <!-- Item 1 -->
-
-      <div class="threeCol boxShadow">
-        <div class="label orange">
-          Aperçu des marques
-        </div>
-        <a href="/index.cfm/fuseaction/brands.brands?icn=brands&ici=homepage-row1-box2">
-          <img class="blockHeader" src="http://static.asadventure.com/includes/homepage/international/images/brandfinder_fr.jpg" alt="Aperçu des marques">
-        </a>
-
-        <div class="copyBlock">
-          <h2>Marques de A &agrave; Z</h2>
-
-          <p>
-            De <b>The North Face</b> &agrave; <b>Jack Wolfskin</b> ... retrouvez plus de 400 marques chez <b>A.S.Adventure</b>.
-          </p>
-
-          <a class="cta orange" href="/index.cfm/fuseaction/brands.brands?icn=brands&ici=homepage-row1-box2">Trouvez vos marques favorites</a>
-        </div>
-      </div>
-
-      <!-- Item 2 -->
-
-      <div class="threeCol boxShadow">
-        <div class="label ayacucho">
-          Ayacucho
-        </div>
-        <a href="/content/fr/ayacucho?icn=ayacucho&ici=homepage-row1-box2">
-          <img class="blockHeader" src="http://static.asadventure.com/includes/homepage/international/images/ayacucho.jpg" alt="ayacucho">
-        </a>
-
-        <div class="copyBlock">
-          <h2>Ayacucho®, designed for generations.</h2>
-
-          <p>
-            La collection outdoor <b>Ayacucho®</b> est n&eacute;e en 2009 chez A.S.Adventure en &eacute;troite collaboration avec l’organisation <b>Solid International</b>.
-          </p>
-
-          <a class="cta ayacucho" href="/content/fr/ayacucho?icn=ayacucho&ici=homepage-row1-box2">Vers les produits Ayacucho®</a>
-        </div>
-      </div>
-
-      <!-- Item 3 -->
-      <div id="magazine" class="threeCol boxShadow lastCol">
-        <a href="/index.cfm/fuseaction/content.academy?icn=as-magazine&ici=homepage-row1-box3">
-          <div class="magazineHeader">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/as_magazine.jpg" alt="A.S.Magazine">
-            <h3>Trucs, astuces & informations</h3>
-          </div>
-        </a>
-
-
-        <div class="magazineOverview">
-
-          <a href="../content/fr/admirer-les-etoiles">
-            <div class="magArticle">
-              <img src="http://static.asadventure.com/includes/homepage/international/images/xx_magazine_7.jpg" alt="Carte du ciel" />
-              <h4>Apprenez &agrave; lire la carte du ciel</h4>
-            </div>
-          </a>
-
-          <a href="../content/fr/jouez-les-meteorologues">
-            <div class="magArticle gray">
-              <img src="http://static.asadventure.com/includes/homepage/international/images/xx_magazine_8.jpg" alt="5 astuces pour pr&eacute;dire la m&eacute;t&eacute;o" />
-              <h4>5 astuces pour pr&eacute;dire la m&eacute;t&eacute;o</h4>
-            </div>
-          </a>
-
-          <a href="../content/fr/quatre-promenades-fortes-en-adrenaline">
-            <div class="magArticle">
-              <img src="http://static.asadventure.com/includes/homepage/international/images/xx_magazine_9.jpg" alt="4 randonn&eacute;es pour casse-cous" />
-              <h4>4 randonn&eacute;es pour casse-cous</h4>
-            </div>
-          </a>
-
-          <a href="../content/fr/quelles-sont-les-destinations-a-ne-pas-manquer-cette-annee-">
-            <div class="magArticle gray">
-              <img src="http://static.asadventure.com/includes/homepage/international/images/xx_magazine_10.jpg" alt="The place to be in 2014" />
-              <h4>The place to be in 2014</h4>
-            </div>
-          </a>
-
-          <a href="../content/fr/mettez-vos-pneus-sous-pression">
-            <div class="magArticle">
-              <img src="http://static.asadventure.com/includes/homepage/international/images/xx_magazine_11.jpg" alt="Mettez vos pneus sous pression" />
-              <h4>Pourquoi… et comment gonfler vos pneus ?</h4>
-            </div>
-          </a>
-
-
-
-          <a class="cta asMagazine" href="/index.cfm/fuseaction/content.academy?icn=as-magazine&ici=homepage-row1-box3">Perdez-vous dans notre coin lecture</a>
-        </div>
-      </div>
+  <div class="content-row clearfix">
+    <div class="product-department">
+      <img src="http://static.asadventure.com/includes/homepage/international/images/outdoor_clothing.jpg" alt="Outdoor Clothing">
+      <a href="/men/outdoor" class="cta cta-dark">Outdoor clothing</a>
     </div>
 
-    <!-- Row 3 -->
-    <div id="row-3" class="row">
-
-      <!-- Item 5 -->
-      <div class="twoCol">
-        <div class="label purple">
-          Carrières
-        </div>
-        <a href="/content/fr/emplois">
-          <img class="boxShadow" src="http://static.asadventure.com/includes/homepage/international/images/job-banner.jpg" alt="Carrières">
-        </a>
-
-      </div>
-
-      <!-- Item 6 -->
-      <div class="twoCol lastCol">
-        <div class="label green">
-          Outdoor
-        </div>
-        <a href="/jack-wolfskin?icn=outdoor&ici=homepage-row2-box2">
-          <img class="boxShadow" src="http://static.asadventure.com/includes/homepage/international/images/jack_wolfskin.jpg" alt="Jack Wolfskin">
-        </a>
-      </div>
+    <div class="product-department">
+      <img src="http://static.asadventure.com/includes/homepage/international/images/outdoor_shoes.jpg" alt="Outdoor Shoes">
+      <a href="/men/outdoor/shoes" class="cta cta-dark">Outdoor Shoes</a>
     </div>
 
-    <!-- Row 4 -->
-    <div id="row-4 brandShowcase" class="row">
-
-      <!-- BrandRow 1 -->
-
-      <div class="brandRow">
-
-        <div class="brandCard jack_wolfskin_logo">
-          <a href="/jack-wolfskin?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Jack Wolfskin">
-          </a>
-        </div>
-
-        <div class="brandCard millet_logo">
-          <a href="/millet?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Millet">
-          </a>
-        </div>
-
-        <div class="brandCard tom_tailor_logo">
-          <a href="/tom-tailor?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Tom Tailor">
-          </a>
-        </div>
-
-        <div class="brandCard gore_bike_wear_logo">
-          <a href="/gore-bike-wear?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Gore Bike Wear">
-          </a>
-        </div>
-
-        <div class="brandCard ayacucho_logo">
-          <a href="/ayacucho?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Ayacucho">
-          </a>
-        </div>
-
-        <div class="brandCard camel_active_logo">
-          <a href="/camel-active?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Camel Active">
-          </a>
-        </div>
-
-        <div class="brandCard asics_logo">
-          <a href="/asics?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Asics">
-          </a>
-        </div>
-
-        <div class="brandCard care_plus_logo lastCol">
-          <a href="/care-plus?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Care Plus">
-          </a>
-        </div>
-      </div>
-
-      <!-- BrandRow 2 -->
-
-      <div class="brandRow">
-
-        <div class="brandCard superdry_logo">
-          <a href="/superdry?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Superdry">
-          </a>
-        </div>
-
-        <div class="brandCard the_north_face_logo">
-          <a href="/the-north-face?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="The North Face">
-          </a>
-        </div>
-
-        <div class="brandCard salomon_logo">
-          <a href="/salomon?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Salomon">
-          </a>
-        </div>
-
-        <div class="brandCard king_louie_logo">
-          <a href="/king-louie?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="King Louie">
-          </a>
-        </div>
-
-        <div class="brandCard eider_logo">
-          <a href="/eider?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Eider">
-          </a>
-        </div>
-
-        <div class="brandCard garmin_logo">
-          <a href="/garmin?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Garmin">
-          </a>
-        </div>
-
-        <div class="brandCard vaude_logo">
-          <a href="/vaude?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="Vaude">
-          </a>
-        </div>
-
-        <div class="brandCard cks_logo lastCol">
-          <a href="/cks-femmes?icn=brands&ici=brandshowcase">
-            <img src="http://static.asadventure.com/includes/homepage/international/images/_logo/transparant_placeholder.png" alt="CKS">
-          </a>
-        </div>
-
-      </div>
+    <div class="product-category">
+      <img class="center" src="http://static.asadventure.com/includes/homepage/international/images/fleece_sweaters.jpg" alt="Fleece Sweaters">
+      <p>A large selection of fleece sweaters, Perfect for those cold nights out at the campfire!</p>
+      <a href="/men/outdoor/fleeces-jerseys" class="cta cta-light">Fleece Sweaters</a>
     </div>
+  </div>
 
-    <!-- Row 5 -->
-    <div id="row-5" class="row uspRow">
-      <div id="uspBlock">
+  <div class="content-row clearfix">
+    <div class="product-department hide-mobile">
+      <img src="http://static.asadventure.com/includes/homepage/international/images/backpacks.jpg" alt="Backpacks">
+      <p>A large selection of backpacks for any type of adventurer.</p>
+      <a href="/travel-camping/travel-bags/backpacks" class="cta cta-light">Backpacks</a>
+    </div>
+    <div class="gender-split">
+      <div class="gender">
+        <img src="http://static.asadventure.com/includes/homepage/international/images/mens_fashion.jpg" alt="Men's Fashion">
+        <a href="/men/fashion" class="cta cta-dark cta-gender">Mens&nbsp;fashion</a>
+      </div>
 
-        <!-- Item 1 -->
-        <div class="fourCol">
-          <a class="usp levering" href="/content/fr/informations-dachat-livraison-fr#xx_content">
-              Livraison gratuite <br> 
-              &agrave; partir de €50
-            </a>
-        </div>
+      <div class="gender-transition">
+        <img src="http://static.asadventure.com/includes/homepage/international/images/fashion_connector.jpg" alt="">
+      </div>
 
-        <!-- Item 2 -->
-        <div class="fourCol">
-          <a class="usp retour" href="content/fr/informations-dachat-retours#xx_content">
-              Retour possible <br>
-              durant 14 jours
-            </a>
-        </div>
-
-        <!-- Item 3 -->
-        <div class="fourCol">
-          <a class="usp naverkoop" href="content/fr/informations-dachat-coordonnees#xx_content">
-              Service après vente<br>
-              &eacute;tendu
-            </a>
-        </div>
-
-        <!-- Item 4 -->
-        <div class="fourCol lastCol">
-          <a class="usp garantie" href="content/fr/informations-dachat-retours#xx_content">
-            Garantie de votre produit <br>
-            pendant 24 mois
-          </a>
-        </div>
+      <div class="gender">
+        <img src="http://static.asadventure.com/includes/homepage/international/images/womens_fashion.jpg" alt="Women's Fashion">
+        <a href="/women/fashion" class="cta cta-dark cta-gender">Womens&nbsp;fashion</a>
       </div>
     </div>
   </div>
 </div>
-
-<!-- HO CODE -->
-<script defer src="https://static.asadventure.com/includes/homepage/national/js/main.js"></script>
-<!-- bxSlider Javascript file -->
-<script defer src="https://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>

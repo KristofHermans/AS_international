@@ -1,427 +1,409 @@
 /* =====================================
   Solden
 ===================================== */
-.solden-uk, .solden-de{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
 
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-uk, .solden-de {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
-
-.solden-uk2, .solden-de2{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-30-50-70.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/mobile-bg-solden-30-50-70.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-uk2, .solden-de2 {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-30-50-70.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/mobile-bg-solden-30-50-70.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
-
-.solden-nl{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-nl {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-mobile-x2.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
-
-.solden-nl-2{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-nl-2 {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
-
-.solden-fr{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr-mobile-x2.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-fr {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-fr-mobile-x2.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
-
-.solden-fr2{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-	text-rendering: optimizeLegibility;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
-		background-size: cover;
-	}
+.solden-fr2 {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-solden-nl-30-50-70.jpg) no-repeat;
+  background-size: contain;
+  position: relative;
+  text-rendering: optimizeLegibility;
+  @media only screen and(max-width: 767px) {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/bg-mobile-solden-nl-30-50-70.jpg) no-repeat center center;
+    background-size: cover;
+  }
 }
+.solden-sidebar {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/bg-sidebar.jpg) repeat-x;
+  background-size: contain;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  padding: 22px 22px 0;
+  position: absolute;
+  top: 0;
+  right: 6%;
+  width: percentage(320/1170);
+  z-index: 2;
+  &.nl-fix, &.fr-fix {
+    left: 5%;
+    right: inherit;
+  }
+  @media only screen and(max-width: 1199px) {
+    padding: 17px 17px 0;
+  }
+  @media only screen and(max-width: 767px) {
+    display: none;
+  }
+  .solden-main-title {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 80px;
+    margin: 30px 0 25px;
+    text-shadow: 0px 2px 1px #000000;
+    text-transform: uppercase;
+    &.de-fix {
+      font-size: 40px;
+      line-height: 50px;
+      margin: 50px 0 25px;
+      @media only screen and(max-width: 1199px) {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 37px 0 15px;
+      }
+      @media only screen and(max-width: 979px) {
+        font-size: 23px;
+        line-height: 25px;
+        margin: 23px 0 15px;
+      }
+    }
+    &.fr-fix {
+      font-size: 50px;
+      line-height: 50px;
+      margin: 40px 0 30px;
+      @media only screen and(max-width: 1199px) {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 24px 0 15px;
+      }
+      @media only screen and(max-width: 979px) {
+        font-size: 21px;
+        line-height: 21px;
+        margin: 23px 0 10px;
+      }
+    }
+    @media only screen and(max-width: 1199px) {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 20px;
+    }
+    @media only screen and(max-width: 979px) {
+      font-size: 18px;
+      line-height: 20px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    @media only screen and(max-width: 767px) {
+      font-size: 15px;
+      margin-top: 0;
+    }
+  }
+  .solden-main-title2 {
+    font-size: 90px;
+    font-weight: 100;
+    text-shadow: 0px 2px 1px #000000;
+    text-transform: uppercase;
+    @media only screen and(max-width: 1199px) {
+      font-size: 60px;
+    }
+    @media only screen and (max-width: 979px) {
+      font-size: 50px;
+    }
+    &.fr-fix {
+      font-size: 50px;
+      line-height: 50px;
+      margin: 40px 0 30px;
+      @media only screen and(max-width: 1199px) {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 24px 0 15px;
+      }
+      @media only screen and(max-width: 979px) {
+        font-size: 21px;
+        line-height: 21px;
+        margin: 15px 0 10px;
+      }
+    }
+  }
+  h3.solden-subtitle {
+  	font-size:22px;
+    background-color: #C00000;
+    padding: 2px;
+    text-align: center;
+    margin-top: -24px;
+    margin-bottom: 5px;
+    width: 106.25% !important;
 
-.solden-sidebar{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-sidebar.jpg) repeat-x;
-	background-size: contain;
-	box-sizing: border-box;
-	color: #ffffff !important;
-	font-family: "Open Sans", sans-serif;
-	height: 100%;
-	padding: 22px 22px 0;
-	position: absolute;
-		top: 0;
-		right: 6%;
-	width: percentage(320/1170);
-	z-index: 2;
-
-	&.nl-fix, &.fr-fix{
-		left: 5%;
-		right: inherit;
-	}
-
-	@media only screen and(max-width: 1199px) {
-		padding: 17px 17px 0;
-	}
-
-	@media only screen and(max-width: 767px) {
-		display: none;
-	}
-
-	.solden-main-title{
-		font-size: 90px;
-		font-weight: 100;
-		line-height: 90px;
-		margin: 40px 0 25px;
-		text-shadow: 0px 2px 1px #000000;
-		text-transform: uppercase;
-
-		&.de-fix{
-			font-size: 40px;
-			line-height: 50px;
-			margin: 50px 0 25px;
-
-			@media only screen and(max-width: 1199px) {
-				font-size: 30px;
-				line-height: 35px;
-				margin: 37px 0 15px;
-			}
-
-			@media only screen and(max-width: 979px) {
-				font-size: 23px;
-				line-height: 25px;
-				margin: 23px 0 15px;
-			}
-		}
-
-		&.fr-fix{
-			font-size: 50px;
-			line-height: 50px;
-			margin: 40px 0 30px;
-
-			@media only screen and(max-width: 1199px) {
-				font-size: 30px;
-				line-height: 35px;
-				margin: 24px 0 15px;
-			}
-
-			@media only screen and(max-width: 979px) {
-				font-size: 21px;
-				line-height: 21px;
-				margin: 23px 0 10px;
-			}
-		}
-
-		@media only screen and(max-width: 1199px) {
-			font-size: 24px;
-			line-height: 28px;
-			margin-bottom: 20px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			font-size: 18px;
-			line-height: 20px;
-			margin-top: 20px;
-			margin-bottom: 10px;
-		}
-
-		@media only screen and(max-width: 767px) {
-			font-size: 15px;
-			margin-top: 0;
-		}
-	}
-
-	.solden-main-title2{
-		font-size: 90px;
-		font-weight: 100;
-		text-shadow: 0px 2px 1px #000000;
-		text-transform: uppercase;
-
-			@media only screen and(max-width:1199px){
-				font-size:60px;
-			}
-
-			@media only screen and (max-width:979px){
-				font-size:50px;
-			}
-
-		&.fr-fix{
-			font-size: 50px;
-			line-height: 50px;
-			margin: 40px 0 30px;
-
-			@media only screen and(max-width: 1199px) {
-				font-size: 30px;
-				line-height: 35px;
-				margin: 24px 0 15px;
-			}
-
-			@media only screen and(max-width: 979px) {
-				font-size: 21px;
-				line-height: 21px;
-				margin: 15px 0 10px;
-			}
-		}
-	}	
-
-	h3.solden-subtitle{
-			background-color: #C00000;
-			padding: 2px;
-			text-align: center;
-			margin-top: -24px;
-			margin-bottom: 5px;
-
-			@media only screen and(max-width:1199px){
-				height: 35px;
-				line-height: 35px;
-				margin-top: -15px;
-				font-size: 16px;
-			}
-
-			@media only screen and(max-width:979px){
-				height: 26px;
-				line-height: 26px;
-				margin-top: -5px;
-				font-size: 14px;
-			}
-	}
-
-	.solden-copy{
-		font-family: "Open Sans", sans-serif;
-		font-weight: 100;
-		line-height: 1.5;
-		
-		@media only screen and(max-width: 1199px) {
-			font-size: 14px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			font-size: 11px;
-		}
-	}
-
-	.solden-copy2{
-		font-family: "Open Sans", sans-serif;
-		font-weight: 100;
-		line-height: 1.5;
-		
-		@media only screen and(max-width: 1199px) {
-			font-size: 12px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			font-size: 9px;
-		}
-	}
+    @media only screen and(max-width: 1199px) {
+      height: 30px;
+      line-height: 30px;
+      margin-top: -15px;
+      font-size: 16px;
+    }
+    @media only screen and(max-width: 979px) {
+      height: 20px;
+      line-height: 20px;
+      margin-top: -5px;
+      font-size: 14px;
+    }
+  }
+  .solden-copy {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    @media only screen and(max-width: 1199px) {
+      font-size: 14px;
+    }
+    @media only screen and(max-width: 979px) {
+      font-size: 11px;
+    }
+  }
+  .solden-copy2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+    @media only screen and(max-width: 1199px) {
+      font-size: 12px;
+    }
+    @media only screen and(max-width: 979px) {
+      font-size: 9px;
+    }
+  }
 }
-
-	.solden-main-title2{
-		font-size: 90px;
-		font-weight: 100;
-		line-height: 65px;
-		text-shadow: 0px 2px 1px #000000;
-		text-transform: uppercase;
-
-			@media only screen and(max-width: 1199px) {
-				font-size: 69px;
-				line-height: 53px;
-				margin-top: 5px;
-			}
-
-			@media only screen and (max-width:979px){
-				font-size: 52px;
-				line-height: 44px;
-				margin-top: -6px;
-			}
-
-		.second{
-			font-size:37px;
-			line-height:65px;
-			
-			@media only screen and(max-width: 1199px) {
-				font-size: 25px;
-				line-height: 35px;
-				margin: 39px 0 9px;
-			}
-
-			@media only screen and(max-width: 979px) {
-				font-size: 18px;
-				line-height: 25px;
-				margin: 23px 0 15px;
-			}
-		}	
-
-
-
-		&.de-fix{
-			font-size: 72px;
-			line-height: 50px;
-			margin: 20px 0 25px;
-
-			@media only screen and(max-width: 1199px) {
-				font-size: 56px;
-				line-height: 50px;
-				margin: 11px 0 8px;
-			}
-
-			@media only screen and(max-width: 979px) {
-				font-size: 41px;
-				line-height: 38px;
-				margin: 3px 0 5px;
-			}
-
-			.second{
-				font-size:31px;
-				line-height:65px;
-			
-				@media only screen and(max-width: 1199px) {
-					font-size: 25px;
-					line-height: 35px;
-					margin: 37px 0 15px;
-				}
-
-				@media only screen and(max-width: 979px) {
-					font-size: 18px;
-					line-height: 25px;
-					margin: 23px 0 15px;
-				}
-
-			}
-		}
-	}	
-
-.solden-icons{
-	max-width: percentage(123/276);
-
-	@media only screen and(max-width: 979px) {
-		margin-bottom: 0;
-	}
-
-	@media only screen and(max-width: 767px) {
-		display: none;
-	}
+.solden-main-title2 {
+  font-size: 90px;
+  font-weight: 100;
+  line-height: 65px;
+  text-shadow: 0px 2px 1px #000000;
+  text-transform: uppercase;
+  @media only screen and(max-width: 1199px) {
+    font-size: 69px;
+    line-height: 53px;
+    margin-top: 5px;
+  }
+  @media only screen and (max-width: 979px) {
+    font-size: 52px;
+    line-height: 44px;
+    margin-top: -6px;
+  }
+  .second {
+    font-size: 37px;
+    line-height: 65px;
+    @media only screen and(max-width: 1199px) {
+      font-size: 25px;
+      line-height: 35px;
+      margin: 39px 0 9px;
+    }
+    @media only screen and(max-width: 979px) {
+      font-size: 18px;
+      line-height: 25px;
+      margin: 23px 0 15px;
+    }
+  }
+  &.de-fix {
+    font-size: 72px;
+    line-height: 50px;
+    margin: 20px 0 25px;
+    @media only screen and(max-width: 1199px) {
+      font-size: 56px;
+      line-height: 50px;
+      margin: 11px 0 8px;
+    }
+    @media only screen and(max-width: 979px) {
+      font-size: 41px;
+      line-height: 38px;
+      margin: 3px 0 5px;
+    }
+    .second {
+      font-size: 31px;
+      line-height: 65px;
+      @media only screen and(max-width: 1199px) {
+        font-size: 25px;
+        line-height: 35px;
+        margin: 37px 0 15px;
+      }
+      @media only screen and(max-width: 979px) {
+        font-size: 18px;
+        line-height: 25px;
+        margin: 23px 0 15px;
+      }
+    }
+  }
 }
-
-.solden-cta{
-	background: #57A5D3 !important;
-	box-sizing: border-box;
-	color: #ffffff !important;
-	display: block;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 15px !important;
-	position: absolute;
-		bottom: 40px;
-	text-align: left !important;
-	text-decoration: none !important;
-	text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
-	width: percentage(276/320) !important;
-
-	@media only screen and(max-width: 1199px) {
-		font-size: 12px;
-		height: 37px;
-		line-height: 37px;
-	}
-
-	@media only screen and(max-width: 979px) {
-		font-size: 10px;
-		height: 30px;
-		line-height: 30px;
-		padding: 0 8px;
-	}
-
-	@media only screen and(max-width: 767px) {
-		font-size: 13px;
-		position: absolute;
-			bottom: 15px;
-			left: 20%;
-	}
-
-	&.desktop-cta{
-		@media only screen and(max-width: 767px) {
-			display: none;
-		}
-	}
-
-	&.mobile-cta{
-		box-shadow: 0 0 3px rgba(0,0,0,0.3);
-		height: 40px;
-		line-height: 42px;
-		width: 60% !important;
-
-		@media only screen and(min-width: 767px) {
-			display: none;
-		}
-	}
-
-	&:after{
-		background: none;
-		content: "" !important;
-		display: block !important;
-		font-family: "FontAwesome";
-		float: right;
-		line-height: 42px;
-
-		@media only screen and(max-width: 1199px) {
-			line-height: 37px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			line-height: 30px;
-		}
-
-		@media only screen and(max-width: 767px) {
-			line-height: 42px;
-		}
-	}
-
-	&:hover{
-		background: #4991BB !important;
-		text-shadow: 0 1px 1px darken(#4991BB, 30%);
-	}
+.solden-icons {
+  max-width: percentage(123/276);
+  @media only screen and(max-width: 979px) {
+    margin-bottom: 0;
+  }
+  @media only screen and(max-width: 767px) {
+    display: none;
+  }
 }
+#xx_wrapper #xx_header .xx_slider ul li div a.solden-cta-2 {
+  background: #57A5D3 !important;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  display: block;
+  height: 35px !important;
+  line-height: 35px !important;
+  padding: 0 15px !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
+  width: 107.25% !important;
 
-.legal{
-	font-size: 9px !important;
-	margin: 0;
-	position: absolute;
-		bottom: 5px;
+	@media only screen and(max-width:1199px){
+    	font-size: 12px;
+    	height: 29px !important;
+    	line-height: 29px !important;
+    	margin-top:8px !important;
+  	}
 
-	@media only screen and(max-width: 767px) {
-		font-size: 7px !important;
-		position: absolute;
-			bottom: -3px;
-	}
+  @media only screen and(max-width:979px){
+  	font-size: 10px;
+	height: 22px !important;
+	line-height: 22px !important;
+	margin-top: 8px !important;
+  }
+
+  &:after {
+    background: none;
+    content: "" !important;
+    display: block !important;
+    font-family: "FontAwesome";
+    float: right;
+    line-height: 36px;
+    @media only screen and(max-width: 1199px) {
+      line-height: 29px;
+    }
+    @media only screen and(max-width: 979px) {
+      line-height: 22px;
+    }
+    @media only screen and(max-width: 767px) {
+      line-height: 22px;
+    }
+  }
+
+  &:hover {
+    background: #4991BB !important;
+    text-shadow: 0 1px 1px darken(#4991BB, 30%);
+  }
+}
+.solden-cta {
+  background: #57A5D3 !important;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px !important;
+  position: absolute;
+  bottom: 40px;
+  text-align: left !important;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
+  width: percentage(276/320) !important;
+  @media only screen and(max-width: 1199px) {
+    font-size: 12px;
+    height: 37px;
+    line-height: 37px;
+  }
+  @media only screen and(max-width: 979px) {
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 8px;
+  }
+  @media only screen and(max-width: 767px) {
+    font-size: 13px;
+    position: absolute;
+    bottom: 15px;
+    left: 20%;
+  }
+  &.desktop-cta {
+    @media only screen and(max-width: 767px) {
+      display: none;
+    }
+  }
+  &.mobile-cta {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    height: 40px;
+    line-height: 42px;
+    width: 60% !important;
+    @media only screen and(min-width: 767px) {
+      display: none;
+    }
+  }
+  &:after {
+    background: none;
+    content: "" !important;
+    display: block !important;
+    font-family: "FontAwesome";
+    float: right;
+    line-height: 42px;
+    @media only screen and(max-width: 1199px) {
+      line-height: 37px;
+    }
+    @media only screen and(max-width: 979px) {
+      line-height: 30px;
+    }
+    @media only screen and(max-width: 767px) {
+      line-height: 42px;
+    }
+  }
+  &:hover {
+    background: #4991BB !important;
+    text-shadow: 0 1px 1px darken(#4991BB, 30%);
+  }
+}
+.legal {
+  font-size: 9px !important;
+  margin: 0;
+  position: absolute;
+  bottom: 5px;
+  @media only screen and(max-width: 767px) {
+    font-size: 7px !important;
+    position: absolute;
+    bottom: -3px;
+  }
 }
