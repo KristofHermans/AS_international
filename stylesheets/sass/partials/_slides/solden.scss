@@ -216,6 +216,7 @@
   line-height: 65px;
   text-shadow: 0px 2px 1px #000000;
   text-transform: uppercase;
+  margin-top:0px !important;
   @media only screen and(max-width: 1199px) {
     font-size: 69px;
     line-height: 53px;
@@ -243,7 +244,8 @@
   &.de-fix {
     font-size: 72px;
     line-height: 50px;
-    margin: 20px 0 25px;
+    margin: 40px 0 25px;
+    padding-top:10px;
     @media only screen and(max-width: 1199px) {
       font-size: 56px;
       line-height: 50px;
@@ -255,8 +257,8 @@
       margin: 3px 0 5px;
     }
     .second {
-      font-size: 31px;
-      line-height: 65px;
+		font-size: 30px;
+		line-height: 40px;
       @media only screen and(max-width: 1199px) {
         font-size: 25px;
         line-height: 35px;
@@ -329,6 +331,57 @@
     text-shadow: 0 1px 1px darken(#4991BB, 30%);
   }
 }
+
+a.solden-cta-2{
+  background: #57A5D3 !important;
+  box-sizing: border-box;
+  color: #ffffff !important;
+  display: block;
+  height: 35px !important;
+  line-height: 35px !important;
+  padding: 0 15px !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
+  width: 101.25% !important;
+  margin-top:8px;
+
+	@media only screen and(max-width:1199px){
+  		height:30px !important;
+  		line-height:30px !important;
+  	}
+
+	@media only screen and(max-width:979px){
+		height: 20px !important;
+		font-size: 10px;
+		line-height: 20px !important;
+		margin-top: 5px;
+		padding:0 10px !important;
+	}
+
+  &:after {
+    background: none;
+    content: "" !important;
+    display: block !important;
+    font-family: "FontAwesome";
+    float: right;
+    line-height: 35px;
+
+    @media only screen and(max-width:1199px){
+    	line-height:30px;
+    }
+
+    @media only screen and(max-width:979px){
+    	line-height:20px;
+    }
+}
+
+	&:hover {
+    background: #4991BB !important;
+    text-shadow: 0 1px 1px darken(#4991BB, 30%);
+  }
+}
+
 .solden-cta {
   background: #57A5D3 !important;
   box-sizing: border-box;
@@ -359,6 +412,10 @@
     position: absolute;
     bottom: 15px;
     left: 20%;
+  }
+
+  &.de-fix {
+
   }
   &.desktop-cta {
     @media only screen and(max-width: 767px) {
