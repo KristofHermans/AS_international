@@ -1,0 +1,40 @@
+/* *********************************************************************************************************** */
+/* **                                         SLIDER WINTERSPORTACTIE                                       ** */
+/* *********************************************************************************************************** */
+ul li.wintersportactie{
+    background: url(https://static.asadventure.com/includes/homepage/international/images/bg-wintersportactie-DE-AT.jpg)
+}
+
+.wintersportactie-title{
+    color:#33CCFF;
+    font-family: "Open Sans";
+    font-size:19px;
+    line-height:19px;    
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 320px;
+}
+
+.wintersportactie-legal{
+    font-size:12px;
+    line-height: 12px;
+    margin: 5px 20px;
+    width: 320px;
+}
+
+.wintersportactie-price{
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.wintersportactie-cta{
+    background-color:#FFFFFF;
+    color:#000000;
+    font-size:20px;
+
+    &:after{
+    content: "";
+    float: right;
+    font-family: "FontAwesome";    
+    }
+}
