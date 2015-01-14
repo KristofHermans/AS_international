@@ -83,11 +83,47 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/150108_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150108_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150108_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150108_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/150108_hp_uk.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/150108_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150114_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150114_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150114_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150114_hp_nl.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1202,17 +1238,6 @@
 		"outputAbbreviatedPath": "\/_bower_components\/normalize-scss\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/bg-solden-30-50-70.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74026,
-		"inputAbbreviatedPath": "\/bg-solden-30-50-70.jpg",
-		"outputAbbreviatedPath": "\/bg-solden-30-50-70.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/font\/helvetica_neue_condensed_bold\/font.css": {
 		"fileType": 16,
@@ -2499,6 +2524,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-lookbook-dons-m.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 317711,
+		"inputAbbreviatedPath": "\/images\/bg-lookbook-dons-m.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-lookbook-dons-m.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-lookbook-dons-v.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 318834,
+		"inputAbbreviatedPath": "\/images\/bg-lookbook-dons-v.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-lookbook-dons-v.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-lookbook-outdoor-mobile@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2660,6 +2707,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/images\/bg-mid-season.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-mid-season.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-mobile-solden-nl-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54203,
+		"inputAbbreviatedPath": "\/images\/bg-mobile-solden-nl-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-mobile-solden-nl-30-50-70.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2917,6 +2975,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-solden-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74026,
+		"inputAbbreviatedPath": "\/images\/bg-solden-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-30-50-70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-solden-fr-mobile-x2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2939,6 +3008,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-solden-jan15-derde-afprijzing-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30956,
+		"inputAbbreviatedPath": "\/images\/bg-solden-jan15-derde-afprijzing-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-jan15-derde-afprijzing-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-jan15-derde-afprijzing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55679,
+		"inputAbbreviatedPath": "\/images\/bg-solden-jan15-derde-afprijzing.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-jan15-derde-afprijzing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-solden-mobile-x2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2957,6 +3048,17 @@
 		"initialSize": 42548,
 		"inputAbbreviatedPath": "\/images\/bg-solden-mobile.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-solden-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-solden-nl-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86459,
+		"inputAbbreviatedPath": "\/images\/bg-solden-nl-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-solden-nl-30-50-70.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4633,6 +4735,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/mobile-bg-solden-30-50-70.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64070,
+		"inputAbbreviatedPath": "\/images\/mobile-bg-solden-30-50-70.jpg",
+		"outputAbbreviatedPath": "\/images\/mobile-bg-solden-30-50-70.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/mobile_activity_tracker.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5630,6 +5743,17 @@
 		"initialSize": 28118,
 		"inputAbbreviatedPath": "\/images\/womens_fashion.jpg",
 		"outputAbbreviatedPath": "\/images\/womens_fashion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/ws-kortingen-fr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10233,
+		"inputAbbreviatedPath": "\/images\/ws-kortingen-fr.png",
+		"outputAbbreviatedPath": "\/images\/ws-kortingen-fr.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6656,17 +6780,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/mobile-bg-solden-30-50-70.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 64070,
-		"inputAbbreviatedPath": "\/mobile-bg-solden-30-50-70.jpg",
-		"outputAbbreviatedPath": "\/mobile-bg-solden-30-50-70.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -6676,6 +6789,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/css\/150114_styles_fr_nl.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/css\/150114_styles_fr_nl.css",
+		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -7129,6 +7251,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_lookbook_dons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_lookbook_dons.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_lookbook_dons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -7138,6 +7276,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_outdoorjassen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_wintersportactie.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_wintersportactie.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_wintersportactie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -7585,9 +7739,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/styles_fr_nl.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_fr_nl.css",
+		"outputAbbreviatedPath": "\/stylesheets\/css\/150114_styles_fr_nl.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
@@ -7605,7 +7759,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Lies.Wouters",
+"lastSavedByUser": "Pieter ",
 "manualImportLinks": {
 	},
 "projectAttributes": {

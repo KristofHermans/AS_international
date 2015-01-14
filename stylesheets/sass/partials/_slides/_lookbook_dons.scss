@@ -1,0 +1,226 @@
+/* *********************************************************************************************************** */
+/* **                                         SLIDER SOLDEN (2de afprijzing)                                ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+    overflow: hidden;
+    background-size: cover !important;
+}
+/* ANIMATIONS
+   ========================================================================== */
+
+.slide{
+    position: absolute;
+        top: 0;
+        &:nth-child(1){ z-index: 2; }
+        &:nth-child(2){ z-index: 1; }
+}
+
+.animated-img{
+    animation: imageAnimation 4s;
+    animation-iteration-count: infinite;
+    -webkit-animation: imageAnimation 4s infinite;
+}
+
+@keyframes          imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+@-webkit-keyframes  imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+@-moz-keyframes     imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+@-o-keyframes       imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+@-ms-keyframes      imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
+
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    z-index: 2;
+
+    width: 70%;
+    height: 300px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 22px 19px 0;
+    color: #ffffff;
+    
+    h2, 
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+
+    // TITLE
+    .main-title {
+        position: relative;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 100;
+        text-align: center;
+    }
+    
+    // CTA
+    .xx_cta {
+        width: 50%;
+        background: none;
+        font-weight: 400;
+        display: block;
+
+        border: 3px solid #fff;
+        margin: 30px auto;
+
+        font-size: 16px;
+
+        &:hover {
+            background-color: #fff;
+            color: #333;
+            &:after { 
+                content: "";
+                width: 25px;
+                height: 37px;
+                float: right;
+                background: url("../images/arrow_dark.png") no-repeat;
+                background-size: 11px 13px;
+                position: relative;
+                top: 13px;
+            }
+        }
+    }
+}
+
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+    .main-title {
+        font-size: 40px;
+    }
+}
+//EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+    .main-title {
+        font-size: 40px;
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+        padding-top: 13px;
+        padding-right: 10px;
+        background-position: 0px -54px;
+        .main-title {
+            font-size: 35px;
+            line-height: 57px;
+            margin-bottom: 5px;
+        }
+        .xx_cta {
+            width: 60%;
+        }
+    }
+    // FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+        .main-title {
+            font-size: 32px;
+        }
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 979px) {
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+        width: 70%;
+        padding-top: 8px;
+        background-position: 0px -37px;
+        top: 70px;
+        .main-title {
+            font-size: 25px;
+            line-height: 50px;
+            margin-bottom: -5px;
+        }
+        .xx_cta {
+            width: 50%;
+            text-align: left;
+            padding-left: 4%;
+            margin: 0 auto;
+            &:after {
+                display: block;
+                height: 30px;
+                background-size: 9px 9px;
+            }
+        }
+    }
+    //FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+        .main-title {
+            font-size: 25px;
+            margin-bottom: 0;
+        }
+    }
+    //EN FIX
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+        .main-title {
+            font-size: 25px;
+            margin-bottom: 0px;
+        }
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
+        height: 25px;
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+        background: url('../images/bg-lookbook-dons-mobile@2k.gif') no-repeat;
+        #crossfade { display: none; }
+    }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+        width: 90%;
+        padding-top: 10px;
+        height: 112px;
+        top: 25%;
+        width: 90%;
+        left: 5%;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+
+        .main-title {
+            font-size: 20px;
+            line-height: 100%;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .xx_cta {
+            font-size: 9px;
+            width: 65%;
+            height: 25px;
+            line-height: 25px;
+            margin-top: 2px;
+            border: 2px solid #fff;
+            &:after {
+                height: 25px;
+                background-size: 8px 8px;
+            }
+        }
+
+    }
+    //FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content, 
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+        .main-title {
+            font-size: 15px;
+        }
+    }
+}
