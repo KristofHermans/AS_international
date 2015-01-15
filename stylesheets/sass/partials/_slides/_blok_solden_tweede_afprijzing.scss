@@ -1,0 +1,256 @@
+/* *********************************************************************************************************** */
+/* **                                         SLIDER SOLDEN (2de afprijzing)                                ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf {
+    background: url('../images/bg-solden-jan15.jpg') no-repeat;
+    overflow: hidden;
+    background-size: cover !important;
+    &.derde_afprijzing {
+        background: url('http://static.asadventure.com/includes/homepage/international/images/bg-solden-jan15-derde-afprijzing.jpg') no-repeat;
+        overflow: hidden;
+        background-size: cover !important;
+    }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content {
+    position: absolute;
+    top: 0;
+    left: 5.45%;
+    z-index: 2;
+    background: #333 url('http://static.asadventure.com/includes/homepage/international/images/bg-presolden.jpg') repeat-x;
+    width: 26.3%;
+    height: 410px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 22px 19px 0;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    
+    h2, 
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content {
+    img {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 25px;
+    }
+    .main-title {
+        position: relative;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 63px;
+        line-height: 60px;
+        font-weight: 600;
+        text-shadow: 0px 2px 1px #000000;
+        text-transform: uppercase;
+    }
+    .sub-title {
+        font-size: 25px;
+        color: #fff;
+        text-align: center;
+        background: #d0222b;
+        text-transform: uppercase;
+        // padding: 10px;
+        box-sizing: border-box;
+        .subscript {
+            vertical-align: super;
+            font-size: smaller;
+            text-transform: lowercase;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+    .footnote {
+        position: absolute;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 10px;
+        margin-bottom: 0px;
+        bottom: 4px;
+    }
+}
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content .main-content.mobile {
+    display: none;
+}
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content .xx_cta {
+    width: 95%;
+    background-color: #4590bd;
+    font-weight: 600;
+    display: inline-block;
+    &:hover {
+        background-color: #3c84af;
+    }
+}
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf.fr_fix .content {
+    .main-title {
+        font-size: 62px;
+    }
+}
+//EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.solden_twaf.en_fix .content {
+    .main-title {
+        font-size: 65px;
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content {
+        padding-top: 13px;
+        padding-right: 10px;
+        background-position: 0px -54px;
+        img {
+            width: 33%;
+            height: 10%;
+            margin-bottom: 15px;
+        }
+        .main-title {
+            font-size: 50px;
+            line-height: 57px;
+            margin-bottom: 5px;
+            margin-top: -10px;
+        }
+        .sub-title {
+            font-size: 20px;
+            padding: 5px;
+            width: 95%;
+            .subscript {
+                font-size: 11px;
+            }
+        }
+        .xx_cta {
+            width: 90%;
+        }
+        .footnote {
+            bottom: 101px;
+        }
+    }
+    // FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf.fr_fix .content {
+        .main-title {
+            font-size: 52px;
+        }
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 979px) {
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content {
+        width: 31%;
+        padding-top: 8px;
+        background-position: 0px -37px;
+        img {
+            display: none;
+        }
+        .main-title {
+            font-size: 44px;
+            line-height: 50px;
+            margin-bottom: -5px;
+        }
+        .xx_cta {
+            width: 90%;
+            text-align: left;
+            padding-left: 4%;
+            &:after {
+                display: block;
+                height: 30px;
+                background-size: 9px 9px;
+            }
+        }
+        .footnote {
+            bottom: 167px;
+            font-size: 7px;
+        }
+    }
+    //FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf.fr_fix .content {
+        .main-title {
+            font-size: 45px;
+            margin-bottom: 0;
+        }
+    }
+    //EN FIX
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf.en_fix .content {
+        .main-title {
+            font-size: 58px;
+            margin-bottom: 5px;
+        }
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content .xx_cta:after {
+        height: 25px;
+    }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf {
+        &.derde_afprijzing {
+            background: url('http://static.asadventure.com/includes/homepage/international/images/bg-solden-jan15-derde-afprijzing-mobile@2x.jpg') no-repeat; 
+        }
+    }
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf .content {
+        width: 90%;
+        padding-top: 10px;
+        height: 112px;
+        top: 35%;
+        width: 100%;
+        left: 0;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        img {
+            display: none;
+        }
+        .main-title {
+            font-size: 34px;
+            line-height: 100%;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .sub-title {
+            font-size: 15px;
+            padding: 2px;
+            width: 98%;
+            margin: 0;
+        }
+        .xx_cta {
+            font-size: 9px;
+            width: 28%;
+            height: 25px;
+            line-height: 25px;
+            margin-top: 2px;
+            &:after {
+                height: 25px;
+                background-size: 8px 8px;
+            }
+        }
+        .footnote {
+            font-size: 6px;
+            bottom: 3px;
+            right: 0;
+        }
+    }
+    //FR FIX
+    #xx_wrapper #xx_header .xx_slider ul li.solden_twaf.fr_fix .content, #xx_wrapper #xx_header .xx_slider ul li.solden_twaf.en_fix .content {
+        .main-title {
+            font-size: 34px;
+        }
+    }
+}
