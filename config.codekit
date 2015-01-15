@@ -6805,6 +6805,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/stylesheets\/css\/150114_styles_fr_nl.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/css\/150114_styles_fr_nl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/stylesheets\/css\/styles_de_uk.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -7200,6 +7209,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_aya-promo_de_uk.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_aya-promo_de_uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_blok_solden_tweede_afprijzing.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_blok_solden_tweede_afprijzing.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_blok_solden_tweede_afprijzing.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -7733,6 +7758,22 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 1,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/styles_fr_nl.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/styles_fr_nl.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_fr_nl.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
 	"\/test\/hp_training_nl.html": {
