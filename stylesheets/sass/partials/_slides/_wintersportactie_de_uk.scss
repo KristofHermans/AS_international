@@ -2,17 +2,92 @@
 /* **                                         SLIDER WINTERSPORTACTIE                                       ** */
 /* *********************************************************************************************************** */
 ul li.wintersportactie{
-    background: url(https://static.asadventure.com/includes/homepage/international/images/bg-wintersportactie-DE-AT.jpg)
+    background: url(https://static.asadventure.com/includes/homepage/international/images/bg-wintersportactie-DE-AT.jpg) no-repeat;
+
+    @media only screen and(max-width: 1199px){
+        background-size:100%;
+    }
+
+    @media only screen and(max-width:767px){
+        background: url(https://static.asadventure.com/includes/homepage/international/images/bg-mobile-wintersportactie.jpg) no-repeat;
+        background-size:100%;
+    }
+
+    &.uk-fix{
+        background: url(https://static.asadventure.com/includes/homepage/international/images/bg-wintersportactie-UK.jpg) no-repeat;
+
+        @media only screen and(max-width: 1199px){
+            background-size:100%;
+        }
+
+        @media only screen and(max-width:767px){
+            background: url(https://static.asadventure.com/includes/homepage/international/images/bg-mobile-wintersportactie.jpg) no-repeat;
+            background-size:100%;
+        }
+    }
+
+    &.dk-fix{
+        background: url(https://static.asadventure.com/includes/homepage/international/images/bg-wintersportactie-DK.jpg) no-repeat;
+
+        @media only screen and(max-width: 1199px){
+            background-size:100%;
+        }
+
+        @media only screen and(max-width:767px){
+            background: url(https://static.asadventure.com/includes/homepage/international/images/bg-mobile-wintersportactie.jpg) no-repeat;
+            background-size:100%;
+        }
+    }
+}
+
+.content-wintersport{
 }
 
 .wintersportactie-title{
-    color:#33CCFF;
+    color:#3399CC;
     font-family: "Open Sans";
     font-size:19px;
     line-height:19px;    
     margin-left: 20px;
     padding-top: 10px;
     width: 320px;
+
+    &.uk-fix{
+        font-size:16px;
+        line-height:16px;
+
+        @media only screen and (max-width:1199px){
+            font-size:13px;
+            line-height:13px;
+        }
+
+        @media only screen and (max-width:979px){
+            font-size:10px;
+            line-height:10px;
+        }
+    }
+
+    @media only screen and(max-width:1199px){
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 15px;
+        padding-top: 5px;
+        width: 285px;
+    }
+
+    @media only screen and(max-width:979px){
+        font-size: 12px;
+        line-height: 12px;
+        margin-left: 15px;
+        padding-top: 5px;
+        width: 225px;
+    }
+
+    @media only screen and(max-width:767px){
+        text-align:center;
+        margin:35px 0 0 35px;
+        width:250px;
+    }
 }
 
 .wintersportactie-legal{
@@ -20,21 +95,102 @@ ul li.wintersportactie{
     line-height: 12px;
     margin: 5px 20px;
     width: 320px;
+
+    @media only screen and(max-width:1199px){
+        font-size: 11px;
+        line-height: 11px;
+        margin: 5px 15px;
+        width: 265px;
+    }
+
+    @media only screen and(max-width:979px){
+        font-size: 9px;
+        line-height: 9px;
+        margin-left: 15px;
+        margin-top:-5px;
+        width: 200px;
+    }
+
+    @media only screen and(max-width:767px){
+        text-align:center;
+        margin:5px 35px;
+        width:250px;
+    }
 }
 
 .wintersportactie-price{
     margin-left: 30px;
-    margin-top: 25px;
+    margin-top: 10px;
+
+    @media only screen and(max-width:1199px){
+        margin-left: 17px;
+        margin-top: 10px;
+        width: 22%;
+    }
+
+    @media only screen and(max-width:979px){
+        margin-top:5px;
+    }
+
+    @media only screen and(max-width:767px){
+        display:none;
+    }
 }
 
-.wintersportactie-cta{
-    background-color:#FFFFFF;
-    color:#000000;
-    font-size:20px;
+a.wintersportactie-cta{
+    background-color: #009ACD;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 12px;
+    margin: 15px 25px;
+    position: absolute; 
+    text-decoration: none;
+    z-index: 10;
+
+    &:hover {
+        background:#00688B;
+    } 
+
+    @media only screen and(max-width:1199px){
+        font-size: 12px;
+        line-height: 12px;
+        padding: 12px;
+        margin: 15px 15px;
+        position: absolute;
+    } 
+
+    @media only screen and(max-width:979px){
+        font-size: 9px;
+        line-height: 9px;
+        padding: 8px;
+        margin: 5px 15px;
+    }
+
+    @media only screen and(max-width:767px){
+        margin:30px 65px;
+        font-size:11px;
+        line-height:11px;
+    }
 
     &:after{
-    content: "";
-    float: right;
-    font-family: "FontAwesome";    
+        content: "";
+        font-family: "FontAwesome";
+        color:#FFFFFF;
+        font-size: 15px;
+        line-height: 16px;
+        padding-left: 105px;
+
+        @media only screen and(max-width:1199px){
+            font-size: 12px;
+            line-height: 13px;
+            padding-left: 60px;
+        }
+
+        @media only screen and(max-width:797px){
+            font-size:11px;
+            line-height:11px;
+            padding-left:35px;
+        }
     }
 }
