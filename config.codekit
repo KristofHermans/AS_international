@@ -83,6 +83,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/150128_hp_fr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150128_hp_fr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150128_hp_nl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150128_hp_nl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/150128_hp_uk.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/150128_hp_uk.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_archive\/141224_hp_de.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1916,6 +1943,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/_thumbs\/thumb-newfashion.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10410,
+		"inputAbbreviatedPath": "\/images\/_thumbs\/thumb-newfashion.jpg",
+		"outputAbbreviatedPath": "\/images\/_thumbs\/thumb-newfashion.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/_thumbs\/thumb-outdoorjassenactie.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2796,6 +2834,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-newfashion15-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45424,
+		"inputAbbreviatedPath": "\/images\/bg-newfashion15-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-newfashion15-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-newfashion15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63451,
+		"inputAbbreviatedPath": "\/images\/bg-newfashion15.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-newfashion15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-outdoor-xl-mobile@2x.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2899,7 +2959,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 71448,
+		"initialSize": 68503,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-fr.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2921,7 +2981,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 38599,
+		"initialSize": 90825,
 		"inputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-presolden-dec14-uk-mob@x2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2994,6 +3054,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-rondeprijzen15-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27919,
+		"inputAbbreviatedPath": "\/images\/bg-rondeprijzen15-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-rondeprijzen15-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-rondeprijzen15.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49839,
+		"inputAbbreviatedPath": "\/images\/bg-rondeprijzen15.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-rondeprijzen15.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-sidebar.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3038,6 +3120,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-snow-xl-next-wave-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38738,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-snow-xl-next-wave-v2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47637,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-v2.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-snow-xl.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3075,7 +3179,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 83848,
+		"initialSize": 75955,
 		"inputAbbreviatedPath": "\/images\/bg-solden-fr.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-solden-fr.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3152,7 +3256,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 98551,
+		"initialSize": 5882,
 		"inputAbbreviatedPath": "\/images\/bg-solden.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-solden.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -3878,7 +3982,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 41959,
+		"initialSize": 26142,
 		"inputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputAbbreviatedPath": "\/images\/fleece_sweaters.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5011,7 +5115,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61594,
+		"initialSize": 27904,
 		"inputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputAbbreviatedPath": "\/images\/outdoor_clothing.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5022,7 +5126,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53667,
+		"initialSize": 28716,
 		"inputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputAbbreviatedPath": "\/images\/outdoor_shoes.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5385,7 +5489,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54900,
+		"initialSize": 70236,
 		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
 		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_de_mobile@x2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -5407,7 +5511,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 54879,
+		"initialSize": 68544,
 		"inputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
 		"outputAbbreviatedPath": "\/images\/slide_kerstcadeaus_en_mobile@x2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -6974,6 +7078,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/stylesheets\/css\/150129_styles_de_uk.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/css\/150129_styles_de_uk.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/stylesheets\/css\/150129_styles_fr_nl.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/css\/150129_styles_fr_nl.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/stylesheets\/css\/styles_de_uk.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -7456,6 +7578,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_newfashion-uk.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_newfashion-uk.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_newfashion-uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_newfashion15.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_newfashion15.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_newfashion15.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -7465,6 +7619,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_outdoorjassen.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_outdoorjassen.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/stylesheets\/sass\/partials\/_slides\/_ronde-prijzen.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_ronde-prijzen.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_ronde-prijzen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -7928,7 +8098,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/styles_de_uk.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_de_uk.css",
+		"outputAbbreviatedPath": "\/stylesheets\/css\/150129_styles_de_uk.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 3,
@@ -7944,10 +8114,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/styles_fr_nl.scss",
-		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_fr_nl.css",
+		"outputAbbreviatedPath": "\/stylesheets\/css\/150129_styles_fr_nl.css",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
@@ -7960,11 +8130,29 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/test_hp_befr.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test_hp_befr.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/test_hp_benl.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/test_hp_benl.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Kristof Hermans",
+"lastSavedByUser": "Pieter ",
 "manualImportLinks": {
 	},
 "projectAttributes": {
