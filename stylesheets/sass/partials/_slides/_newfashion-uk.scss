@@ -7,11 +7,11 @@ ul li.newfashion-uk {
   background: url('../../images/bg-newfashion15.jpg') no-repeat;
 }
 
-ul li.newfashion15 .content {
+ul li.newfashion-uk .content {
   position: absolute;
-  width: 24%;
-  top: 8%;
-  left: 3%;
+  width: 30%;
+  top: 3%;
+  right: 0;
   h2,h3, span {
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -37,17 +37,20 @@ ul li.newfashion-uk .content {
 
 ul li.newfashion-uk .content .xx_cta { 
   font-weight: 600;
-  width: 80%;
+  width: 65%;
   text-align: left;
   margin-top: 0;
   background: none;
   border: 1px solid #c2645f;
   color: #c2645f;
-  margin-bottom: 7%;
+  margin-bottom: 6%;
+  float: left;
+  padding: 7px 0 7px 10px;
 
   &:hover {
     background: #c2645f;
     color: #fff;
+    text-decoration: none;
   }
 
   &:after {
@@ -75,8 +78,8 @@ ul li.newfashion-uk .content .xx_cta {
 @media (max-width: 1199px) {
 
 ul li.newfashion-uk .content {
-    width: 22%;
-    top: 5%;
+    width: 30%;
+    top: 0;
     left: 4%;
 
     .main-title {
@@ -99,7 +102,7 @@ ul li.newfashion-uk .content {
 @media (max-width: 979px) {
 
 ul li.newfashion-uk .content {
-    top: 4%;
+    top: 0;
 
     .main-title {
       font-size: 26px;
@@ -118,7 +121,6 @@ ul li.newfashion-uk .content {
     
   }
 
-
 }
 
 @media only screen 
@@ -135,7 +137,8 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
 ul li.newfashion-uk {
-    background: url('../images/bg-newfashion-uk-mobile@2x.jpg') no-repeat;
+    background: url('../../images/bg-newfashion15-uk-mobile@2x.jpg') no-repeat;
+    background-size: cover;
   }
 
 ul li.newfashion-uk .content,
@@ -154,16 +157,17 @@ ul li.newfashion-uk.fr_fix .content
     }
 
     .xx_cta {
-      width: 50%;
-      font-size: 8px;
+      width: 75%;
+      font-size: 12px;
       background: #c2645f;
       color: #fff;
       margin-bottom: 1%;
       padding-left: 2%;
+      display: inherit;
+      left: 12%;
+      position: relative;
+      font-weight: 400;
 
-      &:last-child {
-        margin-left: -4px;
-      }
     }
     
   }

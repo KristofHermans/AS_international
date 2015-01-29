@@ -1,26 +1,26 @@
 
 /* *********************************************************************************************************** */
-/*                                         SLIDER THOMAS COOK ACTIE                                         ** */
+/*                                      SLIDER WINTERSPORTCATEGORIE                                         ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
-  background: url('../../images/bg-newfashion15.jpg') no-repeat;
+ul li.wintersport-categorie-uk {
+  background: url('../../images/bg-snow-xl-next-wave.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
+ul li.wintersport-categorie-uk .content {
   position: absolute;
-  width: 24%;
-  top: 8%;
-  left: 3%;
+  width: 80%;
+  top: 3%;
+  left: 10%;
   h2,h3, span {
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-  color: #c2645f;
-  text-align: left;
+ul li.wintersport-categorie-uk .content {
+  color: #fff;
+  text-align: center;
 
   .main-title {
     display: inline-block;
@@ -35,19 +35,23 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta { 
-  font-weight: 600;
-  width: 80%;
+ul li.wintersport-categorie-uk .content .xx_cta { 
+  font-weight: 400;
+  width: 50%;
   text-align: left;
   margin-top: 0;
-  background: none;
-  border: 1px solid #c2645f;
-  color: #c2645f;
-  margin-bottom: 7%;
+  background: #fff;
+  border: 1px solid #a3b4c8;
+  color: #a3b4c8;
+  margin-bottom: 2%;
+  display: inline-block;
+  padding: 7px 0 7px 10px;
+  z-index: 2;
 
   &:hover {
-    background: #c2645f;
+    background: #a3b4c8;
     color: #fff;
+    text-decoration: none;
   }
 
   &:after {
@@ -61,26 +65,9 @@
     margin-right: 6%;
     color: inherit;
   }
+
+  // &:last-child { margin-left: -3px; }
 }
-
-
-// FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-  width: 28%;
-  top: 10%;
-  left: 3%;
-
-  .main-title {
-    font-size: 42px;
-    margin-bottom: 8%;
-  }
-
-  .xx_cta {
-    width: 74%;
-  }
-
-}
-
 
 
 // IE8 fix 
@@ -93,30 +80,17 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-    width: 22%;
-    top: 5%;
-    left: 4%;
+ul li.wintersport-categorie-uk .content {
+    width: 80%;
+    top: 0;
+    left: 10%;
 
-    .main-title {
-      font-size: 37px;
-    }
-
-    .xx_cta {
-      margin-bottom: 5%;
-    }
+    .xx_cta { width: 51%; }
+    .main-title { font-size: 37px; }
+    .xx_cta { margin-bottom: 2%; }
     
   }
 
-  // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-    top: 5%;
-
-    .main-title {
-      font-size: 32px;
-    }
-
-  }
 
 }
 
@@ -126,17 +100,18 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-    top: 4%;
+ul li.wintersport-categorie-uk .content {
+    top: 0;
 
     .main-title {
       font-size: 26px;
+      margin-bottom: 3%;
     }
 
     .xx_cta {
-      text-align: left;
-      padding-left: 4%;
-      margin-bottom: 6%;
+      margin: 10px auto;
+      width: 40%;
+      display: block;
 
       &:after {
         display: block;
@@ -146,24 +121,13 @@
     
   }
 
-  // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-    top: 3%;
-
-    .main-title {
-      font-size: 24px;
-    }
-
-  }
-
-
 }
 
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
+  #xx_wrapper #xx_header .xx_slider ul li.wintersport-categorie-uk .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -172,13 +136,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
-    background: url('../../images/bg-newfashion15-mobile@2x.jpg') no-repeat;
+ul li.wintersport-categorie-uk {
+    background-size: cover;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content,
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content
-   {
+ul li.wintersport-categorie-uk .content {
     top: 0;
     left: 0;
     width: 100%;
@@ -192,16 +154,14 @@ and (orientation : portrait) {
     }
 
     .xx_cta {
-      width: 50%;
-      font-size: 8px;
-      background: #c2645f;
-      color: #fff;
+      width: 75%;
+      font-size: 12px;
       margin-bottom: 1%;
       padding-left: 2%;
+      display: inherit;
+      position: relative;
+      font-weight: 400;
 
-      &:last-child {
-        margin-left: -4px;
-      }
     }
     
   }

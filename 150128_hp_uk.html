@@ -5,7 +5,7 @@
 <!--   HOMEPAGE CSS   -->
 <!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
 
-<link rel="stylesheet" href="http://static1.asadventure.com/includes/homepage/international/stylesheets/css/150129_styles_de_uk.css">
+<link rel="stylesheet" href="http://staticstaging.asadventure.com/includes/homepage/international/stylesheets/css/150129_styles_de_uk.css">
 <!-- ================ -->
 
 <!-- BXSLIDER SCRIPTS -->
@@ -23,12 +23,23 @@
 
     <!-- NIEUWE FASHION -->
       <li class="newfashion-uk">
-          <a href="/women/new-fashion-collection?icn=newfashion&ici=homepage-main-banner3" class="overall-cta"></a>
+          <a href="/women/new-fashion-collection" class="overall-cta"></a>
           <div class="content">
             <h2 class="main-title">New <br> Fashion Arrivals</h2>
-            <a href="/women/new-fashion-collection?icn=newfashion&ici=homepage-main-banner3" class="xx_cta">Women</a>
-            <a href="/men/new-fashion-collection?icn=newfashion&ici=homepage-main-banner3" class="xx_cta">Men</a>
-            <a href="/junior/new-fashion-collection?icn=newfashion&ici=homepage-main-banner3" class="xx_cta">Junior</a>
+            <a href="/women/new-fashion-collection" class="xx_cta">Women</a>
+            <a href="/men/new-fashion-collection" class="xx_cta">Men</a>
+            <a href="/junior/new-fashion-collection" class="xx_cta">Junior</a>
+          </div>
+      </li>
+
+      <!-- WINTERSPORT CAT. -->
+      <li class="wintersport-categorie-uk">
+          <a href="/women/ski-snowboard" class="overall-cta"></a>
+          <div class="content">
+            <h2 class="main-title">Check our <br> Wintersport items</h2>
+            <a href="/women/ski-snowboard" class="xx_cta">Women</a>
+            <a href="/men/ski-snowboard" class="xx_cta">Men</a>
+            <a href="/junior/ski-snowboard" class="xx_cta">Junior</a>
           </div>
       </li>
 
@@ -49,16 +60,21 @@
     <!-- PAGER-THUMBS -->
     <div class="bottom-bar">
       <!-- Change class below to change the amount of slides. (Options: one-slide, two-slides, three-slides) -->
-      <div id="bx-pager" class="bx-pager two-slides">
+      <div id="bx-pager" class="bx-pager three-slides">
         <!-- Change data-slide-index to link to the correct slide (zero-indexed) -->
         
-        <!-- SOLDEN -->
+        <!-- NEW FASHION -->
         <a data-slide-index="0" href="">
           <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-newfashion.jpg" alt="Already discounts" />
         </a>
+        
+        <!-- WINTERSPORT cat. -->
+        <a data-slide-index="1" href="">
+          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-wintersport-categorie.jpg" alt="Wintersport items" />
+        </a>
 
         <!-- JACKETS -->
-        <a data-slide-index="1" href="">
+        <a data-slide-index="2" href="">
           <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-jackets-uk.jpg" alt="Jackets for him and for her" />
         </a>
       </div>

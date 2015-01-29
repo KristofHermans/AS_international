@@ -1998,6 +1998,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/_thumbs\/thumb-wintersport-categorie.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2797,
+		"inputAbbreviatedPath": "\/images\/_thumbs\/thumb-wintersport-categorie.jpg",
+		"outputAbbreviatedPath": "\/images\/_thumbs\/thumb-wintersport-categorie.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/actie_10_procent.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2845,6 +2856,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/bg-newfashion15-uk-mobile@2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11913,
+		"inputAbbreviatedPath": "\/images\/bg-newfashion15-uk-mobile@2x.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-newfashion15-uk-mobile@2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/bg-newfashion15.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3138,6 +3160,17 @@
 		"initialSize": 47637,
 		"inputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-v2.jpg",
 		"outputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave-v2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/bg-snow-xl-next-wave.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49598,
+		"inputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave.jpg",
+		"outputAbbreviatedPath": "\/images\/bg-snow-xl-next-wave.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7642,6 +7675,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/stylesheets\/sass\/partials\/_slides\/_wintersport-categorie_de_uk.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/_wintersport-categorie_de_uk.scss",
+		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/_wintersport-categorie_de_uk.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/stylesheets\/sass\/partials\/_slides\/_wintersportactie.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -7695,7 +7744,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/christmas.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/christmas.css",
@@ -7791,7 +7840,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/outdoorjassen_de_uk.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/outdoorjassen_de_uk.css",
