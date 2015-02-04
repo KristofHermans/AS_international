@@ -1,0 +1,161 @@
+/* ======================================
+	WINTERSPORTSOLDEN 2015
+====================================== */
+
+.wintersportsolden-nl, .wintersportsolden-fr, .wintersportsolden-uk, .wintersportsolden-de{
+	background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden.jpg) no-repeat;
+	background-size: contain;
+	color: #ffffff;
+	font-size: 15px;
+
+	@media only screen and(max-width: 767px) {
+		background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_mobile.jpg) no-repeat center bottom;
+		background-size: cover;
+	}
+
+	.content{
+		box-sizing: border-box;
+		float: right;
+		height: 100%;
+		line-height: 1.5em;
+		margin-right: percentage(70/1170);
+		padding: 6em 0 5em;
+		position: relative;
+		width: percentage(340/1170);
+		z-index: 5;
+
+		@media only screen and(max-width: 1199px) {
+			padding: 2em 0 3em;
+		}
+
+		@media only screen and(max-width: 979px) {
+			margin-right: 1.75%;
+			padding: 1em 0;
+			width: 25%;
+		}
+
+		@media only screen and(max-width: 767px) {
+			float: none;
+			margin: 0 auto;
+			width: 80%;
+		}
+	}
+
+	.main-title{
+		//font-family: "proxima_nova_rgbold";
+		font-size: 38px;
+		margin-top: 0;
+		margin-bottom: 1em;
+
+		@media only screen and(max-width: 1199px) {
+			font-size: 32px;
+			margin-bottom: .8em;
+		}
+
+		@media only screen and(max-width: 979px) {
+			font-size: 21px;
+			margin-bottom: .6em;
+		}
+
+		@media only screen and(max-width: 767px) {
+			font-size: 30px;
+			margin-bottom: .6em;
+			text-align: center;
+			text-shadow: 0 0 3px rgba(0,0,0,0.3);
+		}
+	}
+
+	.copy{
+		font-size: 15px;
+		line-height: 1.5em;
+
+		@media only screen and(max-width: 1199px) {
+			font-size: 14px;
+		}
+
+		@media only screen and(max-width: 979px) {
+			font-size: 12px;
+		}
+
+		@media only screen and(max-width: 767px) {
+			font-size: 14px;
+			padding: 0 8%;
+			text-shadow: 0 0 3px rgba(0,0,0,0.3);
+		}
+	}
+
+	.cta-block{
+		border: 0;
+		position: absolute;
+			bottom: 5em;
+		width: 100%;
+
+		@media only screen and(max-width: 979px) {
+			bottom: 1em;
+		}
+
+		.cta-half, .cta-full{
+			background: #ffffff;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+			box-sizing: border-box;
+			color: #CB1B27;
+			display: block;
+			height: 35px;
+			line-height: 35px;
+			padding: 0 .8em;
+			text-decoration: none;
+			transition: background .1s linear, color .1s linear;
+
+			@media only screen and(max-width: 979px) {
+				font-size: 11px;
+			}
+
+			&:after{
+				content: "\f04b";
+				float: right;
+				font-family: "FontAwesome", "Font Awesome";
+				font-size: 9px;
+			}
+
+			&:hover{
+				background: #CB1B27;
+				color: #ffffff;
+			}
+		}
+
+		.cta-half{
+			float: left;
+			width: 48.5%;
+
+			& + .cta-half{
+				float: right;
+				margin-left: 3%;
+			}
+		}
+
+		.cta-full{
+			clear: both;
+			display: block;
+			float: left;
+			margin-top: 10px;
+			width: 100%;
+		}
+	}
+
+} 
+
+.wintersportsolden-nl{
+
+}
+
+.wintersportsolden-fr{
+
+}
+
+.wintersportsolden-uk{
+
+}
+
+.wintersportsolden-de{
+	
+}

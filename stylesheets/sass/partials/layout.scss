@@ -133,7 +133,7 @@ $baseline: 18px;
 
 	&:after{
 		content: "";
-		font-family: "FontAwesome";
+		font-family: "FontAwesome", "Font Awesome";
 		margin-left: 78px;
 		padding: 0 5px;
 	}
@@ -474,7 +474,7 @@ $baseline: 18px;
 	&:after{
 		content: "";
 		float: right;
-		font-family: "FontAwesome";
+		font-family: "FontAwesome", "Font Awesome";
 		font-size: .8em;
 	}
 
