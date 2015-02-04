@@ -5,6 +5,9 @@
 
 #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
   background: url('../../images/bg-snow-xl.jpg') no-repeat;
+  &.new-wave {
+    background: url('../../images/bg-snow-xl-next-wave-v2.jpg')
+  }
 }
 
 #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
@@ -143,6 +146,9 @@ and (orientation : portrait) {
 
   #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
     background: url('../../images/bg-snow-xl-mobile@2x.jpg') no-repeat;
+    &.new-wave {
+      background: url('../../images/bg-snow-xl-next-wave-mobile@2x.jpg')
+    }
   }
 
   #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {

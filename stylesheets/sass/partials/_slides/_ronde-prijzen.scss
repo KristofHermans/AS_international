@@ -1,0 +1,215 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER RONDE PRIJZEN                                         ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+  background: url('../../images/bg-rondeprijzen15.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  position: absolute;
+  width: 30%;
+  top: 17%;
+  left: 37%;
+  h2,h3, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  color: #fff;
+  text-align: left;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 4%;
+  }
+
+  .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta { 
+  font-weight: 600;
+  width: 48%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 4%;
+
+  &:hover {
+    background: #fff;
+    color: #ce171f;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+// EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+  top: 19%;
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+    width: 33%;
+    top: 6%;
+    left: 36%;
+
+    .main-title {
+      font-size: 37px;
+    }
+
+    .main-content {
+      font-size: 16px;
+    }
+
+    .xx_cta {
+      margin-bottom: 4%;
+    }
+    
+  }
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 10%;
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+    top: 3%;
+    width: 30%;
+    left: 37%;
+
+    .main-title {
+      font-size: 26px;
+    }
+
+    .main-content {
+      font-size: 14px;
+      margin-bottom: 8%;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+  // EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 3%;
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+    background: url('../../images/bg-rondeprijzen15-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content
+   {
+    top: 7%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    .main-title {
+      font-size: 23px;
+      margin-bottom: 5%;
+      color: #fff;
+    }
+
+    .main-content {
+      display: none;
+    }
+
+    .xx_cta {
+      width: 48%;
+      font-size: 8px;
+      background: #fff;
+      color: #ce171f;
+      padding-left: 2%;
+      display: block;
+      margin: 0 auto 1%;
+
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 7%;
+  }
+
+
+}
+
+

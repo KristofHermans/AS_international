@@ -1,0 +1,178 @@
+
+/* *********************************************************************************************************** */
+/*                                         SLIDER THOMAS COOK ACTIE                                         ** */
+/* *********************************************************************************************************** */
+
+ul li.newfashion-uk {
+  background: url('../../images/bg-newfashion15.jpg') no-repeat;
+}
+
+ul li.newfashion-uk .content {
+  position: absolute;
+  width: 30%;
+  top: 3%;
+  right: 0;
+  h2,h3, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+ul li.newfashion-uk .content {
+  color: #c2645f;
+  text-align: left;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 8%;
+  }
+
+}
+
+ul li.newfashion-uk .content .xx_cta { 
+  font-weight: 600;
+  width: 65%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 1px solid #c2645f;
+  color: #c2645f;
+  margin-bottom: 6%;
+  float: left;
+  padding: 7px 0 7px 10px;
+
+  &:hover {
+    background: #c2645f;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+ul li.newfashion-uk .content {
+    width: 30%;
+    top: 0;
+    left: 4%;
+
+    .main-title {
+      font-size: 37px;
+    }
+
+    .xx_cta {
+      margin-bottom: 5%;
+    }
+    
+  }
+
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+ul li.newfashion-uk .content {
+    top: 0;
+
+    .main-title {
+      font-size: 26px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion-uk .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+ul li.newfashion-uk {
+    background: url('../../images/bg-newfashion15-uk-mobile@2x.jpg') no-repeat;
+    background-size: cover;
+  }
+
+ul li.newfashion-uk .content,
+ul li.newfashion-uk.fr_fix .content
+   {
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    .main-title {
+      font-size: 23px;
+      margin-bottom: 3%;
+      text-shadow: 0 0 22px rgba(0, 0, 0, 0.59);
+      color: #fff;
+    }
+
+    .xx_cta {
+      width: 75%;
+      font-size: 12px;
+      background: #c2645f;
+      color: #fff;
+      margin-bottom: 1%;
+      padding-left: 2%;
+      display: inherit;
+      left: 12%;
+      position: relative;
+      font-weight: 400;
+
+    }
+    
+  }
+
+
+}
+
+

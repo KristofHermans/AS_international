@@ -1,0 +1,172 @@
+
+/* *********************************************************************************************************** */
+/*                                      SLIDER WINTERSPORTCATEGORIE                                         ** */
+/* *********************************************************************************************************** */
+
+ul li.wintersport-categorie-uk {
+  background: url('../../images/bg-snow-xl-next-wave.jpg') no-repeat;
+}
+
+ul li.wintersport-categorie-uk .content {
+  position: absolute;
+  width: 80%;
+  top: 3%;
+  left: 10%;
+  h2,h3, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+ul li.wintersport-categorie-uk .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 8%;
+  }
+
+}
+
+ul li.wintersport-categorie-uk .content .xx_cta { 
+  font-weight: 400;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  border: 1px solid #a3b4c8;
+  color: #a3b4c8;
+  margin-bottom: 2%;
+  display: inline-block;
+  padding: 7px 0 7px 10px;
+  z-index: 2;
+
+  &:hover {
+    background: #a3b4c8;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+
+  // &:last-child { margin-left: -3px; }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+ul li.wintersport-categorie-uk .content {
+    width: 80%;
+    top: 0;
+    left: 10%;
+
+    .xx_cta { width: 51%; }
+    .main-title { font-size: 37px; }
+    .xx_cta { margin-bottom: 2%; }
+    
+  }
+
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+ul li.wintersport-categorie-uk .content {
+    top: 0;
+
+    .main-title {
+      font-size: 26px;
+      margin-bottom: 3%;
+    }
+
+    .xx_cta {
+      margin: 10px auto;
+      width: 40%;
+      display: block;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.wintersport-categorie-uk .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+ul li.wintersport-categorie-uk {
+    background-size: cover;
+  }
+
+ul li.wintersport-categorie-uk .content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    .main-title {
+      font-size: 23px;
+      margin-bottom: 3%;
+      text-shadow: 0 0 22px rgba(0, 0, 0, 0.59);
+      color: #fff;
+    }
+
+    .xx_cta {
+      width: 75%;
+      font-size: 12px;
+      margin-bottom: 1%;
+      padding-left: 2%;
+      display: inherit;
+      position: relative;
+      font-weight: 400;
+
+    }
+    
+  }
+
+
+}
+
+
