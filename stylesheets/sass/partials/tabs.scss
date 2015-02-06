@@ -45,7 +45,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
 
-    transition: all 0.35s ease-in-out;
+    //transition: all 0.35s ease-in-out;
     
     // Three tabs instead of four
     &.three-tabs{
@@ -99,9 +99,8 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   position: relative;
   float: left;
   margin-left: -45px;
-
   opacity: 0;
-  transition: opacity 0.35s ease-in-out;
+  //transition: opacity 0.35s ease-in-out;
 }
 
 // Three tabs instead of four
@@ -115,7 +114,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   float: left;
   margin-left: -53px;
   opacity: 0;
-  transition: opacity 0.35s ease-in-out;
+  //transition: opacity 0.35s ease-in-out;
 
   @media only screen and(max-width: 1199px){
     margin-left: -40px;
@@ -136,9 +135,8 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   position: relative;
   float: left;
   margin-left: -53px;
-
   opacity: 0;
-  transition: opacity 0.35s ease-in-out;
+  //transition: opacity 0.35s ease-in-out;
 
   @media only screen and(max-width: 1199px){
     margin-left: -40px;
@@ -194,8 +192,9 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 //overall CTA
 #xx_wrapper #xx_header .xx_slider ul li a.overall-cta{
   display: block;
-  width: 74%;
+  width: 100%;
   height: 100%;
+  position: absolute;
 }
 
 //Buttons 
@@ -241,27 +240,6 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     text-decoration: none;
     background-color: #768a4c;
   }
-
-  // &:after {
-  //   content: "";
-  //   /* box */
-  //   width: 41px;
-  //   height: 37px;
-  //   float: right;
-  //   /* background */
-  //   background: url('http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-white.png') no-repeat center center;
-  //   background-size: 11px 11px;
-
-  //   @media only screen and (min-width: 768px) and (max-width: 979px){
-  //     display: none;
-  //   }
-
-  //   @media only screen and (max-width: 768px) {
-  //     height: 25px;
-  //     width: 25px;
-  //     background-size: 8px 8px;
-  //   }
-  // }
 }
 
 // IE8 fix 

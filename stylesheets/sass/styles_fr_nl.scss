@@ -2,65 +2,50 @@
 	BEGIN UNCHANGING CONTENT
 ========================== */
 
+// MAIN SLIDER TAB STYLES
+@import "partials/tabs";
+
 @import "partials/homepage_slider_fr_nl";
-@import "partials/fonts";
+//@import "partials/fonts";
 @import "partials/hp_int_content";
 @import "partials/brandshowcase";
 @import "partials/usp";
 
 /* ------------------------------------------------------------------------- */
 
-
-
 /* ==========================
 	BEGIN TRAINING PARTIAL
 ========================== */ 
 
-@import "partials/_slides/blok_solden_tweede_afprijzing";
-@import "partials/_slides/wintersportactie";
+@import "partials/_slides/wintersportsolden";
 
 /* ==========================
 	END TRAINING PARTIAL
 ========================== */
 
-
-
 /* ------------------------------------------------------------------------- */
-
-
 
 /* ==========================
 	BEGIN OUDE LIVE PARTIAL
 ========================== */
 
-// MAIN SLIDER TAB STYLES
-@import "partials/tabs";
-
 // INDIVIDUAL SLIDES
-
-@import "partials/_slides/skiverhuur";
-@import "partials/_slides/presolden";
-@import "partials/_slides/outdoor-xl";
-@import "partials/_slides/kerstfolder";
-@import "partials/_slides/outdoorjassen";
-/* ==========================
-	END OUDE LIVE PARTIAL
-========================== */
-
-
-
-/* ------------------------------------------------------------------------- */
-
-
-
-/* ==========================
-	BEGIN NIEUWE LIVE PARTIAL
-========================== */ 
 
 @import "partials/_slides/snow-xl";
 @import "partials/_slides/ronde-prijzen";
 @import "partials/_slides/newfashion15";
 @import "partials/_slides/lookbook_dons";
+
+/* ==========================
+	END OUDE LIVE PARTIAL
+========================== */
+
+/* ------------------------------------------------------------------------- */
+
+/* ==========================
+	BEGIN NIEUWE LIVE PARTIAL
+========================== */ 
+
 
 
 /* ==========================
