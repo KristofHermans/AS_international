@@ -3581,7 +3581,7 @@
 		"outputAbbreviatedPath": "\/images\/bg_wintersportsolden.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/bg_wintersportsolden_mobile.jpg": {
 		"fileType": 16384,
@@ -3592,7 +3592,18 @@
 		"outputAbbreviatedPath": "\/images\/bg_wintersportsolden_mobile.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/bg_wintersportsolden_nl_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125925,
+		"inputAbbreviatedPath": "\/images\/bg_wintersportsolden_nl_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/bg_wintersportsolden_nl_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/block-baybeach.jpg": {
 		"fileType": 16384,
@@ -7875,7 +7886,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/outdoor-xl.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/outdoor-xl.css",
@@ -7907,7 +7918,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/presolden.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/presolden.css",
@@ -7939,7 +7950,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/_slides\/skiverhuur.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/skiverhuur.css",
@@ -8046,21 +8057,12 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/stylesheets\/sass\/partials\/css\/wintersportsolden.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/css\/wintersportsolden.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/stylesheets\/sass\/partials\/fonts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/stylesheets\/sass\/partials\/fonts.scss",
 		"outputAbbreviatedPath": "\/stylesheets\/sass\/css\/fonts.css",
@@ -8232,7 +8234,7 @@
 		"useLibsass": 0
 		},
 	"\/stylesheets\/sass\/styles_fr_nl.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -8242,9 +8244,9 @@
 		"outputAbbreviatedPath": "\/stylesheets\/css\/styles_fr_nl.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 1,
 		"useLibsass": 0
 		},
 	"\/test\/hp_training_nl.html": {
