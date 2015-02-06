@@ -54,6 +54,7 @@ $baseline: 18px;
 }
 
 .bottom-bar{
+	pointer-events: none;
 	position: absolute;
 		//bottom: -23px;
 		bottom: -60px;
@@ -192,6 +193,7 @@ $baseline: 18px;
 	a{
 		float: left;
 		margin-right: 34px;
+		pointer-events: auto;
 
 		&:last-child{
 			margin-right: 0;
