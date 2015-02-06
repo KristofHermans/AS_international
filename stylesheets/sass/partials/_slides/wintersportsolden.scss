@@ -42,23 +42,23 @@
 	}
 
 	.main-title{
-		//font-family: "proxima_nova_rgbold";
-		font-size: 38px;
+		font-size: 31px;
 		margin-top: 0;
 		margin-bottom: 1em;
+		text-transform: uppercase;
 
 		@media only screen and(max-width: 1199px) {
-			font-size: 32px;
+			font-size: 24px;
 			margin-bottom: .8em;
 		}
 
 		@media only screen and(max-width: 979px) {
-			font-size: 21px;
+			font-size: 16px;
 			margin-bottom: .6em;
 		}
 
 		@media only screen and(max-width: 767px) {
-			font-size: 30px;
+			font-size: 24px;
 			margin-bottom: .6em;
 			text-align: center;
 			text-shadow: 0 0 3px rgba(0,0,0,0.3);
@@ -95,14 +95,14 @@
 		}
 
 		.cta-half, .cta-full{
-			background: #ffffff;
+			background: #ffffff !important;
 			box-shadow: 0 0 10px rgba(0,0,0,0.5);
 			box-sizing: border-box;
-			color: #CB1B27;
+			color: #CB1B27 !important;
 			display: block;
 			height: 35px;
 			line-height: 35px;
-			padding: 0 .8em;
+			padding: 0 .8em !important;
 			text-decoration: none;
 			transition: background .1s linear, color .1s linear;
 
@@ -118,14 +118,14 @@
 			}
 
 			&:hover{
-				background: #CB1B27;
-				color: #ffffff;
+				background: #CB1B27 !important;
+				color: #ffffff !important;
 			}
 		}
 
 		.cta-half{
 			float: left;
-			width: 48.5%;
+			width: 48.5% !important;
 
 			& + .cta-half{
 				float: right;
@@ -144,18 +144,25 @@
 
 } 
 
-.wintersportsolden-nl{
+.wintersportsolden-nl, .wintersportsolden-fr{
+	background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_nl_fr.jpg) no-repeat;
+	background-size: contain;
 
-}
+	.content{
+		margin-right: percentage(375/1170);
 
-.wintersportsolden-fr{
+		@media only screen and(max-width: 767px) {
+			font-size: 24px;
+			line-height: 24px;
+			margin: 0 auto;
+			padding: 1em 0;
+			width: 60%;
+		}
+	}
 
-}
-
-.wintersportsolden-uk{
-
-}
-
-.wintersportsolden-de{
-	
+	.copy{
+		@media only screen and(max-width: 767px) {
+			display: none;
+		}
+	}
 }
