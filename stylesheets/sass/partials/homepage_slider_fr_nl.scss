@@ -17,8 +17,14 @@
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
+#xx_wrapper #xx_header .bx-wrapper{
+  margin: 30px auto 0;
 }
 
+#xx_wrapper #xx_header .bx-viewport{
+  border: 0;
+  box-shadow: none;
+  left: 0;
 }
 
 #xx_wrapper #xx_header .xx_slider .bx-pager {
