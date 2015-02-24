@@ -1,0 +1,89 @@
+
+#fashion-10{
+	height: 410px;
+	list-style-type: none;
+	max-width: 1170px;
+	width: 100%;
+
+	@media only screen and(max-width: 1199px) {
+		
+	}
+
+
+	.fashion-10-img-container{
+		background: #000000;
+		float: left;
+		width: percentage(220/1170);
+	}
+
+	.fashion-10-img-link{
+		display: block;
+		float: left;
+		opacity: .85;
+		transition: .1s opacity linear; 
+
+		&:hover{
+			opacity: 1;
+		}
+	}
+
+	.fashion-10-img{
+		float: left;
+	}
+
+	.fashion-10-content-container{
+		background: #C1C5CE;
+		box-sizing: border-box;
+		color: #596276;
+		float: left;
+		font-family: "Open Sans", Arial, sans-serif;
+		height: 100%;
+		padding: 80px 0 0 0;
+		position: relative;
+		width: percentage(290/1170);
+
+		h2{
+			font-size: 34px;
+			margin: 0 0 40px;
+			text-align: center;
+		}
+
+		.fashion-10-cta{
+			background: #596276;
+			box-sizing: border-box;
+			color: #ffffff;
+			display: block;
+			float: none;
+			font-size: 13px;
+			height: 34px;
+			line-height: 34px;
+			margin: 0 auto;
+			padding: 0 10px;
+			text-decoration: none;
+			width: 70%;
+
+			& + .fashion-10-cta{
+				margin-top: 10px;
+			}
+
+			&:after{
+				content: "\f04b";
+				float: right;
+				font-family: "Font Awesome", "FontAwesome";
+				font-size: 8px;
+			}
+
+			&:hover{
+				background: darken(#596276, 5%);
+			}
+		}
+
+		.fashion-10-legals{
+			font-size: 10px;
+			padding: 0 10%;
+			position: absolute;
+				bottom: 10px;
+		}
+	}
+}
+
