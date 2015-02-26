@@ -1,0 +1,10 @@
+.tnf-uk .tnf-uk-cta {
+  background: #EB342E;
+  color: #ffffff; }
+  .tnf-uk .tnf-uk-cta:hover {
+    background: #e91d17; }
+  .tnf-uk .tnf-uk-cta:after {
+    content: "\f04b";
+    font-family: "Font Awesome", "FontAwesome";
+    font-size: 8px;
+    float: right; }
