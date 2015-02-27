@@ -177,6 +177,10 @@
 	@media only screen and(max-width: 767px) {
 		background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_mobile_de.jpg) no-repeat;
 		background-size: cover;
+
+		.copy{
+			display: none;
+		}
 	}
 }
 
@@ -187,5 +191,9 @@
 	@media only screen and(max-width: 767px) {
 		background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_mobile_uk.jpg) no-repeat;
 		background-size: cover;
+
+		.copy{
+			display: none;
+		}
 	}
 }
