@@ -145,7 +145,6 @@
 			width: 100%;
 		}
 	}
-
 } 
 
 .wintersportsolden-nl, .wintersportsolden-fr{
@@ -168,5 +167,25 @@
 		@media only screen and(max-width: 767px) {
 			display: none;
 		}
+	}
+}
+
+.wintersportsolden-de{
+	background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_de.jpg) no-repeat;
+	background-size: contain;
+
+	@media only screen and(max-width: 767px) {
+		background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_mobile_de.jpg) no-repeat;
+		background-size: cover;
+	}
+}
+
+.wintersportsolden-uk{
+	background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_uk.jpg) no-repeat;
+	background-size: contain;
+
+	@media only screen and(max-width: 767px) {
+		background: url(https://static.asadventure.com/includes/homepage/international/images/bg_wintersportsolden_mobile_uk.jpg) no-repeat;
+		background-size: cover;
 	}
 }
