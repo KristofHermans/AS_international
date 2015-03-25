@@ -1,4 +1,8 @@
+# Sass-cache
 **/.sass-cache/*
+
+# SFTP
 **/sftp-config.json
 
-test/*
+# CODEKIT
+*.codekit
