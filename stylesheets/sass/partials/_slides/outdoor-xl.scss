@@ -3,67 +3,81 @@
 /*                                            SLIDER OUTDOOR XL                                             ** */
 /* *********************************************************************************************************** */
 
+  /*
+   * new wave image triggered with class: .new-wave
+   */
+
+
 #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
-  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-outdoor-xl.jpg') no-repeat;
+  background: url('https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl.jpg') no-repeat;
 }
 
 #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
   position: absolute;
-  width: 33%;
-  top: 17%;
-  left: 3.8%;
-  text-align: center;
-
-  background-color: rgba(0,0,0,0.5);
-  padding: 2.5%;
-
+  width: 75%;
+  top: 32%;
+  left: 0;
   h2, span {
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
 }
 
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+  position: absolute;
+  bottom: 3%;
+  right: 26%;
+  //shadow for png image (no square)
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0,0,0,.7));
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,.7));
+}
+
 #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-  
-  .main-title {
-    display: inline-block;
-    font-family: 'proxima_nova_rgbold';
-    font-size: 41px;
-    text-transform: uppercase;
-    line-height: 100%;
-    color: #fff;
-    margin-bottom: 9%;
-    margin-top: 0;
-    text-align: left;
+  color: #fff;
+  text-align: center;
+
+  .main-content {
+    font-size: 34px;
+    color: inherit;
+    line-height: 120%;
+    padding: 0 18%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 
-  .post-it-note {
-    display: block;
-    position: absolute;
-    width: 190px;
-    height: 140px;
-    padding: 0;
-    background: none;
-    right: -41%;
-    top: 84%;
-
-    &:after {
-      display: none;
-    }
-  }
 }
 
 #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta { 
-   width: 95%;
   font-weight: 600;
-  display: block;
+  width: 20%;
   text-align: left;
   margin-top: 0;
-  background-color: #969677;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 7%;
 
   &:hover {
-    background-color: #7E7E60;
+    background: #fff;
+    color: #0F2A48;
   }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  top: 25%;
 }
 
 
@@ -78,29 +92,21 @@
 @media (max-width: 1199px) {
 
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    top: 19%;
-    width: 37%;
 
-    .main-title {
-      font-size: 34px;
-    }
-
-    .post-it-note {
-      width: 120px;
-      height: 88px;
-      right: -27%;
-      top: 76%;
+    .main-content {
+      font-size: 28px;
     }
 
     .xx_cta {
-      width: 95%;
+      width: 24%;
     }
     
   }
 
-  //EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-    font-size: 12px;
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 3%;
+    right: 27%;
+    width: 110px;
   }
 
 }
@@ -112,41 +118,40 @@
 @media (max-width: 979px) {
 
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    top: 19%;
-    width: 41%;
+    width: 74%;
 
     .main-title {
-      font-size: 29px;
+      font-size: 37px;
     }
 
-    .post-it-note {
-      width: 80px;
-      height: 60px;
-      right: -22%;
-      top: 77%;
+    .main-content {
+      font-size: 22px;
     }
 
     .xx_cta {
-      width: 95%;
       text-align: left;
-      padding-left: 4%;
+      padding-left: 10px;
+      margin-bottom: 6%;
 
       &:after {
         display: block;
+        font-size: 8px;
       }
     }
     
   }
 
-  // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
-    width: 97%;
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 4%;
+    right: 28%;
+    width: 90px;
   }
 
-  //EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-    font-size: 10px;
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 27%;
   }
+
 
 }
 
@@ -164,48 +169,36 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-outdoor-xl-mobile@2x.jpg') no-repeat;
+    background: url('https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl-mobile@2x.jpg') no-repeat;
   }
 
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    top: 11%;
-    width: 75%;
-    left: 8%;
-    padding: 4%;
+    top: 26%;
+    width: 100%;
 
-    .main-title {
-      font-size: 19px;
-      margin-bottom: 8%;
-    }
-
-    .post-it-note {
-      right: -20%;
-      top: 56%;
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
     }
 
     .xx_cta {
-      width: 92%;
+      width: 40%;
       font-size: 8px;
-    }
-
-    .post-it-note {
-      right: 0%;
-      top: 87%;
-      width: 50px;
-      height: 40px;
     }
     
   }
 
-  //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
-    width: 97%;
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 4%;
+    right: 3%;
+    width: 66px;
   }
 
-  //EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-    font-size: 7.5px;
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 40%;
   }
+
 
 }
 
