@@ -1,0 +1,301 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER FOLDER MAART 15                                        ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
+  background: url('https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+  position: absolute;
+  width: 30%;
+  top: 12%;
+  left: 43.5%;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+  position: absolute;
+  top: 45%;
+  left: 6%;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+  color: #c0cb41;
+  text-align: center;
+
+  .main-title {
+    font-size: 30px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%;
+  }
+
+  .legal {
+    font-size: 13px;
+    color: #C0CB41;
+    line-height: 130%;
+    margin-top: 1em;
+  }
+
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta { 
+  font-weight: 600;
+  width: 30%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #c0cb41;
+  color: #c0cb41;
+  margin-bottom: 4%;
+
+  &:hover {
+    background: #c0cb41;
+    color: #fff;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(3),
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(5) {
+  margin-left: 2%;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider { 
+  width: 67%;
+  background: #c0cb41;
+  color: #fff;
+  margin-left: -3px;
+
+  &:hover {
+    background: #afba36;
+    color: #fff;
+    border-color: #afba36;
+  }
+}
+
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content {
+
+  .main-title {
+    font-size: 28px;
+  }
+  
+  .legal {
+    margin-top: 10%;
+  }
+}
+
+//EN FIX
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
+
+  top: 17%;
+  
+  .legal {
+    margin-top: 17%;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    top: 3%;
+    left: 42.5%;
+
+    .main-title {
+      font-size: 26px;
+    }
+
+    .legal {
+      font-size: 12px;
+    }
+
+    .xx_cta {
+      width: 37%;
+    }
+
+    .xx_cta.wider {
+      width: 82%;
+    }
+    
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+      width: 340px;
+  }
+
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content {
+
+    .main-title {
+      font-size: 22px;
+    }
+    
+    .legal {
+      margin-top: 6%;
+    }
+  }
+
+  //EN FIX
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
+
+    top: 3%;
+    
+    .legal {
+      margin-top: 17%;
+    }
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    top: 0%;
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .legal {
+      font-size: 11px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+    width: 255px;
+  }
+
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content {
+
+    .main-title {
+      font-size: 18px;
+    }
+    
+    .xx_cta {
+      font-size: 10px;
+    }
+
+    .legal {
+      margin-top: 2%;
+    }
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
+    background: url('https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    width: 50%;
+
+    .main-title {
+      font-size: 11px;
+    }
+
+    .legal {
+      font-size: 9px;
+    }
+
+    .xx_cta {
+      border-width: 1px;
+      text-align: center;
+      padding-left: 0;
+      width: 44%;
+
+      &:after {
+        display: none;
+      }
+    }
+
+     .xx_cta.wider {
+      width: 93%;
+     }
+    
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+    top: 80%;
+    left: 3%;
+    width: 100px;
+  }
+
+  //FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content {
+
+    .main-title {
+      font-size: 10px;
+    }
+    
+    .xx_cta {
+      font-size: 9px;
+    }
+
+    .legal {
+      margin-top: 2%;
+    }
+  }
+
+
+
+}
+
+

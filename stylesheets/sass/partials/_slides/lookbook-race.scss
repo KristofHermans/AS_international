@@ -1,0 +1,202 @@
+
+/* *********************************************************************************************************** */
+/*                                           SLIDER LOOKBOOK RACE                                           ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+  background: url('https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race.jpg') no-repeat;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  position: absolute;
+  width: 28%;
+  top: 33%;
+  left: 6%;
+
+  h2,h3, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  color: #fff;
+  text-align: left;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 2%;
+    text-shadow: 0 0 33px rgba(0, 0, 0, 0.2);
+  }
+
+  .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 6%;
+  }
+
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta { 
+  font-weight: 600;
+  width: 62%;
+  text-align: left;
+  margin-top: 0;
+  background: #7c8e18;
+  color: #fff;
+
+  &:hover {
+    background: #6d7d13;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+    top: 29%;
+    width: 31%;
+    left: 4%;
+
+    .main-title {
+      font-size: 25px;
+    }
+
+    .main-content {
+      font-size: 18px;
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+    width: 65%;
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .main-content {
+      font-size: 14px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+    width: 70%;
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+    background: url('https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+    top: 22%;
+    left: 13%;
+    width: 64%;
+
+    .main-title {
+      font-size: 16px;
+      margin-bottom: 1.5%;
+    }
+
+    .main-content {
+      font-size: 11px;
+      margin-bottom: 5%;
+    }
+
+    .xx_cta {
+      width: 65%;
+      font-size: 8px;
+      margin-bottom: 1%;
+      padding-left: 2%;
+
+      &:after {
+        font-size: 7px;
+      }
+    }
+    
+  }
+
+  // FR FIX
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content {
+    top: 17%;
+    width: 65%;
+    
+    .main-title {
+      font-size: 17px;
+    }
+
+  }
+
+
+}
+
+
