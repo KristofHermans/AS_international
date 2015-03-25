@@ -1,1 +1,2180 @@
-#xx_wrapper #xx_header .xx_slider ul li{height:410px}a:link{-webkit-tap-highlight-color:transparent}#xx_wrapper #xx_header .xx_slider #bx-pager{position:absolute;z-index:10;top:0;right:0;width:25%;height:100%;background-color:rgba(255,255,255,0.6)}#xx_wrapper #xx_header .xx_slider #bx-pager .tab{box-sizing:border-box;display:block;width:100%;height:99px;background-color:#fafafa;padding-left:7%;padding-right:3%;margin-bottom:1.6%;font-family:'Open Sans', sans-serif;text-decoration:none;-webkit-transform-style:preserve-3d;transform-style:preserve-3d}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs{height:32.5203170732%;margin-bottom:1.7%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs{height:49.4%;margin-bottom:1.6%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2n){background-color:#f2f2f2}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:last-child{margin-bottom:0px}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active,#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover{background-color:#434343;border-right:4px solid #f98319}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-title,#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-title{color:#ffffff;text-shadow:1px 2px 1px rbga(0, 0, 0, 0.5)}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-intro,#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-intro{color:#ffffff}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover{background-color:#a2a2a2}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-title,#xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-intro{color:#ffffff}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before{content:"";background:url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-tab.png") no-repeat center center;background-size:contain;width:25px;height:100%;position:relative;float:left;margin-left:-45px;opacity:0}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before{content:"";background:url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-tab.png") no-repeat center center;background-size:cover;width:33px;height:100%;position:relative;float:left;margin-left:-53px;opacity:0}@media only screen and (max-width: 1199px){#xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before{margin-left:-40px}}@media only screen and (max-width: 979px){#xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before{margin-left:-32px}}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before{content:"";background:url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-two-tabs.png") no-repeat center center;background-size:cover;width:33px;height:100%;position:relative;float:left;margin-left:-53px;opacity:0}@media only screen and (max-width: 1199px){#xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before{margin-left:-40px;width:26px}}@media only screen and (max-width: 979px){#xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before{margin-left:-31px;width:20px}}#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:before{opacity:1}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);background:none}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title,#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:inherit}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title{font-weight:600;font-size:14px;line-height:100%;margin-bottom:2%;color:#5E5E5E}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro{font-weight:400;font-size:12px;color:#717171;margin-bottom:0}#xx_wrapper #xx_header .xx_slider .bx-controls-direction{display:none}#xx_wrapper #xx_header .xx_slider ul li a.overall-cta{display:block;width:100%;height:100%;position:absolute}#xx_wrapper #xx_header .xx_slider ul li div a{width:100%;font-family:'Open Sans', sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-weight:normal;font-size:13px;-moz-box-orient:vertical;display:inline-block;vertical-align:middle;text-decoration:none;color:#ffffff;text-align:left;line-height:37px;background-color:#89a058;height:37px;padding:0 10px;padding-right:0;margin-top:10px}@media only screen and (min-width: 768px) and (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li div a{text-align:center;padding-left:0;font-size:11px;height:30px;line-height:30px}}@media only screen and (max-width: 768px){#xx_wrapper #xx_header .xx_slider ul li div a{font-size:10px;height:25px;line-height:25px}}#xx_wrapper #xx_header .xx_slider ul li div a:hover{text-decoration:none;background-color:#768a4c}@media \0screen{#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before{display:none}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content{top:24%}}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li{height:311px;background-size:940px 311px !important}#xx_wrapper #xx_header .xx_slider #bx-pager{width:26%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab{height:75px;padding-left:6%;margin-bottom:1.45%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before{width:24px;height:75px;margin-left:-36px;background-size:80%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title{font-size:13px;margin-bottom:2px}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro{font-size:11px}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li{height:240px;background-size:724px 240px !important}#xx_wrapper #xx_header .xx_slider #bx-pager{width:26%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab{height:58px}#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before{width:20px;height:58px;margin-left:-29px;background-size:78%}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title{font-size:11px;margin-top:5px;line-height:100%;margin-bottom:3px}#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro{display:none}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider #bx-pager{display:none}#xx_wrapper #xx_header .xx_slider ul li{height:160px;background-size:302px 160px !important}#xx_wrapper #xx_header .xx_slider .bx-controls-direction{display:block}#xx_wrapper #xx_header .xx_slider .bx-controls-direction a{position:absolute;top:0;outline:0;width:34px;height:95%;margin-top:3px;text-indent:-9999px;z-index:15}#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev{left:4px;background:url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat 0px center}#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next{right:4px;background:url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat -34px center}}@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx){#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next{background:url("http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png") no-repeat;background-size:66px 34px}#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev{background-position:0px center}#xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next{background-position:-34px center}}#xx_wrapper #xx_header{margin-top:0px;max-width:1170px;padding-top:0px}#xx_wrapper #xx_header .xx_slider{position:relative;box-shadow:0 0 5px #D4D3D1;box-shadow:0 0 5px rgba(0,0,0,0.3)}#xx_wrapper #xx_header .bx-wrapper{margin:30px auto 0}#xx_wrapper #xx_header .bx-viewport{border:0;box-shadow:none;left:0}#xx_wrapper #xx_header .xx_slider .bx-pager{margin-top:20px;text-align:center}#xx_wrapper #xx_header .xx_slider ul{margin:0;list-style:none;list-style-type:none;list-style-image:none}#xx_wrapper #xx_header .xx_slider ul li{position:relative;height:410px}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li{height:311px}}@media (max-width: 979px){#xx_wrapper #xx_header{display:block}#xx_wrapper #xx_header .xx_slider ul li{height:240px}}@media (max-width: 767px){#xx_wrapper #xx_header{margin:10px auto;max-width:302px}#xx_wrapper #xx_header .xx_slider ul li{height:160px;width:100%}}#xx_wrapper #xx_header_mobile{display:none}@media only screen and (max-width: 767px){#xx_wrapper #xx_header_mobile{display:block}}#homepageWrapper *{-ms-box-sizing:border-box;box-sizing:border-box}#homepageWrapper .ayacucho{background:#91A23F}#homepageWrapper .blue{background:#1580C7}#homepageWrapper .brown{background:#7D4C27;border:1px solid #603A15}#homepageWrapper .gray{background:#EDEDED}#homepageWrapper .green{background:#72B425}#homepageWrapper .orange{background:#E56D1E}#homepageWrapper .purple{background:#900742}#homepageWrapper .asMagazine{background:#B5232C}#homepageWrapper .tomato{background:#B0382B}#homepageWrapper .yellow{background:#E69426;border:1px solid #A35E1E}#homepageWrapper .blockHeader{box-shadow:0 3px 3px #cccccc;box-shadow:0 3px 3px rgba(0,0,0,0.2)}#homepageWrapper .boxShadow{box-shadow:0 0 5px #aaaaaa;box-shadow:0 0 5px rgba(0,0,0,0.3)}#homepageWrapper b{font-weight:bold}#homepageWrapper .row{margin:30px 0 0 0;max-width:1170px}@media only screen and (max-width: 767px){#homepageWrapper .row{margin:0 0 0 0}}#homepageWrapper .oneCol{max-width:1170px;width:100%}#homepageWrapper .twoCol{float:left;height:inherit;max-width:570px;position:relative;width:48.7179487%}@media only screen and (max-width: 767px){#homepageWrapper .twoCol{margin:15px 0;width:100%}}#homepageWrapper .twoCol:first-child{float:left;margin-right:1.2820513%}@media only screen and (max-width: 767px){#homepageWrapper .twoCol:first-child{margin-right:0}}#homepageWrapper .twoCol:last-child{float:right;margin-left:1.2820513%}@media only screen and (max-width: 767px){#homepageWrapper .twoCol:last-child{margin-left:0}}#homepageWrapper .threeCol{background:#ffffff;float:left;height:inherit;margin:0 1.2820513%;max-height:320px;max-width:370px;min-height:320px;position:relative;width:31.6239316%}@media only screen and (max-width: 979px) and (min-width: 768px){#homepageWrapper .threeCol{margin:0 2.0718232%;width:47.9281768%}}@media only screen and (max-width: 767px){#homepageWrapper .threeCol{border-left:1px solid #efefef;border-right:1px solid #efefef;margin:15px 0;width:100%}}#homepageWrapper .threeCol:first-child{margin-left:0}@media only screen and (max-width: 979px) and (min-width: 768px){#homepageWrapper .threeCol:nth-child(2){margin-right:0}}#homepageWrapper .threeCol:last-child{margin-right:0}@media only screen and (min-width: 768px){#xx_header_mobile{display:none}}#homepageWrapper .clearfix:after{clear:both;content:"";display:table}#homepageWrapper .lastCol{margin-right:0 !important}#homepageWrapper{font-family:'Open Sans', Arial, sans-serif;margin:0 auto;max-width:1170px;width:100%}@media only screen and (max-width: 767px){#homepageWrapper{display:none}}#homepageWrapper .label{border-radius:0;color:#ffffff;display:inline-block;font-size:13px;font-weight:100;padding:10px;position:absolute;top:0;left:0;text-shadow:1px 1px 0 rgba(0,0,0,0.25);z-index:10}@media only screen and (max-width: 1200px){#homepageWrapper .label{font-size:13px;padding:5px}}@media only screen and (max-width: 979px){#homepageWrapper .label{font-size:11px}}#homepageWrapper .twoCol img{max-width:100%;z-index:1}#homepageWrapper .threeCol img{max-width:100%;z-index:1}#homepageWrapper #stores{background:url("http://static.asadventure.com/includes/homepage/international/images/winkels.jpg") no-repeat center center;background-size:contain;height:297px}#homepageWrapper .outdoor,#homepageWrapper .fashion{height:300px}@media only screen and (max-width: 1199px){#homepageWrapper .outdoor,#homepageWrapper .fashion{height:236px}}@media only screen and (max-width: 979px){#homepageWrapper .outdoor,#homepageWrapper .fashion{height:182px}}#homepageWrapper .outdoor{background:url("http://static.asadventure.com/includes/homepage/international/images/outdoor_bg.jpg") no-repeat;background-size:contain}#homepageWrapper .fashion{background:url("http://static.asadventure.com/includes/homepage/international/images/fashion_bg.jpg") no-repeat;background-size:contain}#homepageWrapper .blockColumn{float:left;padding-top:53px;width:50%}@media only screen and (max-width: 1199px){#homepageWrapper .blockColumn{padding-top:40px}}#homepageWrapper .blockColumn h2{color:#e76d00;font-size:35px;font-family:'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;line-height:35px;margin-bottom:30px;text-align:center;text-shadow:0 2px 0 rgba(0,0,0,0.2);text-transform:uppercase}@media only screen and (max-width: 767px){#homepageWrapper .blockColumn h2{font-size:22px}}#homepageWrapper .blockColumn img{box-shadow:1px 1px 2px 0 rgba(0,0,0,0.3);margin:0 5.6756757% 30px;max-width:100%;position:relative;width:88.6486486%}#homepageWrapper .blockColumn p{color:#545454;font-size:13px;font-family:'Open Sans', sans-serif;margin:0 5.6756757%;text-align:center}@media only screen and (max-width: 1199px){#homepageWrapper .blockColumn p{font-size:11px}}#homepageWrapper .orangeText{color:#e76d00}@media only screen and (max-width: 1199px){#homepageWrapper .orangeText{font-size:11px}}#homepageWrapper .copyBlock{color:#545454;height:188px;padding:1em 10px 4em;text-align:center}@media only screen and (max-width: 1200px) and (min-width: 979px){#homepageWrapper .copyBlock{height:213px}}#homepageWrapper .copyBlock h2{font-size:16px;font-weight:100;line-height:1.5em;margin:0 1em 1em}@media only screen and (max-width: 1199px) and (min-width: 767px){#homepageWrapper .copyBlock h2{min-height:48px}}#homepageWrapper .copyBlock p{font-size:13px;line-height:1.5em}@media only screen and (max-width: 979px){#homepageWrapper .copyBlock p{font-size:11px}}@media only screen and (max-width: 979px) and (min-width: 768px){#homepageWrapper #magazine.threeCol{clear:both;margin:30px 0 0 0;max-width:100%;width:100%}}#homepageWrapper .magazineHeader{background:url("http://static.asadventure.com/includes/homepage/international/images/as-magazine.jpg");border-bottom:1px solid #D8D8D8;color:#323232;height:57px;text-align:left;text-shadow:1px 1px 0 rgba(255,255,255,0.5)}#homepageWrapper .magazineHeader img{float:left;margin-right:15px;max-width:89px;width:24.3243243%}@media only screen and (max-width: 1199px){#homepageWrapper .magazineHeader img{margin-right:7px;width:30%}}@media only screen and (max-width: 979px){#homepageWrapper .magazineHeader img{margin-right:180px}}@media only screen and (max-width: 767px){#homepageWrapper .magazineHeader img{margin-right:7px}}#homepageWrapper .magazineHeader h3{display:inline;font-size:16px;font-style:italic;line-height:57px}@media only screen and (max-width: 1199px){#homepageWrapper .magazineHeader h3{font-size:13px}}@media only screen and (max-width: 979px){#homepageWrapper .magazineHeader h3{font-size:16px}}@media only screen and (max-width: 767px){#homepageWrapper .magazineHeader h3{font-size:13px}}#homepageWrapper .magazineOverview{color:#545454;height:262px;text-align:left}#homepageWrapper a,#homepageWrapper a:visited{color:#545454}#homepageWrapper .magArticle{border-bottom:1px solid #D8D8D8;clear:both;height:41px;padding:0 10px;text-decoration:none}#homepageWrapper .magArticle:hover h4{text-decoration:underline}#homepageWrapper .magArticle img{float:left;padding:3px 0}#homepageWrapper .magArticle h4{float:left;font-size:13px;line-height:41px;margin:0 0 0 15px}@media only screen and (max-width: 1199px) and (min-width: 980px){#homepageWrapper .magArticle h4{line-height:20px;width:200px}}@media only screen and (max-width: 767px){#homepageWrapper .magArticle h4{line-height:20px;width:200px}}#homepageWrapper .twoCol .ctaBlock{margin-top:16px;padding:140px 0 0 0;width:28.9473684211%}@media only screen and (max-width: 1199px){#homepageWrapper .twoCol .ctaBlock{padding:108px 0 0 0}}@media only screen and (max-width: 979px){#homepageWrapper .twoCol .ctaBlock{padding:82px 0 0 0}}#homepageWrapper .twoCol .ctaBlock.center{margin-left:35.9649122807%}#homepageWrapper .twoCol .ctaBlock.right{margin-right:4.3859649123%}#homepageWrapper .twoCol .ctaBlock li{height:33px;margin-bottom:5px;list-style-type:none}@media only screen and (max-width: 1199px){#homepageWrapper .twoCol .ctaBlock li{height:26px}}@media only screen and (max-width: 979px){#homepageWrapper .twoCol .ctaBlock li{height:18px}}#homepageWrapper .twoCol .ctaBlock li a{display:block;font-size:14px;height:100%;line-height:33px;padding-left:10px;text-decoration:none;width:100%}#homepageWrapper .twoCol .ctaBlock li a::after{content:'\f0da';float:right;font-family:'FontAwesome';padding-right:10px}@media only screen and (max-width: 1199px){#homepageWrapper .twoCol .ctaBlock li a{line-height:26px}}@media only screen and (max-width: 1199px){#homepageWrapper .twoCol .ctaBlock li a{font-size:12px;line-height:18px}}#homepageWrapper .copyBlock .cta,#homepageWrapper .magazineOverview .cta{color:#ffffff;display:inline-block;font-size:13px;font-weight:100;height:38px;line-height:38px;padding-left:10px;position:absolute;bottom:10px;left:10px;text-align:left;text-decoration:none;text-shadow:1px 1px 0 rgba(0,0,0,0.25);width:94.5945946%}@media only screen and (max-width: 767px){#homepageWrapper .copyBlock .cta,#homepageWrapper .magazineOverview .cta{font-size:10px;width:93.2659933%}}@media only screen and (max-width: 979px) and (min-width: 768px){#homepageWrapper .copyBlock .cta,#homepageWrapper .magazineOverview .cta{width:94.2363112%}}@media only screen and (max-width: 1200px) and (min-width: 980px){#homepageWrapper .copyBlock .cta,#homepageWrapper .magazineOverview .cta{font-size:11px;width:93.2659933%}}@media only screen and (max-width: 979px) and (min-width: 768px){#homepageWrapper .magazineOverview .cta{width:97.2375691%}}#homepageWrapper .copyBlock .cta:after,#homepageWrapper .magazineOverview .cta:after{border-left:1px solid rgba(0,0,0,0.1);content:url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow.png");float:right;padding:0 0 0 15px;width:26px}#homepageWrapper .cta.blue:hover{background:#1371b0}#homepageWrapper .cta.brown:hover{background:#6a4021}#homepageWrapper .cta.yellow:hover{background:#d98719}#homepageWrapper .cta.green:hover{background:#659f21}#homepageWrapper .cta.orange:hover{background:#d16218}#homepageWrapper .cta.purple:hover{background:#780637}#homepageWrapper .cta.ayacucho:hover{background:#819038}#homepageWrapper .cta.asMagazine:hover{background:#a01f27}#homepageWrapper a.cta,#homepageWrapper a.cta:visited{color:#ffffff}@media only screen and (max-width: 768px){#xx_wrapper #xx_header_mobile{display:block}}#homepageWrapper .brandRow{margin:0 auto 6px;max-width:100%;width:1170px}@media only screen and (max-width: 767px){#homepageWrapper .brandRow{display:none}}#homepageWrapper .brandRow:after{content:"";display:table;clear:both}#homepageWrapper .brandRow .brandCard{background:#ffffff;float:left;margin:0 0.2564103%;box-shadow:0 0 2px rgba(0,0,0,0.3);max-height:100px;max-width:12.0512821%;padding:0;-webkit-transition:all .2s ease-out;transition:all .2s ease-out}#homepageWrapper .brandCard:hover{box-shadow:0 3px 10px rgba(0,0,0,0.3);position:relative;top:-2px;-webkit-transform:scale(1.03);-ms-transform:scale(1.03);transform:scale(1.03)}#homepageWrapper .brandRow .brandCard img{max-width:100%;width:100%}#homepageWrapper .brandRow .brandCard:first-child{margin-left:0}#homepageWrapper .brandRow .brandCard:last-child{margin-right:0}#homepageWrapper .brandRow .jack_wolfskin_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/jack_wolfskin.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .jack_wolfskin_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/jack_wolfskin_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .millet_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/millet.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .millet_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/millet_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .tom_tailor_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/tom_tailor.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .tom_tailor_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/tom_tailor_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .gore_bike_wear_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/gore_bike_wear.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .gore_bike_wear_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/gore_bike_wear_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .ayacucho_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/ayacucho.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .ayacucho_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/ayacucho_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .camel_active_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/camel_active.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .camel_active_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/camel_active_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .asics_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/asics.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .asics_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/asics_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .care_plus_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/care_plus.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .care_plus_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/care_plus_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .superdry_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/superdry.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .superdry_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/superdry_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .the_north_face_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/the_north_face.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .the_north_face_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/the_north_face_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .salomon_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/salomon.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .salomon_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/salomon_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .king_louie_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/king_louie.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .king_louie_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/king_louie_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .deby_debo_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/deby_debo.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .deby_debo_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/deby_debo_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .eider_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/eider.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .eider_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/eider_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .garmin_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/garmin.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .garmin_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/garmin_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .vaude_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/vaude.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .vaude_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/vaude_hover.jpg) no-repeat center center}#homepageWrapper .brandRow .cks_logo img{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/cks.jpg) no-repeat center center;background-size:100%}#homepageWrapper .brandRow .cks_logo img:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/_logo/cks_hover.jpg) no-repeat center center}#homepageWrapper .uspRow{background:#fff;box-shadow:0 0 2px rgba(0,0,0,0.3);height:130px;margin:20px 0 0 0;padding:20px 0}@media only screen and (max-width: 767px){#homepageWrapper .uspRow{height:260px}}@media only screen and (max-width: 767px){#homepageWrapper #uspBlock{margin:0 auto 30px;max-width:585px}}#homepageWrapper .fourCol{float:left;max-width:293px;width:25%}@media only screen and (max-width: 767px){#homepageWrapper .fourCol{height:120px;margin:0;width:50%}}#homepageWrapper .fourCol .usp{color:#9f9f9f;display:block;font-family:'Open Sans', arial, sans-serif;font-size:13px;height:90px;line-height:14px;padding-top:65px;text-align:center;text-decoration:none;width:100%}#homepageWrapper .fourCol .levering{background:url(http://static.asadventure.com/includes/homepage/international/images/verzending.png) no-repeat center 20px}#homepageWrapper .fourCol .levering:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/verzending_hover.png) no-repeat center 20px}#homepageWrapper .fourCol .retour{background:url(http://static.asadventure.com/includes/homepage/international/images/retour.png) no-repeat center 0px}#homepageWrapper .fourCol .retour:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/retour_hover.png) no-repeat center 0px}#homepageWrapper .fourCol .naverkoop{background:url(http://static.asadventure.com/includes/homepage/international/images/naverkoop.png) no-repeat center 3px}#homepageWrapper .fourCol .naverkoop:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/naverkoop_hover.png) no-repeat center 3px}#homepageWrapper .fourCol .garantie{background:url(http://static.asadventure.com/includes/homepage/international/images/garantie.png) no-repeat center 10px}#homepageWrapper .fourCol .garantie:hover{background:url(http://static.asadventure.com/includes/homepage/international/images/garantie_hover.png) no-repeat center 10px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content{position:absolute;width:30%;top:12%;left:43.5%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content h2,#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title{position:absolute;top:45%;left:6%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content{color:#c0cb41;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title{font-size:30px;color:inherit;line-height:130%;margin-bottom:5%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal{font-size:13px;color:#C0CB41;line-height:130%;margin-top:1em}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta{font-weight:600;width:30%;text-align:left;margin-top:0;background:none;border:2px solid #c0cb41;color:#c0cb41;margin-bottom:4%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:hover{background:#c0cb41;color:#fff}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after{content:"\f04b";background:none;width:auto;height:auto;font-family:"FontAwesome";font-size:10px;float:right;margin-right:11px;color:inherit}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(3),#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(5){margin-left:2%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider{width:67%;background:#c0cb41;color:#fff;margin-left:-3px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider:hover{background:#afba36;color:#fff;border-color:#afba36}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title{font-size:28px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal{margin-top:10%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content{top:17%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal{margin-top:17%}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content{top:3%;left:42.5%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title{font-size:26px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal{font-size:12px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta{width:37%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider{width:82%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title{width:340px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title{font-size:22px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal{margin-top:6%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content{top:3%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal{margin-top:17%}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content{top:0%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title{font-size:19px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal{font-size:11px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta{text-align:left;padding-left:10px;margin-bottom:4%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after{display:block;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title{width:255px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title{font-size:18px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta{font-size:10px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal{margin-top:2%}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.folder-maart15{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content{width:50%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title{font-size:11px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal{font-size:9px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta{border-width:1px;text-align:center;padding-left:0;width:44%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after{display:none}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider{width:93%}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title{top:80%;left:3%;width:100px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title{font-size:10px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta{font-size:9px}#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal{margin-top:2%}}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content{position:absolute;width:75%;top:30%;left:0}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content h2,#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content{color:#fff;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title{font-family:'Georgia', serif;font-size:44px;font-weight:400;font-style:italic;color:inherit;text-shadow:0 0 25px rgba(0,0,0,0.75)}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title{display:inline-block;font-family:'Open Sans', sans-serif;font-weight:100;font-size:64px;text-transform:uppercase;line-height:100%;color:inherit;margin-bottom:5%;text-shadow:0 0 25px rgba(0,0,0,0.75)}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta{display:block;margin:0 auto;font-weight:600;width:25%;text-align:left;margin-top:0;background-color:#425e98}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:hover{background-color:#3f5480}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content{top:28%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title{font-size:39px;margin-bottom:0}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title{font-size:52px}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta{width:30%}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content{top:25%;width:74%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title{font-size:28px}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title{font-size:37px}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta{width:30%;text-align:left;padding-left:2%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after{display:block}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.fashion-xl{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content{top:21%;width:100%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title{font-size:17px;text-shadow:0 0 10px rgba(0,0,0,0.75)}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title{font-size:23px;margin-bottom:4%;margin-top:1%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta{width:50%;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta{width:97%}#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta{font-size:7.5px}}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content{position:absolute;width:75%;top:32%;left:0}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content h2,#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline{position:absolute;bottom:3%;right:26%;-webkit-filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.7));filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.7))}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content{color:#fff;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content{font-size:34px;color:inherit;line-height:120%;padding:0 18%;margin-bottom:5%;text-shadow:0 0 10px rgba(0,0,0,0.2)}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta{font-weight:600;width:20%;text-align:left;margin-top:0;background:none;border:2px solid #fff;color:#fff;margin-bottom:7%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:hover{background:#fff;color:#0F2A48}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after{content:"\f04b";background:none;width:auto;height:auto;font-family:"FontAwesome";font-size:10px;float:right;margin-right:6%;color:inherit}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content{top:25%}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content{font-size:28px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta{width:24%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline{bottom:3%;right:27%;width:110px}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content{width:74%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title{font-size:37px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content{font-size:22px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta{text-align:left;padding-left:10px;margin-bottom:6%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after{display:block;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline{bottom:4%;right:28%;width:90px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta{width:27%}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content{top:26%;width:100%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content{font-size:15px;padding:0 10%}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta{width:40%;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline{bottom:4%;right:3%;width:66px}#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta{width:40%}}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content{position:absolute;width:28%;top:33%;left:6%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h2,#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h3,#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content{color:#fff;text-align:left}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title{display:inline-block;font-family:'Open Sans', sans-serif;font-weight:800;font-size:29px;line-height:120%;color:inherit;margin-bottom:2%;text-shadow:0 0 33px rgba(0,0,0,0.2)}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content{color:inherit;line-height:120%;font-size:21px;font-weight:400;margin-bottom:6%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta{font-weight:600;width:62%;text-align:left;margin-top:0;background:#7c8e18;color:#fff}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:hover{background:#6d7d13}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after{content:"\f04b";background:none;width:auto;height:auto;font-family:"FontAwesome";font-size:10px;float:right;margin-right:6%;color:inherit}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content{top:29%;width:31%;left:4%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title{font-size:25px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content{font-size:18px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta{width:65%}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title{font-size:19px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content{font-size:14px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta{text-align:left;padding-left:4%;margin-bottom:6%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after{display:block;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta{width:70%}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.lookbook-race{background:url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content{top:22%;left:13%;width:64%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title{font-size:16px;margin-bottom:1.5%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content{font-size:11px;margin-bottom:5%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta{width:65%;font-size:8px;margin-bottom:1%;padding-left:2%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after{font-size:7px}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content{top:17%;width:65%}#xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .main-title{font-size:17px}}#xx_wrapper #xx_header .xx_slider ul li.snow-xl{background:url("../../images/bg-snow-xl.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave{background:url("../../images/bg-snow-xl-next-wave-v2.jpg")}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content{position:absolute;width:75%;top:17%;left:0}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content h2,#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content{color:#fff;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title{display:inline-block;font-family:'Open Sans', sans-serif;font-weight:100;font-size:65px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-transform:uppercase;line-height:100%;color:inherit;margin-bottom:1%;text-shadow:0 0 25px rgba(0,0,0,0.55)}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content{font-size:34px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color:inherit;line-height:120%;padding:0 18%;margin-bottom:5%;text-shadow:0 0 10px rgba(0,0,0,0.2)}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta{font-weight:600;width:25%;text-align:left;margin-top:0;background-color:#425e98}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:hover{background-color:#3f5480}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content{top:15%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title{font-size:52px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content{font-size:28px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta{width:30%}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content{top:15%;width:74%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title{font-size:37px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content{font-size:22px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta{width:30%;text-align:left;padding-left:2%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after{display:block}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.snow-xl{background:url("../../images/bg-snow-xl-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave{background:url("../../images/bg-snow-xl-next-wave-mobile@2x.jpg")}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content{top:11%;width:100%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title{font-size:23px;margin-bottom:2%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content{font-size:13px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta{width:50%;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta{width:97%}#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta{font-size:7.5px}}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen{background:url("../../images/bg-rondeprijzen15.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content{position:absolute;width:30%;top:17%;left:37%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h2,#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h3,#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content{color:#fff;text-align:left}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title{display:inline-block;font-family:'Open Sans', sans-serif;font-weight:800;font-size:45px;text-transform:uppercase;line-height:100%;color:inherit;margin-bottom:4%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content{color:inherit;line-height:120%;font-size:18px;font-weight:400}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta{font-weight:600;width:48%;text-align:left;margin-top:0;background:none;border:1px solid #fff;color:#fff;margin-bottom:4%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:hover{background:#fff;color:#ce171f}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after{content:"\f04b";background:none;width:auto;height:auto;font-family:"FontAwesome";font-size:10px;float:right;margin-right:6%;color:inherit}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content{top:19%}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content{width:33%;top:6%;left:36%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title{font-size:37px}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content{font-size:16px}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta{margin-bottom:4%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content{top:10%}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content{top:3%;width:30%;left:37%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title{font-size:26px}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content{font-size:14px;margin-bottom:8%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta{text-align:left;padding-left:4%;margin-bottom:6%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after{display:block;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content{top:3%}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen{background:url("../../images/bg-rondeprijzen15-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content{top:7%;left:0;width:100%;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title{font-size:23px;margin-bottom:5%;color:#fff}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content{display:none}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta{width:48%;font-size:8px;background:#fff;color:#ce171f;padding-left:2%;display:block;margin:0 auto 1%}#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content{top:7%}}#xx_wrapper #xx_header .xx_slider ul li.newfashion15{background:url("../../images/bg-newfashion15.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content{position:absolute;width:24%;top:8%;left:3%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h2,#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h3,#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content{color:#c2645f;text-align:left}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title{display:inline-block;font-family:'Open Sans', sans-serif;font-weight:100;font-size:52px;text-transform:uppercase;line-height:100%;color:inherit;margin-bottom:8%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta{font-weight:600;width:80%;text-align:left;margin-top:0;background:none;border:1px solid #c2645f;color:#c2645f;margin-bottom:7%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:hover{background:#c2645f;color:#fff}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after{content:"\f04b";background:none;width:auto;height:auto;font-family:"FontAwesome";font-size:10px;float:right;margin-right:6%;color:inherit}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content{width:28%;top:10%;left:3%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title{font-size:42px;margin-bottom:8%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta{width:74%}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content{width:22%;top:5%;left:4%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title{font-size:37px}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta{margin-bottom:5%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content{top:5%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title{font-size:32px}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content{top:4%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title{font-size:26px}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta{text-align:left;padding-left:4%;margin-bottom:6%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after{display:block;font-size:8px}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content{top:3%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title{font-size:24px}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.newfashion15{background:url("../../images/bg-newfashion15-mobile@2x.jpg") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content,#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content{top:0;left:0;width:100%;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title,#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title{font-size:23px;margin-bottom:3%;text-shadow:0 0 22px rgba(0,0,0,0.59);color:#fff}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta,#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta{width:50%;font-size:8px;background:#c2645f;color:#fff;margin-bottom:1%;padding-left:2%}#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:last-child,#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta:last-child{margin-left:-4px}}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons{overflow:hidden;background-size:cover !important}.slide{position:absolute;top:0}.slide:nth-child(1){z-index:2}.slide:nth-child(2){z-index:1}.animated-img{-webkit-animation:imageAnimation 4s;animation:imageAnimation 4s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation:imageAnimation 4s infinite}@keyframes imageAnimation{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-webkit-keyframes imageAnimation{0%{opacity:1}50%{opacity:0}100%{opacity:1}}@-ms-keyframes imageAnimation{0%{opacity:1}50%{opacity:0}100%{opacity:1}}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content{position:absolute;top:20%;left:2%;z-index:2;width:70%;height:300px;box-sizing:border-box;padding:22px 19px 0;color:#ffffff}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content h2,#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content span{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title{position:relative;z-index:2;color:#ffffff;font-size:48px;line-height:60px;font-weight:100;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta{width:50%;background:none;font-weight:400;display:block;border:3px solid #fff;margin:30px auto;font-size:16px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover{background-color:#fff;color:#333}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover:after{content:"";width:25px;height:37px;float:right;background:url("../images/arrow_dark.png") no-repeat;background-size:11px 13px;position:relative;top:13px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title{font-size:40px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title{font-size:40px}@media (max-width: 1199px){#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content{padding-top:13px;padding-right:10px;background-position:0px -54px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title{font-size:35px;line-height:57px;margin-bottom:5px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta{width:60%}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title{font-size:32px}}@media (max-width: 979px){#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content{width:70%;padding-top:8px;background-position:0px -37px;top:70px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title{font-size:25px;line-height:50px;margin-bottom:-5px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta{width:50%;text-align:left;padding-left:4%;margin:0 auto}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after{display:block;height:30px;background-size:9px 9px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title{font-size:25px;margin-bottom:0}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title{font-size:25px;margin-bottom:0px}}@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after{height:25px}}@media (max-width: 767px){#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons{background:url("../../images/bg-lookbook-dons-mobile@2k.gif") no-repeat}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons #crossfade{display:none}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content{width:90%;padding-top:10px;height:112px;top:25%;width:90%;left:5%;box-shadow:none}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title{font-size:20px;line-height:100%;margin-bottom:5px;text-align:center}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta{font-size:9px;width:65%;height:25px;line-height:25px;margin-top:2px;border:2px solid #fff}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after{height:25px;background-size:8px 8px}#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title,#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title{font-size:15px}}
+/* ==========================
+	BEGIN UNCHANGING CONTENT
+========================== */
+/* *********************************************************************************************************** */
+/* **                                            Slider TABS                                                ** */
+/* *********************************************************************************************************** */
+/***********************************************
+    General styles 
+***********************************************/
+#xx_wrapper #xx_header .xx_slider ul li {
+  height: 410px; }
+
+a:link {
+  -webkit-tap-highlight-color: transparent; }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager {
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  width: 25%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 99px;
+  background-color: #fafafa;
+  padding-left: 7%;
+  padding-right: 3%;
+  margin-bottom: 1.6%;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
+    height: 32.5203170732%;
+    margin-bottom: 1.7%; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs {
+    height: 49.4%;
+    margin-bottom: 1.6%; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2n) {
+    background-color: #f2f2f2; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:last-child {
+    margin-bottom: 0px; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active, #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover {
+    background-color: #434343;
+    border-right: 4px solid #f98319; }
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-title, #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-title {
+      color: #ffffff;
+      text-shadow: 1px 2px 1px rbga(0, 0, 0, 0.5); }
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active .tab-content .tab-intro, #xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:hover .tab-content .tab-intro {
+      color: #ffffff; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover {
+    background-color: #a2a2a2; }
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-title, #xx_wrapper #xx_header .xx_slider #bx-pager .tab:hover .tab-content .tab-intro {
+      color: #ffffff; }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  content: "";
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-tab.png") no-repeat center center;
+  background-size: contain;
+  width: 25px;
+  height: 100%;
+  position: relative;
+  float: left;
+  margin-left: -45px;
+  opacity: 0; }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before {
+  content: "";
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-tab.png") no-repeat center center;
+  background-size: cover;
+  width: 33px;
+  height: 100%;
+  position: relative;
+  float: left;
+  margin-left: -53px;
+  opacity: 0; }
+  @media only screen and (max-width: 1199px) {
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before {
+      margin-left: -40px; } }
+  @media only screen and (max-width: 979px) {
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs:before {
+      margin-left: -32px; } }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before {
+  content: "";
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow-two-tabs.png") no-repeat center center;
+  background-size: cover;
+  width: 33px;
+  height: 100%;
+  position: relative;
+  float: left;
+  margin-left: -53px;
+  opacity: 0; }
+  @media only screen and (max-width: 1199px) {
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before {
+      margin-left: -40px;
+      width: 26px; } }
+  @media only screen and (max-width: 979px) {
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs:before {
+      margin-left: -31px;
+      width: 20px; } }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
+  opacity: 1; }
+
+#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  background: none; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title, #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: inherit; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 2%;
+    color: #5E5E5E; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    font-weight: 400;
+    font-size: 12px;
+    color: #717171;
+    margin-bottom: 0; }
+
+#xx_wrapper #xx_header .xx_slider .bx-controls-direction {
+  display: none; }
+
+#xx_wrapper #xx_header .xx_slider ul li a.overall-cta {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute; }
+
+#xx_wrapper #xx_header .xx_slider ul li div a {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: normal;
+  font-size: 13px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: left;
+  line-height: 37px;
+  background-color: #89a058;
+  height: 37px;
+  padding: 0 10px;
+  padding-right: 0;
+  margin-top: 10px; }
+  @media only screen and (min-width: 768px) and (max-width: 979px) {
+    #xx_wrapper #xx_header .xx_slider ul li div a {
+      text-align: center;
+      padding-left: 0;
+      font-size: 11px;
+      height: 30px;
+      line-height: 30px; } }
+  @media only screen and (max-width: 768px) {
+    #xx_wrapper #xx_header .xx_slider ul li div a {
+      font-size: 10px;
+      height: 25px;
+      line-height: 25px; } }
+  #xx_wrapper #xx_header .xx_slider ul li div a:hover {
+    text-decoration: none;
+    background-color: #768a4c; }
+
+@media \0screen {
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    display: none; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+    top: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 311px;
+    background-size: 940px 311px !important; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager {
+    width: 26%; }
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab {
+      height: 75px;
+      padding-left: 6%;
+      margin-bottom: 1.45%; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 24px;
+    height: 75px;
+    margin-left: -36px;
+    background-size: 80%; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-size: 13px;
+    margin-bottom: 2px; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    font-size: 11px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 240px;
+    background-size: 724px 240px !important; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager {
+    width: 26%; }
+    #xx_wrapper #xx_header .xx_slider #bx-pager .tab {
+      height: 58px; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+    width: 20px;
+    height: 58px;
+    margin-left: -29px;
+    background-size: 78%; }
+
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title {
+    font-size: 11px;
+    margin-top: 5px;
+    line-height: 100%;
+    margin-bottom: 3px; }
+  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro {
+    display: none; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider #bx-pager {
+    display: none; }
+
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 160px;
+    background-size: 302px 160px !important; }
+
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction {
+    display: block; }
+
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a {
+    position: absolute;
+    top: 0;
+    outline: 0;
+    width: 34px;
+    height: 95%;
+    margin-top: 3px;
+    text-indent: -9999px;
+    z-index: 15; }
+    #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+      left: 4px;
+      background: url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat 0px center; }
+    #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+      right: 4px;
+      background: url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat -34px center; } }
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png") no-repeat;
+    background-size: 66px 34px; }
+
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+    background-position: 0px center; }
+
+  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+    background-position: -34px center; } }
+/*******************************************     
+  Global                                              
+*******************************************/
+/*******************************************     
+  Header                                              
+*******************************************/
+#xx_wrapper #xx_header {
+  margin-top: 0px;
+  max-width: 1170px;
+  padding-top: 0px; }
+
+#xx_wrapper #xx_header .xx_slider {
+  position: relative;
+  box-shadow: 0 0 5px #D4D3D1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+#xx_wrapper #xx_header .bx-wrapper {
+  margin: 30px auto 0; }
+
+#xx_wrapper #xx_header .bx-viewport {
+  border: 0;
+  box-shadow: none;
+  left: 0; }
+
+#xx_wrapper #xx_header .xx_slider .bx-pager {
+  /* box */
+  margin-top: 20px;
+  /* font */
+  text-align: center; }
+
+#xx_wrapper #xx_header .xx_slider ul {
+  /* box */
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none; }
+
+#xx_wrapper #xx_header .xx_slider ul li {
+  /* position */
+  position: relative;
+  /* box */
+  height: 410px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 311px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header {
+    display: block; }
+
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 240px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header {
+    margin: 10px auto;
+    max-width: 302px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li {
+    height: 160px;
+    width: 100%; } }
+/***********************************************
+		General 
+***********************************************/
+#xx_wrapper #xx_header_mobile {
+  display: none; }
+  @media only screen and (max-width: 767px) {
+    #xx_wrapper #xx_header_mobile {
+      display: block; } }
+
+#homepageWrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/***********************************************
+		Variables 
+***********************************************/
+/***********************************************
+		Onderdelen 
+***********************************************/
+#homepageWrapper .ayacucho {
+  background: #91A23F; }
+
+#homepageWrapper .blue {
+  background: #1580C7; }
+
+#homepageWrapper .brown {
+  background: #7D4C27;
+  border: 1px solid #603A15; }
+
+#homepageWrapper .gray {
+  background: #EDEDED; }
+
+#homepageWrapper .green {
+  background: #72B425; }
+
+#homepageWrapper .orange {
+  background: #E56D1E; }
+
+#homepageWrapper .purple {
+  background: #900742; }
+
+#homepageWrapper .asMagazine {
+  background: #B5232C; }
+
+#homepageWrapper .tomato {
+  background: #B0382B; }
+
+#homepageWrapper .yellow {
+  background: #E69426;
+  border: 1px solid #A35E1E; }
+
+#homepageWrapper .blockHeader {
+  -webkit-box-shadow: 0 3px 3px #cccccc;
+  box-shadow: 0 3px 3px #cccccc;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
+
+#homepageWrapper .boxShadow {
+  -webkit-box-shadow: 0 0 5px #aaaaaa;
+  box-shadow: 0 0 5px #aaaaaa;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+#homepageWrapper b {
+  font-weight: bold; }
+
+/***********************************************
+		Grid 
+***********************************************/
+#homepageWrapper .row {
+  margin: 30px 0 0 0;
+  max-width: 1170px; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .row {
+      margin: 0 0 0 0; } }
+
+#homepageWrapper .oneCol {
+  max-width: 1170px;
+  width: 100%; }
+
+#homepageWrapper .twoCol {
+  float: left;
+  height: inherit;
+  max-width: 570px;
+  position: relative;
+  width: 48.7179487%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .twoCol {
+      margin: 15px 0;
+      width: 100%; } }
+
+#homepageWrapper .twoCol:first-child {
+  float: left;
+  margin-right: 1.2820513%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .twoCol:first-child {
+      margin-right: 0; } }
+
+#homepageWrapper .twoCol:last-child {
+  float: right;
+  margin-left: 1.2820513%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .twoCol:last-child {
+      margin-left: 0; } }
+
+#homepageWrapper .threeCol {
+  background: #ffffff;
+  float: left;
+  height: inherit;
+  margin: 0 1.2820513%;
+  max-height: 320px;
+  max-width: 370px;
+  min-height: 320px;
+  position: relative;
+  width: 31.6239316%; }
+  @media only screen and (max-width: 979px) and (min-width: 768px) {
+    #homepageWrapper .threeCol {
+      margin: 0 2.0718232%;
+      width: 47.9281768%; } }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .threeCol {
+      border-left: 1px solid #efefef;
+      border-right: 1px solid #efefef;
+      margin: 15px 0;
+      width: 100%; } }
+
+#homepageWrapper .threeCol:first-child {
+  margin-left: 0; }
+
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+  #homepageWrapper .threeCol:nth-child(2) {
+    margin-right: 0; } }
+
+#homepageWrapper .threeCol:last-child {
+  margin-right: 0; }
+
+/***********************************************
+		Hacks 
+***********************************************/
+@media only screen and (min-width: 768px) {
+  #xx_header_mobile {
+    display: none; } }
+
+#homepageWrapper .clearfix:after {
+  clear: both;
+  content: "";
+  display: table; }
+
+#homepageWrapper .lastCol {
+  margin-right: 0 !important; }
+
+/***********************************************
+	Rows 
+***********************************************/
+#homepageWrapper {
+  font-family: 'Open Sans', Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper {
+      display: none; } }
+
+#homepageWrapper .label {
+  border-radius: 0;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  z-index: 10; }
+  @media only screen and (max-width: 1200px) {
+    #homepageWrapper .label {
+      font-size: 13px;
+      padding: 5px; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .label {
+      font-size: 11px; } }
+
+#homepageWrapper .twoCol img {
+  max-width: 100%;
+  z-index: 1; }
+
+/*********************************
+		Three Columns 
+*********************************/
+#homepageWrapper .threeCol img {
+  max-width: 100%;
+  z-index: 1; }
+
+/***********************
+		Blockcolumn 
+***********************/
+#homepageWrapper #stores {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/winkels.jpg") no-repeat center center;
+  background-size: contain;
+  height: 297px; }
+
+#homepageWrapper .outdoor, #homepageWrapper .fashion {
+  height: 300px; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .outdoor, #homepageWrapper .fashion {
+      height: 236px; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .outdoor, #homepageWrapper .fashion {
+      height: 182px; } }
+
+#homepageWrapper .outdoor {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/outdoor_bg.jpg") no-repeat;
+  background-size: contain; }
+
+#homepageWrapper .fashion {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/fashion_bg.jpg") no-repeat;
+  background-size: contain; }
+
+#homepageWrapper .blockColumn {
+  float: left;
+  padding-top: 53px;
+  width: 50%; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .blockColumn {
+      padding-top: 40px; } }
+
+#homepageWrapper .blockColumn h2 {
+  color: #e76d00;
+  font-size: 35px;
+  font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
+  line-height: 35px;
+  margin-bottom: 30px;
+  text-align: center;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  text-transform: uppercase; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .blockColumn h2 {
+      font-size: 22px; } }
+
+#homepageWrapper .blockColumn img {
+  box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.3);
+  margin: 0 5.6756757% 30px;
+  max-width: 100%;
+  position: relative;
+  width: 88.6486486%; }
+
+#homepageWrapper .blockColumn p {
+  color: #545454;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 5.6756757%;
+  text-align: center; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .blockColumn p {
+      font-size: 11px; } }
+
+#homepageWrapper .orangeText {
+  color: #e76d00; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .orangeText {
+      font-size: 11px; } }
+
+/***********************
+		Copyblocks 
+***********************/
+#homepageWrapper .copyBlock {
+  color: #545454;
+  height: 188px;
+  padding: 1em 10px 4em;
+  text-align: center; }
+  @media only screen and (max-width: 1200px) and (min-width: 979px) {
+    #homepageWrapper .copyBlock {
+      height: 213px; } }
+
+#homepageWrapper .copyBlock h2 {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5em;
+  margin: 0 1em 1em; }
+  @media only screen and (max-width: 1199px) and (min-width: 767px) {
+    #homepageWrapper .copyBlock h2 {
+      min-height: 48px; } }
+
+#homepageWrapper .copyBlock p {
+  font-size: 13px;
+  line-height: 1.5em; }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .copyBlock p {
+      font-size: 11px; } }
+
+/***********************
+		Magazineblock 
+***********************/
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+  #homepageWrapper #magazine.threeCol {
+    clear: both;
+    margin: 30px 0 0 0;
+    max-width: 100%;
+    width: 100%; } }
+
+#homepageWrapper .magazineHeader {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/as-magazine.jpg");
+  border-bottom: 1px solid #D8D8D8;
+  color: #323232;
+  height: 57px;
+  text-align: left;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+
+#homepageWrapper .magazineHeader img {
+  float: left;
+  margin-right: 15px;
+  max-width: 89px;
+  width: 24.3243243%; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .magazineHeader img {
+      margin-right: 7px;
+      width: 30%; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .magazineHeader img {
+      margin-right: 180px; } }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .magazineHeader img {
+      margin-right: 7px; } }
+
+#homepageWrapper .magazineHeader h3 {
+  display: inline;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 57px; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .magazineHeader h3 {
+      font-size: 13px; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .magazineHeader h3 {
+      font-size: 16px; } }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .magazineHeader h3 {
+      font-size: 13px; } }
+
+#homepageWrapper .magazineOverview {
+  color: #545454;
+  height: 262px;
+  text-align: left; }
+
+#homepageWrapper a, #homepageWrapper a:visited {
+  color: #545454; }
+
+#homepageWrapper .magArticle {
+  border-bottom: 1px solid #D8D8D8;
+  clear: both;
+  height: 41px;
+  padding: 0 10px;
+  text-decoration: none; }
+
+#homepageWrapper .magArticle:hover h4 {
+  text-decoration: underline; }
+
+#homepageWrapper .magArticle img {
+  float: left;
+  padding: 3px 0; }
+
+#homepageWrapper .magArticle h4 {
+  float: left;
+  font-size: 13px;
+  line-height: 41px;
+  margin: 0 0 0 15px; }
+  @media only screen and (max-width: 1199px) and (min-width: 980px) {
+    #homepageWrapper .magArticle h4 {
+      line-height: 20px;
+      width: 200px; } }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .magArticle h4 {
+      line-height: 20px;
+      width: 200px; } }
+
+/*********************************
+		CTA's 
+*********************************/
+#homepageWrapper .twoCol .ctaBlock {
+  margin-top: 16px;
+  padding: 140px 0 0 0;
+  width: 28.9473684211%; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .twoCol .ctaBlock {
+      padding: 108px 0 0 0; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .twoCol .ctaBlock {
+      padding: 82px 0 0 0; } }
+
+#homepageWrapper .twoCol .ctaBlock.center {
+  margin-left: 35.9649122807%; }
+
+#homepageWrapper .twoCol .ctaBlock.right {
+  margin-right: 4.3859649123%; }
+
+#homepageWrapper .twoCol .ctaBlock li {
+  height: 33px;
+  margin-bottom: 5px;
+  list-style-type: none; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .twoCol .ctaBlock li {
+      height: 26px; } }
+  @media only screen and (max-width: 979px) {
+    #homepageWrapper .twoCol .ctaBlock li {
+      height: 18px; } }
+
+#homepageWrapper .twoCol .ctaBlock li a {
+  display: block;
+  font-size: 14px;
+  height: 100%;
+  line-height: 33px;
+  padding-left: 10px;
+  text-decoration: none;
+  width: 100%; }
+  #homepageWrapper .twoCol .ctaBlock li a::after {
+    content: '\f0da';
+    float: right;
+    font-family: 'FontAwesome';
+    padding-right: 10px; }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .twoCol .ctaBlock li a {
+      line-height: 26px; } }
+  @media only screen and (max-width: 1199px) {
+    #homepageWrapper .twoCol .ctaBlock li a {
+      font-size: 12px;
+      line-height: 18px; } }
+
+#homepageWrapper .copyBlock .cta, #homepageWrapper .magazineOverview .cta {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 100;
+  height: 38px;
+  line-height: 38px;
+  padding-left: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+  width: 94.5945946%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .copyBlock .cta, #homepageWrapper .magazineOverview .cta {
+      font-size: 10px;
+      width: 93.2659933%; } }
+  @media only screen and (max-width: 979px) and (min-width: 768px) {
+    #homepageWrapper .copyBlock .cta, #homepageWrapper .magazineOverview .cta {
+      width: 94.2363112%; } }
+  @media only screen and (max-width: 1200px) and (min-width: 980px) {
+    #homepageWrapper .copyBlock .cta, #homepageWrapper .magazineOverview .cta {
+      font-size: 11px;
+      width: 93.2659933%; } }
+
+@media only screen and (max-width: 979px) and (min-width: 768px) {
+  #homepageWrapper .magazineOverview .cta {
+    width: 97.2375691%; } }
+
+#homepageWrapper .copyBlock .cta:after, #homepageWrapper .magazineOverview .cta:after {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  content: url("http://static.asadventure.com/includes/homepage/international/images/_arrows/arrow.png");
+  float: right;
+  padding: 0 0 0 15px;
+  width: 26px; }
+
+#homepageWrapper .cta.blue:hover {
+  background: #1371b0; }
+
+#homepageWrapper .cta.brown:hover {
+  background: #6a4021; }
+
+#homepageWrapper .cta.yellow:hover {
+  background: #d98719; }
+
+#homepageWrapper .cta.green:hover {
+  background: #659f21; }
+
+#homepageWrapper .cta.orange:hover {
+  background: #d16218; }
+
+#homepageWrapper .cta.purple:hover {
+  background: #780637; }
+
+#homepageWrapper .cta.ayacucho:hover {
+  background: #819038; }
+
+#homepageWrapper .cta.asMagazine:hover {
+  background: #a01f27; }
+
+#homepageWrapper a.cta, #homepageWrapper a.cta:visited {
+  color: #ffffff; }
+
+/*******************************************     
+  Important                                              
+*******************************************/
+@media only screen and (max-width: 768px) {
+  #xx_wrapper #xx_header_mobile {
+    display: block; } }
+#homepageWrapper .brandRow {
+  margin: 0 auto 6px;
+  max-width: 100%;
+  width: 1170px; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .brandRow {
+      display: none; } }
+
+#homepageWrapper .brandRow:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+#homepageWrapper .brandRow .brandCard {
+  background: #ffffff;
+  float: left;
+  margin: 0 0.2564103%;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  max-height: 100px;
+  max-width: 12.0512821%;
+  padding: 0;
+  -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
+  transition: all .2s ease-out; }
+
+#homepageWrapper .brandCard:hover {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  top: -2px;
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03); }
+
+#homepageWrapper .brandRow .brandCard img {
+  max-width: 100%;
+  width: 100%; }
+
+#homepageWrapper .brandRow .brandCard:first-child {
+  margin-left: 0; }
+
+#homepageWrapper .brandRow .brandCard:last-child {
+  margin-right: 0; }
+
+/********************************
+	Individual brands
+********************************/
+#homepageWrapper .brandRow .jack_wolfskin_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/jack_wolfskin.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .jack_wolfskin_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/jack_wolfskin_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .millet_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/millet.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .millet_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/millet_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .tom_tailor_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/tom_tailor.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .tom_tailor_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/tom_tailor_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .gore_bike_wear_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/gore_bike_wear.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .gore_bike_wear_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/gore_bike_wear_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .ayacucho_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/ayacucho.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .ayacucho_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/ayacucho_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .camel_active_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/camel_active.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .camel_active_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/camel_active_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .asics_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/asics.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .asics_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/asics_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .care_plus_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/care_plus.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .care_plus_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/care_plus_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .superdry_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/superdry.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .superdry_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/superdry_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .the_north_face_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/the_north_face.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .the_north_face_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/the_north_face_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .salomon_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/salomon.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .salomon_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/salomon_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .king_louie_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/king_louie.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .king_louie_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/king_louie_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .deby_debo_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/deby_debo.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .deby_debo_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/deby_debo_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .eider_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/eider.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .eider_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/eider_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .garmin_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/garmin.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .garmin_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/garmin_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .vaude_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/vaude.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .vaude_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/vaude_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .brandRow .cks_logo img {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/cks.jpg) no-repeat center center;
+  background-size: 100%; }
+  #homepageWrapper .brandRow .cks_logo img:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/_logo/cks_hover.jpg) no-repeat center center; }
+
+#homepageWrapper .uspRow {
+  background: #fff;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  height: 130px;
+  margin: 20px 0 0 0;
+  padding: 20px 0; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .uspRow {
+      height: 260px; } }
+
+@media only screen and (max-width: 767px) {
+  #homepageWrapper #uspBlock {
+    margin: 0 auto 30px;
+    max-width: 585px; } }
+
+/* COLUMNS */
+#homepageWrapper .fourCol {
+  float: left;
+  max-width: 293px;
+  width: 25%; }
+  @media only screen and (max-width: 767px) {
+    #homepageWrapper .fourCol {
+      height: 120px;
+      margin: 0;
+      width: 50%; } }
+
+#homepageWrapper .fourCol .usp {
+  color: #9f9f9f;
+  display: block;
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 13px;
+  height: 90px;
+  line-height: 14px;
+  padding-top: 65px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%; }
+
+/* BACKGROUNDS */
+#homepageWrapper .fourCol .levering {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/verzending.png) no-repeat center 20px; }
+  #homepageWrapper .fourCol .levering:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/verzending_hover.png) no-repeat center 20px; }
+
+#homepageWrapper .fourCol .retour {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/retour.png) no-repeat center 0px; }
+  #homepageWrapper .fourCol .retour:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/retour_hover.png) no-repeat center 0px; }
+
+#homepageWrapper .fourCol .naverkoop {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/naverkoop.png) no-repeat center 3px; }
+  #homepageWrapper .fourCol .naverkoop:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/naverkoop_hover.png) no-repeat center 3px; }
+
+#homepageWrapper .fourCol .garantie {
+  background: url(http://static.asadventure.com/includes/homepage/international/images/garantie.png) no-repeat center 10px; }
+  #homepageWrapper .fourCol .garantie:hover {
+    background: url(http://static.asadventure.com/includes/homepage/international/images/garantie_hover.png) no-repeat center 10px; }
+
+/* ------------------------------------------------------------------------- */
+/* ==========================
+	BEGIN TRAINING PARTIAL
+========================== */
+/* *********************************************************************************************************** */
+/*                                            SLIDER FOLDER MAART 15                                        ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
+  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+  position: absolute;
+  width: 30%;
+  top: 12%;
+  left: 43.5%; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content h2, #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+  position: absolute;
+  top: 45%;
+  left: 6%; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+  color: #c0cb41;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
+    font-size: 30px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
+    font-size: 13px;
+    color: #C0CB41;
+    line-height: 130%;
+    margin-top: 1em; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+  font-weight: 600;
+  width: 30%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #c0cb41;
+  color: #c0cb41;
+  margin-bottom: 4%; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:hover {
+    background: #c0cb41;
+    color: #fff; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(3),
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(5) {
+  margin-left: 2%; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
+  width: 67%;
+  background: #c0cb41;
+  color: #fff;
+  margin-left: -3px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider:hover {
+    background: #afba36;
+    color: #fff;
+    border-color: #afba36; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
+  font-size: 28px; }
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
+  margin-top: 10%; }
+
+#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
+  top: 17%; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal {
+    margin-top: 17%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    top: 3%;
+    left: 42.5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
+      font-size: 26px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
+      font-size: 12px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+      width: 37%; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
+      width: 82%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+    width: 340px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
+    font-size: 22px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
+    margin-top: 6%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
+    top: 3%; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal {
+      margin-top: 17%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    top: 0%; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
+      font-size: 19px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
+      font-size: 11px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%; }
+      #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+    width: 255px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
+    font-size: 18px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta {
+    font-size: 10px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
+    margin-top: 2%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+    width: 50%; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
+      font-size: 11px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
+      font-size: 9px; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+      border-width: 1px;
+      text-align: center;
+      padding-left: 0;
+      width: 44%; }
+      #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+        display: none; }
+    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
+      width: 93%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
+    top: 80%;
+    left: 3%;
+    width: 100px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
+    font-size: 10px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta {
+    font-size: 9px; }
+  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
+    margin-top: 2%; } }
+/* *********************************************************************************************************** */
+/*                                            SLIDER FASHION XL                                             ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 30%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  color: #fff;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+    font-family: 'Georgia', serif;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: italic;
+    color: inherit;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 5%;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background-color: #425e98; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:hover {
+    background-color: #3f5480; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 28%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 39px;
+      margin-bottom: 0; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 52px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 30%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 25%;
+    width: 74%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 28px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 30%;
+      text-align: left;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+        display: block; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 21%;
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 17px;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 23px;
+      margin-bottom: 4%;
+      margin-top: 1%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 50%;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
+    width: 97%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+    font-size: 7.5px; } }
+/* *********************************************************************************************************** */
+/*                                            SLIDER OUTDOOR XL                                             ** */
+/* *********************************************************************************************************** */
+/*
+ * new wave image triggered with class: .new-wave
+ */
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
+  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 32%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+  position: absolute;
+  bottom: 3%;
+  right: 26%;
+  -webkit-filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.7)); }
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  color: #fff;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content {
+    font-size: 34px;
+    color: inherit;
+    line-height: 120%;
+    padding: 0 18%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 7%; }
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:hover {
+    background: #fff;
+    color: #0F2A48; }
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  top: 25%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content {
+    font-size: 28px; }
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+    width: 24%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 3%;
+    right: 27%;
+    width: 110px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    width: 74%; }
+    #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content {
+      font-size: 22px; }
+    #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 4%;
+    right: 28%;
+    width: 90px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 27%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-xl-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    top: 26%;
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+      width: 40%;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl .tagline {
+    bottom: 4%;
+    right: 3%;
+    width: 66px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
+    width: 40%; } }
+/* *********************************************************************************************************** */
+/*                                           SLIDER LOOKBOOK RACE                                           ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  position: absolute;
+  width: 28%;
+  top: 33%;
+  left: 6%; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h2, #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h3, #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  color: #fff;
+  text-align: left; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 29px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 2%;
+    text-shadow: 0 0 33px rgba(0, 0, 0, 0.2); }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 6%; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
+  font-weight: 600;
+  width: 62%;
+  text-align: left;
+  margin-top: 0;
+  background: #7c8e18;
+  color: #fff; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:hover {
+    background: #6d7d13; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+    top: 29%;
+    width: 31%;
+    left: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
+      font-size: 25px; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
+      font-size: 18px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+    width: 65%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
+    font-size: 19px; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
+    font-size: 14px; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
+    text-align: left;
+    padding-left: 4%;
+    margin-bottom: 6%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+      display: block;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+    width: 70%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+    top: 22%;
+    left: 13%;
+    width: 64%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
+      font-size: 16px;
+      margin-bottom: 1.5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
+      font-size: 11px;
+      margin-bottom: 5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
+      width: 65%;
+      font-size: 8px;
+      margin-bottom: 1%;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+        font-size: 7px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content {
+    top: 17%;
+    width: 65%; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .main-title {
+      font-size: 17px; } }
+/* ==========================
+	END TRAINING PARTIAL
+========================== */
+/* ------------------------------------------------------------------------- */
+/* ==========================
+	BEGIN OUDE LIVE PARTIAL
+========================== */
+/* *********************************************************************************************************** */
+/*                                            SLIDER SNOW XL                                             ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+  background: url("../../images/bg-snow-xl.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave {
+    background: url("../../images/bg-snow-xl-next-wave-v2.jpg"); }
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 17%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  color: #fff;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 65px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 1%;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.55); }
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
+    font-size: 34px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: inherit;
+    line-height: 120%;
+    padding: 0 18%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background-color: #425e98; }
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:hover {
+    background-color: #3f5480; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 15%; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
+      font-size: 52px; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
+      font-size: 28px; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+      width: 30%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 15%;
+    width: 74%; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
+      font-size: 22px; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+      width: 30%;
+      text-align: left;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
+        display: block; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+    background: url("../../images/bg-snow-xl-mobile@2x.jpg") no-repeat; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave {
+      background: url("../../images/bg-snow-xl-next-wave-mobile@2x.jpg"); }
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+    top: 11%;
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
+      font-size: 23px;
+      margin-bottom: 2%; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
+      font-size: 13px; }
+    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+      width: 50%;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
+    width: 97%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+    font-size: 7.5px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER RONDE PRIJZEN                                         ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+  background: url("../../images/bg-rondeprijzen15.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  position: absolute;
+  width: 30%;
+  top: 17%;
+  left: 37%; }
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h2, #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h3, #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  color: #fff;
+  text-align: left; }
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 4%; }
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 18px;
+    font-weight: 400; }
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
+  font-weight: 600;
+  width: 48%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  margin-bottom: 4%; }
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:hover {
+    background: #fff;
+    color: #ce171f; }
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+  top: 19%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+    width: 33%;
+    top: 6%;
+    left: 36%; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
+      font-size: 16px; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
+      margin-bottom: 4%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 10%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+    top: 3%;
+    width: 30%;
+    left: 37%; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
+      font-size: 26px; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
+      font-size: 14px;
+      margin-bottom: 8%; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%; }
+      #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 3%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+    background: url("../../images/bg-rondeprijzen15-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+    top: 7%;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
+      font-size: 23px;
+      margin-bottom: 5%;
+      color: #fff; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
+      display: none; }
+    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
+      width: 48%;
+      font-size: 8px;
+      background: #fff;
+      color: #ce171f;
+      padding-left: 2%;
+      display: block;
+      margin: 0 auto 1%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+    top: 7%; } }
+/* *********************************************************************************************************** */
+/*                                         SLIDER THOMAS COOK ACTIE                                         ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
+  background: url("../../images/bg-newfashion15.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
+  position: absolute;
+  width: 24%;
+  top: 8%;
+  left: 3%; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h2, #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h3, #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
+  color: #c2645f;
+  text-align: left; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 52px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 8%; }
+
+#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
+  font-weight: 600;
+  width: 80%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 1px solid #c2645f;
+  color: #c2645f;
+  margin-bottom: 7%; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:hover {
+    background: #c2645f;
+    color: #fff; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
+  width: 28%;
+  top: 10%;
+  left: 3%; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
+    font-size: 42px;
+    margin-bottom: 8%; }
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta {
+    width: 74%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
+    width: 22%;
+    top: 5%;
+    left: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
+      margin-bottom: 5%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
+    top: 5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
+      font-size: 32px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
+    top: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
+      font-size: 26px; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%; }
+      #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
+    top: 3%; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
+      font-size: 24px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
+    background: url("../../images/bg-newfashion15-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content,
+  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title,
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
+      font-size: 23px;
+      margin-bottom: 3%;
+      text-shadow: 0 0 22px rgba(0, 0, 0, 0.59);
+      color: #fff; }
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta,
+    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta {
+      width: 50%;
+      font-size: 8px;
+      background: #c2645f;
+      color: #fff;
+      margin-bottom: 1%;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:last-child,
+      #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta:last-child {
+        margin-left: -4px; } }
+/* *********************************************************************************************************** */
+/* **                                         SLIDER SOLDEN (2de afprijzing)                                ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+  overflow: hidden;
+  background-size: cover !important; }
+
+/* ANIMATIONS
+   ========================================================================== */
+.slide {
+  position: absolute;
+  top: 0; }
+  .slide:nth-child(1) {
+    z-index: 2; }
+  .slide:nth-child(2) {
+    z-index: 1; }
+
+.animated-img {
+  animation: imageAnimation 4s;
+  animation-iteration-count: infinite;
+  -webkit-animation: imageAnimation 4s infinite; }
+
+@keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+  position: absolute;
+  top: 20%;
+  left: 2%;
+  z-index: 2;
+  width: 70%;
+  height: 300px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 22px 19px 0;
+  color: #ffffff; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content h2,
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 100;
+  text-align: center; }
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
+  width: 50%;
+  background: none;
+  font-weight: 400;
+  display: block;
+  border: 3px solid #fff;
+  margin: 30px auto;
+  font-size: 16px; }
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover {
+    background-color: #fff;
+    color: #333; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover:after {
+      content: "";
+      width: 25px;
+      height: 37px;
+      float: right;
+      background: url("../images/arrow_dark.png") no-repeat;
+      background-size: 11px 13px;
+      position: relative;
+      top: 13px; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
+  font-size: 40px; }
+
+#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
+  font-size: 40px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    padding-top: 13px;
+    padding-right: 10px;
+    background-position: 0px -54px; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
+      font-size: 35px;
+      line-height: 57px;
+      margin-bottom: 5px; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
+      width: 60%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
+    font-size: 32px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    width: 70%;
+    padding-top: 8px;
+    background-position: 0px -37px;
+    top: 70px; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
+      font-size: 25px;
+      line-height: 50px;
+      margin-bottom: -5px; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
+      width: 50%;
+      text-align: left;
+      padding-left: 4%;
+      margin: 0 auto; }
+      #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
+    font-size: 25px;
+    margin-bottom: 0; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
+    font-size: 25px;
+    margin-bottom: 0px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+    background: url("../../images/bg-lookbook-dons-mobile@2k.gif") no-repeat; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons #crossfade {
+      display: none; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    width: 90%;
+    padding-top: 10px;
+    height: 112px;
+    top: 25%;
+    width: 90%;
+    left: 5%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
+      font-size: 20px;
+      line-height: 100%;
+      margin-bottom: 5px;
+      text-align: center; }
+    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
+      font-size: 9px;
+      width: 65%;
+      height: 25px;
+      line-height: 25px;
+      margin-top: 2px;
+      border: 2px solid #fff; }
+      #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
+        height: 25px;
+        background-size: 8px 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title,
+  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
+    font-size: 15px; } }
+/* ==========================
+	END OUDE LIVE PARTIAL
+========================== */
+/* ------------------------------------------------------------------------- */
+/* ==========================
+	BEGIN NIEUWE LIVE PARTIAL
+========================== */
+/* ==========================
+	END NIEUWE LIVE PARTIAL
+========================== */
