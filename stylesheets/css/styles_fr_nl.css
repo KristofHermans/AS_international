@@ -34,7 +34,6 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.5203170732%;
@@ -148,7 +147,6 @@ a:link {
   -moz-osx-font-smoothing: grayscale;
   font-weight: normal;
   font-size: 13px;
-  display: -moz-inline-box;
   -moz-box-orient: vertical;
   display: inline-block;
   vertical-align: middle;
@@ -354,8 +352,6 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -398,15 +394,11 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
-  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
-  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -862,15 +854,11 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -878,8 +866,6 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1236,111 +1222,133 @@ a:link {
   #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
     margin-top: 2%; } }
 /* *********************************************************************************************************** */
-/*                                            SLIDER FASHION XL                                             ** */
+/*                                            SLIDER ZONNEBRILLEN                                           ** */
 /* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
-  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg") no-repeat; }
+#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen {
+  background: url("../../images/bg-zonnebrillen.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix {
+    background: url("../../images/bg-zonnebrillen-fr.jpg") no-repeat; }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
   position: absolute;
-  width: 75%;
-  top: 30%;
-  left: 0; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content span {
+  width: 25.5%;
+  top: 10%;
+  left: 1%; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content h2, #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
   color: #fff;
   text-align: center; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-    font-family: 'Georgia', serif;
-    font-size: 44px;
-    font-weight: 400;
-    font-style: italic;
-    color: inherit;
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 2%; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
     font-weight: 100;
-    font-size: 64px;
-    text-transform: uppercase;
+    font-size: 10px;
     line-height: 100%;
     color: inherit;
-    margin-bottom: 5%;
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
+    margin-top: 14%; }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-  display: block;
-  margin: 0 auto;
+#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
+  display: inline-block;
   font-weight: 600;
-  width: 25%;
+  width: 67%;
   text-align: left;
   margin-top: 0;
-  background-color: #425e98; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:hover {
-    background-color: #3f5480; }
+  background-color: #fff;
+  color: #972429;
+  margin-left: 3px;
+  padding-right: 10px;
+  padding-left: 15px; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:hover {
+    background-color: #e6e6e6; }
+
+#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
+  top: 15%; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 28%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 39px;
-      margin-bottom: 0; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 52px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 30%; } }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
+    top: 8%; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
+      width: 200px; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
+      margin-top: 6%; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
+      width: 70%;
+      padding-right: 3px;
+      padding-left: 10px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
+    top: 11%; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .legal {
+      margin-top: 10%; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 25%;
-    width: 74%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 28px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 37px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 30%;
-      text-align: left;
-      padding-left: 2%; }
-      #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
-        display: block; } }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
+    top: 7%; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
+      width: 152px; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
+      margin-top: 7%;
+      font-size: 8px; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
+      font-size: 10px;
+      padding-left: 4%; }
+      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
+        font-size: 7px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
-    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen,
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix {
+    background: url("../../images/bg-zonnebrillen-mobile@2x.jpg") no-repeat; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 21%;
-    width: 100%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 17px;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 23px;
-      margin-bottom: 4%;
-      margin-top: 1%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 50%;
-      font-size: 8px; }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content,
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
+    top: 6%;
+    width: 50%;
+    left: 25%; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image,
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .title-image {
+      width: 94px; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal,
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .legal {
+      margin-top: 8%;
+      font-size: 5px; }
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta,
+    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .xx_cta {
+      width: 70%;
+      font-size: 8px;
+      padding-left: 7px;
+      padding-right: 0; }
+      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after,
+      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .xx_cta:after {
+        margin-right: 6px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
-    width: 97%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-    font-size: 7.5px; } }
+  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
+    top: 11%; } }
 /* *********************************************************************************************************** */
 /*                                            SLIDER OUTDOOR XL                                             ** */
 /* *********************************************************************************************************** */
@@ -1989,8 +1997,10 @@ a:link {
     z-index: 1; }
 
 .animated-img {
-  animation: imageAnimation 4s;
-  animation-iteration-count: infinite;
+  -webkit-animation: imageAnimation 4s;
+          animation: imageAnimation 4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
   -webkit-animation: imageAnimation 4s infinite; }
 
 @keyframes imageAnimation {
@@ -2001,20 +2011,6 @@ a:link {
   100% {
     opacity: 1; } }
 @-webkit-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes imageAnimation {
   0% {
     opacity: 1; }
   50% {
@@ -2035,8 +2031,6 @@ a:link {
   z-index: 2;
   width: 70%;
   height: 300px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 22px 19px 0;
   color: #ffffff; }
@@ -2146,8 +2140,6 @@ a:link {
     top: 25%;
     width: 90%;
     left: 5%;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
     box-shadow: none; }
     #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
       font-size: 20px;
