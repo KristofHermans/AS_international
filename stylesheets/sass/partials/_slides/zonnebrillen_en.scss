@@ -1,0 +1,83 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER ZONNEBRILLEN                                           ** */
+/* *********************************************************************************************************** */
+
+
+.zonnebrillen{
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/bg_zonnebrillen_en.jpg") no-repeat;
+  background-size: contain;
+  position: relative;
+
+  @media only screen and(max-width: 767px) {
+    background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/bg_zonnebrillen_mob_en.jpg") no-repeat center;
+    background-size: auto 100%;
+  }
+
+  .zonnebrillen_cta{
+    background: #972429;
+    color: #fff;
+    display: block;
+    border: 1px solid #fff;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 1em;
+    position: absolute;
+      left: percentage(48/1170);
+      bottom: 12%;
+    text-decoration: none;
+    width: percentage(225/1170);
+
+    &:hover{
+      background: lighten(#972429, 5%);
+    }
+
+    &:after{
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right;
+    }
+
+    @media only screen and(max-width: 1199px) {
+      height: 40px;
+      line-height: 40px;
+    }
+
+    @media only screen and(max-width: 979px) {
+      font-size: .8em;
+      height: 32px;
+      line-height: 32px;
+    }
+
+    @media only screen and(max-width: 767px) {
+      margin: 0 auto; 
+      position: absolute;
+        left: 0;
+        bottom: 20%;
+        right: 0;
+        margin: auto;
+      width: 120px;
+    }
+  }
+}
+
+.bottom-bar{
+  @media only screen and(max-width: 1199px) {
+    bottom: -70px;
+  }
+
+  @media only screen and(max-width: 979px) {
+    bottom: -50px;
+  }
+}
+
+.slider-wrapper{
+  @media only screen and(max-width: 979px) {
+    margin-bottom: 65px;
+  }
+
+  @media only screen and(max-width: 767px) {
+    margin-bottom: 10px;
+  }
+}
