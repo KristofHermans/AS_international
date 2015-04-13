@@ -1478,6 +1478,112 @@ a:link {
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
     width: 40%; } }
 /* *********************************************************************************************************** */
+/*                                            SLIDER FASHION XL                                             ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 30%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  color: #fff;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+    font-family: 'Georgia', serif;
+    font-size: 44px;
+    font-weight: 400;
+    font-style: italic;
+    color: inherit;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 100%;
+    color: inherit;
+    margin-bottom: 5%;
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
+
+#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+  display: block;
+  margin: 0 auto;
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background-color: #425e98; }
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:hover {
+    background-color: #3f5480; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 28%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 39px;
+      margin-bottom: 0; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 52px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 30%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 25%;
+    width: 74%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 28px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 37px; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 30%;
+      text-align: left;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+        display: block; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+    top: 21%;
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
+      font-size: 17px;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
+      font-size: 23px;
+      margin-bottom: 4%;
+      margin-top: 1%; }
+    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+      width: 50%;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
+    width: 97%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+    font-size: 7.5px; } }
+/* *********************************************************************************************************** */
 /*                                           SLIDER LOOKBOOK RACE                                           ** */
 /* *********************************************************************************************************** */
 #xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
