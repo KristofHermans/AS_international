@@ -5,7 +5,7 @@
 <!--   HOMEPAGE CSS   -->
 <!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
 
-<link rel="stylesheet" href="https://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_de_uk.css?v=1503251401">
+<link rel="stylesheet" href="https://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_de_uk.css?v=1504091401">
 <!-- ================ -->
 
 <!-- BXSLIDER SCRIPTS -->
@@ -17,21 +17,29 @@
 
 <div id="homepage-wrapper">
   <!-- SLIDER -->
-  <div class="slider-wrapper">
+   <div class="slider-wrapper">
     <ul class="bxslider">
       <!-- Slides are marked up using a <li>-tag. Each slide should have a unique class which can be used as a stylehook. The background is a background-image on that unique class. Overall cta's are lying on top of the content (z-index), make sure to put individual cta's on top of that. Cta's are marked up using an <a>-tag. -->
 
       <li class="folder-maart15 en_fix">
-        <a href="/content/en/springbrochure2015?icn=lentefolder2015&ici=homepage-main-banner1" class="overall-cta"></a>
+        <a href="/spring-promotions?icn=lentefolder2015&ici=homepage-main-banner1" class="overall-cta"></a>
         <div class="content">
           <h2 class="main-title">Discover our extraordinary spring promotions</h2>
-          <a href="/content/en/springbrochure2015-women?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Women</a>
-          <a href="/content/en/springbrochure2015-men?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Men</a>
-          <a href="/content/en/springbrochure2015-junior?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Junior</a>
-          <a href="/content/en/springbrochure2015-equipment?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Equipment</a>
-          <p class="legal">Valid through 13 April</p>
+          <a href="/spring-promotions/women?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Women</a>
+          <a href="/spring-promotions/men?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Men</a>
+          <a href="/spring-promotions/junior?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Junior</a>
+          <a href="/spring-promotions/equipment?icn=lentefolder2015&ici=homepage-main-banner1" class="xx_cta">Equipment</a>
+          <p class="legal">Valid until 13 April</p>
         </div>
         <img src="http://static.asadventure.com/includes/homepage/national/images/welkom-buiten-big-en.png" alt="Welkom buiten" class="image-title" />
+      </li>
+
+      <!-- zonnebril -->
+      <li class="zonnebrillen">
+          <a href="/home/promotion-sunglasses?icn=15procentzonnebrillen&ici=homepage-main-banner2" class="overall-cta" title="15% discount on sunglasses untill sunday"></a>
+          <div class="content">
+            <a href="/home/promotion-sunglasses?icn=15procentzonnebrillen&ici=homepage-main-banner2" class="zonnebrillen_cta">All sunglasses</a>
+          </div>
       </li>
 
       <!-- TNF -->
@@ -43,16 +51,20 @@
     <!-- PAGER-THUMBS -->
     <div class="bottom-bar">
       <!-- Change class below to change the amount of slides. (Options: one-slide, two-slides, three-slides) -->
-      <div id="bx-pager" class="bx-pager two-slides">
+      <div id="bx-pager" class="bx-pager three-slides">
         <!-- Change data-slide-index to link to the correct slide (zero-indexed) -->
 
         <!-- WINTERSPORT -->
         <a data-slide-index="0" href="">
-          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/folder-maart-thumb.jpg" alt="Wintersport Sales" />
+          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/folder-maart-thumb.jpg" alt="Spring brochure" />
+        </a>
+
+        <a data-slide-index="1" href="">
+          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/zonnebril-thumb.jpg" alt="15% discount on sunglasses" />
         </a>
 
         <!-- TNF -->
-        <a data-slide-index="1" href="">
+        <a data-slide-index="2" href="">
           <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/tnf_thumb.jpg" alt="Jackets for him and for her" />
         </a>
       </div>
