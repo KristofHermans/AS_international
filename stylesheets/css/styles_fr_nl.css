@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ==========================
 	BEGIN UNCHANGING CONTENT
 ========================== */
@@ -34,6 +35,7 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.5203170732%;
@@ -147,6 +149,7 @@ a:link {
   -moz-osx-font-smoothing: grayscale;
   font-weight: normal;
   font-size: 13px;
+  display: -moz-inline-box;
   -moz-box-orient: vertical;
   display: inline-block;
   vertical-align: middle;
@@ -352,6 +355,8 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -394,11 +399,15 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
+  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
+  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -854,11 +863,15 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -866,6 +879,8 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1222,47 +1237,45 @@ a:link {
   #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
     margin-top: 2%; } }
 /* *********************************************************************************************************** */
-/*                                            SLIDER ZONNEBRILLEN                                           ** */
+/*                                            SLIDER BIKE RECREATIEF                                        ** */
 /* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen {
-  background: url("../../images/bg-zonnebrillen.jpg") no-repeat; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix {
-    background: url("../../images/bg-zonnebrillen-fr.jpg") no-repeat; }
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief.jpg") no-repeat; }
 
-#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
   position: absolute;
-  width: 25.5%;
-  top: 10%;
-  left: 1%; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content h2, #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content span {
+  width: 75%;
+  top: 30%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content h2, #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
   color: #fff;
-  text-align: center; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
-    display: inline-block;
-    margin-bottom: 2%; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
+  text-align: center;
+  padding: 0 13%; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+    font-size: 32px;
+    font-family: "Open Sans",Helvetica-Neue,​ Arial,​ sans-serif;
+    text-transform: uppercase;
     font-weight: 100;
-    font-size: 10px;
-    line-height: 100%;
     color: inherit;
-    margin-top: 14%; }
+    line-height: 130%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 30px black; }
 
-#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
-  display: inline-block;
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
   font-weight: 600;
-  width: 67%;
+  width: 37%;
   text-align: left;
   margin-top: 0;
-  background-color: #fff;
-  color: #972429;
-  margin-left: 3px;
-  padding-right: 10px;
-  padding-left: 15px; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
+  background: #fff;
+  color: #3b3b3b; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:hover {
+    background: #ededed;
+    color: #3b3b3b; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -1273,82 +1286,330 @@ a:link {
     float: right;
     margin-right: 11px;
     color: inherit; }
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:hover {
-    background-color: #e6e6e6; }
-
-#xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
-  top: 15%; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
-    top: 8%; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
-      width: 200px; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
-      margin-top: 6%; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
-      width: 70%;
-      padding-right: 3px;
-      padding-left: 10px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
-    top: 11%; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .legal {
-      margin-top: 10%; } }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+    top: 25%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+      font-size: 26px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content {
-    top: 7%; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image {
-      width: 152px; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal {
-      margin-top: 7%;
-      font-size: 8px; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta {
-      font-size: 10px;
-      padding-left: 4%; }
-      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
-        font-size: 7px; } }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+    font-size: 20px; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen,
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix {
-    background: url("../../images/bg-zonnebrillen-mobile@2x.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief-mobile@2x.jpg") no-repeat; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content,
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
-    top: 6%;
-    width: 50%;
-    left: 25%; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .title-image,
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .title-image {
-      width: 94px; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .legal,
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .legal {
-      margin-top: 8%;
-      font-size: 5px; }
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta,
-    #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .xx_cta {
-      width: 70%;
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+      font-size: 15px; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
+      padding-left: 10px;
+      width: 50%;
+      font-size: 8px; }
+      #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+        font-size: 7px; } }
+/* *********************************************************************************************************** */
+/* **                                             MID SEASON SALES                                          ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-nl.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-fr.jpg") no-repeat; }
+
+/*#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-en.jpg') no-repeat;
+}*/
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  position: absolute;
+  width: 224px;
+  top: 17%;
+  left: 15.4%;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content h2, #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
+  padding-bottom: 5px;
+  margin: 0 auto; }
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+  font-size: 15px;
+  color: #3c241e;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 11px;
+  border-top: 2px solid #3c241e;
+  margin-top: 14px;
+  padding-top: 11px; }
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+  font-size: 11px;
+  margin-top: 3%;
+  color: #3c241e; }
+
+#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+  width: 95%;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #3c241e; }
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta:hover {
+    background-color: #4D3934; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 174px;
+    top: 15%; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      font-size: 13px;
+      margin-top: 8px;
+      padding-top: 8px;
+      line-height: 130%;
+      margin-bottom: 9px; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+      margin: 0;
+      font-size: 11px; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+      font-size: 9px;
+      margin-top: 1px;
+      color: #3c241e; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+    font-size: 11px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 140px;
+    left: 15.5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
+      width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      border-top: none;
+      font-size: 11px;
+      margin-top: 3px;
+      padding-top: 0;
+      line-height: 130%;
+      margin-bottom: 6px; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+      width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+      margin-top: 0;
       font-size: 8px;
-      padding-left: 7px;
-      padding-right: 0; }
-      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen .content .xx_cta:after,
-      #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content .xx_cta:after {
-        margin-right: 6px; }
+      margin-bottom: 0; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.zonnebrillen.fr_fix .content {
-    top: 11%; } }
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+    font-size: 10px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix .content .main-content {
+    font-size: 10px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-nl@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-fr@2x.jpg") no-repeat; }
+
+  /*	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+  		background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-en@2x.jpg') no-repeat;
+  	}*/
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 93px;
+    left: 63px;
+    top: 8%; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
+      padding-bottom: 5px;
+      margin: 0 auto; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      font-size: 7px;
+      border-top: 1px solid #3c241e;
+      margin-top: 1px;
+      padding-top: 3px;
+      margin-bottom: 3px; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+      font-size: 8px;
+      padding-left: 0;
+      text-align: center; }
+      #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta:after {
+        display: none; }
+    #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+      font-size: 6px;
+      margin-top: -2%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix .content .main-content {
+    font-size: 7px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER BIKE 10%                                              ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  position: absolute;
+  width: 28%;
+  top: 23%;
+  left: 6%; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content h2, #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content h3, #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  color: #fff;
+  text-align: center; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 2%;
+    background-color: #821525;
+    padding: 2% 4%;
+    text-transform: uppercase; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 6%;
+    padding: 0 6%;
+    text-shadow: 0 0 15px black; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+  line-height: 120%;
+  text-align: left;
+  font-size: 11px;
+  text-shadow: 0 0 5px #000;
+  color: #fff;
+  width: 45%;
+  margin-bottom: 0; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+  font-weight: 600;
+  width: 77%;
+  text-align: left;
+  margin-top: 0;
+  background: #821525;
+  color: #fff; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:hover {
+    background: #6e1220; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+  font-size: 29px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+    top: 17%;
+    width: 31%;
+    left: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+      font-size: 33px; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+      font-size: 18px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+    font-size: 26px; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+    font-size: 14px; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+    text-align: left;
+    padding-left: 4%;
+    margin-bottom: 6%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+      display: block;
+      font-size: 8px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+    font-size: 9px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 20px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+    top: 6%;
+    left: 6%;
+    width: 65%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+      font-size: 19px;
+      margin-bottom: 1.5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+      font-size: 11px;
+      margin-bottom: 5%;
+      text-shadow: 0 0 5px #000; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+      width: 65%;
+      font-size: 8px;
+      margin-bottom: 1%;
+      padding-left: 2%; }
+      #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+        font-size: 7px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+    font-size: 7px;
+    width: 100%; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 17px; } }
 /* *********************************************************************************************************** */
 /*                                            SLIDER OUTDOOR XL                                             ** */
 /* *********************************************************************************************************** */
@@ -2103,10 +2364,8 @@ a:link {
     z-index: 1; }
 
 .animated-img {
-  -webkit-animation: imageAnimation 4s;
-          animation: imageAnimation 4s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
+  animation: imageAnimation 4s;
+  animation-iteration-count: infinite;
   -webkit-animation: imageAnimation 4s infinite; }
 
 @keyframes imageAnimation {
@@ -2117,6 +2376,20 @@ a:link {
   100% {
     opacity: 1; } }
 @-webkit-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes imageAnimation {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes imageAnimation {
   0% {
     opacity: 1; }
   50% {
@@ -2137,6 +2410,8 @@ a:link {
   z-index: 2;
   width: 70%;
   height: 300px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 22px 19px 0;
   color: #ffffff; }
@@ -2246,6 +2521,8 @@ a:link {
     top: 25%;
     width: 90%;
     left: 5%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
     box-shadow: none; }
     #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
       font-size: 20px;

@@ -791,6 +791,30 @@ html, body, #main {
   /* *********************************************************************************************************** */
   /*                                            SLIDER ZONNEBRILLEN                                           ** */
   /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /*                                            SLIDER mid_season_sales                                           ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /*                                             SLIDER BIKE 10%                                              ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
   /* ================================
   	CLOSE NESTING
   ================================ */ }
@@ -1193,6 +1217,232 @@ html, body, #main {
   @media only screen and (max-width: 767px) {
     #homepage-wrapper .slider-wrapper {
       margin-bottom: 10px; } }
+  #homepage-wrapper .mid_season_sales {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-fr.jpg") no-repeat;
+    background-size: contain; }
+  #homepage-wrapper .mid_season_sales .content {
+    position: absolute;
+    width: 23.0769230769%;
+    top: 14%;
+    left: 13.6752136752%;
+    text-align: center; }
+    #homepage-wrapper .mid_season_sales .content h2, #homepage-wrapper .mid_season_sales .content span {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper li.mid_season_sales .content .main-logo {
+    padding-bottom: 5px;
+    margin: 0 auto;
+    width: 100%; }
+  #homepage-wrapper li.mid_season_sales .content .main-content {
+    font-size: 10px;
+    color: #3c241e;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 8px;
+    border-top: 2px solid #3c241e;
+    margin-top: 8px;
+    padding-top: 8px;
+    line-height: 110%;
+    text-transform: uppercase; }
+  #homepage-wrapper li.mid_season_sales .content .legal {
+    font-size: 11px;
+    margin-top: 3%;
+    color: #3c241e; }
+  #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta {
+    background: #3c241e;
+    box-sizing: border-box;
+    color: #EAEAEA;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 4%;
+    padding: .6em 1em;
+    text-align: left;
+    text-decoration: none;
+    width: 100%; }
+    #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta:hover {
+      background: #4D3934; }
+    #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta:after {
+      content: "\f04b";
+      /* arrow */
+      background: none;
+      width: auto;
+      height: auto;
+      font-family: "FontAwesome";
+      float: right;
+      margin-right: 11px;
+      color: inherit; }
+  @media (max-width: 1199px) {
+    #homepage-wrapper li.mid_season_sales .content .main-logo {
+      width: 80%; }
+    #homepage-wrapper li.mid_season_sales .content .main-content {
+      font-size: 9px;
+      margin-top: 6px;
+      padding-top: 6px;
+      margin-bottom: 7px; }
+    #homepage-wrapper li.mid_season_sales .content .xx_cta {
+      margin: 0;
+      font-size: 11px; }
+    #homepage-wrapper li.mid_season_sales .content .legal {
+      font-size: 9px;
+      margin-top: 1px;
+      color: #3c241e; }
+    #homepage-wrapper li.mid_season_sales.de_fix .content .xx_cta {
+      font-size: 9px; }
+    #homepage-wrapper .mid_season_sales.en_fix .xx_txt .xx_cta {
+      font-size: 11px; } }
+  @media (max-width: 979px) {
+    #homepage-wrapper .mid_season_sales .content .main-content {
+      border-top: none;
+      margin-top: 3px;
+      margin-bottom: 6px; }
+    #homepage-wrapper .mid_season_sales .content .xx_cta {
+      width: 100%; }
+    #homepage-wrapper .mid_season_sales .content .legal {
+      margin-top: 0;
+      font-size: 8px;
+      margin-bottom: 0; }
+    #homepage-wrapper .mid_season_sales.en_fix .xx_txt .xx_cta {
+      font-size: 10px; }
+    #homepage-wrapper .mid_season_sales.de_fix .content .xx_cta {
+      font-size: 9px; } }
+  @media (max-width: 767px) {
+    #homepage-wrapper .mid_season_sales {
+      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-nl@2x.jpg") no-repeat;
+      background-size: cover; }
+    #homepage-wrapper .mid_season_sales .content {
+      left: 23.1884057971%;
+      width: 170px; } }
+  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg") no-repeat;
+    background-size: contain; }
+  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
+    position: absolute;
+    width: 30%;
+    top: 23%;
+    left: 6%; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content h2, #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content h3, #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content span {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
+    color: #fff;
+    text-align: center; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
+      display: inline-block;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 120%;
+      color: inherit;
+      margin-bottom: 2%;
+      background-color: #821525;
+      padding: 2% 4%;
+      text-transform: uppercase; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
+      color: inherit;
+      line-height: 120%;
+      font-size: 21px;
+      font-weight: 400;
+      margin-bottom: 6%;
+      padding: 0 6%;
+      text-shadow: 0 0 15px black; }
+  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
+    line-height: 120%;
+    text-align: center;
+    font-size: 11px;
+    text-shadow: 0 0 5px #000;
+    color: #fff;
+    margin-bottom: 0;
+    margin-top: 11px; }
+  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
+    font-weight: 600;
+    width: 77%;
+    text-align: left;
+    margin-top: 0;
+    background: #821525;
+    color: #fff; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:hover {
+      background: #6e1220; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
+      content: "\f04b";
+      /* arrow */
+      background: none;
+      width: auto;
+      height: auto;
+      font-family: "FontAwesome";
+      float: right;
+      margin-right: 6%;
+      color: inherit; }
+  #homepage-wrapper .slider-wrapper ul li.bike-tien-procent .content .xx_cta {
+    background: #821525;
+    box-sizing: border-box;
+    color: #EAEAEA;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 4%;
+    padding: .6em 1em;
+    text-align: left;
+    text-decoration: none;
+    width: 100%; }
+  @media (max-width: 1199px) {
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
+      top: 5%;
+      width: 35%;
+      left: 4%; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
+        font-size: 33px; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
+        font-size: 18px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.de_fix .content .xx_cta {
+      font-size: 9px; } }
+  @media (max-width: 979px) {
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
+      font-size: 26px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
+      font-size: 14px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 6%; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
+      font-size: 9px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.fr_fix .content .main-title {
+      font-size: 20px; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
+      height: 25px; } }
+  @media (max-width: 767px) {
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent {
+      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg") no-repeat;
+      background-size: cover; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
+      top: 6%;
+      left: 6%;
+      width: 65%; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
+        font-size: 23px;
+        margin-bottom: 1.5%; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
+        font-size: 13px;
+        margin-bottom: 5%;
+        text-shadow: 0 0 5px #000; }
+      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
+        width: 65%;
+        font-size: 10px;
+        margin-bottom: 1%;
+        padding-left: 2%; }
+        #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
+          font-size: 7px; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
+      font-size: 8px;
+      width: 100%;
+      bottom: 5%; }
+    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.fr_fix .content .main-title {
+      font-size: 17px; } }
 
 /* ==========================================================================
 
