@@ -35,7 +35,6 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #xx_wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.5203170732%;
@@ -149,7 +148,6 @@ a:link {
   -moz-osx-font-smoothing: grayscale;
   font-weight: normal;
   font-size: 13px;
-  display: -moz-inline-box;
   -moz-box-orient: vertical;
   display: inline-block;
   vertical-align: middle;
@@ -355,8 +353,6 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -399,15 +395,11 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
-  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
-  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -863,15 +855,11 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -879,8 +867,6 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1063,52 +1049,72 @@ a:link {
 	BEGIN TRAINING PARTIAL
 ========================== */
 /* *********************************************************************************************************** */
-/*                                            SLIDER FOLDER MAART 15                                        ** */
+/* **                                            10% SCHOENEN                                               ** */
 /* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
-  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15.jpg") no-repeat; }
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo {
+  background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-nl.jpg") no-repeat;
+  overflow: hidden; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-fr.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-en.jpg") no-repeat; }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+  z-index: 2;
   position: absolute;
-  width: 30%;
-  top: 12%;
-  left: 43.5%; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content h2, #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
-  position: absolute;
-  top: 45%;
-  left: 6%; }
-
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
-  color: #c0cb41;
-  text-align: center; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
-    font-size: 30px;
-    color: inherit;
+  background: url("http://static.asadventure.com/includes/homepage/national/images/label.png");
+  width: 334px;
+  height: 355px;
+  top: 8%;
+  left: 5%;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 38px; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+    font-family: 'Palatino Linotype', 'Palatino', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 23px;
+    color: #313131;
     line-height: 130%;
-    margin-bottom: 5%; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
-    font-size: 13px;
-    color: #C0CB41;
-    line-height: 130%;
-    margin-top: 1em; }
+    margin-top: 0px;
+    margin-bottom: 8px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title span {
+      color: #ef7d00;
+      font-family: 'Palatino Linotype', 'Palatino', serif !important;
+      font-size: inherit;
+      font-style: inherit; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+    font-family: 'Arial', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    position: relative;
+    color: #000000; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+      content: "";
+      position: absolute;
+      left: 40%;
+      bottom: -10px;
+      height: 1px;
+      width: 21%;
+      border-bottom: 1px solid #000; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .brands {
+    width: 225px;
+    height: auto;
+    display: inline-block; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 5px; }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+  width: 100px;
   font-weight: 600;
-  width: 30%;
-  text-align: left;
-  margin-top: 0;
-  background: none;
-  border: 2px solid #c0cb41;
-  color: #c0cb41;
-  margin-bottom: 4%; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:hover {
-    background: #c0cb41;
-    color: #fff; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+  display: inline-block;
+  margin-top: 4%;
+  background-color: #d67c1d; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -1117,217 +1123,153 @@ a:link {
     font-family: "FontAwesome";
     font-size: 10px;
     float: right;
-    margin-right: 11px;
+    margin-right: 10px;
     color: inherit; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:hover {
+    background-color: #c37625; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:first-child {
+    margin-right: 10px; }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(3),
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:nth-child(5) {
-  margin-left: 2%; }
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+  font-size: 21px; }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
-  width: 67%;
-  background: #c0cb41;
-  color: #fff;
-  margin-left: -3px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider:hover {
-    background: #afba36;
-    color: #fff;
-    border-color: #afba36; }
-
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
-  font-size: 28px; }
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
-  margin-top: 10%; }
-
-#xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
-  top: 17%; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal {
-    margin-top: 17%; }
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+  padding: 35px;
+  padding-top: 43px; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
-    top: 3%;
-    left: 42.5%; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
-      font-size: 26px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
-      font-size: 12px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
-      width: 37%; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
-      width: 82%; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+    z-index: 2;
+    width: 296px;
+    height: auto;
+    top: -3px;
+    right: 19px;
+    padding: 35px;
+    background-size: 296px auto; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+      font-size: 20px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+      margin-bottom: 8px; }
+      #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+        display: none; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
-    width: 340px; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+    width: 95px;
+    margin-top: 10px;
+    font-size: 11px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:first-child {
+      margin-right: 6px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
-    font-size: 22px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
-    margin-top: 6%; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    padding-top: 37px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content {
-    top: 3%; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.en_fix .content .legal {
-      margin-top: 17%; } }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+    font-size: 17px; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+    font-size: 12px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
-    top: 0%; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
-      font-size: 19px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
-      font-size: 11px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+    z-index: 2;
+    width: 334px;
+    height: auto;
+    top: -40px;
+    right: -0px;
+    padding: 25px;
+    background-size: 334px auto;
+    padding-top: 55px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+      font-size: 20px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+      margin-bottom: 8px; }
+      #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+        display: none; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta {
       text-align: left;
-      padding-left: 10px;
-      margin-bottom: 4%; }
-      #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+      padding-left: 4%;
+      margin-bottom: 0; }
+      #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
         display: block;
         font-size: 8px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
-    width: 255px; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    padding-top: 57px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
-    font-size: 18px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta {
-    font-size: 10px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
-    margin-top: 2%; } }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+    font-size: 18px;
+    line-height: 107%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 {
-    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15-mobile@2x.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-mobile@2x.jpg") no-repeat; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content {
-    width: 50%; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .main-title {
-      font-size: 11px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .legal {
-      font-size: 9px; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta {
-      border-width: 1px;
-      text-align: center;
-      padding-left: 0;
-      width: 44%; }
-      #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta:after {
-        display: none; }
-    #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .content .xx_cta.wider {
-      width: 93%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15 .image-title {
-    top: 80%;
-    left: 3%;
-    width: 100px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .main-title {
-    font-size: 10px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .xx_cta {
-    font-size: 9px; }
-  #xx_wrapper #xx_header .xx_slider ul li.folder-maart15.fr_fix .content .legal {
-    margin-top: 2%; } }
-/* *********************************************************************************************************** */
-/*                                            SLIDER BIKE RECREATIEF                                        ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief.jpg") no-repeat; }
-
-#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
-  position: absolute;
-  width: 75%;
-  top: 30%;
-  left: 0; }
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content h2, #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
-  color: #fff;
-  text-align: center;
-  padding: 0 13%; }
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
-    font-size: 32px;
-    font-family: "Open Sans",Helvetica-Neue,​ Arial,​ sans-serif;
-    text-transform: uppercase;
-    font-weight: 100;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 5%;
-    text-shadow: 0 0 30px black; }
-
-#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
-  font-weight: 600;
-  width: 37%;
-  text-align: left;
-  margin-top: 0;
-  background: #fff;
-  color: #3b3b3b; }
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:hover {
-    background: #ededed;
-    color: #3b3b3b; }
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 11px;
-    color: inherit; }
+    padding: 0;
+    left: 3px;
+    top: 4%;
+    width: 63%;
+    margin: 0 auto; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+      font-size: 15px;
+      margin-bottom: 1.5%; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .legal,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .legal {
+      font-size: 8px;
+      margin-bottom: 0; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .brands,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .brands,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .brands {
+      display: none; }
 
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
-    top: 25%; }
-    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
-      font-size: 26px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
-    font-size: 20px; }
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 4%; }
-    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
-      display: block;
-      font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief-mobile@2x.jpg") no-repeat; }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+    width: 75px;
+    font-size: 8px;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    margin-top: 6px; }
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:after,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta:after,
+    #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta:after {
+      font-size: 7px; }
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
-    width: 100%; }
-    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
-      font-size: 15px; }
-    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
-      padding-left: 10px;
-      width: 50%;
-      font-size: 8px; }
-      #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
-        font-size: 7px; } }
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    top: 6%; } }
+/* ==========================
+	END TRAINING PARTIAL
+========================== */
+/* ------------------------------------------------------------------------- */
+/* ==========================
+	BEGIN OUDE LIVE PARTIAL
+========================== */
 /* *********************************************************************************************************** */
 /* **                                             MID SEASON SALES                                          ** */
 /* *********************************************************************************************************** */
@@ -1611,6 +1553,98 @@ a:link {
   #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
     font-size: 17px; } }
 /* *********************************************************************************************************** */
+/*                                            SLIDER BIKE RECREATIEF                                        ** */
+/* *********************************************************************************************************** */
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief.jpg") no-repeat; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+  position: absolute;
+  width: 50%;
+  top: 30%;
+  left: 0; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content h2, #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+  color: #fff;
+  text-align: center;
+  padding: 0 13%; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+    font-size: 32px;
+    font-family: "Open Sans",Helvetica-Neue,​ Arial,​ sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%;
+    text-shadow: 0 0 30px black; }
+
+#xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
+  font-weight: 600;
+  width: 37%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #3b3b3b; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:hover {
+    background: #ededed;
+    color: #3b3b3b; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+    top: 25%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+      font-size: 26px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+    font-size: 20px; }
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 4%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-recreatief-mobile@2x.jpg") no-repeat; }
+
+  #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content {
+    width: 100%; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .main-title {
+      font-size: 15px; }
+    #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta {
+      padding-left: 10px;
+      width: 50%;
+      font-size: 8px; }
+      #xx_wrapper #xx_header .xx_slider ul li.bike-recreatief .content .xx_cta:after {
+        font-size: 7px; } }
+/* *********************************************************************************************************** */
 /*                                            SLIDER OUTDOOR XL                                             ** */
 /* *********************************************************************************************************** */
 /*
@@ -1738,811 +1772,6 @@ a:link {
 
   #xx_wrapper #xx_header .xx_slider ul li.outdoor-xl.fr_fix .content .xx_cta {
     width: 40%; } }
-/* *********************************************************************************************************** */
-/*                                            SLIDER FASHION XL                                             ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
-  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg") no-repeat; }
-
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-  position: absolute;
-  width: 75%;
-  top: 30%;
-  left: 0; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-  color: #fff;
-  text-align: center; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-    font-family: 'Georgia', serif;
-    font-size: 44px;
-    font-weight: 400;
-    font-style: italic;
-    color: inherit;
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 64px;
-    text-transform: uppercase;
-    line-height: 100%;
-    color: inherit;
-    margin-bottom: 5%;
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.75); }
-
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-  display: block;
-  margin: 0 auto;
-  font-weight: 600;
-  width: 25%;
-  text-align: left;
-  margin-top: 0;
-  background-color: #425e98; }
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:hover {
-    background-color: #3f5480; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 28%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 39px;
-      margin-bottom: 0; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 52px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 30%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 25%;
-    width: 74%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 28px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 37px; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 30%;
-      text-align: left;
-      padding-left: 2%; }
-      #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
-        display: block; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
-    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg") no-repeat; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
-    top: 21%;
-    width: 100%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .pre-title {
-      font-size: 17px;
-      text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .main-title {
-      font-size: 23px;
-      margin-bottom: 4%;
-      margin-top: 1%; }
-    #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-      width: 50%;
-      font-size: 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
-    width: 97%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
-    font-size: 7.5px; } }
-/* *********************************************************************************************************** */
-/*                                           SLIDER LOOKBOOK RACE                                           ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
-  background: url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race.jpg") no-repeat; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
-  position: absolute;
-  width: 28%;
-  top: 33%;
-  left: 6%; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h2, #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content h3, #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
-  color: #fff;
-  text-align: left; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 29px;
-    line-height: 120%;
-    color: inherit;
-    margin-bottom: 2%;
-    text-shadow: 0 0 33px rgba(0, 0, 0, 0.2); }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
-    color: inherit;
-    line-height: 120%;
-    font-size: 21px;
-    font-weight: 400;
-    margin-bottom: 6%; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
-  font-weight: 600;
-  width: 62%;
-  text-align: left;
-  margin-top: 0;
-  background: #7c8e18;
-  color: #fff; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:hover {
-    background: #6d7d13; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
-    top: 29%;
-    width: 31%;
-    left: 4%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
-      font-size: 25px; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
-      font-size: 18px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
-    width: 65%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
-    font-size: 19px; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
-    font-size: 14px; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
-    text-align: left;
-    padding-left: 4%;
-    margin-bottom: 6%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
-      display: block;
-      font-size: 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
-    width: 70%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
-    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race-mobile@2x.jpg") no-repeat; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
-    top: 22%;
-    left: 13%;
-    width: 64%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-title {
-      font-size: 16px;
-      margin-bottom: 1.5%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .main-content {
-      font-size: 11px;
-      margin-bottom: 5%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta {
-      width: 65%;
-      font-size: 8px;
-      margin-bottom: 1%;
-      padding-left: 2%; }
-      #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
-        font-size: 7px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content {
-    top: 17%;
-    width: 65%; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .main-title {
-      font-size: 17px; } }
-/* ==========================
-	END TRAINING PARTIAL
-========================== */
-/* ------------------------------------------------------------------------- */
-/* ==========================
-	BEGIN OUDE LIVE PARTIAL
-========================== */
-/* *********************************************************************************************************** */
-/*                                            SLIDER SNOW XL                                             ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl {
-  background: url("../../images/bg-snow-xl.jpg") no-repeat; }
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave {
-    background: url("../../images/bg-snow-xl-next-wave-v2.jpg"); }
-
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
-  position: absolute;
-  width: 75%;
-  top: 17%;
-  left: 0; }
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content h2, #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
-  color: #fff;
-  text-align: center; }
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 65px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-transform: uppercase;
-    line-height: 100%;
-    color: inherit;
-    margin-bottom: 1%;
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.55); }
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
-    font-size: 34px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: inherit;
-    line-height: 120%;
-    padding: 0 18%;
-    margin-bottom: 5%;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
-
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
-  font-weight: 600;
-  width: 25%;
-  text-align: left;
-  margin-top: 0;
-  background-color: #425e98; }
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:hover {
-    background-color: #3f5480; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
-    top: 15%; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
-      font-size: 52px; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
-      font-size: 28px; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
-      width: 30%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
-    top: 15%;
-    width: 74%; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
-      font-size: 37px; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
-      font-size: 22px; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
-      width: 30%;
-      text-align: left;
-      padding-left: 2%; }
-      #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
-        display: block; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
-    background: url("../../images/bg-snow-xl-mobile@2x.jpg") no-repeat; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl.new-wave {
-      background: url("../../images/bg-snow-xl-next-wave-mobile@2x.jpg"); }
-
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
-    top: 11%;
-    width: 100%; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-title {
-      font-size: 23px;
-      margin-bottom: 2%; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .main-content {
-      font-size: 13px; }
-    #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
-      width: 50%;
-      font-size: 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
-    width: 97%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
-    font-size: 7.5px; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER RONDE PRIJZEN                                         ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
-  background: url("../../images/bg-rondeprijzen15.jpg") no-repeat; }
-
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-  position: absolute;
-  width: 30%;
-  top: 17%;
-  left: 37%; }
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h2, #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content h3, #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-  color: #fff;
-  text-align: left; }
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 45px;
-    text-transform: uppercase;
-    line-height: 100%;
-    color: inherit;
-    margin-bottom: 4%; }
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
-    color: inherit;
-    line-height: 120%;
-    font-size: 18px;
-    font-weight: 400; }
-
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
-  font-weight: 600;
-  width: 48%;
-  text-align: left;
-  margin-top: 0;
-  background: none;
-  border: 1px solid #fff;
-  color: #fff;
-  margin-bottom: 4%; }
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:hover {
-    background: #fff;
-    color: #ce171f; }
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-  top: 19%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-    width: 33%;
-    top: 6%;
-    left: 36%; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
-      font-size: 37px; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
-      font-size: 16px; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
-      margin-bottom: 4%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 10%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-    top: 3%;
-    width: 30%;
-    left: 37%; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
-      font-size: 26px; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
-      font-size: 14px;
-      margin-bottom: 8%; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
-      text-align: left;
-      padding-left: 4%;
-      margin-bottom: 6%; }
-      #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 3%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
-    background: url("../../images/bg-rondeprijzen15-mobile@2x.jpg") no-repeat; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-    top: 7%;
-    left: 0;
-    width: 100%;
-    text-align: center; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-title {
-      font-size: 23px;
-      margin-bottom: 5%;
-      color: #fff; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .main-content {
-      display: none; }
-    #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta {
-      width: 48%;
-      font-size: 8px;
-      background: #fff;
-      color: #ce171f;
-      padding-left: 2%;
-      display: block;
-      margin: 0 auto 1%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 7%; } }
-/* *********************************************************************************************************** */
-/*                                         SLIDER THOMAS COOK ACTIE                                         ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
-  background: url("../../images/bg-newfashion15.jpg") no-repeat; }
-
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-  position: absolute;
-  width: 24%;
-  top: 8%;
-  left: 3%; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h2, #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content h3, #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-  color: #c2645f;
-  text-align: left; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 52px;
-    text-transform: uppercase;
-    line-height: 100%;
-    color: inherit;
-    margin-bottom: 8%; }
-
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
-  font-weight: 600;
-  width: 80%;
-  text-align: left;
-  margin-top: 0;
-  background: none;
-  border: 1px solid #c2645f;
-  color: #c2645f;
-  margin-bottom: 7%; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:hover {
-    background: #c2645f;
-    color: #fff; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-#xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-  width: 28%;
-  top: 10%;
-  left: 3%; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
-    font-size: 42px;
-    margin-bottom: 8%; }
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta {
-    width: 74%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-    width: 22%;
-    top: 5%;
-    left: 4%; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
-      font-size: 37px; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
-      margin-bottom: 5%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-    top: 5%; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
-      font-size: 32px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content {
-    top: 4%; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title {
-      font-size: 26px; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta {
-      text-align: left;
-      padding-left: 4%;
-      margin-bottom: 6%; }
-      #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-    top: 3%; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
-      font-size: 24px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 {
-    background: url("../../images/bg-newfashion15-mobile@2x.jpg") no-repeat; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content,
-  #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content {
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .main-title,
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .main-title {
-      font-size: 23px;
-      margin-bottom: 3%;
-      text-shadow: 0 0 22px rgba(0, 0, 0, 0.59);
-      color: #fff; }
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta,
-    #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta {
-      width: 50%;
-      font-size: 8px;
-      background: #c2645f;
-      color: #fff;
-      margin-bottom: 1%;
-      padding-left: 2%; }
-      #xx_wrapper #xx_header .xx_slider ul li.newfashion15 .content .xx_cta:last-child,
-      #xx_wrapper #xx_header .xx_slider ul li.newfashion15.fr_fix .content .xx_cta:last-child {
-        margin-left: -4px; } }
-/* *********************************************************************************************************** */
-/* **                                         SLIDER SOLDEN (2de afprijzing)                                ** */
-/* *********************************************************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
-  overflow: hidden;
-  background-size: cover !important; }
-
-/* ANIMATIONS
-   ========================================================================== */
-.slide {
-  position: absolute;
-  top: 0; }
-  .slide:nth-child(1) {
-    z-index: 2; }
-  .slide:nth-child(2) {
-    z-index: 1; }
-
-.animated-img {
-  animation: imageAnimation 4s;
-  animation-iteration-count: infinite;
-  -webkit-animation: imageAnimation 4s infinite; }
-
-@keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-webkit-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-ms-keyframes imageAnimation {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
-  position: absolute;
-  top: 20%;
-  left: 2%;
-  z-index: 2;
-  width: 70%;
-  height: 300px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 22px 19px 0;
-  color: #ffffff; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content h2,
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
-  position: relative;
-  z-index: 2;
-  color: #ffffff;
-  font-size: 48px;
-  line-height: 60px;
-  font-weight: 100;
-  text-align: center; }
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
-  width: 50%;
-  background: none;
-  font-weight: 400;
-  display: block;
-  border: 3px solid #fff;
-  margin: 30px auto;
-  font-size: 16px; }
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover {
-    background-color: #fff;
-    color: #333; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:hover:after {
-      content: "";
-      width: 25px;
-      height: 37px;
-      float: right;
-      background: url("../images/arrow_dark.png") no-repeat;
-      background-size: 11px 13px;
-      position: relative;
-      top: 13px; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
-  font-size: 40px; }
-
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
-  font-size: 40px; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
-    padding-top: 13px;
-    padding-right: 10px;
-    background-position: 0px -54px; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
-      font-size: 35px;
-      line-height: 57px;
-      margin-bottom: 5px; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
-      width: 60%; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
-    font-size: 32px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
-    width: 70%;
-    padding-top: 8px;
-    background-position: 0px -37px;
-    top: 70px; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
-      font-size: 25px;
-      line-height: 50px;
-      margin-bottom: -5px; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
-      width: 50%;
-      text-align: left;
-      padding-left: 4%;
-      margin: 0 auto; }
-      #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
-        display: block;
-        height: 30px;
-        background-size: 9px 9px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title {
-    font-size: 25px;
-    margin-bottom: 0; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
-    font-size: 25px;
-    margin-bottom: 0px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
-    background: url("../../images/bg-lookbook-dons-mobile@2k.gif") no-repeat; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons #crossfade {
-      display: none; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
-    width: 90%;
-    padding-top: 10px;
-    height: 112px;
-    top: 25%;
-    width: 90%;
-    left: 5%;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .main-title {
-      font-size: 20px;
-      line-height: 100%;
-      margin-bottom: 5px;
-      text-align: center; }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta {
-      font-size: 9px;
-      width: 65%;
-      height: 25px;
-      line-height: 25px;
-      margin-top: 2px;
-      border: 2px solid #fff; }
-      #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
-        height: 25px;
-        background-size: 8px 8px; }
-
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content .main-title,
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content .main-title {
-    font-size: 15px; } }
 /* ==========================
 	END OUDE LIVE PARTIAL
 ========================== */
