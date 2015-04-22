@@ -1,0 +1,299 @@
+
+/* *********************************************************************************************************** */
+/* **                                            10% SCHOENEN                                               ** */
+/* *********************************************************************************************************** */
+
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo {
+  background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-nl.jpg') no-repeat;
+  overflow: hidden;
+
+  &.fr_fix {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-fr.jpg') no-repeat;
+  }
+
+  &.en_fix {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-en.jpg') no-repeat;
+  }
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+  z-index: 2;
+  position: absolute;
+  background: url('http://static.asadventure.com/includes/homepage/national/images/label.png');
+  width: 334px;
+  height: 355px;
+  top: 8%;
+  left: 5%;
+  text-align: center;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  padding: 38px;
+
+  .main-title {
+   font-family: 'Palatino Linotype', 'Palatino', serif;
+   font-style: italic;
+   font-weight: 100;
+   font-size: 23px;
+   color: #313131;
+   line-height: 130%;
+   margin-top: 0px;
+   margin-bottom: 8px;
+
+   span {
+   	color: #ef7d00;
+   	font-family: 'Palatino Linotype', 'Palatino', serif !important;
+   	font-size: inherit;
+   	font-style: inherit;
+   }
+
+  }
+
+  .legal {
+  	font-family: 'Arial', 'Arial', 'Helvetica', sans-serif;
+    font-size: 10px;
+    position: relative;
+    color: #000000;
+
+    &:after {
+    	content: "";
+		position: absolute;
+		left: 40%;
+		bottom: -10px;
+		height: 1px;
+		width: 21%;
+		border-bottom: 1px solid #000;
+    }
+  }
+
+  .brands {
+  	width: 225px;
+    height: auto;
+    display: inline-block;
+  }
+
+  .xx_cta_container {
+  	position: relative;
+  	top: 0;
+  	left: 0;
+  	margin-top: 5px;
+  }
+  
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+  width: 100px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 4%;
+  background-color: #d67c1d;
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 10px;
+    color: inherit;
+  }
+
+  &:hover {
+    background-color: #c37625;
+  }
+
+  &:first-child {
+  	margin-right: 10px;
+  }
+}
+
+//FR FIX
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+	font-size: 21px;
+}
+
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+  padding: 35px;
+  padding-top: 43px;
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+ 
+ #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+ 	z-index: 2;
+ 	width: 296px;
+ 	height: auto;
+ 	top: -3px;
+ 	right: 19px;
+ 	padding: 35px;
+ 	background-size: 296px auto;
+
+ 	.main-title {
+ 		font-size: 20px;
+ 	}
+
+ 	.legal {
+ 		margin-bottom: 8px;
+
+ 		&:after {
+ 			display: none;
+ 		}
+ 	}
+ }
+
+ #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+ 	width: 95px;
+ 	margin-top: 10px;
+  font-size: 11px;
+
+ 	&:first-child {
+ 		margin-right: 6px;
+ 	}
+ }
+
+	 //FR FIX
+   #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+   #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    padding-top: 37px;
+  }
+	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+		font-size: 17px;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+		font-size: 12px;
+	}
+
+
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+	 #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+	 	z-index: 2;
+	 	width: 334px;
+	 	height: auto;
+	 	top: -40px;
+	 	right: -0px;
+	 	padding: 25px;
+	 	background-size: 334px auto;
+	 	padding-top: 55px;
+
+	 	.main-title {
+	 		font-size: 20px;
+	 	}
+
+	 	.legal {
+	 		margin-bottom: 8px;
+
+	 		&:after {
+	 			display: none;
+	 		}
+	 	}
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 0;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+
+	 }
+
+	//FR FIX
+	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+		padding-top: 57px;
+	}
+
+	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+		font-size: 18px;
+		line-height: 107%;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-mobile@2x.jpg') no-repeat;
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    background: none;
+    padding: 0;
+    left: 3px;
+    top: 4%;
+    width: 63%;
+    margin: 0 auto;
+
+    .main-title {
+      font-size: 15px;
+      margin-bottom: 1.5%;
+    }
+
+    .legal {
+      font-size: 8px;
+      margin-bottom: 0;
+    }
+
+    .brands {
+      display: none;
+    }
+
+  }
+
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+      width: 75px;
+      font-size: 8px;
+      margin-bottom: 1%;
+      padding-left: 2%;
+      margin-top: 6px;
+
+      &:after {
+        font-size: 7px;
+      }
+  }
+
+  //FR Fix
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    top: 6%;
+  }
+
+  
+}
+
