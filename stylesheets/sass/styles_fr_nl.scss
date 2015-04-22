@@ -17,11 +17,7 @@
 	BEGIN TRAINING PARTIAL
 ========================== */ 
 
-@import "partials/_slides/folder-maart15";
-@import "partials/_slides/_zonnebrillen.scss";
-@import "partials/_slides/outdoor-xl";
-@import "partials/_slides/fashion-xl";
-@import "partials/_slides/lookbook-race";
+@import "partials/_slides/_schoenen-promo.scss";
 
 /* ==========================
 	END TRAINING PARTIAL
@@ -34,11 +30,10 @@
 ========================== */
 
 // INDIVIDUAL SLIDES
-
-@import "partials/_slides/snow-xl";
-@import "partials/_slides/ronde-prijzen";
-@import "partials/_slides/newfashion15";
-@import "partials/_slides/lookbook_dons";
+@import "partials/_slides/_mid_season_sales.scss";
+@import "partials/_slides/_bike-tien-procent.scss";
+@import "partials/_slides/_bike-recreatief.scss";
+@import "partials/_slides/outdoor-xl";
 
 /* ==========================
 	END OUDE LIVE PARTIAL
