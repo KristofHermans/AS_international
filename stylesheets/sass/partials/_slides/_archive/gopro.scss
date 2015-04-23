@@ -6,11 +6,11 @@
 /***********************************************
     General styles 
 ***********************************************/
-#xx_wrapper #xx_header .xx_slider ul li.gopro {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro {
   background: url('../images/bg-gopro.jpg') no-repeat center center;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro .content {
 	position: absolute;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -24,7 +24,7 @@
 	}
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.gopro .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro .content .xx_cta {
   font-weight: 600;
   width: 21%;
   background-color: #faa21b;
@@ -35,7 +35,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro .content {
 	bottom: 6%;
 	text-align: center;
 	left: 3%;
@@ -73,7 +73,7 @@
 }
 
 //FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
 
 	h2 {
 		font-size: 32px;
@@ -94,7 +94,7 @@
 }
 
 //EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
 
 	h2 {
 		font-size: 33px;
@@ -110,7 +110,7 @@
 @media (max-width: 1199px) {
 
 
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content {
 
 		h2 {
 			font-size: 31px;
@@ -136,7 +136,7 @@
 	}
 
 	//FR FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
 
 		h2 {
 			font-size: 28px;
@@ -158,7 +158,7 @@
 	}
 
 	//EN FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
 
 		h2 {
 			font-size: 27px;
@@ -175,7 +175,7 @@
 	/*==========================================     
 	  GOPRO BLOCK                                             
 	===========================================*/
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content {
 		text-align: center;
 		width: 65%;
 
@@ -199,7 +199,7 @@
 	}
 
 	//FR FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
 
 		h2 {
 			font-size: 21px;
@@ -221,7 +221,7 @@
 	}
 
 	//EN FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
 
 		h2 {
 			font-size: 20px;
@@ -236,11 +236,11 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-	#xx_wrapper #xx_header .xx_slider ul li.gopro {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro {
 	  background: url('../images/bg-gopro-mobile@2x.jpg') no-repeat;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content {
 		width: 100%;
 		left: 0;
 
@@ -262,7 +262,7 @@
 	
 
 	//FR FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.fr_fix {
 
 		h2 {
 			font-size: 13px;
@@ -280,7 +280,7 @@
 	}
 
 	//EN FIX
-	#xx_wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.gopro .content.en_fix {
 
 		h2 {
 			font-size: 18px;

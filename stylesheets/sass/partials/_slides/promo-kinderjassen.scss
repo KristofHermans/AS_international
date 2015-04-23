@@ -3,11 +3,11 @@
 /* **                                            SLIDER KINDERJASSEN                                        ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-promo-kinderjassen.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
   position: absolute;
   width: 28%;
   top: 24%;
@@ -20,7 +20,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
   
   .main-title {
     display: inline-block;
@@ -50,7 +50,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta { 
   width: 58%;
   background-color: #fff;
   color: #434343;
@@ -74,7 +74,7 @@
 }
 
 // FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
   top: 17%;
   left: 16.7%;
   
@@ -88,14 +88,14 @@
 }
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+#homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
   font-size: 24px;
 }
 
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
       font-size: 38px;
     }
 } 
@@ -105,7 +105,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
- #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+ #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
 
     .main-title {
       font-size: 22px;
@@ -130,12 +130,12 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
     top: 222px;
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
     font-size: 17px;
   }
 
@@ -147,7 +147,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
     top: 18%;
 
     .main-title {
@@ -181,15 +181,15 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
     top: 13%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content .legal {
     top: 182px;
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content .main-title {
     font-size: 14px;
   }
 
@@ -199,7 +199,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -208,11 +208,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen {
     background: url('http://static.asadventure.com/includes/homepage/international/images/bg-promo-kinderjassen-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen .content {
     width: 50%;
     top: 7.5%;
     left: 22.5%;
@@ -240,7 +240,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.fr_fix .content {
 
     top: 6%;
     left: 21.7%;
@@ -260,7 +260,7 @@ and (orientation : portrait) {
 
   // EN FIX
 
-  #xx_wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.promo-kinderjassen.en_fix .content {
     top: 11.5%;
 
     .main-title {

@@ -198,7 +198,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -329,8 +328,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -405,6 +402,18 @@ html, body, #main {
   #homepage-wrapper img {
     max-width: 100%; }
 
+#homepage-wrapper #xx_header .xx_slider ul li div a {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 100;
+  line-height: 37px;
+  padding: 0 10px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-font-smoothing: antialiased; }
+
 /* ==========================================================================
 
 	LAYOUT
@@ -435,18 +444,18 @@ html, body, #main {
     #homepage-wrapper {
       margin-left: 0;
       width: 100%; } }
-  #homepage-wrapper .slider-wrapper {
+  #homepage-wrapper .xx_slider {
     margin-bottom: 108px;
     position: relative;
     width: 100%; }
     @media only screen and (max-width: 1199px) {
-      #homepage-wrapper .slider-wrapper {
+      #homepage-wrapper .xx_slider {
         margin-bottom: 90px; } }
     @media only screen and (max-width: 979px) {
-      #homepage-wrapper .slider-wrapper {
+      #homepage-wrapper .xx_slider {
         margin-bottom: 54px; } }
     @media only screen and (max-width: 767px) {
-      #homepage-wrapper .slider-wrapper {
+      #homepage-wrapper .xx_slider {
         margin: 10px 0; } }
   #homepage-wrapper .bottom-bar {
     pointer-events: none;
@@ -603,6 +612,9 @@ html, body, #main {
         position: relative;
         height: 260px; } }
   #homepage-wrapper .content-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 18px;
     max-width: 100%;
@@ -738,7 +750,8 @@ html, body, #main {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
     color: #ededed;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-dark:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       color: #ffffff; }
@@ -749,7 +762,8 @@ html, body, #main {
     background: #ffffff;
     border: 2px solid #454545;
     color: #454545;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-light:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 767px) {
@@ -775,675 +789,578 @@ html, body, #main {
 /* ================================
 	OPEN NESTING
 ================================ */
-#homepage-wrapper {
-  /* *********************************************************************************************************** */
-  /*                                            SLIDER FOLDER MAART 15                                        ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                              TABLET LANDSCAPE                                         ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET Portrait                                         ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               MOBILE                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /*                                            SLIDER ZONNEBRILLEN                                           ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /*                                            SLIDER mid_season_sales                                           ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                              DESKTOP                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               MOBILE                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /*                                             SLIDER BIKE 10%                                              ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                              DESKTOP                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */
-  /* *********************************************************************************************************** */
-  /* **                                               MOBILE                                                  ** */
-  /* *********************************************************************************************************** */
-  /* ================================
-  	CLOSE NESTING
-  ================================ */ }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 {
-    background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder-maart15.jpg") no-repeat; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content {
-    position: absolute;
-    width: 30%;
-    top: 10%;
-    left: 52%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content h2, #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content span {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .image-title {
-    position: absolute;
-    top: 45%;
-    left: 6%; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content {
-    color: #c0cb41;
-    text-align: center; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .main-title {
-      font-size: 30px;
-      color: inherit;
-      line-height: 130%;
-      margin-bottom: 5%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .legal {
-      font-size: 13px;
-      color: #C0CB41;
-      line-height: 130%;
-      margin-top: 1em; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta {
-    background: none;
-    border: 2px solid #c0cb41;
-    box-sizing: border-box;
-    color: #c0cb41;
-    display: block;
-    float: left;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 4%;
-    padding: .6em 1em;
-    text-align: left;
-    text-decoration: none;
-    width: 49%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:hover {
-      background: #c0cb41;
-      color: #fff; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:after {
-      content: "\f04b";
-      /* arrow */
-      background: none;
-      width: auto;
-      height: auto;
-      font-family: "FontAwesome";
-      font-size: 10px;
-      float: right;
-      margin-right: 11px;
-      color: inherit; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:nth-child(3),
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:nth-child(5) {
-    margin-left: 2%; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta.wider {
-    width: 67%;
-    background: #c0cb41;
-    color: #fff;
-    margin-left: -3px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta.wider:hover {
-      background: #afba36;
-      color: #fff;
-      border-color: #afba36; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .main-title {
-    font-size: 28px; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .legal {
-    margin-top: 10%; }
-  #homepage-wrapper .slider-wrapper ul li.folder-maart15.en_fix .content {
-    top: 10%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.en_fix .content .legal {
-      margin-top: 17%; }
-  @media (max-width: 1199px) {
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content {
-      top: 10%;
-      left: 64%; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .main-title {
-        font-size: 26px; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .legal {
-        font-size: 12px; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta.wider {
-        width: 82%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .image-title {
-      width: 340px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .main-title {
-      font-size: 22px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .legal {
-      margin-top: 6%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.en_fix .content {
-      top: 3%; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15.en_fix .content .legal {
-        margin-top: 17%; } }
-  @media (max-width: 979px) {
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content {
-      top: 8%;
-      right: 3%;
-      left: inherit; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .main-title {
-        font-size: 19px; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .legal {
-        font-size: 11px; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta {
-        font-size: .8em;
-        text-align: left;
-        padding: .6em .8em;
-        margin-bottom: 4%; }
-        #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:after {
-          display: block;
-          font-size: 8px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .image-title {
-      width: 255px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .main-title {
-      font-size: 18px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .xx_cta {
-      font-size: 10px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .legal {
-      margin-top: 2%; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:after {
-      height: 25px; } }
-  @media (max-width: 767px) {
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 {
-      background: url("https://static.asadventure.com/includes/homepage/national/images/bg-folder-maart15-mobile@2x.jpg") no-repeat;
-      background-size: cover; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content {
-      padding-top: 3em;
-      position: absolute;
-      top: inherit;
-      bottom: 0;
-      right: 0;
-      width: 100%; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .main-title {
-        color: #ffffff;
-        font-size: 25px;
-        text-shadow: 0 0 50px rgba(0, 0, 0, 0.9); }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .legal {
-        color: #ffffff;
-        font-size: 9px;
-        margin: 2em 0 1em; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta {
-        background: #C0CB41;
-        border-width: 1px;
-        color: #ffffff;
-        font-size: .9em;
-        margin: .5em 3%;
-        text-align: center;
-        padding-left: 0;
-        width: 44%; }
-        #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta:after {
-          display: none; }
-      #homepage-wrapper .slider-wrapper ul li.folder-maart15 .content .xx_cta.wider {
-        width: 93%; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15 .image-title {
-      display: none; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .main-title {
-      font-size: 10px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .xx_cta {
-      font-size: 9px; }
-    #homepage-wrapper .slider-wrapper ul li.folder-maart15.fr_fix .content .legal {
-      margin-top: 2%; } }
-  #homepage-wrapper #fashion-10 {
-    background: url("http://staticstaging.asadventure.com/includes/homepage/international/images/_slides/10_fashion.jpg") no-repeat;
-    background-size: contain;
-    height: 410px;
-    list-style-type: none;
-    max-width: 1170px;
-    width: 100%; }
-    @media only screen and (max-width: 1199px) {
-      #homepage-wrapper #fashion-10 {
-        height: 330px; } }
-    @media only screen and (max-width: 979px) {
-      #homepage-wrapper #fashion-10 {
-        height: 255px; } }
-    @media only screen and (max-width: 767px) {
-      #homepage-wrapper #fashion-10 {
-        background: url("http://staticstaging.asadventure.com/includes/homepage/international/images/_slides/10_fashion_mobile.jpg") no-repeat;
-        background-size: cover;
-        height: 260px; } }
-    #homepage-wrapper #fashion-10 .fashion-10-img-container {
-      float: left;
-      height: 100%;
-      width: 18.8034188034%; }
-      @media only screen and (max-width: 767px) {
-        #homepage-wrapper #fashion-10 .fashion-10-img-container {
-          height: 57.6923076923%;
-          width: 33.3333333333%; }
-          #homepage-wrapper #fashion-10 .fashion-10-img-container:first-child {
-            display: none; } }
-    #homepage-wrapper #fashion-10 .fashion-10-img-link {
-      background: #000000;
-      display: block;
-      float: left;
-      height: 100%;
-      opacity: .08;
-      transition: .1s opacity linear;
-      width: 100%; }
-      #homepage-wrapper #fashion-10 .fashion-10-img-link:hover {
-        opacity: 0; }
-    #homepage-wrapper #fashion-10 .fashion-10-img {
-      float: left; }
-    #homepage-wrapper #fashion-10 .fashion-10-content-container {
-      background: #C1C5CE;
-      box-sizing: border-box;
-      color: #596276;
-      float: left;
-      font-family: "Open Sans", Arial, sans-serif;
-      height: 100%;
-      padding: 80px 0 0 0;
-      position: relative;
-      width: 24.7863247863%; }
-      @media only screen and (max-width: 1199px) {
-        #homepage-wrapper #fashion-10 .fashion-10-content-container {
-          padding: 30px 0 0 0; } }
-      @media only screen and (max-width: 979px) {
-        #homepage-wrapper #fashion-10 .fashion-10-content-container {
-          padding: 15px 0 0 0; } }
-      @media only screen and (max-width: 767px) {
-        #homepage-wrapper #fashion-10 .fashion-10-content-container {
-          clear: left;
-          height: 42.3076923077%;
-          padding: 8px 0 0 0;
-          width: 100%; } }
-      #homepage-wrapper #fashion-10 .fashion-10-content-container h2 {
-        font-size: 34px;
-        line-height: 1.4;
-        margin: 0 0 40px;
-        text-align: center; }
-        @media only screen and (max-width: 1199px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container h2 {
-            font-size: 26px; } }
-        @media only screen and (max-width: 979px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container h2 {
-            font-size: 20px;
-            margin-bottom: 1em; } }
-        @media only screen and (max-width: 979px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container h2 {
-            margin-bottom: .5em; } }
-      #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta {
-        background: #596276;
-        box-sizing: border-box;
-        color: #ffffff;
-        display: block;
-        float: none;
-        font-size: 13px;
-        height: 34px;
-        line-height: 34px;
-        margin: 0 auto;
-        padding: 0 10px;
-        text-decoration: none;
-        width: 70%; }
-        #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta + .fashion-10-cta {
-          margin-top: 10px; }
-        #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta:after {
-          content: "\f04b";
-          float: right;
-          font-family: "Font Awesome", "FontAwesome";
-          font-size: 8px; }
-        #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta:hover {
-          background: #4e5667; }
-        @media only screen and (max-width: 767px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta {
-            float: left;
-            margin: 0 4.165%;
-            width: 25%; }
-            #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-cta + .fashion-10-cta {
-              margin-top: 0; } }
-      #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-legals {
-        font-size: 10px;
-        line-height: 1.4;
-        margin-bottom: 0;
-        padding: 0 10%;
-        position: absolute;
-        bottom: 10px; }
-        @media only screen and (max-width: 979px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-legals {
-            font-size: 9px; } }
-        @media only screen and (max-width: 767px) {
-          #homepage-wrapper #fashion-10 .fashion-10-content-container .fashion-10-legals {
-            bottom: 7px;
-            padding: 0 5%;
-            text-align: center;
-            width: 100%; } }
-  #homepage-wrapper .zonnebrillen {
-    background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/bg_zonnebrillen_en.jpg") no-repeat;
-    background-size: contain;
-    position: relative; }
-    @media only screen and (max-width: 767px) {
-      #homepage-wrapper .zonnebrillen {
-        background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/bg_zonnebrillen_mob_en.jpg") no-repeat center;
-        background-size: auto 100%; } }
-    #homepage-wrapper .zonnebrillen .zonnebrillen_cta {
-      background: #972429;
-      color: #fff;
-      display: block;
-      border: 1px solid #fff;
-      height: 48px;
-      line-height: 48px;
-      padding: 0 1em;
-      position: absolute;
-      left: 4.1025641026%;
-      bottom: 12%;
-      text-decoration: none;
-      width: 19.2307692308%; }
-      #homepage-wrapper .zonnebrillen .zonnebrillen_cta:hover {
-        background: #ac292f; }
-      #homepage-wrapper .zonnebrillen .zonnebrillen_cta:after {
-        content: "\f04b";
-        font-family: "Font Awesome", "FontAwesome";
-        font-size: 8px;
-        float: right; }
-      @media only screen and (max-width: 1199px) {
-        #homepage-wrapper .zonnebrillen .zonnebrillen_cta {
-          height: 40px;
-          line-height: 40px; } }
-      @media only screen and (max-width: 979px) {
-        #homepage-wrapper .zonnebrillen .zonnebrillen_cta {
-          font-size: .8em;
-          height: 32px;
-          line-height: 32px; } }
-      @media only screen and (max-width: 767px) {
-        #homepage-wrapper .zonnebrillen .zonnebrillen_cta {
-          margin: 0 auto;
-          position: absolute;
-          left: 0;
-          bottom: 20%;
-          right: 0;
-          margin: auto;
-          width: 120px; } }
-  @media only screen and (max-width: 1199px) {
-    #homepage-wrapper .bottom-bar {
-      bottom: -70px; } }
-  @media only screen and (max-width: 979px) {
-    #homepage-wrapper .bottom-bar {
-      bottom: -50px; } }
-  @media only screen and (max-width: 979px) {
-    #homepage-wrapper .slider-wrapper {
-      margin-bottom: 65px; } }
-  @media only screen and (max-width: 767px) {
-    #homepage-wrapper .slider-wrapper {
-      margin-bottom: 10px; } }
-  #homepage-wrapper .tnf-uk {
-    background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf.jpg") no-repeat;
-    background-size: contain;
-    position: relative; }
-    @media only screen and (max-width: 767px) {
-      #homepage-wrapper .tnf-uk {
-        background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf_mobile.jpg") no-repeat;
-        background-size: cover; } }
-    #homepage-wrapper .tnf-uk .tnf-uk-cta {
-      background: #EB342E;
-      color: #ffffff;
-      display: block;
-      height: 50px;
-      line-height: 50px;
-      padding: 0 1em;
-      position: absolute;
-      right: 8%;
-      bottom: 10%;
-      text-decoration: none;
-      width: 27.3504273504%; }
-      #homepage-wrapper .tnf-uk .tnf-uk-cta:hover {
-        background: #e91d17; }
-      #homepage-wrapper .tnf-uk .tnf-uk-cta:after {
-        content: "\f04b";
-        font-family: "Font Awesome", "FontAwesome";
-        font-size: 8px;
-        float: right; }
-      @media only screen and (max-width: 1199px) {
-        #homepage-wrapper .tnf-uk .tnf-uk-cta {
-          height: 40px;
-          line-height: 40px; } }
-      @media only screen and (max-width: 979px) {
-        #homepage-wrapper .tnf-uk .tnf-uk-cta {
-          font-size: .8em;
-          height: 32px;
-          line-height: 32px; } }
-      @media only screen and (max-width: 767px) {
-        #homepage-wrapper .tnf-uk .tnf-uk-cta {
-          margin: 0 auto;
-          position: absolute;
-          left: 20%;
-          bottom: 10%;
-          right: inherit;
-          width: 60%; } }
-  @media only screen and (max-width: 1199px) {
-    #homepage-wrapper .bottom-bar {
-      bottom: -70px; } }
-  @media only screen and (max-width: 979px) {
-    #homepage-wrapper .bottom-bar {
-      bottom: -50px; } }
-  @media only screen and (max-width: 979px) {
-    #homepage-wrapper .slider-wrapper {
-      margin-bottom: 65px; } }
-  @media only screen and (max-width: 767px) {
-    #homepage-wrapper .slider-wrapper {
-      margin-bottom: 10px; } }
-  #homepage-wrapper .mid_season_sales {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-fr.jpg") no-repeat;
-    background-size: contain; }
-  #homepage-wrapper .mid_season_sales .content {
-    position: absolute;
-    width: 23.0769230769%;
-    top: 14%;
-    left: 13.6752136752%;
-    text-align: center; }
-    #homepage-wrapper .mid_season_sales .content h2, #homepage-wrapper .mid_season_sales .content span {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper li.mid_season_sales .content .main-logo {
-    padding-bottom: 5px;
-    margin: 0 auto;
-    width: 100%; }
-  #homepage-wrapper li.mid_season_sales .content .main-content {
+/* *********************************************************************************************************** */
+/* **                                            10% SCHOENEN                                               ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo {
+  background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-nl.jpg") no-repeat;
+  overflow: hidden; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-fr.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-en.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.de_fix {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-10procent-outdoorschoenen-int.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+  z-index: 2;
+  position: absolute;
+  background: url("http://static.asadventure.com/includes/homepage/national/images/label.png");
+  width: 334px;
+  height: 355px;
+  top: 8%;
+  left: 5%;
+  text-align: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 38px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+    font-family: 'Palatino Linotype', 'Palatino', serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 23px;
+    color: #313131;
+    line-height: 130%;
+    margin-top: 0px;
+    margin-bottom: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title span {
+      color: #ef7d00;
+      font-family: 'Palatino Linotype', 'Palatino', serif !important;
+      font-size: inherit;
+      font-style: inherit; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+    font-family: 'Arial', 'Arial', 'Helvetica', sans-serif;
     font-size: 10px;
-    color: #3c241e;
-    font-weight: 400;
-    text-align: center;
-    margin-bottom: 8px;
-    border-top: 2px solid #3c241e;
-    margin-top: 8px;
-    padding-top: 8px;
-    line-height: 110%;
-    text-transform: uppercase; }
-  #homepage-wrapper li.mid_season_sales .content .legal {
-    font-size: 11px;
-    margin-top: 3%;
-    color: #3c241e; }
-  #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta {
-    background: #3c241e;
-    box-sizing: border-box;
-    color: #EAEAEA;
-    display: inline-block;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 4%;
-    padding: .6em 1em;
-    text-align: left;
+    position: relative;
+    color: #000000; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+      content: "";
+      position: absolute;
+      left: 40%;
+      bottom: -10px;
+      height: 1px;
+      width: 21%;
+      border-bottom: 1px solid #000; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .brands {
+    width: 225px;
+    height: auto;
+    display: inline-block; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-top: 5px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+  width: 100px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 4%;
+  background-color: #d67c1d; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 10px;
+    color: inherit; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:hover {
+    background-color: #c37625; }
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:first-child {
+    margin-right: 10px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+  font-size: 21px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+  padding: 35px;
+  padding-top: 43px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+    z-index: 2;
+    width: 296px;
+    height: auto;
+    top: -3px;
+    right: 19px;
+    padding: 35px;
+    background-size: 296px auto; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+      font-size: 20px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+      margin-bottom: 8px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+        display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+    width: 95px;
+    margin-top: 10px;
+    font-size: 11px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:first-child {
+      margin-right: 6px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    padding-top: 37px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+    font-size: 17px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+    font-size: 12px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+    z-index: 2;
+    width: 334px;
+    height: auto;
+    top: -40px;
+    right: -0px;
+    padding: 25px;
+    background-size: 334px auto;
+    padding-top: 55px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title {
+      font-size: 20px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal {
+      margin-bottom: 8px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal:after {
+        display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta {
+      text-align: left;
+      padding-left: 4%;
+      margin-bottom: 0; }
+      #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    padding-top: 57px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+    font-size: 18px;
+    line-height: 107%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+    background: url("http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    background: none;
+    padding: 0;
+    left: 3px;
+    top: 4%;
+    width: 63%;
+    margin: 0 auto; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .main-title,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+      font-size: 15px;
+      margin-bottom: 1.5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .legal,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .legal,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .legal {
+      font-size: 8px;
+      margin-bottom: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .brands,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .brands,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .brands {
+      display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+    width: 75px;
+    font-size: 8px;
+    margin-bottom: 1%;
+    padding-left: 2%;
+    margin-top: 6px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta:after,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta:after,
+    #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta:after {
+      font-size: 7px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+    top: 6%; } }
+.tnf-uk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .tnf-uk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .tnf-uk .tnf-uk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
     text-decoration: none;
-    width: 100%; }
-    #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta:hover {
-      background: #4D3934; }
-    #homepage-wrapper .slider-wrapper ul li.mid_season_sales .content .xx_cta:after {
+    width: 27.3504273504%; }
+    .tnf-uk .tnf-uk-cta:hover {
+      background: #e91d17; }
+    .tnf-uk .tnf-uk-cta:after {
       content: "\f04b";
-      /* arrow */
-      background: none;
-      width: auto;
-      height: auto;
-      font-family: "FontAwesome";
-      float: right;
-      margin-right: 11px;
-      color: inherit; }
-  @media (max-width: 1199px) {
-    #homepage-wrapper li.mid_season_sales .content .main-logo {
-      width: 80%; }
-    #homepage-wrapper li.mid_season_sales .content .main-content {
-      font-size: 9px;
-      margin-top: 6px;
-      padding-top: 6px;
-      margin-bottom: 7px; }
-    #homepage-wrapper li.mid_season_sales .content .xx_cta {
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .tnf-uk .tnf-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .tnf-uk .tnf-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .tnf-uk .tnf-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
+/* *********************************************************************************************************** */
+/* **                                             MID SEASON SALES                                          ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-nl.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-fr.jpg") no-repeat; }
+
+/*#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-en.jpg') no-repeat;
+}*/
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  position: absolute;
+  width: 224px;
+  top: 17%;
+  left: 15.4%;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content h2, #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
+  padding-bottom: 5px;
+  margin: 0 auto; }
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+  font-size: 15px;
+  color: #3c241e;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 11px;
+  border-top: 2px solid #3c241e;
+  margin-top: 14px;
+  padding-top: 11px; }
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+  font-size: 11px;
+  margin-top: 3%;
+  color: #3c241e; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+  width: 95%;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #3c241e; }
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta::after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 10px;
+    color: inherit; }
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta:hover {
+    background-color: #4D3934; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 174px;
+    top: 15%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      font-size: 13px;
+      margin-top: 8px;
+      padding-top: 8px;
+      line-height: 130%;
+      margin-bottom: 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
       margin: 0;
       font-size: 11px; }
-    #homepage-wrapper li.mid_season_sales .content .legal {
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
       font-size: 9px;
       margin-top: 1px;
       color: #3c241e; }
-    #homepage-wrapper li.mid_season_sales.de_fix .content .xx_cta {
-      font-size: 9px; }
-    #homepage-wrapper .mid_season_sales.en_fix .xx_txt .xx_cta {
-      font-size: 11px; } }
-  @media (max-width: 979px) {
-    #homepage-wrapper .mid_season_sales .content .main-content {
-      border-top: none;
-      margin-top: 3px;
-      margin-bottom: 6px; }
-    #homepage-wrapper .mid_season_sales .content .xx_cta {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+    font-size: 11px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 140px;
+    left: 15.5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
       width: 100%; }
-    #homepage-wrapper .mid_season_sales .content .legal {
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      border-top: none;
+      font-size: 11px;
+      margin-top: 3px;
+      padding-top: 0;
+      line-height: 130%;
+      margin-bottom: 6px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+      width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
       margin-top: 0;
       font-size: 8px;
       margin-bottom: 0; }
-    #homepage-wrapper .mid_season_sales.en_fix .xx_txt .xx_cta {
-      font-size: 10px; }
-    #homepage-wrapper .mid_season_sales.de_fix .content .xx_cta {
-      font-size: 9px; } }
-  @media (max-width: 767px) {
-    #homepage-wrapper .mid_season_sales {
-      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-nl@2x.jpg") no-repeat;
-      background-size: cover; }
-    #homepage-wrapper .mid_season_sales .content {
-      left: 23.1884057971%;
-      width: 170px; } }
-  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg") no-repeat;
-    background-size: contain; }
-  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
-    position: absolute;
-    width: 30%;
-    top: 23%;
-    left: 6%; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content h2, #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content h3, #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content span {
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
-    color: #fff;
-    text-align: center; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
-      display: inline-block;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 600;
-      font-size: 35px;
-      line-height: 120%;
-      color: inherit;
-      margin-bottom: 2%;
-      background-color: #821525;
-      padding: 2% 4%;
-      text-transform: uppercase; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
-      color: inherit;
-      line-height: 120%;
-      font-size: 21px;
-      font-weight: 400;
-      margin-bottom: 6%;
-      padding: 0 6%;
-      text-shadow: 0 0 15px black; }
-  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
-    line-height: 120%;
-    text-align: center;
-    font-size: 11px;
-    text-shadow: 0 0 5px #000;
-    color: #fff;
-    margin-bottom: 0;
-    margin-top: 11px; }
-  #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
-    font-weight: 600;
-    width: 77%;
-    text-align: left;
-    margin-top: 0;
-    background: #821525;
-    color: #fff; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:hover {
-      background: #6e1220; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
-      content: "\f04b";
-      /* arrow */
-      background: none;
-      width: auto;
-      height: auto;
-      font-family: "FontAwesome";
-      float: right;
-      margin-right: 6%;
-      color: inherit; }
-  #homepage-wrapper .slider-wrapper ul li.bike-tien-procent .content .xx_cta {
-    background: #821525;
-    box-sizing: border-box;
-    color: #EAEAEA;
-    display: inline-block;
-    font-weight: 600;
-    margin-top: 0;
-    margin-bottom: 4%;
-    padding: .6em 1em;
-    text-align: left;
-    text-decoration: none;
-    width: 100%; }
-  @media (max-width: 1199px) {
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
-      top: 5%;
-      width: 35%;
-      left: 4%; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
-        font-size: 33px; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
-        font-size: 18px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.de_fix .content .xx_cta {
-      font-size: 9px; } }
-  @media (max-width: 979px) {
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
-      font-size: 26px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
-      font-size: 14px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
-      text-align: left;
-      padding-left: 4%;
-      margin-bottom: 6%; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
-      font-size: 9px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.fr_fix .content .main-title {
-      font-size: 20px; } }
-  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
-      height: 25px; } }
-  @media (max-width: 767px) {
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent {
-      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg") no-repeat;
-      background-size: cover; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content {
-      top: 6%;
-      left: 6%;
-      width: 65%; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-title {
-        font-size: 23px;
-        margin-bottom: 1.5%; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .main-content {
-        font-size: 13px;
-        margin-bottom: 5%;
-        text-shadow: 0 0 5px #000; }
-      #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta {
-        width: 65%;
-        font-size: 10px;
-        margin-bottom: 1%;
-        padding-left: 2%; }
-        #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .content .xx_cta:after {
-          font-size: 7px; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent .legal {
-      font-size: 8px;
-      width: 100%;
-      bottom: 5%; }
-    #homepage-wrapper .slider-wrapper .bxslider li.bike-tien-procent.fr_fix .content .main-title {
-      font-size: 17px; } }
 
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+    font-size: 10px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix .content .main-content {
+    font-size: 10px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-nl@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-fr@2x.jpg") no-repeat; }
+
+  /*	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+  		background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-en@2x.jpg') no-repeat;
+  	}*/
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+    width: 93px;
+    left: 63px;
+    top: 8%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-logo {
+      padding-bottom: 5px;
+      margin: 0 auto; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .main-content {
+      font-size: 7px;
+      border-top: 1px solid #3c241e;
+      margin-top: 1px;
+      padding-top: 3px;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
+      font-size: 8px;
+      padding-left: 0;
+      text-align: center; }
+      #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta:after {
+        display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .legal {
+      font-size: 6px;
+      margin-top: -2%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix .content .main-content {
+    font-size: 7px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER BIKE 10%                                              ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  position: absolute;
+  width: 28%;
+  top: 23%;
+  left: 6%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content h2, #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content h3, #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 2%;
+    background-color: #821525;
+    padding: 2% 4%;
+    text-transform: uppercase; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+    color: inherit;
+    line-height: 120%;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 6%;
+    padding: 0 6%;
+    text-shadow: 0 0 15px black; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+  line-height: 120%;
+  text-align: left;
+  font-size: 11px;
+  text-shadow: 0 0 5px #000;
+  color: #fff;
+  width: 45%;
+  margin-bottom: 0; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+  font-weight: 600;
+  width: 77%;
+  text-align: left;
+  margin-top: 0;
+  background: #821525;
+  color: #fff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:hover {
+    background: #6e1220; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+  font-size: 29px; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+    top: 17%;
+    width: 31%;
+    left: 4%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+      font-size: 33px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+      font-size: 18px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+    font-size: 26px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+    font-size: 14px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+    text-align: left;
+    padding-left: 4%;
+    margin-bottom: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+      display: block;
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+    font-size: 9px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 20px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+    top: 6%;
+    left: 6%;
+    width: 65%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-title {
+      font-size: 19px;
+      margin-bottom: 1.5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .main-content {
+      font-size: 11px;
+      margin-bottom: 5%;
+      text-shadow: 0 0 5px #000; }
+    #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta {
+      width: 65%;
+      font-size: 8px;
+      margin-bottom: 1%;
+      padding-left: 2%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+        font-size: 7px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+    font-size: 7px;
+    width: 100%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content .main-title {
+    font-size: 17px; } }
+/* ================================
+	CLOSE NESTING
+================================ */
 /* ==========================================================================
 
 	STATE

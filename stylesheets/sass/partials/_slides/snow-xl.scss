@@ -3,14 +3,14 @@
 /*                                            SLIDER SNOW XL                                             ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+#homepage-wrapper #xx_header .xx_slider ul li.snow-xl {
   background: url('../../images/bg-snow-xl.jpg') no-repeat;
   &.new-wave {
     background: url('../../images/bg-snow-xl-next-wave-v2.jpg')
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content {
   position: absolute;
   width: 75%;
   top: 17%;
@@ -21,7 +21,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content {
   color: #fff;
   text-align: center;
 
@@ -52,7 +52,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta { 
   font-weight: 600;
   width: 25%;
   text-align: left;
@@ -75,7 +75,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content {
     top: 15%;
 
     .main-title {
@@ -100,7 +100,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content {
     top: 15%;
     width: 74%;
 
@@ -125,7 +125,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
   }
 
 
@@ -135,7 +135,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -144,14 +144,14 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl {
     background: url('../../images/bg-snow-xl-mobile@2x.jpg') no-repeat;
     &.new-wave {
       background: url('../../images/bg-snow-xl-next-wave-mobile@2x.jpg')
     }
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content {
     top: 11%;
     width: 100%;
 
@@ -172,12 +172,12 @@ and (orientation : portrait) {
   }
 
   //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl.fr_fix .content .xx_cta {
     width: 97%;
   }
 
   //EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.snow-xl .content .xx_cta {
     font-size: 7.5px;
   }
 

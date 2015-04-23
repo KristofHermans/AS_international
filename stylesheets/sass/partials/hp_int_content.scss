@@ -2,7 +2,7 @@
 		General 
 ***********************************************/
 
-#xx_wrapper #xx_header_mobile{
+#homepage-wrapper #xx_header_mobile{
   display: none;
 
   @media only screen and(max-width: 767px){
@@ -651,7 +651,7 @@ $yellow: #E69426;
 *******************************************/
 
 @media only screen and (max-width: 768px){
-  #xx_wrapper #xx_header_mobile{
+  #homepage-wrapper #xx_header_mobile{
     display: block;
   }
 }

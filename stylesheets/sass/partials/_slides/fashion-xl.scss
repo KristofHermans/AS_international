@@ -3,11 +3,11 @@
 /*                                            SLIDER FASHION XL                                             ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-xl {
   background: url('https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content {
   position: absolute;
   width: 75%;
   top: 30%;
@@ -18,7 +18,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content {
   color: #fff;
   text-align: center;
 
@@ -45,7 +45,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta { 
   display: block;
   margin: 0 auto;
   font-weight: 600;
@@ -70,7 +70,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content {
     top: 28%;
 
     .pre-title {
@@ -96,7 +96,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content {
     top: 25%;
     width: 74%;
 
@@ -121,7 +121,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
   }
 
 
@@ -131,7 +131,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -140,11 +140,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl {
     background: url('https://static.asadventure.com/includes/homepage/national/images/bg-fashion-xl-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content {
     top: 21%;
     width: 100%;
 
@@ -167,12 +167,12 @@ and (orientation : portrait) {
   }
 
   //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl.fr_fix .content .xx_cta {
     width: 97%;
   }
 
   //EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-xl .content .xx_cta {
     font-size: 7.5px;
   }
 

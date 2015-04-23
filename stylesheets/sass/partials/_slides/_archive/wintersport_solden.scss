@@ -12,7 +12,7 @@ $wss_red: #b4262b;
   STYLES                                              
 *******************************************/
 
-#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
   position: absolute;
   z-index: 2;
   top: 44px;
@@ -33,8 +33,8 @@ $wss_red: #b4262b;
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
   position: relative;
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -74,7 +74,7 @@ $wss_red: #b4262b;
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
   margin-left: 14px;
 }
 
@@ -83,7 +83,7 @@ $wss_red: #b4262b;
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
  
- #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+ #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
   top: 24px;
   right: 30px;
   width: 385px;
@@ -97,13 +97,13 @@ $wss_red: #b4262b;
 
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
+ #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
   width: 174px;
   margin-top: 8px;
   font-size: 12px;
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+ #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
   margin-left: 6px;
  }
 
@@ -112,7 +112,7 @@ $wss_red: #b4262b;
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt {
    top: 35px;
    width: 298px;
 
@@ -126,7 +126,7 @@ $wss_red: #b4262b;
 
   }
 
- #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
+ #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta {
   width: 140px;
   margin-top: 4px;
   font-size: 10px;
@@ -137,7 +137,7 @@ $wss_red: #b4262b;
   }
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
+ #homepage-wrapper #xx_header .xx_slider ul li.wintersport_solden .xx_txt .xx_cta_wss .xx_cta:nth-of-type(2n) {
   margin-left: 0px;
  }
  
@@ -147,7 +147,7 @@ $wss_red: #b4262b;
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss {
+   #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss {
     position: relative;
     background-image: url('../images/mobile_wss.jpg');
     width: 302px;
@@ -157,7 +157,7 @@ $wss_red: #b4262b;
     @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt {
     position: absolute;
     top: 50px;
     left: 0;
@@ -184,7 +184,7 @@ $wss_red: #b4262b;
     }
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_wss .xx_txt .xx_cta_container .xx_cta {
     width: 152px;
     font-size: 11px;
     padding-left: 8px;

@@ -3,7 +3,7 @@
 /* **                                            10% SCHOENEN                                               ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo {
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo {
   background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-nl.jpg') no-repeat;
   overflow: hidden;
 
@@ -14,9 +14,13 @@
   &.en_fix {
     background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-en.jpg') no-repeat;
   }
+
+  &.de_fix{
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-10procent-outdoorschoenen-int.jpg') no-repeat;
+  }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
   z-index: 2;
   position: absolute;
   background: url('http://static.asadventure.com/includes/homepage/national/images/label.png');
@@ -80,7 +84,7 @@
   
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
   width: 100px;
   font-weight: 600;
   display: inline-block;
@@ -109,13 +113,13 @@
 }
 
 //FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
 	font-size: 21px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
-#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
   padding: 35px;
   padding-top: 43px;
 }
@@ -126,7 +130,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
  
- #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+ #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
  	z-index: 2;
  	width: 296px;
  	height: auto;
@@ -148,7 +152,7 @@
  	}
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
+ #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta {
  	width: 95px;
  	margin-top: 10px;
   font-size: 11px;
@@ -159,17 +163,17 @@
  }
 
 	 //FR FIX
-   #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
-   #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     padding-top: 37px;
   }
-	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+	#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
 		font-size: 17px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
 		font-size: 12px;
 	}
 
@@ -180,7 +184,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-	 #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
+	 #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content {
 	 	z-index: 2;
 	 	width: 334px;
 	 	height: auto;
@@ -216,13 +220,13 @@
 	 }
 
 	//FR FIX
-	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+	#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
 		padding-top: 57px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
+	#homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .main-title,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .main-title {
 		font-size: 18px;
 		line-height: 107%;
 	}
@@ -233,7 +237,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -242,15 +246,15 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix {
     background: url('http://static.asadventure.com/includes/homepage/national/images/bg-schoenen-promo-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     background: none;
     padding: 0;
     left: 3px;
@@ -274,9 +278,9 @@ and (orientation : portrait) {
 
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content .xx_cta_container .xx_cta,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content .xx_cta_container .xx_cta {
       width: 75px;
       font-size: 8px;
       margin-bottom: 1%;
@@ -289,8 +293,8 @@ and (orientation : portrait) {
   }
 
   //FR Fix
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
-  #xx_wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     top: 6%;
   }
 

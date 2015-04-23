@@ -29,11 +29,11 @@
     top: 0px;
     left: 0; } }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder {
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder {
   background: url(../../images/bg-kerstfolder.jpg) no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
   position: absolute;
   width: 308px;
   top: 19%;
@@ -46,7 +46,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
 
   .ribbon {
     display: block;
@@ -83,7 +83,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta { 
   width: 70%;
   background-color: #b11116;
   font-weight: 600;
@@ -180,7 +180,7 @@
 
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
   top: 25%;
 
   .ribbon {
@@ -198,7 +198,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
     top: 16%;
     left: 4%;
     width: 259px;
@@ -234,7 +234,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
     .ribbon {
       top: -75px;
     }
@@ -249,7 +249,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
     top: 13%;
     left: 4%;
     width: 204px;
@@ -286,7 +286,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
     top: 22%;
     .ribbon {
       top: -55px;
@@ -299,7 +299,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -308,11 +308,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder {
     background: url('http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
     top: 10%;
     width: 54%;
     left: 22%;
@@ -349,7 +349,7 @@ and (orientation : portrait) {
 
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
     top: 14%;
 
     .main-image {

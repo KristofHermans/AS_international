@@ -4,7 +4,7 @@
 /* *********************************************************************************************************** */
 
 
-#xx_wrapper .promo_row .promo-content.block_baybeach {
+#homepage-wrapper .promo_row .promo-content.block_baybeach {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -37,14 +37,14 @@
 }
 
 // FR FIX
-#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+#homepage-wrapper .promo_row .promo-content.block_baybeach.fr_fix {
 	.promo-button {
 		width: 49%;
 	}
 }
 
 // EN FIX
-#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+#homepage-wrapper .promo_row .promo-content.block_baybeach.en_fix {
 	.promo-button {
 		width: 40%;
 	}
@@ -52,7 +52,7 @@
 
 // IE8 fix 
 @media \0screen {
-    // #xx_wrapper .promo_row .promo-content.block_staycation h2 {
+    // #homepage-wrapper .promo_row .promo-content.block_staycation h2 {
     // 	font-size: 38px;
     // }
 } 
@@ -62,7 +62,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-	#xx_wrapper .promo_row .promo-content.block_baybeach {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach {
 
 		.promo-button {
 			width: 38%;
@@ -79,7 +79,7 @@
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach.en_fix {
 		.promo-button {
 			width: 42%;
 		}
@@ -91,7 +91,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-	#xx_wrapper .promo_row .promo-content.block_baybeach {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach {
 
 		.promo-button {
 			width: 44%;
@@ -103,13 +103,13 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach.fr_fix {
 		.promo-button {
 			width: 59%;
 		}
 	}
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach.en_fix {
 		.promo-button {
 			width: 50%;
 		}
@@ -122,14 +122,14 @@
 @media (max-width: 767px) {
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_baybeach.fr_fix {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach.fr_fix {
 		.promo-button {
 			width: 63%;
 		}
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_baybeach.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_baybeach.en_fix {
 		.promo-button {
 			width: 55%;
 		}

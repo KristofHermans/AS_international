@@ -2,7 +2,7 @@
 /* **                                         SLIDER SOLDEN (2de afprijzing)                                ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons {
     overflow: hidden;
     background-size: cover !important;
 }
@@ -29,7 +29,7 @@
 @-ms-keyframes      imageAnimation { 0% { opacity: 1; } 50% { opacity: 0; } 100% { opacity: 1; } }
 
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
     position: absolute;
     top: 20%;
     left: 2%;
@@ -49,7 +49,7 @@
         -moz-osx-font-smoothing: grayscale;
     }
 }
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
 
     // TITLE
     .main-title {
@@ -92,13 +92,13 @@
 }
 
 //FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
     .main-title {
         font-size: 40px;
     }
 }
 //EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
     .main-title {
         font-size: 40px;
     }
@@ -108,7 +108,7 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
         padding-top: 13px;
         padding-right: 10px;
         background-position: 0px -54px;
@@ -122,7 +122,7 @@
         }
     }
     // FR FIX
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
         .main-title {
             font-size: 32px;
         }
@@ -133,7 +133,7 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 979px) {
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
         width: 70%;
         padding-top: 8px;
         background-position: 0px -37px;
@@ -156,14 +156,14 @@
         }
     }
     //FR FIX
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content {
         .main-title {
             font-size: 25px;
             margin-bottom: 0;
         }
     }
     //EN FIX
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
         .main-title {
             font-size: 25px;
             margin-bottom: 0px;
@@ -171,7 +171,7 @@
     }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -180,11 +180,11 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons {
         background: url('../../images/bg-lookbook-dons-mobile@2k.gif') no-repeat;
         #crossfade { display: none; }
     }
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons .content {
         width: 90%;
         padding-top: 10px;
         height: 112px;
@@ -217,8 +217,8 @@
 
     }
     //FR FIX
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content, 
-    #xx_wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.fr_fix .content, 
+    #homepage-wrapper #xx_header .xx_slider ul li.lookbook_dons.en_fix .content {
         .main-title {
             font-size: 15px;
         }
