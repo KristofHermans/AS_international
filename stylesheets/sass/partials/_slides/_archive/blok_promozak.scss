@@ -4,7 +4,7 @@
 /* *********************************************************************************************************** */
 
 
-#xx_wrapper .promo_row .promo-content.block_promozak {
+#homepage-wrapper .promo_row .promo-content.block_promozak {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -77,7 +77,7 @@
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
     	font-size: 38px;
     }
 } 
@@ -87,7 +87,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-	#xx_wrapper .promo_row .promo-content.block_promozak { 
+	#homepage-wrapper .promo_row .promo-content.block_promozak { 
 		bottom: 7px;
 
 		img.patch {
@@ -121,7 +121,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-	#xx_wrapper .promo_row .promo-content.block_promozak { 
+	#homepage-wrapper .promo_row .promo-content.block_promozak { 
 		bottom: 7px;
 
 		img.patch {
@@ -175,7 +175,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-	#xx_wrapper .promo_row .promo-content.block_promozak { 
+	#homepage-wrapper .promo_row .promo-content.block_promozak { 
 		bottom: 6px;
 
 		.main-title {

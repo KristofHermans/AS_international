@@ -3,11 +3,11 @@
 /* **                                         SLIDER FOLDER OKTOBER                                         ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt {
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt {
   background: url('../images/bg-folder-okt.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content {
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content {
   position: absolute;
   width: 40%;
   top: 27%;
@@ -20,7 +20,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content {
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content {
   
   .main-title {
     display: inline-block;
@@ -76,7 +76,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta { 
   width: 43%;
   background-color: #b11116;
   font-weight: 600;
@@ -88,7 +88,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta.alt { 
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta.alt { 
   margin-left: 2%;
   background-color: #4e4e4e;
 
@@ -99,7 +99,7 @@
 
 
 // FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
   top: 28%;
 
   .main-title {
@@ -123,7 +123,7 @@
 }
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
   top: 31%;
   .main-title {
       font-size: 49px;
@@ -146,7 +146,7 @@
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
       font-size: 38px;
     }
 } 
@@ -156,7 +156,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content {
     right: 30%;
     top: 23%;
 
@@ -190,7 +190,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
     top: 26%;
 
     .main-title {
@@ -204,7 +204,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
     top: 28%;
     .main-title {
         font-size: 38px;
@@ -225,7 +225,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content {
     right: 30%;
     top: 23%;
 
@@ -260,7 +260,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
     top: 21%;
 
     .main-title {
@@ -282,7 +282,7 @@
   }
 
  // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
     top: 25%;
 
     .main-title {
@@ -301,7 +301,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -310,11 +310,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt {
     background: url('../images/bg-folder-okt-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content {
     right: 10%;
     top: 13%;
     width: 50%;
@@ -352,7 +352,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.fr_fix {
 
     top: 13%;
     width: 52%;
@@ -375,7 +375,7 @@ and (orientation : portrait) {
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder-okt .content.en_fix {
     top: 13%;
 
     .main-title {

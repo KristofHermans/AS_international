@@ -21,7 +21,7 @@
   BLOCK FOLDER                                             
 ===========================================*/
 
-#xx_wrapper .promo_row .promo-content.block_folder {
+#homepage-wrapper .promo_row .promo-content.block_folder {
 	bottom: 48px;
 	width: 90%;
 	text-align: center;
@@ -71,7 +71,7 @@
 }
 
 //FR FIX
-#xx_wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
+#homepage-wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
 	font-size: 23px;
 }
 
@@ -82,7 +82,7 @@
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-	#xx_wrapper .promo_row .promo-content.block_folder {
+	#homepage-wrapper .promo_row .promo-content.block_folder {
 		bottom: 33px;
 		width: 90%;
 
@@ -111,17 +111,17 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
+	#homepage-wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
 		font-size: 18px;
 	}
 
-	#xx_wrapper .promo_row .promo-content.block_folder.fr_fix .promo-button.folder,
-	#xx_wrapper .promo_row .promo-content.block_folder.en_fix .promo-button.folder {
+	#homepage-wrapper .promo_row .promo-content.block_folder.fr_fix .promo-button.folder,
+	#homepage-wrapper .promo_row .promo-content.block_folder.en_fix .promo-button.folder {
 		width: 190px;
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_folder.en_fix p {
+	#homepage-wrapper .promo_row .promo-content.block_folder.en_fix p {
 		font-size: 13px;
 	}
 	
@@ -130,7 +130,7 @@
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
- 	#xx_wrapper .promo_row .promo-content.block_folder {
+ 	#homepage-wrapper .promo_row .promo-content.block_folder {
 		bottom: 33px;
 		width: 90%;
 
@@ -152,7 +152,7 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
+	#homepage-wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
 		font-size: 14px;
 	}
 }
@@ -161,7 +161,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper .promo_row .promo-content.block_folder {
+  #homepage-wrapper .promo_row .promo-content.block_folder {
 	bottom: 30px;
 
 	.folder-title {
@@ -174,7 +174,7 @@
  }
 
  // FR FIX
-	#xx_wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
+	#homepage-wrapper .promo_row .promo-content.block_folder.fr_fix .folder-title {
 		font-size: 12px;
 	}
 }

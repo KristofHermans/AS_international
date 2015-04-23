@@ -7,7 +7,7 @@
   STYLES                                              
   *******************************************/
 
-  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
 	  position: absolute;
 	  z-index: 2;
 	  width: 224px;
@@ -33,8 +33,8 @@
   }
 
 
-  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta,
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta,
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
   	position: relative;
   	display: -moz-inline-box;
   	-moz-box-orient: vertical;
@@ -73,7 +73,7 @@
   /* *********************************************************************************************************** */
   @media (max-width: 1199px) {
 
-  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+  	  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
 		width: 174px;
 		top: 33px;
 		left: 83px;
@@ -103,7 +103,7 @@
   /* *********************************************************************************************************** */
   @media (max-width: 979px) {
 
-  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
+  	  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt {
 		width: 162px;
 		top: 32px;
 		left: 52px;
@@ -159,7 +159,7 @@
 	    @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
 	}
 
-	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt {
+	#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt {
 		position: absolute;
 		z-index: 2;
 		width: 186px;
@@ -197,7 +197,7 @@
 		}
 	}
 
-	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
+	#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta {
 		text-align: left;
 		margin-top: 13px;
 	}
@@ -214,8 +214,8 @@
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) { 
 
-  	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta:after,
-  	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta:after {
+  	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .xx_txt .xx_cta:after,
+  	#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_mss .xx_txt .xx_cta:after {
   		background: url('../images/arrow-white@2x.png') no-repeat center center;
   		background-size: 11px 11px;
   	}

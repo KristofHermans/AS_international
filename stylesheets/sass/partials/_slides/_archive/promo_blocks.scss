@@ -24,7 +24,7 @@
 	}
 }
 
-#xx_wrapper .promo_row .promo-content {
+#homepage-wrapper .promo_row .promo-content {
 	color: #ffffff;
 	position: absolute;
 	-moz-box-sizing: border-box;
@@ -58,7 +58,7 @@
 	}
 }
 
-#xx_wrapper .promo_row a.promo-button {
+#homepage-wrapper .promo_row a.promo-button {
   position: relative;
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -94,7 +94,7 @@
   }
 }
 
-#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+#homepage-wrapper .promo_row .span12.promo_block .mobile_only {
 	display: none;
 }
 
@@ -102,7 +102,7 @@
 /*==========================================     
   GOPRO BLOCK                                              
 ===========================================*/
-#xx_wrapper .promo_row .promo-content.block3 {
+#homepage-wrapper .promo_row .promo-content.block3 {
 	bottom: 11px;
 	text-align: center;
 
@@ -147,7 +147,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+	#homepage-wrapper .promo_row .span12.promo_block .mobile_only {
 		display: none;
 	}
 
@@ -156,7 +156,7 @@
 	  GOPRO BLOCK                                             
 	===========================================*/
 
-	#xx_wrapper .promo_row .promo-content.block3 {
+	#homepage-wrapper .promo_row .promo-content.block3 {
 		bottom: 11px;
 		text-align: center;
 
@@ -193,14 +193,14 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+	#homepage-wrapper .promo_row .span12.promo_block .mobile_only {
 		display: none;
 	}
 
 	/*==========================================     
 	  GOPRO BLOCK                                             
 	===========================================*/
-	#xx_wrapper .promo_row .promo-content.block3 {
+	#homepage-wrapper .promo_row .promo-content.block3 {
 		bottom: 9px;
 		text-align: center;
 
@@ -238,11 +238,11 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-	#xx_wrapper .promo_row .span12.promo_block .mobile_only {
+	#homepage-wrapper .promo_row .span12.promo_block .mobile_only {
 		display: block;
 	}
 
-	#xx_wrapper .promo_row .span12.promo_block .hide_on_mobile {
+	#homepage-wrapper .promo_row .span12.promo_block .hide_on_mobile {
 		display: none;
 	}
 
@@ -250,7 +250,7 @@
 	/*==========================================     
 	  GOPRO BLOCK                                             
 	===========================================*/
-	#xx_wrapper .promo_row .promo-content.block3 {
+	#homepage-wrapper .promo_row .promo-content.block3 {
 
 		h2 {
 			font-size: 19px;
@@ -281,7 +281,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-  #xx_wrapper .promo_row a.promo-button:after {
+  #homepage-wrapper .promo_row a.promo-button:after {
     background: url('../images/arrow-white@2x.png') no-repeat center center;
     background-size: 11px 11px;
   }

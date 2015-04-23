@@ -4,7 +4,7 @@
 /* *********************************************************************************************************** */
 
 
-#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+#homepage-wrapper .promo_row .promo-content.block_rondeprijzen {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -55,7 +55,7 @@
 }
 
 // FR FIX
-#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
 	
 	.main-title {
 		font-size: 48px;
@@ -63,7 +63,7 @@
 }
 
 // EN FIX
-#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
 
 	top: 28%;
 	
@@ -74,7 +74,7 @@
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
     	font-size: 38px;
     }
 } 
@@ -84,7 +84,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen {
 		top: 22%;
 		right: 22px;
 		width: 225px;
@@ -100,7 +100,7 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
 		
 		.main-title {
 			font-size: 38px;
@@ -108,7 +108,7 @@
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
 
 		top: 21%;
 		
@@ -124,7 +124,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen {
 		top: 22%;
 		right: 22px;
 		width: 165px;
@@ -154,7 +154,7 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
 		
 		.main-title {
 			font-size: 27px;
@@ -162,7 +162,7 @@
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
 		
 		.main-title {
 			font-size: 19px;
@@ -174,7 +174,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen {
 		top: 16%;
 		width: 138px;
 
@@ -192,7 +192,7 @@
 	}
 
 	// FR FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.fr_fix {
 		
 		.main-title {
 			font-size: 22px;
@@ -200,7 +200,7 @@
 	}
 
 	// EN FIX
-	#xx_wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
+	#homepage-wrapper .promo_row .promo-content.block_rondeprijzen.en_fix {
 
 		top: 7%;
 		

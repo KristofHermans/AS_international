@@ -3,11 +3,11 @@
 /*                                           SLIDER LOOKBOOK RACE                                           ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook-race {
   background: url('https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content {
   position: absolute;
   width: 28%;
   top: 33%;
@@ -19,7 +19,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content {
   color: #fff;
   text-align: left;
 
@@ -44,7 +44,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta { 
   font-weight: 600;
   width: 62%;
   text-align: left;
@@ -81,7 +81,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content {
     top: 29%;
     width: 31%;
     left: 4%;
@@ -97,7 +97,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
     width: 65%;
   }
 
@@ -109,7 +109,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content {
 
     .main-title {
       font-size: 19px;
@@ -133,7 +133,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content .xx_cta {
     width: 70%;
   }
 
@@ -144,7 +144,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -153,11 +153,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race {
     background: url('https://static.asadventure.com/includes/homepage/national/images/bg-lookbook-race-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race .content {
     top: 22%;
     left: 13%;
     width: 64%;
@@ -186,7 +186,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.lookbook-race.fr_fix .content {
     top: 17%;
     width: 65%;
     

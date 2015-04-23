@@ -5,36 +5,36 @@
 /*******************************************     
   Header                                              
 *******************************************/
-#xx_wrapper #xx_header {
+#homepage-wrapper #xx_header {
   margin-top: 0px;
 	max-width: 1170px;
   padding-top: 0px;
 }
 
-#xx_wrapper #xx_header .xx_slider{
+#homepage-wrapper #xx_header .xx_slider{
   position: relative;
   box-shadow: 0 0 5px #D4D3D1;
   box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
 
-#xx_wrapper #xx_header .bx-wrapper{
+#homepage-wrapper #xx_header .bx-wrapper{
   margin: 30px auto 0;
 }
 
-#xx_wrapper #xx_header .bx-viewport{
+#homepage-wrapper #xx_header .bx-viewport{
   border: 0;
   box-shadow: none;
   left: 0;
 }
 
-#xx_wrapper #xx_header .xx_slider .bx-pager {
+#homepage-wrapper #xx_header .xx_slider .bx-pager {
   /* box */
   margin-top: 20px;
   /* font */
   text-align: center;
 }
 
-#xx_wrapper #xx_header .xx_slider ul {
+#homepage-wrapper #xx_header .xx_slider ul {
   /* box */
   margin: 0;
   list-style: none;
@@ -42,7 +42,7 @@
   list-style-image: none;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li {
+#homepage-wrapper #xx_header .xx_slider ul li {
   /* position */
   position: relative;
   /* box */
@@ -52,7 +52,7 @@
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li {
+  #homepage-wrapper #xx_header .xx_slider ul li {
     height: 311px;
   }
 }
@@ -60,11 +60,11 @@
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header {
+  #homepage-wrapper #xx_header {
     display: block;
   }
 
- 	#xx_wrapper #xx_header .xx_slider ul li {
+ 	#homepage-wrapper #xx_header .xx_slider ul li {
     height: 240px;
   } 
 }
@@ -73,12 +73,12 @@
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header{
+  #homepage-wrapper #xx_header{
     margin: 10px auto;
     max-width: 302px;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li {
+  #homepage-wrapper #xx_header .xx_slider ul li {
     height: 160px;
     width: 100%;
   }
