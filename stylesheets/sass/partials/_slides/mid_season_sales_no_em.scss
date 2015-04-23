@@ -4,38 +4,38 @@
 /* *********************************************************************************************************** */
 
 // special TAB
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight {
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight {
 // 	background-color: #75c043;
 // }
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-title,
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-intro {
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-title,
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight .tab-content .tab-intro {
 // 	color: #ffffff;
 // }
 
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight:hover {
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight:hover {
 // background-color: #61A534;
 // }
 
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active, 
-// #xx_wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active:hover {
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active, 
+// #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.highlight.active:hover {
 // background-color: #434343;
 // border-right: 4px solid #f98319;
 //}
 //END special TAB
 
-#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nov-14-zonder-EM.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nov-14-zonder-EM.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
   background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-nov-14-zonder-EM.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
   position: absolute;
   width: 224px;
 	top: 17%;
@@ -48,7 +48,7 @@
   }
 }
 
-  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
 
 	.main-logo {
 		padding-bottom: 5px;
@@ -76,7 +76,7 @@
 
   }
 
-#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta { 
    width: 95%;
   font-weight: 600;
   display: inline-block;
@@ -93,7 +93,7 @@
   /* *********************************************************************************************************** */
   @media (max-width: 1199px) {
 
-  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  	  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
 		width: 174px;
 		top: 15%;
 
@@ -124,7 +124,7 @@
 	  }
 
 	//EN FIX
-	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
 	  	font-size: 11px;
 	  }
 
@@ -134,7 +134,7 @@
   /* *********************************************************************************************************** */
   @media (max-width: 979px) {
 
-  	  #xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+  	  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
 		width: 140px;
 		left: 15.5%;
 
@@ -162,7 +162,7 @@
 	  	}
 	  }
 
-	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix .xx_txt .xx_cta {
 	 	font-size: 10px;
 	}
 
@@ -173,19 +173,19 @@
   /* *********************************************************************************************************** */
   @media (max-width: 767px) {
 
-  	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales {
+  	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales {
 		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-nl@2x.jpg') no-repeat;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.fr_fix {
 		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-fr@2x.jpg') no-repeat;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales.en_fix {
 		background: url('http://static.asadventure.com/includes/homepage/international/images/bg-mid-season-mobile-en@2x.jpg') no-repeat;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
+	#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content {
 		width: 93px;
 		left: 43px;
 		top: 9%;

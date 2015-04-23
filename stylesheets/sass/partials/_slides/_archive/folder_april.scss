@@ -29,7 +29,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
   STYLES                                              
 *******************************************/
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
   position: absolute;
   z-index: 2;
   top: 129px;
@@ -111,12 +111,12 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
   
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
   top: 152px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
   position: relative;
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -150,17 +150,17 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
   margin-left: 14px;
 }
 
 /* LUX FIX */
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
   top: 148px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container.hide,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder.hide {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container.hide,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder.hide {
   display: none;
 }
 
@@ -169,7 +169,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
  
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
   top: 100px;
   right: 30px;
   width: 322px;
@@ -181,17 +181,17 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
   top: 118px;
 }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta {
   width: 140px;
   margin-top: 8px;
   font-size: 12px;
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container {
   margin-top: 22px;
 
   img {
@@ -206,11 +206,11 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
   margin-left: 6px;
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
     top: 115px;
   }
 
@@ -219,7 +219,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt {
   top: 75px;
   right: 20px;
   width: 254px;
@@ -247,11 +247,11 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 
  }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.lux_fix {
   top: 87px;
 }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta {
   width: 109px;
   margin-top: 5px;
   font-size: 11px;
@@ -264,15 +264,15 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
   }
  }
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt.update_fix {
     top: 86px;
   }
 
- #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
+ #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:nth-of-type(2n) {
   margin-left: 2px;
  }
 
-#xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container {
+#homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .folder_container {
   margin-top: 11px;
 
   img {
@@ -294,7 +294,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder {
+   #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder {
     position: relative;
     background-image: url('../images/bg_folder_april_mobile.jpg');
     width: 302px;
@@ -304,11 +304,11 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
     @include box-shadow( 0px 0px 8px 0px rgba(0, 0, 0, 0.2));
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder.fr_fix {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder.fr_fix {
     background-image: url('../images/bg_folder_april_mobile_FR.jpg');
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt {
     position: absolute;
     top: 157px;
     left: 0;
@@ -329,7 +329,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
     }
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta {
     width: 114px;
     font-size: 11px;
     padding-left: 8px;
@@ -342,7 +342,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
     }
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder {
     width: 242px;
     color: #ffffff;
     background-color: #5c625a;
@@ -353,7 +353,7 @@ $patch_font: 'serifa_blk_btblack', 'Open Sans', sans-serif;
   }
 
   // LUX fix
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder.hide {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta.folder.hide {
     display: none;
   }
   
@@ -368,8 +368,8 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-  #xx_wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:after,
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.folder_april .xx_txt .xx_cta_folder .xx_cta:after,
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_folder .xx_txt .xx_cta_container .xx_cta:after {
     background: url('../images/arrow-white@2x.png') no-repeat center center;
     background-size: 11px 11px;
   }

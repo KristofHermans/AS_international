@@ -3,11 +3,11 @@
 /*                                             SLIDER RONDE PRIJZEN                                         ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen {
   background: url('../../images/bg-rondeprijzen15.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
   position: absolute;
   width: 30%;
   top: 17%;
@@ -18,7 +18,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
   color: #fff;
   text-align: left;
 
@@ -42,7 +42,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta { 
   font-weight: 600;
   width: 48%;
   text-align: left;
@@ -72,7 +72,7 @@
 
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
   top: 19%;
 }
 
@@ -88,7 +88,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
     width: 33%;
     top: 6%;
     left: 36%;
@@ -108,7 +108,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
     top: 10%;
   }
 
@@ -120,7 +120,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
     top: 3%;
     width: 30%;
     left: 37%;
@@ -149,7 +149,7 @@
 
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
     top: 3%;
   }
 
@@ -160,7 +160,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -169,11 +169,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen {
     background: url('../../images/bg-rondeprijzen15-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen .content
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content
    {
     top: 7%;
     left: 0;
@@ -204,8 +204,8 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
-  #xx_wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
     top: 7%;
   }
 

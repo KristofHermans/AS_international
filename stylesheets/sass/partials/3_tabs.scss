@@ -7,7 +7,7 @@
     General styles 
 ***********************************************/
 
-#xx_wrapper #xx_header .xx_slider ul li {
+#homepage-wrapper #xx_header .xx_slider ul li {
   height: 410px;
 }
 
@@ -15,7 +15,7 @@
 a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 //
 
-#xx_wrapper #xx_header .xx_slider #bx-pager {
+#homepage-wrapper #xx_header .xx_slider #bx-pager {
   position: absolute;
   z-index: 10;
   top: 0;
@@ -25,7 +25,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   background-color: rgba(255,255,255, 0.6);
 }
 
-#xx_wrapper #xx_header .xx_slider #bx-pager .tab {
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
   	box-sizing: border-box;
   	
   	display: block;
@@ -78,7 +78,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   	}
 }
 
-#xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
   content: "";
   background: url('http://static.asadventure.com/includes/homepage/international/images/arrow-tab.png') no-repeat center center;
   background-size: contain;
@@ -92,12 +92,12 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   transition: opacity 0.35s ease-in-out;
 }
 
-#xx_wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab.active:before {
     opacity: 1;
 }
 
 
-#xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+#homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
   	position: relative;
   	top: 50%;
     -webkit-transform: translateY(-50%);
@@ -128,19 +128,19 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
   	}
 }
 
-#xx_wrapper #xx_header .xx_slider .bx-controls-direction {
+#homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
     display: none;
 }
 
 //overall CTA
-#xx_wrapper #xx_header .xx_slider ul li a.overall-cta{
+#homepage-wrapper #xx_header .xx_slider ul li a.overall-cta{
   display: block;
   width: 74%;
   height: 100%;
 }
 
 //Buttons 
-#xx_wrapper #xx_header .xx_slider ul li div a{
+#homepage-wrapper #xx_header .xx_slider ul li div a{
   width: 100%;
 
   font-family: 'Open Sans', sans-serif;
@@ -208,11 +208,11 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 // IE8 fix 
 @media \0screen {
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
     display: none;
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
     top: 24%;
   }
 } 
@@ -222,12 +222,12 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li {
+  #homepage-wrapper #xx_header .xx_slider ul li {
     height: 311px;
     background-size: 940px 311px !important;
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager{
+  #homepage-wrapper #xx_header .xx_slider #bx-pager{
 
     width: 26%;
 
@@ -238,14 +238,14 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     } 
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
     width: 24px;
     height: 75px;
     margin-left: -36px;
     background-size: 80%;
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
     .tab-title {
       font-size: 13px;
       margin-bottom: 2px;
@@ -261,12 +261,12 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li {
+  #homepage-wrapper #xx_header .xx_slider ul li {
     height: 240px;
     background-size: 724px 240px !important;
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager{
+  #homepage-wrapper #xx_header .xx_slider #bx-pager{
 
     width: 26%;
 
@@ -275,14 +275,14 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
     }
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab:before {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
     width: 20px;
     height: 58px;
     margin-left: -29px;
     background-size: 78%;
   }
 
-  #xx_wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content {
     .tab-title {
       font-size: 11px;
       margin-top: 5px;
@@ -299,21 +299,21 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #xx_wrapper #xx_header .xx_slider #bx-pager {
+  #homepage-wrapper #xx_header .xx_slider #bx-pager {
     display: none;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li {
+  #homepage-wrapper #xx_header .xx_slider ul li {
     height: 160px;
     background-size: 302px 160px !important;
   }
 
   //PREV AND NEX CONTROLS
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction {
     display: block;
   }
 
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a {
     position: absolute;
     top: 0;
     outline: 0;
@@ -344,17 +344,17 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background: url('http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png') no-repeat;
     background-size: 66px 34px;
   }
 
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev {
     background-position: 0px center;
   }
 
-  #xx_wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
+  #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background-position: -34px center;
   }
 

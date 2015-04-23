@@ -7,7 +7,7 @@
   STYLES                                              
 *******************************************/
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
   position: absolute;
   z-index: 2;
   top: 42px;
@@ -41,7 +41,7 @@
   
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container {
 	text-align: center;
 	position: relative;
 	top: 0;
@@ -49,8 +49,8 @@
 }
 
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
   position: relative;
   display: -moz-inline-box;
   -moz-box-orient: vertical;
@@ -86,11 +86,11 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:first-child {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:first-child {
 	margin-left: 0;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal {
 	position: absolute;
 	bottom: 4px;
 	left: 133px;
@@ -102,7 +102,7 @@
 
 // FR FIX
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
   top: 32px;
 
   .main-title {
@@ -122,13 +122,13 @@
   
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
 	left: 100px;
 }
 
 // EN FIX
 
-#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
   top: 38px;
 
   .main-title {
@@ -148,7 +148,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
  
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
 		top: 30px;
 		left: 23px;
 		width: 423px;
@@ -171,19 +171,19 @@
 		}
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
 		width: 113px;
 		margin-top: 0;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
 		left: 74px;
 		font-size: 10px;
 	}
 
 	// FR FIX
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
 	  top: 27px;
 
 	  .main-title {
@@ -203,13 +203,13 @@
 	  
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
 		left: 36px;
 	}
 
 	// EN FIX
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
 	  top: 38px;
 
 	  .main-title {
@@ -228,7 +228,7 @@
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt {
 		top: 21px;
 		left: 18px;
 		width: 325px;
@@ -248,7 +248,7 @@
 		}
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
 		width: 83px;
 		font-size: 10px;
 		height: 30px;
@@ -259,7 +259,7 @@
 		}
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal {;
 		left: 48px;
 		bottom: 1px;
 		font-size: 9px;
@@ -267,7 +267,7 @@
 
 	// FR FIX
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.fr_fix {
 	  top: 17px;
 
 	  .main-title {
@@ -287,18 +287,18 @@
 	  
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .legal.fr_fix {
 		left: 12px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta {
 		width: 87px;
 		margin-left: 7px;
 	}
 
 	// EN FIX
 
-	#xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt.en_fix {
 	  top: 23px;
 
 	  .main-title {
@@ -313,7 +313,7 @@
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken {
+   #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken {
     position: relative;
     background-image: url('../images/strandlaken_bg_mobile.jpg');
     width: 302px;
@@ -324,7 +324,7 @@
   }
 
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt {
   	box-sizing:border-box;
     -moz-box-sizing:border-box;
 	padding: 0 20px 20px 20px;
@@ -377,7 +377,7 @@
 	  }
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta {
     width: 114px;
     font-size: 11px;
     padding-left: 8px;
@@ -391,7 +391,7 @@
   }
 
   // FR FIX
-	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.fr_fix {
+	#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.fr_fix {
 
 	 	.main-title {
 	 		font-size: 17px;
@@ -408,7 +408,7 @@
 	}
 
   // EN FIX
-	#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.en_fix {
+	#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt.en_fix {
 
 	 	.main-title {
 	 		font-size: 22px;
@@ -431,8 +431,8 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
 
-  #xx_wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:after,
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.strandlaken .xx_txt .xx_cta_container .xx_cta:after,
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_strandlaken .xx_txt .xx_cta_container .xx_cta:after {
     background: url('../images/arrow-white@2x.png') no-repeat center center;
     background-size: 11px 11px;
   }

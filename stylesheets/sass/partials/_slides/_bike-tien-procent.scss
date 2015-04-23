@@ -3,11 +3,11 @@
 /*                                             SLIDER BIKE 10%                                              ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent {
   background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
   position: absolute;
   width: 28%;
   top: 23%;
@@ -19,7 +19,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
   color: #fff;
   text-align: center;
 
@@ -48,7 +48,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
   position: absolute;
   left: 2%;
   bottom: 2%;
@@ -61,7 +61,7 @@
   margin-bottom: 0;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta { 
   font-weight: 600;
   width: 77%;
   text-align: left;
@@ -87,7 +87,7 @@
 }
 
 //FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
+#homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
 
   .main-title {
     font-size: 29px;
@@ -106,7 +106,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
     top: 17%;
     width: 31%;
     left: 4%;
@@ -122,7 +122,7 @@
   }
 
   //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
     .main-title {
       font-size: 25px;
     }
@@ -137,7 +137,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
 
     .main-title {
       font-size: 26px;
@@ -160,12 +160,12 @@
     
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
     font-size: 9px;
   }
 
   //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
     .main-title {
       font-size: 20px;
     }
@@ -180,7 +180,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -189,11 +189,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent {
     background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .content {
     top: 6%;
     left: 6%;
     width: 65%;
@@ -222,13 +222,13 @@ and (orientation : portrait) {
     
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent .legal {
     font-size: 7px;
     width: 100%;
   }
 
   //FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.bike-tien-procent.fr_fix .content {
     .main-title {
       font-size: 17px;
     }

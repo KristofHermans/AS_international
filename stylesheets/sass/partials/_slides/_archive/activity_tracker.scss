@@ -25,8 +25,8 @@
 /* ***************************************************************** */
 /* **                        MAIN STYLES                          ** */
 /* ***************************************************************** */
-#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt,
-#xx_wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt,
+#homepage-wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt {
   position: absolute;
   z-index: 2;
   top: 71px;
@@ -61,7 +61,7 @@
 
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
+#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
 
 	position: absolute;
 	z-index: 2;
@@ -80,15 +80,15 @@
 	@include transform(rotate(13deg));	
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
 	width: 130px;
 	height: 95px;
 	font-size: 13px;
 	padding: 35px 0px 0 0px;	
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt .xx_cta,
-#xx_wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt .xx_cta,
+#homepage-wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt .xx_cta {
 	position: relative;
 	display: -moz-inline-box;
 	-moz-box-orient: vertical;
@@ -117,8 +117,8 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt .xx_cta:hover,
-#xx_wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt .xx_cta:hover {
+#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt .xx_cta:hover,
+#homepage-wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt .xx_cta:hover {
 	background-color: #0498a2;
 }
 
@@ -126,7 +126,7 @@
 /* **                            DESKTOP                          ** */
 /* ***************************************************************** */
 @media (max-width: 1199px) {
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt {
 		top: 53px;
 		left: 118px;
 		width: 200px;
@@ -161,7 +161,7 @@
 
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
 
 		top: 16px;
 		right: 28px;
@@ -171,7 +171,7 @@
 		padding: 40px 10px 0 10px;	
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
 
 		width: 110px;
 		height: 83px;
@@ -184,7 +184,7 @@
 /* **                            TABLET                           ** */
 /* ***************************************************************** */
 @media (max-width: 979px) {
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .xx_txt {
 		top: 40px;
 		left: 88px;
 		width: 157px;
@@ -220,7 +220,7 @@
 
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge {
 		top: 16px;
 		right: 28px;
 		width: 70px;
@@ -230,7 +230,7 @@
 		line-height: 150%;	
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
+	#homepage-wrapper #xx_header .xx_slider ul li.activity_tracker .activity-badge.fr_fix {
 		width: 90px;
 		height: 63px;
 		font-size: 9px;
@@ -242,7 +242,7 @@
 /* **                            MOBILE                           ** */
 /* ***************************************************************** */
 @media (max-width: 767px) {
-	#xx_wrapper #xx_header_mobile .xx_mobile_activity_tracker {
+	#homepage-wrapper #xx_header_mobile .xx_mobile_activity_tracker {
 	    position: relative;
 	    background-image: url('../images/mobile_activity_tracker.jpg');
 	    width: 302px;
@@ -252,7 +252,7 @@
 	    @include box-shadow(0px 0px 8px 0px rgba(0, 0, 0, 0.2));
   }
 
-  #xx_wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt {
+  #homepage-wrapper #xx_header_mobile .xx_mobile_activity_tracker .xx_txt {
 
 		top: 149px;
 		left: 49px;

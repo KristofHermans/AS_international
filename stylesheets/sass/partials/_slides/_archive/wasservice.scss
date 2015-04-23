@@ -3,11 +3,11 @@
 /* **                                            SLIDER WASSERVICE                                          ** */
 /* *********************************************************************************************************** */
 
-#xx_wrapper #xx_header .xx_slider ul li.wasservice {
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice {
   background: url('../images/bg-wasservice.jpg') no-repeat;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.wasservice .content {
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice .content {
   position: absolute;
   width: 59%;
   top: 4%;
@@ -20,7 +20,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.wasservice .content {
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice .content {
 
   background-color: rgba(0,0,0,0.35);
   box-sizing: border-box;
@@ -47,7 +47,7 @@
   }
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.wasservice .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice .content .xx_cta { 
   width: 36%;
   background-color: #50a8be;
   font-weight: 600;
@@ -59,7 +59,7 @@
 }
 
 // FR FIX
-#xx_wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
 
   top: 5%;
   
@@ -69,7 +69,7 @@
 }
 
 // EN FIX
-#xx_wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
 
   top: 8%;
   
@@ -81,7 +81,7 @@
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
       font-size: 38px;
     }
 } 
@@ -91,7 +91,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
- #xx_wrapper #xx_header .xx_slider ul li.wasservice .content {
+ #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content {
     width: 59%;
     top: 2.5%;
     left: 7.5%;
@@ -118,7 +118,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
 
     top: 4.5%;
     
@@ -128,7 +128,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
 
     top: 4%;
     
@@ -149,7 +149,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content {
     width: 59%;
     top: 2.5%;
     left: 7.5%;
@@ -185,7 +185,7 @@
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
 
     top: 2.5%;
     
@@ -195,7 +195,7 @@
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
 
     top: 3%;
     
@@ -214,7 +214,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -223,11 +223,11 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice {
     background: url('../images/bg-wasservice-mobile@2x.jpg') no-repeat;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content {
     width: 87%;
     top: 5.5%;
     left: 7.5%;
@@ -255,7 +255,7 @@ and (orientation : portrait) {
   }
 
   // FR FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.fr_fix {
 
     top: 3.5%;
     
@@ -265,7 +265,7 @@ and (orientation : portrait) {
   }
 
   // EN FIX
-  #xx_wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.wasservice .content.en_fix {
     
     .main-title {
       font-size: 10px;

@@ -5,7 +5,7 @@
 
 
 /***** NEW FASHION ******/
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
   position: absolute;
   z-index: 2;
   top: 89px;
@@ -19,19 +19,19 @@
 	}
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title img {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title img {
   float: left;
   margin-right: 15px;
   margin-top: -3px;
   //margin-top: 0px \0/; /* IE8+9  */
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title {
 	line-height: 20px;
   text-transform: uppercase;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title span {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title span {
   display: block;
   font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
   font-weight: normal;
@@ -40,26 +40,26 @@
   -webkit-font-smoothing: antialiased;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .first {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .first {
   font-size: 95px;
   font-weight: normal;
   margin-top: 31px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .second {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .second {
   font-size: 81px;
   font-weight: normal;
   margin-top: 51px;
   display: block;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .third {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .third {
   font-size: 72px;
   font-weight: normal;
   margin-top: 45px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title {
   font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
@@ -69,20 +69,20 @@
   text-align: right;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title .first {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title .first {
   font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
   font-weight: normal;
   color: rgba(65, 64, 66, 0.96);
   font-size: 16px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
   position: absolute;
   right: 56px;
   bottom: 42px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
   position: relative;
   bottom: 22px;
   right: 22px;
@@ -106,19 +106,19 @@
   margin-left: 23px;
   margin-top: 15px;
 }
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta {
   *display: inline;
 }
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover {
   text-decoration: none;
 }
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover {
   background-color: #dfb80e;
 }
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover:after {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:hover:after {
   border-left: 1px solid #967d16;
 }
-#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:after {
+#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:after {
   content: "";
   /* box */
   width: 41px;
@@ -132,7 +132,7 @@
 
 // IE8 fix 
 @media \0screen {
-    #xx_wrapper .promo_row .promo-content.block_rondeprijzen h2 {
+    #homepage-wrapper .promo_row .promo-content.block_rondeprijzen h2 {
     	font-size: 38px;
     }
 } 
@@ -143,17 +143,17 @@
 @media (max-width: 1199px) {
 
 	/***** NEW FASHION ******/
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
 	  top: 51px;
 	  left: 52px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
 	  right: 41px;
 	  bottom: 19px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
 	  width: 123px;
 	}
 	
@@ -164,54 +164,54 @@
 @media (max-width: 979px) {
 
   /***** NEW FASHION ******/
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt {
 	  top: 46px;
 	  left: 53px;
 	  width: 158px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title img {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title img {
 	  float: left;
 	  margin-right: 8px;
 	  width: 50px;
 	  //margin-top: 0px \0/; /* IE8+9  */
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title {
 	  text-transform: uppercase;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .first {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .first {
 	  font-size: 67px;
 	  margin-top: 19px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .second {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .second {
 	  font-size: 58px;
 	  margin-top: 29px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .third {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .main-title .third {
 	  font-size: 53px;
 	  margin-top: 22px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title {
 	  font-size: 21px;
 	  margin-top: 5px;
 	  margin-right: 10px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title .first {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_txt .sub-title .first {
 	  font-size: 13px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion {
 	  right: 28px;
 	  bottom: 10px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta { 
 	  width: 97px;
 	  font-size: 12px;
 	  line-height: 34px;
@@ -220,7 +220,7 @@
 	  margin-top: 15px;
 	}
 
-	#xx_wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:after {
+	#homepage-wrapper #xx_header .xx_slider ul li.newfashion .xx_cta_fashion .xx_cta:after {
 	  background: url('../images/arrow_dark.png') no-repeat center 12px;
 	  height: 33px;
 	  width: 36px;
@@ -234,7 +234,7 @@
 
 /******* NEW FASHION **********/
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion {
 	    position: relative;
 	    background-color: #414142;
 	    width: 302px;
@@ -245,7 +245,7 @@
 	            box-shadow:  0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt {
 	    position: absolute;
 	    z-index: 2;
 	    width: 302px;
@@ -254,7 +254,7 @@
 	    left: 0;
 	  }
 
-	   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header {
+	   #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header {
 	    position: absolute;
 	    top: 0;
 	    left: 0;
@@ -270,7 +270,7 @@
 	    padding-top: 25px;
 	  } 
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header:after {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header:after {
 	    content: "";
 	    /* box */
 	    position: absolute;
@@ -282,20 +282,20 @@
 	    background: url('../images/fashion_arrow.png');    
 	  } 
 
-	   #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header img {
+	   #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header img {
 	    display: inline-block;
 	    vertical-align: top;
 	  } 
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title,
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .sub-title {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title,
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .sub-title {
 	    font-weight: normal;
 	    text-transform: uppercase;
 	    color: rgba(65, 64, 66, 0.96);
 	    -webkit-font-smoothing: antialiased;
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title {
 	    font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
 	    font-weight: normal;
 	    display: inline-block;
@@ -304,7 +304,7 @@
 	    width: 170px;
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title .second {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .main-title .second {
 	    display: inline-block;
 	    font-size: 52px;
 	    font-family: inherit;
@@ -313,7 +313,7 @@
 
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .sub-title {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt header .sub-title {
 	    font-family: 'proxima_nova_excn_rgbold', 'Open Sans', sans-serif;
 	    font-weight: bold;
 	    font-size: 18px;
@@ -322,14 +322,14 @@
 	    right: 43px;
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta_container {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta_container {
 	    left: 4px;
 	    width: 160px;
 	    margin: 0 auto;
 	    margin-top: 75px;
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta {
 	    position: relative;
 	    bottom: 22px;
 	    right: 22px;
@@ -352,18 +352,18 @@
 	    margin-left: 23px;
 	    margin-top: 15px;
 	  }
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta {
 	    *display: inline;
 	  }
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:hover {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:hover {
 	    background-color: #dfb80e;
 	    text-decoration: none;
 	  }
 
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:hover:after {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:hover:after {
 	    border-left: 1px solid #967d16;
 	  }
-	  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:after {
+	  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_fashion .xx_txt .xx_cta:after {
 	    content: "";
 	    /* box */
 	    width: 41px;

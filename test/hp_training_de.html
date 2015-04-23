@@ -1,8 +1,12 @@
 <!-- BXSLIDER STYLING -->
 <link rel="stylesheet" href="https://static.asadventure.com/includes/homepage/international/javascript/lib/jquery.bxslider/jquery.bxslider.css">
 <!-- ================ -->
-<!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
-<link rel="stylesheet" href="//staticstaging.asadventure.com/includes/homepage/international/stylesheets/css/styles_de_uk.css?v=1504151646">
+<!--   HOMEPAGE CSS   -->
+<!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
+<link rel="stylesheet" href="//static.asadventure.com/includes/homepage/international/stylesheets/css/styles_de_uk.css?v=1504221705">
+<!--  <link rel="stylesheet" href="stylesheets/css/styles_de_uk.css">
+ -->
+<!-- ================ -->
 <!-- BXSLIDER SCRIPTS -->
 <script defer="" src="https://static.asadventure.com/includes/homepage/national/js/vendor/bx-slider/jquery.bxslider.min.js"></script>
 <script defer="" src="https://static.asadventure.com/includes/homepage/international/javascript/min/bx_config-min.js"></script>
@@ -10,88 +14,100 @@
 <!-- Internal link tracking will be handled by parameters (icn and ici) added at the end of the link. Icn stands for: Internal campaign name and contains the name of the campaign which is visualised and ici stands for: internal campaign initiator which is the spot the link is located at in the document. For example: ?icn=sales&ici=homepage-main-banner1 means that this is a link which guides people to our sales campaign and the link is featured in the homepage-main-banner on the first spot. -->
 <div id="homepage-wrapper">
   <!-- SLIDER -->
-  <div class="slider-wrapper">
-    <ul class="bxslider">
-      <!-- Slides are marked up using a <li>-tag. Each slide should have a unique class which can be used as a stylehook. The background is a background-image on that unique class. Overall cta's are lying on top of the content (z-index), make sure to put individual cta's on top of that. Cta's are marked up using an <a>-tag. -->
-      <!-- MID SEASON SALES -->
-      <li class="mid_season_sales en_fix">
-        <a href="/mid-season?icn=midseason&ici=homepage-main-banner1" class="overall-cta"></a>
-        <div class="content">
-          <img src="http://static.asadventure.com/includes/homepage/national/new/images/MSS_logo.png" alt="Mid season sales" class="main-logo" />
-          <p class="main-content">AUF ALLE GENANNTEN PRODUCTEN</p>
-          <a href="/mid-season?icn=midseason&ici=homepage-main-banner1" class="xx_cta">NUTZEN SIE IHREN CHANCE</a>
-          <p class="legal">Gültig bis zum 17/05/15</p>
-        </div>
-      </li>
-      <!-- BIKE TIEN PROCENT -->
-      <li class="bike-tien-procent">
-        <a href="/cycling-running/promotion-bike-clothing?icn=10procentfietskleding&ici=homepage-main-banner2" class="overall-cta"></a>
-        <div class="content">
-          <h2 class="main-title">10% Rabatt</h2>
-          <p class="main-content">auf Fahrradbekleidüng, -Schuhe, -Helme und Zubehör*</p>
-          <a href="/cycling-running/promotion-bike-clothing?icn=10procentfietskleding&ici=homepage-main-banner2" class="xx_cta">Sprinten Sie zu den Promotionen</a>
-          <p class="legal">* Gültig bis zum 26 April 2015. Nicht auf Fahrradbrillen, -Rucksäcke, -Zubehör, -Täsche, -Schlösser und Essen gültig. Nicht mit anderen Aktionen oder Promotionen kumulierbar.</p>
-        </div>
-      </li>
-      <!-- OUTDOOR SCHOENEN TIEN PROCENT -->
-      
-     
-    </ul>
-    <!-- PAGER-THUMBS -->
-    <div class="bottom-bar">
-      <!-- Change class below to change the amount of slides. (Options: one-slide, two-slides, three-slides) -->
-      <div id="bx-pager" class="bx-pager three-slides">
-        <!-- Change data-slide-index to link to the correct slide (zero-indexed) -->
-
-        <!-- MID SEASON SALES -->
-        <a data-slide-index="0" href="">
-          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/mss-thumb.jpg" alt="Mid-season sales" />
-        </a>
-        
-        <!-- BIKE TIEN PROCENT -->
-        <a data-slide-index="1" href="">
-          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/10bike-thumb.jpg" alt="10% Rabatt auf Fahrradbekleidüng, -Schuhe, -Helme und Zubehör" />
-        </a>
-
+  <div id="xx_header">
+    <div class="xx_slider">
+      <ul class="bxslider">
+        <!-- Slides are marked up using a <li>-tag. Each slide should have a unique class which can be used as a stylehook. The background is a background-image on that unique class. Overall cta's are lying on top of the content (z-index), make sure to put individual cta's on top of that. Cta's are marked up using an <a>-tag. -->
         <!-- OUTDOOR SCHOENEN TIEN PROCENT -->
-         <a data-slide-index="1" href="">
-          <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/10bike-thumb.jpg" alt="10% Rabatt auf Fahrradbekleidüng, -Schuhe, -Helme und Zubehör" />
-        </a>
+        <li class="schoenen-promo de_fix">
+          <a href="home/outdoor-schuhe-sandale" class="overall-cta"></a>
+          <div class="content">
+            <h2 class="main-title"><span>10%</span> on outdoor shoes and sandals*</h2>
+            <p class="legal">*Valid until 3/05/2015</p>
+            <img src="http://static.asadventure.com/includes/homepage/national/new/images/schoenen_promo_brands.png" alt="Brands" class="brands" />
+            <div class="xx_cta_container">
+              <a href="/home/outdoor-shoes-sandals/women?icn=10procentwandelschoenenensandalen&ici=homepage-main-banner1" class="xx_cta">Women</a>
+              <a href="/home/outdoor-shoes-sandals/men?icn=10procentwandelschoenenensandalen&ici=homepage-main-banner1" class="xx_cta">Men</a>
+              <a href="/home/outdoor-shoes-sandals/junior?icn=10procentwandelschoenenensandalen&ici=homepage-main-banner1" class="xx_cta">Junior</a>
+            </div>
+          </div>
+        </li>
+        <!-- MID SEASON SALES -->
+        <li class="mid_season_sales en_fix">
+          <a href="/mid-season?icn=midseason&ici=homepage-main-banner1" class="overall-cta"></a>
+          <div class="content">
+            <img src="http://static.asadventure.com/includes/homepage/national/new/images/MSS_logo.png" alt="Mid season sales" class="main-logo" />
+            <p class="main-content">On indicated fashion and outdoor products</p>
+            <a href="/mid-season?icn=midseason&ici=homepage-main-banner1" class="xx_cta">Take advantage</a>
+            <p class="legal">Valid untill 17/05/15</p>
+          </div>
+        </li>
+        <!-- BIKE TIEN PROCENT -->
+        <li class="bike-tien-procent">
+          <a href="/cycling-running/promotion-bike-clothing?icn=10procentfietskleding&ici=homepage-main-banner2" class="overall-cta"></a>
+          <div class="content">
+            <h2 class="main-title">10% discount</h2>
+            <p class="main-content">on cycling clothes, shoes, helmets and accessories*</p>
+            <a href="/cycling-running/promotion-bike-clothing?icn=10procentfietskleding&ici=homepage-main-banner2" class="xx_cta">Sprint to the promos</a>
+          </div>
+          <p class="legal" style="bottom: 6%;">* cycling caps, socks, gloves and underwear.
+          <br>Valid through 26 April 2015. Not valid for cycling glasses, rucksacks, parts, bags, lighting, locks or energy food. Not valid in combination with other special offers or promotions.</p>
+        </li>
+      </ul>
+      <!-- PAGER-THUMBS -->
+      <div class="bottom-bar">
+        <!-- Change class below to change the amount of slides. (Options: one-slide, two-slides, three-slides) -->
+        <div id="bx-pager" class="bx-pager three-slides">
+          <!-- Change data-slide-index to link to the correct slide (zero-indexed) -->
+          <!-- OUTDOOR SCHOENEN TIEN PROCENT -->
+          <a data-slide-index="0" href="">
+            <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/thumb-10procent-outdoorschoenen.jpg" alt="10% Rabatt auf Outdoorschuhe und –Sandalen" />
+          </a>
+          <!-- MID SEASON SALES -->
+          <a data-slide-index="1" href="">
+            <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/mss-thumb.jpg" alt="Mid-season sales" />
+          </a>
+          <!-- BIKE TIEN PROCENT -->
+          <a data-slide-index="2" href="">
+            <img src="http://static.asadventure.com/includes/homepage/international/images/_thumbs/10bike-thumb.jpg" alt="10% Rabatt auf Fahrradbekleidüng, -Schuhe, -Helme und Zubehör" />
+          </a>
+        </div>
       </div>
     </div>
   </div>
+
   <div class="content-row clearfix">
     <div class="product-department">
       <img src="http://static.asadventure.com/includes/homepage/international/images/outdoor_clothing.jpg" alt="Outdoor Clothing">
-      <a href="/herren/outdoor" class="cta cta-dark de-fix">Outdoor-Bekleidung</a>
+      <a href="/men/outdoor" class="cta cta-dark">Outdoor clothing</a>
     </div>
     <div class="product-department">
       <img src="http://static.asadventure.com/includes/homepage/international/images/outdoor_shoes.jpg" alt="Outdoor Shoes">
-      <a href="/herren/outdoor/schuhe" class="cta cta-dark">Outdoor-Sch&uuml;he</a>
+      <a href="/men/outdoor/shoes" class="cta cta-dark">Outdoor Shoes</a>
     </div>
     <div class="product-category">
       <img class="center" src="http://static.asadventure.com/includes/homepage/international/images/fleece_sweaters.jpg" alt="Fleece Sweaters">
-      <p>Eine riesige Auswahl an Fleecepullover. Ideal f&uuml;r kalte N&auml;chte be idem Lagerfeuer!</p>
-      <a href="/herren/outdoor/fleece-pullover" class="cta cta-light">Fleecepullover</a>
+      <p>A large selection of fleece sweaters, Perfect for those cold nights out at the campfire!</p>
+      <a href="/men/outdoor/fleeces-jerseys" class="cta cta-light">Fleece Sweaters</a>
     </div>
   </div>
   <div class="content-row clearfix">
     <div class="product-department hide-mobile">
       <img src="http://static.asadventure.com/includes/homepage/international/images/backpacks.jpg" alt="Backpacks">
-      <p>Eine gr&ouml;ße Selektion an Rucks&auml;cke f&uuml;r jeden Typ Abenteurer.</p>
-      <a href="/reisen-camping/reisetaschen/rucksaecke" class="cta cta-light">Rucks&auml;cke</a>
+      <p>A large selection of backpacks for any type of adventurer.</p>
+      <a href="/travel-camping/travel-bags/backpacks" class="cta cta-light">Backpacks</a>
     </div>
     <div class="gender-split">
       <div class="gender">
         <img src="http://static.asadventure.com/includes/homepage/international/images/mens_fashion.jpg" alt="Men's Fashion">
-        <a href="/herren/fashion" class="cta cta-dark cta-gender">Fashion&nbsp;Herren</a>
+        <a href="/men/fashion" class="cta cta-dark cta-gender">Mens&nbsp;fashion</a>
       </div>
       <div class="gender-transition">
         <img src="http://static.asadventure.com/includes/homepage/international/images/fashion_connector.jpg" alt="">
       </div>
       <div class="gender">
         <img src="http://static.asadventure.com/includes/homepage/international/images/womens_fashion.jpg" alt="Women's Fashion">
-        <a href="/damen/fashion" class="cta cta-dark cta-gender">Fashion&nbsp;Damen</a>
+        <a href="/women/fashion" class="cta cta-dark cta-gender">Womens&nbsp;fashion</a>
       </div>
     </div>
   </div>

@@ -22,14 +22,14 @@
 /*******************************************     
   STYLES                                              
 *******************************************/
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt {
   position: absolute;
   width: 100%;
   height: 100%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title {
   position: absolute;
   top: 51px;
   left: 28px;
@@ -48,23 +48,23 @@
   padding-top: 86px;
   line-height: 90%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title span.small {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title span.small {
   font-size: 33px;
   font-family: "serifa_blk_btblack", "Open Sans", sans-serif;
   color: #ffffff;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix {
   font-size: 40px;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix span.small {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix span.small {
   font-size: 28px;
   line-height: 80%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message {
   position: absolute;
   z-index: 2;
   top: 210px;
@@ -74,8 +74,8 @@
   height: 149px;
   padding-top: 0px;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p {
   font-family: "Open Sans", sans-serif;
   font-weight: normal;
   color: #ffffff;
@@ -84,8 +84,8 @@
   padding: 27px 50px 10px 25px;
   line-height: 140%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p span {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p span {
   font-family: "serifa_blk_btblack", "Open Sans", sans-serif;
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
@@ -94,19 +94,19 @@
   line-height: 100%;
   text-transform: uppercase;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p {
   font-size: 16px;
   padding-top: 27px;
   line-height: 140%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p span {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p span {
   font-size: 29px;
   line-height: 120%;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .legal {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .legal {
   position: absolute;
   z-index: 2;
   bottom: -20px;
@@ -115,8 +115,8 @@
   font-size: 12px;
 }
 
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta {
   position: absolute;
   bottom: 41px;
   right: 41px;
@@ -141,8 +141,8 @@
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta:after,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:after {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta:after,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:after {
   content: "";
   /* box */
   width: 41px;
@@ -151,8 +151,8 @@
   /* background */
   background: url("../images/arrow.png") no-repeat center center;
 }
-#xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta:hover,
-#xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:hover {
+#homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta:hover,
+#homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:hover {
   text-decoration: none;
   background-color: #2079c5;
 }
@@ -161,7 +161,7 @@
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title {
     top: 51px;
     left: 28px;
     font-size: 33px;
@@ -171,48 +171,48 @@
     padding-top: 66px;
     line-height: 90%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small {
     font-size: 27px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix {
     font-size: 31px;
     padding-top: 70px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small {
     font-size: 22px;
     line-height: 80%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message {
     top: 169px;
     left: 335px;
     width: 320px;
     height: 122px;
     background-size: 320px auto;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p {
     font-size: 14px;
     padding: 21px 50px 10px 25px;
     line-height: 130%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span {
     font-size: 28px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p {
     font-size: 14px;
     padding-top: 26px;
     line-height: 110%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span {
     font-size: 22px;
     line-height: 125%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal {
     bottom: -20px;
     left: 10px;
     font-size: 12px;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta {
     width: 215px;
     bottom: 25px;
     right: 28px;
@@ -222,7 +222,7 @@
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title {
     top: 0px;
     left: 18px;
     font-size: 27px;
@@ -231,46 +231,46 @@
     background-size: 220px auto;
     padding-top: 55px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title span.small {
     font-size: 22px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix {
     font-size: 25px;
     padding-top: 57px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .main-title.fr_fix span.small {
     font-size: 18px;
     line-height: 80%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message {
     top: 119px;
     left: 241px;
     width: 260px;
     height: 122px;
     background-size: 260px auto;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p {
     font-size: 12px;
     padding: 19px 50px 10px 25px;
     line-height: 130%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message p span {
     font-size: 24px;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p {
     font-size: 11px;
     padding-top: 23px;
     line-height: 110%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .message.fr_fix p span {
     font-size: 17px;
     line-height: 120%;
   }
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .legal {
     font-size: 11px;
   }
 
-  #xx_wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.tien_procent .xx_txt .xx_cta {
     right: 20px;
     font-size: 13px;
     width: 180px;
@@ -280,7 +280,7 @@
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent {
     position: relative;
     background-image: url("../images/mobile_tien_procent.jpg");
     width: 302px;
@@ -292,7 +292,7 @@
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title {
     top: 0px;
     left: 18px;
     font-size: 27px;
@@ -301,52 +301,52 @@
     background-size: 220px auto;
     padding-top: 55px;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title span.small {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title span.small {
     font-size: 22px;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix {
     font-size: 25px;
     padding-top: 60px;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix span.small {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .main-title.fr_fix span.small {
     font-size: 18px;
     line-height: 80%;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message {
     top: 187px;
     left: 45px;
     width: 260px;
     height: 122px;
     background-size: 260px auto;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p {
     font-size: 12px;
     padding: 19px 50px 10px 25px;
     line-height: 130%;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p span {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message p span {
     font-size: 24px;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p {
     font-size: 11px;
     padding-top: 23px;
     line-height: 110%;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p span {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .message.fr_fix p span {
     font-size: 17px;
     line-height: 120%;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .legal {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .legal {
     font-size: 9px;
     bottom: -25px;
     left: 5px;
   }
 
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta {
     bottom: 30px;
     right: 14px;
   }
-  #xx_wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:active {
+  #homepage-wrapper #xx_header_mobile .xx_item1 .xx_mobile_tien_procent .xx_txt .xx_cta:active {
     text-decoration: none;
     background-color: #2079c5;
   }
