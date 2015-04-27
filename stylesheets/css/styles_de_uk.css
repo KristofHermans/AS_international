@@ -198,7 +198,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -329,8 +328,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -615,6 +612,9 @@ html, body, #main {
         position: relative;
         height: 260px; } }
   #homepage-wrapper .content-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
     margin-bottom: 18px;
     max-width: 100%;
@@ -750,7 +750,8 @@ html, body, #main {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
     color: #ededed;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-dark:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       color: #ffffff; }
@@ -761,7 +762,8 @@ html, body, #main {
     background: #ffffff;
     border: 2px solid #454545;
     color: #454545;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-light:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 767px) {
@@ -1181,160 +1183,6 @@ li.mid_season_sales .content .legal {
   .mid_season_sales .content {
     left: 23.1884057971%;
     width: 170px; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER BIKE 10%                                              ** */
-/* *********************************************************************************************************** */
-.xx_slider .bxslider li.bike-tien-procent {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent.jpg") no-repeat;
-  background-size: contain; }
-
-.xx_slider .bxslider li.bike-tien-procent .content {
-  position: absolute;
-  width: 30%;
-  top: 23%;
-  left: 6%; }
-  .xx_slider .bxslider li.bike-tien-procent .content h2, .xx_slider .bxslider li.bike-tien-procent .content h3, .xx_slider .bxslider li.bike-tien-procent .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-.xx_slider .bxslider li.bike-tien-procent .content {
-  color: #fff;
-  text-align: center; }
-  .xx_slider .bxslider li.bike-tien-procent .content .main-title {
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 35px;
-    line-height: 120%;
-    color: inherit;
-    margin-bottom: 2%;
-    background-color: #821525;
-    padding: 2% 4%;
-    text-transform: uppercase; }
-  .xx_slider .bxslider li.bike-tien-procent .content .main-content {
-    color: inherit;
-    line-height: 120%;
-    font-size: 21px;
-    font-weight: 400;
-    margin-bottom: 6%;
-    padding: 0 6%;
-    text-shadow: 0 0 15px black; }
-
-.xx_slider .bxslider li.bike-tien-procent .legal {
-  line-height: 120%;
-  text-align: center;
-  font-size: 11px;
-  text-shadow: 0 0 5px #000;
-  color: #fff;
-  margin-bottom: 0;
-  margin-top: 11px; }
-
-#homepage-wrapper #xx_header .xx_slider .bxslider li.bike-tien-procent .content .xx_cta {
-  font-weight: 600;
-  width: 77%;
-  text-align: left;
-  margin-top: 0;
-  background: #821525;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider .bxslider li.bike-tien-procent .content .xx_cta:hover {
-    background: #6e1220; }
-  #homepage-wrapper #xx_header .xx_slider .bxslider li.bike-tien-procent .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-.xx_slider ul li.bike-tien-procent .content .xx_cta {
-  background: #821525;
-  box-sizing: border-box;
-  color: #EAEAEA;
-  display: inline-block;
-  font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 4%;
-  padding: .6em 1em;
-  text-align: left;
-  text-decoration: none;
-  width: 100%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  .xx_slider .bxslider li.bike-tien-procent .content {
-    top: 5%;
-    width: 35%;
-    left: 4%; }
-    .xx_slider .bxslider li.bike-tien-procent .content .main-title {
-      font-size: 33px; }
-    .xx_slider .bxslider li.bike-tien-procent .content .main-content {
-      font-size: 18px; }
-
-  .xx_slider .bxslider li.bike-tien-procent.de_fix .content .xx_cta {
-    font-size: 9px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  .xx_slider .bxslider li.bike-tien-procent .content .main-title {
-    font-size: 26px; }
-  .xx_slider .bxslider li.bike-tien-procent .content .main-content {
-    font-size: 14px; }
-  .xx_slider .bxslider li.bike-tien-procent .content .xx_cta {
-    text-align: left;
-    padding-left: 4%;
-    margin-bottom: 6%; }
-    .xx_slider .bxslider li.bike-tien-procent .content .xx_cta:after {
-      display: block;
-      font-size: 8px; }
-
-  .xx_slider .bxslider li.bike-tien-procent .legal {
-    font-size: 9px; }
-
-  .xx_slider .bxslider li.bike-tien-procent.fr_fix .content .main-title {
-    font-size: 20px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  .xx_slider .bxslider li.bike-tien-procent .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  .xx_slider .bxslider li.bike-tien-procent {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-bike-tien-procent-mobile@2x.jpg") no-repeat;
-    background-size: cover; }
-
-  .xx_slider .bxslider li.bike-tien-procent .content {
-    top: 6%;
-    left: 6%;
-    width: 65%; }
-    .xx_slider .bxslider li.bike-tien-procent .content .main-title {
-      font-size: 23px;
-      margin-bottom: 1.5%; }
-    .xx_slider .bxslider li.bike-tien-procent .content .main-content {
-      font-size: 13px;
-      margin-bottom: 5%;
-      text-shadow: 0 0 5px #000; }
-    .xx_slider .bxslider li.bike-tien-procent .content .xx_cta {
-      width: 65%;
-      font-size: 10px;
-      margin-bottom: 1%;
-      padding-left: 2%; }
-      .xx_slider .bxslider li.bike-tien-procent .content .xx_cta:after {
-        font-size: 7px; }
-
-  .xx_slider .bxslider li.bike-tien-procent .legal {
-    font-size: 8px;
-    width: 100%;
-    bottom: 5%; }
-
-  .xx_slider .bxslider li.bike-tien-procent.fr_fix .content .main-title {
-    font-size: 17px; } }
 /* ================================
 	CLOSE NESTING
 ================================ */
