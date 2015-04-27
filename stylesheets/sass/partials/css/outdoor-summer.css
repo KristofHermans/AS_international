@@ -1,0 +1,88 @@
+/* *********************************************************************************************************** */
+/*                                            SLIDER OUTDOOR SUMMER                                         ** */
+/* *********************************************************************************************************** */
+/*
+ * new wave image triggered with class: .new-wave
+ */
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer {
+  background: url("https://static.asadventure.com//includes/homepage/international/images/_slides/150427_lookbookoutdoor.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content h2, #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta {
+  position: absolute;
+  font-weight: 600;
+  width: 14.7008547009%;
+  height: 37px;
+  left: 5.2991452991%;
+  text-align: left;
+  margin-top: 0;
+  background: white;
+  border: 2px solid #ddd;
+  color: #ddd; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta.dames {
+    top: 59.512195122%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta.heren {
+    top: 65.8536585366%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta:hover {
+    background: #aaa; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .main-content {
+    font-size: 28px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta {
+    width: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .tagline {
+    bottom: 4%;
+    right: 28%;
+    width: 90px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer.fr_fix .content .xx_cta {
+    width: 27%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer {
+    background: url("https://static.asadventure.com/includes/homepage/national/images/bg-outdoor-summer-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content {
+    top: 26%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .content .xx_cta {
+      width: 40%;
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer .tagline {
+    bottom: 4%;
+    right: 3%;
+    width: 66px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-summer.fr_fix .content .xx_cta {
+    width: 40%; } }
