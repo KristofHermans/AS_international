@@ -17,8 +17,6 @@
 	BEGIN TRAINING PARTIAL
 ========================== */ 
 
-@import "partials/_slides/_schoenen-promo.scss";
-
 /* ==========================
 	END TRAINING PARTIAL
 ========================== */
@@ -31,9 +29,9 @@
 
 // INDIVIDUAL SLIDES
 @import "partials/_slides/_mid_season_sales.scss";
-@import "partials/_slides/_bike-tien-procent.scss";
 @import "partials/_slides/_bike-recreatief.scss";
-@import "partials/_slides/outdoor-xl";
+@import "partials/_slides/_schoenen-promo.scss";
+@import "partials/_slides/outdoor-summer";
 
 /* ==========================
 	END OUDE LIVE PARTIAL

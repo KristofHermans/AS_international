@@ -1,0 +1,146 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER OUTDOOR SUMMER                                         ** */
+/* *********************************************************************************************************** */
+
+  /*
+   * new wave image triggered with class: .new-wave
+   */
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor {
+  background: url('https://static.asadventure.com//includes/homepage/international/images/_slides/150427_lookbookoutdoor.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content {
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+  h2 {
+    display:none;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content .xx_cta { 
+  position: absolute;
+  font-weight: 600;
+  width: percentage(172/1170);
+  height: 37px;
+  left: percentage(62/1170);
+  text-align: left;
+  margin-top: 0;
+  background: white;
+  border: 2px solid #888;
+  color: #888;
+
+  &.dames {
+  top: percentage(244/410);
+  }
+
+  &.heren{
+  top: percentage(300/410);
+  }
+
+  &:hover {
+    background: #d0d0d0;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content {
+
+    .main-content {
+      font-size: 28px;
+    }
+
+    .xx_cta.heren {
+      top: percentage(310/410)
+    }
+    
+  }
+
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content .xx_cta {
+    width: percentage(200/1170);
+    padding-left: 5px;
+    left: percentage(40/1170);
+    height:30px;
+}
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor {
+    background: url('https://static.asadventure.com//includes/homepage/international/images/_slides/150427_lookbookoutdoor_mob.jpg') no-repeat;
+    background-position:center;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.summer-outdoor .content {
+
+    .xx_cta {
+      width: 150px;
+      font-size: 8px;
+      height: 25px;
+      left: 50%;
+      margin-left: -75px;
+
+
+    &.dames {
+     top: 50%;
+  }
+    
+    &.heren {
+      top:70%
+    }
+  }
+}
+}
+
+
+
+
