@@ -31,7 +31,7 @@ li.mid_season_sales .content {
   }
 
     .main-content {
-        font-size: 10px;
+  font-size: 10px;
   color: #3c241e;
   font-weight: 400;
   text-align: center;
@@ -53,32 +53,27 @@ li.mid_season_sales .content {
   }
 
 
-.slider-wrapper ul li.mid_season_sales .content .xx_cta {
-  background: #3c241e;
-  box-sizing: border-box;
-  color: #EAEAEA;
-  display: inline-block;
+#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta { 
+   width: 95%;
   font-weight: 600;
-  margin-top: 0;
-  margin-bottom: 4%;
-  padding: .6em 1em;
-  text-align: left;
-  text-decoration: none;
-  width: 100%;
+  display: inline-block;
+  margin-top: 1%;
+  background-color: #3c241e;
 
-  &:hover {
-    background: #4D3934;
-  }
-
-  &:after {
+  &::after{
     content: "\f04b"; /* arrow */
     background: none;
     width: auto;
     height: auto;
     font-family: "FontAwesome";
+    font-size: 10px;
     float: right;
-    margin-right: 11px;
+    margin-right: 10px;
     color: inherit;
+  }
+
+  &:hover {
+    background-color: #4D3934;
   }
 }
 
@@ -90,10 +85,13 @@ li.mid_season_sales .content {
   @media (max-width: 1199px) {
 
       li.mid_season_sales .content {
-    // width: 174px;
+    width: 224px;
+    top: 17%;
+    left: 13.5169340463%;
+
 
     .main-logo {
-      width: 80%;
+    width: 70%;
       
     }
 
@@ -132,7 +130,8 @@ li.mid_season_sales .content {
   /* *********************************************************************************************************** */
   @media (max-width: 979px) {
 
-      .mid_season_sales .content {
+      li.mid_season_sales .content {
+        width: 174px;
 
 
     .main-logo {
