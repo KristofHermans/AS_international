@@ -1528,6 +1528,115 @@ a:link {
   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     top: 6%; } }
 /* *********************************************************************************************************** */
+/*                                            SLIDER GLAMPING NORDISK                                       ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.glamping {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-glamping.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content h2, #homepage-wrapper #xx_header .xx_slider ul li.glamping .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-content {
+    font-size: 37px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+
+#homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #42392e;
+  color: #fff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta:hover {
+    background: #332b21; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-content {
+    font-size: 28px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-title {
+    font-size: 42px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta {
+    width: 24%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
+    width: 74%;
+    top: 27%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-title {
+      font-size: 33px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-content {
+      font-size: 22px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta:after {
+        display: block;
+        font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-glamping-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
+    top: 26%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-title {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.glamping .content .xx_cta {
+      width: 40%;
+      font-size: 8px; } }
+/* *********************************************************************************************************** */
 /*                                            SLIDER OUTDOOR SUMMER                                         ** */
 /* *********************************************************************************************************** */
 /*
