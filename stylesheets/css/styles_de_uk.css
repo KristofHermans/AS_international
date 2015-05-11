@@ -1066,49 +1066,56 @@ html, body, #main {
     margin-bottom: 10px; } }
 
 /* *********************************************************************************************************** */
-/*                                            SLIDER mid_season_sales                                           ** */
+/*                                            SLIDER STRANDTAS                                       ** */
 /* *********************************************************************************************************** */
-.mid_season_sales {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-fr.jpg") no-repeat;
-  background-size: contain; }
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix {
+    background: url("//static.asadventure.com/includes/homepage/international/images/bg_strandtas.jpg") no-repeat;
+    background-size: contain; }
 
-.mid_season_sales .content {
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
   position: absolute;
-  width: 23.0769230769%;
-  top: 14%;
-  left: 13.6752136752%;
-  text-align: center; }
-  .mid_season_sales .content h2, .mid_season_sales .content span {
+  width: 33%;
+  top: 20%;
+  left: 1%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content h2, #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-li.mid_season_sales .content .main-logo {
-  padding-bottom: 5px;
-  margin: 0 auto;
-  width: 100%; }
-li.mid_season_sales .content .main-content {
-  font-size: 10px;
-  color: #3c241e;
-  font-weight: 400;
-  text-align: center;
-  margin-bottom: 8px;
-  border-top: 2px solid #3c241e;
-  margin-top: 8px;
-  padding-top: 8px;
-  line-height: 110%;
-  text-transform: uppercase; }
-li.mid_season_sales .content .legal {
-  font-size: 11px;
-  margin-top: 3%;
-  color: #3c241e; }
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
+    font-size: 37px;
+    font-weight: 100;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title .highlight {
+      text-transform: uppercase;
+      font-weight: bold; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
+    font-size: 19px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
+    font-size: 11px;
+    line-height: 1.2;
+    margin-top: 19%; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta {
-  width: 95%;
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
+  margin-top: 5%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
   font-weight: 600;
-  display: inline-block;
-  margin-top: 1%;
-  background-color: #3c241e; }
-  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta::after {
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #00c0d8; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:hover {
+    background: #ededed;
+    color: #00c0d8; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -1117,75 +1124,104 @@ li.mid_season_sales .content .legal {
     font-family: "FontAwesome";
     font-size: 10px;
     float: right;
-    margin-right: 10px;
+    margin-right: 11px;
     color: inherit; }
-  #homepage-wrapper #xx_header .xx_slider ul li.mid_season_sales .content .xx_cta:hover {
-    background-color: #4D3934; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .xx_cta {
+  width: 70%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
+  font-size: 32px; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  li.mid_season_sales .content {
-    width: 224px;
-    top: 17%;
-    left: 13.5169340463%; }
-    li.mid_season_sales .content .main-logo {
-      width: 70%; }
-    li.mid_season_sales .content .main-content {
-      font-size: 9px;
-      margin-top: 6px;
-      padding-top: 6px;
-      margin-bottom: 7px; }
-    li.mid_season_sales .content .xx_cta {
-      margin: 0;
-      font-size: 11px; }
-    li.mid_season_sales .content .legal {
-      font-size: 9px;
-      margin-top: 1px;
-      color: #3c241e; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
+    top: 11%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
+      font-size: 30px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
+      margin-top: 10%; }
 
-  li.mid_season_sales.de_fix .content .xx_cta {
-    font-size: 9px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
+    margin-top: 5%; }
 
-  .mid_season_sales.en_fix .xx_txt .xx_cta {
-    font-size: 11px; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
+    font-size: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  li.mid_season_sales .content {
-    width: 174px; }
-    li.mid_season_sales .content .main-content {
-      border-top: none;
-      margin-top: 3px;
-      margin-bottom: 6px; }
-    li.mid_season_sales .content .xx_cta {
-      width: 100%; }
-    li.mid_season_sales .content .legal {
-      margin-top: 0;
-      font-size: 8px;
-      margin-bottom: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
+    top: 9%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
+      font-size: 22px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
+      font-size: 13px;
+      margin-bottom: 7%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
+      margin-top: 10%;
+      font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
 
-  .mid_season_sales.en_fix .xx_txt .xx_cta {
-    font-size: 10px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
+    margin-top: 5%; }
 
-  .mid_season_sales.de_fix .content .xx_cta {
-    font-size: 9px; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
+    font-size: 19px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
+    height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  .mid_season_sales {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-mid-season-mobile-nl@2x.jpg") no-repeat;
-    background-size: cover; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas-mobile@2x.jpg") no-repeat; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix {
+      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas-mobile@2x.jpg") no-repeat;
+      background-size: cover;
+      background-position: center; }
 
-  .mid_season_sales .content {
-    left: 23.1884057971%;
-    width: 170px; } }
-/* ================================
-	CLOSE NESTING
-================================ */
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
+    width: 50%;
+    top: 3%;
+    left: 5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
+      font-size: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
+      font-size: 8px;
+      margin-bottom: 5%;
+      line-height: 1; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
+      font-size: 6px;
+      margin-top: 3%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
+      padding-left: 10px;
+      width: 70%;
+      font-size: 8px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
+        font-size: 7px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .xx_cta {
+    margin-top: 30px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
+    margin-top: 30px;
+    font-size: 8px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .main-content {
+    font-size: 12px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
+    font-size: 13px; } }
 /* ==========================================================================
 
 	STATE
