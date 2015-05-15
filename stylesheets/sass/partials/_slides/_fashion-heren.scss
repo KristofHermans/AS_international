@@ -1,0 +1,184 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER FASHION HEREN                                          ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-heren {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-fashion-heren.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content {
+  position: absolute;
+  width: 75%;
+  top: 25%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content {
+  color: #fff;
+  text-align: center;
+
+  .sub-title {
+      font-style: italic;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .main-title {
+      display: inline-block;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 120%;
+    color: inherit;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    text-transform: uppercase;
+      margin-bottom: 1%;
+    padding: 0 23%
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content .xx_cta { 
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #c22228;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 2% auto 0;
+
+  &:hover {
+    background: #ab2025;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content {
+    top: 24%;
+
+    .sub-title {
+      font-size: 25px;
+    }
+
+    .main-title {
+      font-size: 30px;
+    }
+
+    .xx_cta {
+      width: 24%;
+    }
+    
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content {
+    width: 74%;
+
+    top: 24%;
+    
+    .sub-title {
+      font-size: 20px;
+    }
+
+    .main-title {
+      font-size: 25px;
+      margin-top: 5px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-fashion-heren-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content {
+    top: 21%;
+    width: 100%;
+
+    .sub-title {
+      font-size: 15px;
+    }
+
+    .main-title {
+      font-size: 15px;
+      margin-top: 5px;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+    }
+    
+  }
+
+
+
+}
+
+
