@@ -549,7 +549,7 @@ html, body, #main {
         display: none !important; } }
     #homepage-wrapper .bx-pager a {
       float: left;
-      margin-right: 34px;
+      margin-right: 33px;
       pointer-events: auto; }
       #homepage-wrapper .bx-pager a:last-child {
         margin-right: 0; }
