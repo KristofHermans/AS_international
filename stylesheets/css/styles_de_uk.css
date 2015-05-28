@@ -1012,7 +1012,7 @@ html, body, #main {
   position: relative; }
   @media only screen and (max-width: 767px) {
     .jw-uk {
-      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf_JW.jpg") no-repeat;
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/JW_mobile.jpg") no-repeat;
       background-size: cover; } }
   .jw-uk .jw-uk-cta {
     background: #EB342E;
@@ -1130,7 +1130,7 @@ html, body, #main {
   position: relative; }
   @media only screen and (max-width: 767px) {
     .folder-uk {
-      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf_folder.jpg") no-repeat;
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder_mobile.jpg") no-repeat;
       background-size: cover; } }
   .folder-uk .folder-uk-cta {
     background: #EB342E;
