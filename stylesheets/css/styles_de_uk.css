@@ -1006,6 +1006,65 @@ html, body, #main {
   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     top: 6%; } }
+.jw-uk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/JW.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .jw-uk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/JW_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .jw-uk .jw-uk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    text-decoration: none;
+    width: 27.3504273504%; }
+    .jw-uk .jw-uk-cta:hover {
+      background: #e91d17; }
+    .jw-uk .jw-uk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .jw-uk .jw-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .jw-uk .jw-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .jw-uk .jw-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
 .tnf-uk {
   background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/tnf.jpg") no-repeat;
   background-size: contain;
@@ -1065,163 +1124,110 @@ html, body, #main {
   .slider-wrapper {
     margin-bottom: 10px; } }
 
-/* *********************************************************************************************************** */
-/*                                            SLIDER STRANDTAS                                       ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas.jpg") no-repeat; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix {
-    background: url("//static.asadventure.com/includes/homepage/international/images/bg_strandtas.jpg") no-repeat;
-    background-size: contain; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
-  position: absolute;
-  width: 33%;
-  top: 20%;
-  left: 1%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content h2, #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
-    font-size: 37px;
-    font-weight: 100;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title .highlight {
-      text-transform: uppercase;
-      font-weight: bold; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
-    font-size: 19px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
-    font-size: 11px;
-    line-height: 1.2;
-    margin-top: 19%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
-  margin-top: 5%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
-  font-weight: 600;
-  width: 50%;
-  text-align: left;
-  margin-top: 0;
-  background: #fff;
-  color: #00c0d8; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:hover {
-    background: #ededed;
-    color: #00c0d8; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 11px;
-    color: inherit; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .xx_cta {
-  width: 70%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
-  font-size: 32px; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
-    top: 11%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
-      font-size: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
-      margin-top: 10%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
-    margin-top: 5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
-    font-size: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
-    top: 9%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
-      font-size: 22px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
-      font-size: 13px;
-      margin-bottom: 7%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
-      margin-top: 10%;
-      font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 4%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
-    margin-top: 5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
-    font-size: 19px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas-mobile@2x.jpg") no-repeat; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix {
-      background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-strandtas-mobile@2x.jpg") no-repeat;
-      background-size: cover;
-      background-position: center; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content {
-    width: 50%;
-    top: 3%;
-    left: 5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-title {
-      font-size: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .main-content {
+.folder-uk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .folder-uk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .folder-uk .folder-uk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    text-decoration: none;
+    width: 27.3504273504%; }
+    .folder-uk .folder-uk-cta:hover {
+      background: #e91d17; }
+    .folder-uk .folder-uk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
       font-size: 8px;
-      margin-bottom: 5%;
-      line-height: 1; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .legal {
-      font-size: 6px;
-      margin-top: 3%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta {
-      padding-left: 10px;
-      width: 70%;
-      font-size: 8px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.strandtas .content .xx_cta:after {
-        font-size: 7px; }
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .folder-uk .folder-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .folder-uk .folder-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .folder-uk .folder-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .xx_cta {
-    margin-top: 30px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .legal {
-    margin-top: 30px;
-    font-size: 8px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.en_fix .content .main-content {
-    font-size: 12px; }
+.folder-dk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder_DK-AT.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .folder-dk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/folder_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .folder-dk .folder-dk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    text-decoration: none;
+    width: 27.3504273504%; }
+    .folder-dk .folder-dk-cta:hover {
+      background: #e91d17; }
+    .folder-dk .folder-dk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .folder-dk .folder-dk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .folder-dk .folder-dk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .folder-dk .folder-dk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.strandtas.fr_fix .content .main-title {
-    font-size: 13px; } }
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
 /* ==========================================================================
 
 	STATE
