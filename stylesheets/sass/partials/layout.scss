@@ -237,6 +237,7 @@ $baseline: 18px;
     	top: inherit;
     	bottom: 40%;
 	    left: 4px;
+	    z-index:0;
   }
 
   .bx-next.bx-next {
@@ -246,6 +247,7 @@ $baseline: 18px;
     	top: inherit;
     	bottom: 40%;
     	right: 4px;
+    	z-index:0;
   }
 }
 
