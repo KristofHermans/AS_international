@@ -1,0 +1,114 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER REEF ACTIE                                             ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.reef-actie {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-nl.jpg') no-repeat;
+
+  &.fr_fix {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-fr.jpg') no-repeat;
+  }
+
+  &.en_fix {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-en.jpg') no-repeat;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.reef-actie .content {
+  position: absolute;
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.reef-actie .content {
+
+  bottom: -2px;
+  left: 10px;
+
+  .main-title {
+    display: none;
+  }
+
+  .legal {
+    font-size: 9px;
+    color: #2d2d2d;
+    margin-bottom: 0;
+  }
+
+  .legal::selection {
+    background: #fff;
+  }
+  //combining doesn't work
+  .legal::-moz-selection {
+    background: #fff;
+  }
+
+}
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.reef-actie .content {
+    
+    .legal {
+      margin-bottom: 6px;
+      width: 82%;
+      line-height: 1;
+    }
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.reef-actie .content {
+    .legal {
+      font-size: 8px;
+      width: 73%;
+    }
+  }
+
+
+}
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.reef-actie {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-nl-mobile@2x.jpg') no-repeat;
+
+    &.fr_fix {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-fr-mobile@2x.jpg') no-repeat;
+    }
+
+    &.en_fix {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-reef-actie-en-mobile@2x.jpg') no-repeat;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.reef-actie .content {
+    .legal {
+      font-size: 6px;
+      width: 100%;
+    }
+    
+  }
+
+
+
+}
+
+
