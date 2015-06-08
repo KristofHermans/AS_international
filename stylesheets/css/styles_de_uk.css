@@ -1348,6 +1348,65 @@ html, body, #main {
   .slider-wrapper {
     margin-bottom: 10px; } }
 
+.cam-uk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/cam.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .cam-uk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/cam_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .cam-uk .cam-uk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    text-decoration: none;
+    width: 27.3504273504%; }
+    .cam-uk .cam-uk-cta:hover {
+      background: #e91d17; }
+    .cam-uk .cam-uk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .cam-uk .cam-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .cam-uk .cam-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .cam-uk .cam-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
 /* ================================
 	CLOSE NESTING
 ================================ */
