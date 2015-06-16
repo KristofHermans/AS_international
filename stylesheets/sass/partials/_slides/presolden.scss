@@ -1,212 +1,76 @@
-/* =====================================
-  Presolden
-===================================== */
-.presolden-nl{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-nl.jpg) no-repeat;
+
+.presales-uk{
+	background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/presales.jpg") no-repeat;
 	background-size: contain;
 	position: relative;
 
 	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-mobile.jpg) no-repeat;
-	}
-}
-
-.presolden-fr{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-fr.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-fr-mob@2x.jpg) no-repeat;
-		background-size: contain;
-	}
-}
-
-.presolden-uk{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-uk.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-uk-mob@x2.jpg) no-repeat;
-		background-size: contain;
-	}
-}
-
-.presolden-de{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-de.jpg) no-repeat;
-	background-size: contain;
-	position: relative;
-
-	@media only screen and(max-width: 767px) {
-		background: url(http://static.asadventure.com/includes/homepage/international/images/bg-presolden-dec14-de-mob@x2.jpg) no-repeat;
-		background-size: contain;
-	}
-}
-
-.presolden-sidebar{
-	background: url(http://static.asadventure.com/includes/homepage/international/images/bg-sidebar.jpg) repeat-x;
-	background-size: contain;
-	box-sizing: border-box;
-	color: #ffffff !important;
-	font-family: "Open Sans", sans-serif;
-	height: 100%;
-	padding: 22px 22px 0;
-	position: absolute;
-		top: 0;
-		left: 5%;
-	width: percentage(320/1170);
-	z-index: 2;
-
-	@media only screen and(max-width: 1199px) {
-		padding: 17px 17px 0;
+		background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/presales_mobile.jpg") no-repeat;
+		background-size: cover;
 	}
 
-	@media only screen and(max-width: 767px) {
-		// padding: 10px 10px 0;
-		// position: absolute;
-		// 	left: 10%;
-		// width: 50%;
+	.presales-uk-cta{
+		background: #EB342E;
+		color: #ffffff;
+		display: block;
+		height: 50px;
+		line-height: 50px;
+		padding: 0 1em;
+		position: absolute;
+			right: 8%;
+			bottom: 10%;
+		text-decoration: none;
+		width: percentage(320/1170);
 
-		display: none;
-	}
+		&:hover{
+			background: darken(#EB342E, 5%);
+		}
 
-	.presolden-main-title{
-		font-size: 38px;
-		font-weight: 100;
-		line-height: 46px;
-		margin: 32px 0;
-		text-shadow: 0px 2px 1px #000000;
-		text-transform: uppercase;
+		&:after{
+			content: "\f04b";
+			font-family: "Font Awesome", "FontAwesome";
+			font-size: 8px;
+			float: right;
+		}
 
 		@media only screen and(max-width: 1199px) {
-			font-size: 24px;
-			line-height: 28px;
-			margin-bottom: 20px;
+			height: 40px;
+			line-height: 40px;
 		}
 
 		@media only screen and(max-width: 979px) {
-			font-size: 18px;
-			line-height: 20px;
-			margin-top: 20px;
-			margin-bottom: 10px;
+			font-size: .8em;
+			height: 32px;
+			line-height: 32px;
 		}
 
 		@media only screen and(max-width: 767px) {
-			font-size: 15px;
-			margin-top: 0;
-		}
-	}
-
-	.presolden-copy{
-		font-family: "Open Sans", sans-serif;
-		font-weight: 100;
-		line-height: 1.5;
-		
-		@media only screen and(max-width: 1199px) {
-			font-size: 14px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			font-size: 11px;
+			margin: 0 auto; 
+			position: absolute;
+				left: 20%;
+				bottom: 10%;
+				right: inherit;
+			width: 60%;
 		}
 	}
 }
 
-.presolden-icons{
-	max-width: percentage(123/276);
-
-	@media only screen and(max-width: 979px) {
-		margin-bottom: 0;
-	}
-
-	@media only screen and(max-width: 767px) {
-		display: none;
-	}
-}
-
-.presolden-cta{
-	background: #57A5D3 !important;
-	box-sizing: border-box;
-	color: #ffffff !important;
-	display: block;
-	height: 40px;
-	line-height: 40px;
-	padding: 0 15px !important;
-	position: absolute;
-		bottom: 40px;
-	text-align: left !important;
-	text-decoration: none !important;
-	text-shadow: 1px 1px 1px darken(#57A5D3, 30%);
-	width: percentage(276/320) !important;
-
+.bottom-bar{
 	@media only screen and(max-width: 1199px) {
-		font-size: 12px;
-		height: 37px;
-		line-height: 37px;
+		bottom: -70px;
 	}
 
 	@media only screen and(max-width: 979px) {
-		font-size: 10px;
-		height: 30px;
-		line-height: 30px;
-		padding: 0 8px;
-	}
-
-	@media only screen and(max-width: 767px) {
-		position: absolute;
-			bottom: 15px;
-			left: 20%;
-	}
-
-	&.desktop-cta{
-		@media only screen and(max-width: 767px) {
-			display: none;
-		}
-	}
-
-	&.mobile-cta{
-		width: 60% !important;
-
-		@media only screen and(min-width: 767px) {
-			display: none;
-		}
-	}
-
-	&:after{
-		background: none;
-		content: "" !important;
-		display: block !important;
-		font-family: "FontAwesome";
-		float: right;
-		height: 0 !important;
-		line-height: 42px;
-		width: 0 !important;
-
-		@media only screen and(max-width: 979px) {
-			line-height: 37px;
-		}
-
-		@media only screen and(max-width: 979px) {
-			line-height: 30px;
-		}
-	}
-
-	&:hover{
-		background: #4991BB !important;
-		text-shadow: 0 1px 1px darken(#4991BB, 30%);
+		bottom: -50px;
 	}
 }
 
-.legal{
-	font-size: 9px !important;
-	margin: 0;
-	position: absolute;
-		bottom: 5px;
+.slider-wrapper{
+	@media only screen and(max-width: 979px) {
+		margin-bottom: 65px;
+	}
 
 	@media only screen and(max-width: 767px) {
-		font-size: 7px !important;
-		position: absolute;
-			bottom: -3px;
+		margin-bottom: 10px;
 	}
 }

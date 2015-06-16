@@ -1069,50 +1069,72 @@ a:link {
 	BEGIN OUDE LIVE PARTIAL
 ========================== */
 /* *********************************************************************************************************** */
-/*                                                SLIDER CAMPING ACTIE                                      ** */
+/* **                                            PRESOLDEN JUL 15 (LUX)                                   ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/prix-cascades.jpg") no-repeat;
+  overflow: hidden; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/pre-solden.jpg") no-repeat;
+  overflow: hidden; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
   position: absolute;
-  width: 30%;
-  top: 12%;
-  left: 2.5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content h2, #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+  top: 0;
+  left: 5%;
+  z-index: 2;
+  /* background */
+  /* box */
+  width: 26.3%;
+  height: 410px;
+  box-sizing: border-box;
+  padding: 22px 19px 0;
+  color: #ffffff; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-  color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-    margin-bottom: 6%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-    text-align: left;
-    font-size: 16px;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-    font-size: 10px;
-    color: inherit;
-    line-height: 130%;
-    margin-top: 12%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 25px; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 46px;
   font-weight: 600;
-  width: 50%;
+  text-shadow: 0px 2px 1px #000000;
+  text-transform: uppercase; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 137%; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 10px;
+  bottom: -20px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+  width: 75%;
+  position: relative;
+  background-color: #4590bd;
+  font-weight: 600;
+  display: inline-block;
+  top: 275px;
+  float: right;
   text-align: left;
-  margin-top: 0;
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
-  margin-bottom: 4%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:hover {
-    background: #fff;
-    color: #898234; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+  padding-left: 10px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:hover {
+    background-color: #3c84af; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -1120,127 +1142,266 @@ a:link {
     height: auto;
     font-family: "FontAwesome";
     font-size: 10px;
-    float: right;
     margin-right: 11px;
-    color: inherit; }
+    color: inherit;
+    text-align: right;
+    float: right; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
   position: absolute;
-  bottom: 4%;
-  left: 57.5%;
-  width: 220px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
-    display: inline-block;
-    vertical-align: top !important;
-    background: none;
-    width: 30px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-left: 5%;
-    opacity: 0.6;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:hover {
-      opacity: 1; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:after {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta img {
-      display: inline-block;
-      max-width: 100%; }
+  top: 0;
+  left: 5%;
+  z-index: 2;
+  /* background */
+  /* box */
+  width: 26.3%;
+  height: 410px;
+  box-sizing: border-box;
+  padding: 22px 19px 0;
+  color: #ffffff; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-  margin-top: 4%; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 25px; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 38px;
+  line-height: 46px;
+  font-weight: 600;
+  text-shadow: 0px 2px 1px #000000;
+  text-transform: uppercase; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
+  /* position */
+  position: relative;
+  z-index: 2;
+  /* font */
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 137%; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+  font-size: 10px;
+  bottom: -20px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
+  width: 75%;
+  position: relative;
+  background-color: #4590bd;
+  font-weight: 600;
+  display: inline-block;
+  top: 275px;
+  float: right;
+  text-align: left;
+  padding-left: 10px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:hover {
+    background-color: #3c84af; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    margin-right: 11px;
+    color: inherit;
+    text-align: right;
+    float: right; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    top: 9%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 200px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 13px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-      width: 55%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      margin-top: 5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    padding-top: 13px;
+    padding-right: 10px;
+    background-position: 0px -54px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
+      width: 33%;
+      height: 10%;
+      margin-bottom: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 29px;
+      line-height: 36px;
+      margin-bottom: 5px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      width: 90%;
+      top: 195px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
+      bottom: 80px; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    left: 53%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 0; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+    padding-top: 13px;
+    padding-right: 10px;
+    background-position: 0px -54px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
+      width: 33%;
+      height: 10%;
+      margin-bottom: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
+      font-size: 29px;
+      line-height: 36px;
+      margin-bottom: 5px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
+      width: 90%;
+      top: 195px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
+      bottom: 80px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    top: 8%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 145px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 10px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    width: 31%;
+    padding-top: 8px;
+    background-position: 0px -28px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 26px;
+      margin-bottom: 24px;
+      line-height: 30px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      width: 70%;
       text-align: left;
-      padding-left: 10px;
-      margin-bottom: 4%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+      padding-left: 4%;
+      top: 155px;
+      margin-right: 45px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
         display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    left: 51%;
-    bottom: 5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
-    width: 25px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:nth-of-type(3) {
-      width: 15px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 0; } }
+        height: 30px;
+        background-size: 9px 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
+      bottom: 150px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
+    height: 25px; } }
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+    width: 31%;
+    padding-top: 8px;
+    background-position: 0px -28px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
+      font-size: 26px;
+      margin-bottom: 24px;
+      line-height: 30px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
+      font-size: 11px;
+      line-height: 130%;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
+      width: 70%;
+      text-align: left;
+      padding-left: 4%;
+      top: 155px;
+      margin-right: 45px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
+        display: block;
+        height: 30px;
+        background-size: 9px 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
+      bottom: 150px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie-mobile@2x.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-presolden-jul15-lux-mobile@2x.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    width: 80%;
-    left: 11%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 85px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      margin-top: 1%;
-      font-size: 6px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-      border-width: 1px;
-      text-align: center;
-      padding-left: 0;
-      width: 44%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
-        display: none; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
+    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-presolden-jul15-nl-mobile@2x.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    display: none; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    width: 90%;
+    padding-top: 0;
+    background: none;
+    height: 101px;
+    top: 41%;
+    left: 6%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 14px;
+      margin-bottom: 2px;
+      line-height: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 9px;
+      line-height: 130%;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      font-size: 9px;
+      width: 57%;
+      height: 25px;
+      line-height: 25px;
+      margin-top: 2px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
+        height: 25px;
+        background-size: 8px 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
+      font-size: 6px;
+      bottom: -10px;
+      display: none; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .main-content {
-    margin-bottom: 4%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .xx_cta {
-    margin-bottom: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 2%; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+    width: 90%;
+    padding-top: 0;
+    background: none;
+    height: 101px;
+    top: 41%;
+    left: 6%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
+      font-size: 14px;
+      margin-bottom: 2px;
+      line-height: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
+      font-size: 9px;
+      line-height: 130%;
+      margin-bottom: 3px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
+      font-size: 9px;
+      width: 57%;
+      height: 25px;
+      line-height: 25px;
+      margin-top: 2px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
+        height: 25px;
+        background-size: 8px 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
+      font-size: 6px;
+      bottom: -10px;
+      display: none; } }
 /* *********************************************************************************************************** */
 /*                                            SLIDER FOLDER JUNI 15                                        ** */
 /* *********************************************************************************************************** */
@@ -1429,6 +1590,271 @@ a:link {
   #homepage-wrapper #xx_header .xx_slider ul li.folder-juni15.en_fix .content .main-title {
     font-size: 11px; } }
 /* *********************************************************************************************************** */
+/*                                                SLIDER CAMPING ACTIE                                      ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  position: absolute;
+  width: 30%;
+  top: 12%;
+  left: 2.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content h2, #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+  color: #fff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+    margin-bottom: 6%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+    text-align: left;
+    font-size: 16px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+    font-size: 10px;
+    color: inherit;
+    line-height: 130%;
+    margin-top: 12%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+  font-weight: 600;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-bottom: 4%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:hover {
+    background: #fff;
+    color: #898234; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+  position: absolute;
+  bottom: 4%;
+  left: 57.5%;
+  width: 220px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+    display: inline-block;
+    vertical-align: top !important;
+    background: none;
+    width: 30px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-left: 5%;
+    opacity: 0.6;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -moz-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:hover {
+      opacity: 1; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:after {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta img {
+      display: inline-block;
+      max-width: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+  margin-top: 4%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 9%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 200px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 13px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      width: 55%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      margin-top: 5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 53%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 0; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    top: 8%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 145px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    left: 51%;
+    bottom: 5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+    width: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:nth-of-type(3) {
+      width: 15px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 0; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    width: 80%;
+    left: 11%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
+      width: 85px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
+      font-size: 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
+      margin-top: 1%;
+      font-size: 6px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+      border-width: 1px;
+      text-align: center;
+      padding-left: 0;
+      width: 44%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+        display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .main-content {
+    margin-bottom: 4%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .xx_cta {
+    margin-bottom: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
+    margin-top: 2%; } }
+/* *********************************************************************************************************** */
+/*                                               SLIDER OUTDOOR XL                                          ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  position: absolute;
+  width: 75%;
+  top: 30%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+  font-weight: 600;
+  width: 37%;
+  text-align: left;
+  margin-top: 0;
+  background: #18869b;
+  color: #fff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:hover {
+    background: #15798c;
+    color: #fff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    top: 25%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
+      font-size: 26px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
+    font-size: 20px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 4%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
+      font-size: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
+      padding-left: 10px;
+      width: 50%;
+      font-size: 8px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
+        font-size: 7px; } }
+/* ==========================
+	END OUDE LIVE PARTIAL
+========================== */
+/* *********************************************************************************************************** */
 /*                                            SLIDER FASHION HEREN                                          ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren {
@@ -1539,98 +1965,6 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider ul li.fashion-heren .content .xx_cta {
       width: 40%;
       font-size: 8px; } }
-/* *********************************************************************************************************** */
-/*                                               SLIDER OUTDOOR XL                                          ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-  position: absolute;
-  width: 75%;
-  top: 30%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 5%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-  font-weight: 600;
-  width: 37%;
-  text-align: left;
-  margin-top: 0;
-  background: #18869b;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:hover {
-    background: #15798c;
-    color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 11px;
-    color: inherit; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    top: 25%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-      font-size: 26px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-    font-size: 20px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 4%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-      display: block;
-      font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-      font-size: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-      padding-left: 10px;
-      width: 50%;
-      font-size: 8px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-        font-size: 7px; } }
-/* ==========================
-	END OUDE LIVE PARTIAL
-========================== */
 /* *********************************************************************************************************** */
 /*                                            SLIDER REEF ACTIE                                             ** */
 /* *********************************************************************************************************** */

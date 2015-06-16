@@ -1,0 +1,488 @@
+
+/* *********************************************************************************************************** */
+/* **                                            PRESOLDEN JUL 15 (LUX)                                   ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/_slides/prix-cascades.jpg') no-repeat;
+  overflow: hidden;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/_slides/pre-solden.jpg') no-repeat;
+  overflow: hidden;
+}
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    z-index: 2;
+    /* background */
+    
+    /* box */
+    width: 26.3%;
+    height: 410px;
+    
+    box-sizing: border-box; 
+    padding: 22px 19px 0;
+    color: #ffffff;
+
+    h2, span {
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+
+    img {
+      position: relative;
+      z-index: 2;
+      margin-bottom: 25px;
+    }
+    
+    .main-title {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 38px;
+      line-height: 46px;
+      font-weight: 600;
+      text-shadow: 0px 2px 1px #000000;
+      text-transform: uppercase;
+    }
+
+    .main-content {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 137%;
+    }
+
+    .footnote {
+      position: absolute;
+      z-index: 2;
+      color: #ffffff;
+      font-size: 10px;
+      bottom: -20px;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta { 
+      width: 75%;
+      position: relative;
+      background-color: #4590bd;
+      font-weight: 600;
+      display: inline-block;
+      top: 275px;
+      float: right;
+      text-align: left;
+      padding-left: 10px;
+
+    &:hover {
+      background-color: #3c84af;
+    }
+    &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    margin-right: 11px;
+    color: inherit;
+    text-align: right;
+    float:right;
+  }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    z-index: 2;
+    /* background */
+    
+    /* box */
+    width: 26.3%;
+    height: 410px;
+    
+    box-sizing: border-box; 
+    padding: 22px 19px 0;
+    color: #ffffff;
+
+    h2, span {
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+
+    img {
+      position: relative;
+      z-index: 2;
+      margin-bottom: 25px;
+    }
+    
+    .main-title {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 38px;
+      line-height: 46px;
+      font-weight: 600;
+      text-shadow: 0px 2px 1px #000000;
+      text-transform: uppercase;
+    }
+
+    .main-content {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 137%;
+    }
+
+    .footnote {
+      position: absolute;
+      z-index: 2;
+      color: #ffffff;
+      font-size: 10px;
+      bottom: -20px;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta { 
+      width: 75%;
+      position: relative;
+      background-color: #4590bd;
+      font-weight: 600;
+      display: inline-block;
+      top: 275px;
+      float: right;
+      text-align: left;
+      padding-left: 10px;
+
+    &:hover {
+      background-color: #3c84af;
+    }
+    &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    margin-right: 11px;
+    color: inherit;
+    text-align: right;
+    float:right;
+  }
+  }
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+      padding-top: 13px;
+      padding-right: 10px;
+      background-position: 0px -54px;
+
+      img {
+        width: 33%;
+        height: 10%;
+        margin-bottom: 15px;
+      }
+      
+      .main-title {
+        font-size: 29px;
+        line-height: 36px;
+        margin-bottom: 5px;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 23px;
+      }
+
+      .xx_cta {
+        width: 90%;
+        top: 195px;
+      }
+
+      .footnote {
+        bottom: 80px;
+      }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+      padding-top: 13px;
+      padding-right: 10px;
+      background-position: 0px -54px;
+
+      img {
+        width: 33%;
+        height: 10%;
+        margin-bottom: 15px;
+      }
+      
+      .main-title {
+        font-size: 29px;
+        line-height: 36px;
+        margin-bottom: 5px;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 23px;
+      }
+
+      .xx_cta {
+        width: 90%;
+        top: 195px;
+      }
+
+      .footnote {
+        bottom: 80px;
+      }
+    }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	 #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+      width: 31%;
+      padding-top: 8px;
+      background-position: 0px -28px;
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 26px;
+      margin-bottom: 24px;
+      line-height: 30px;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta {
+        width: 70%;
+        text-align: left;
+        padding-left: 4%;
+        top: 155px;
+        margin-right: 45px;
+
+        &:after {
+          display: block;
+          height: 30px;
+          background-size: 9px 9px;
+        }
+      }
+
+      .footnote {
+        bottom: 150px;
+      }
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) { 
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
+      height: 25px;
+    }
+  }
+
+
+@media (max-width: 979px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+      width: 31%;
+      padding-top: 8px;
+      background-position: 0px -28px;
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 26px;
+      margin-bottom: 24px;
+      line-height: 30px;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta {
+        width: 70%;
+        text-align: left;
+        padding-left: 4%;
+        top: 155px;
+        margin-right: 45px;
+
+        &:after {
+          display: block;
+          height: 30px;
+          background-size: 9px 9px;
+        }
+      }
+
+      .footnote {
+        bottom: 150px;
+      }
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) { 
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
+      height: 25px;
+    }
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-presolden-jul15-lux-mobile@2x.jpg') no-repeat;
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-presolden-jul15-nl-mobile@2x.jpg') no-repeat;
+    }
+
+     #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+      width: 90%;
+      padding-top:0;
+      background: none;
+      height: 101px;
+      top: 41%;
+      left: 6%;
+
+       -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 14px;
+      margin-bottom: 2px;
+      line-height: 16px;
+      }
+
+      .main-content {
+        font-size: 9px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta{
+        font-size: 9px;
+        width: 57%;
+         height: 25px;
+        line-height: 25px;
+        margin-top: 2px;
+
+        &:after {
+          height: 25px;
+          background-size: 8px 8px;
+        }
+      }
+
+      .footnote {
+        font-size: 6px;
+        bottom: -10px;
+        display:none;
+      }
+    }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
+      width: 90%;
+      padding-top:0;
+      background: none;
+      height: 101px;
+      top: 41%;
+      left: 6%;
+
+       -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 14px;
+      margin-bottom: 2px;
+      line-height: 16px;
+      }
+
+      .main-content {
+        font-size: 9px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta{
+        font-size: 9px;
+        width: 57%;
+         height: 25px;
+        line-height: 25px;
+        margin-top: 2px;
+
+        &:after {
+          height: 25px;
+          background-size: 8px 8px;
+        }
+      }
+
+      .footnote {
+        font-size: 6px;
+        bottom: -10px;
+        display:none;
+      }
+    }
+
+
+
+  }
+
+
