@@ -1,0 +1,244 @@
+
+/* *********************************************************************************************************** */
+/*                                               SLIDER 2 PLUS 1                                            ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-nl.jpg') no-repeat;
+
+  &.fr_fix {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-fr.jpg') no-repeat;
+  }
+
+  &.en_fix {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-en.jpg') no-repeat;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content {
+  position: absolute;
+  width: 26.2%;
+  top: 50%;
+  left: 25.6%;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content {
+  color: #fff;
+  text-align: center;
+
+  .main-content {
+    font-size: 20px;
+    color: inherit;
+    line-height: 130%;
+    margin-bottom: 5%;
+    padding: 0 2%;
+  }
+
+  .legal {
+    font-size: 10px;
+    color: inherit;
+    margin-bottom: 0;
+    margin-top: 14%;
+    line-height: 1.2;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content .xx_cta { 
+  font-weight: 600;
+  width: 52%;
+  text-align: left;
+  margin-top: 0;
+  background: #284373;
+  color: #fff;
+
+  &:hover {
+    background: #1d3560;
+    color: #fff;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 11px;
+    color: inherit;
+  }
+}
+
+
+//FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.fr_fix .content {
+  .legal {
+    margin-top: 11%;
+  }
+}
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content {
+    top: 52%;
+
+    .main-content {
+      font-size: 14px;
+      margin-bottom: 7%;
+    }
+
+    .xx_cta {
+      width: 60%;
+    }
+    
+    .legal {
+      margin-top: 7%;
+      font-size: 8px;
+    }
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.fr_fix .content {
+    .legal {
+      margin-top: 4%;
+    }
+  }
+
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content {
+
+    .main-content {
+      font-size: 10px;
+    }
+    
+    .legal {
+      margin-top: 3%;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+  //FR FIX
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.fr_fix .content,
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.en_fix .content {
+    .main-content {
+      margin-bottom: 4%;
+    }
+    .xx_cta {
+      width: 70%;
+    }
+    .legal {
+      margin-top: 0;
+    }
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-nl-mobile@2x.jpg') no-repeat;
+
+    &.fr_fix {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-fr-mobile@2x.jpg') no-repeat;
+    }
+
+    &.en_fix {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-twee-plus-een-en-mobile@2x.jpg') no-repeat;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een .content {
+      top: 48%;
+      width: 51.2%;
+      left: 23.6%;
+
+      .main-content {
+        font-size: 8px;
+      }
+
+      .legal {
+        margin-top: 3%;
+        font-size: 5px;
+      }
+
+    .xx_cta {
+      padding-left: 10px;
+      width: 60%;
+      font-size: 8px;
+
+      &:after {
+        font-size: 7px;
+      }
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.fr_fix .content {
+    .main-content {
+      margin-bottom: 2%;
+    }
+    .xx_cta {
+      width: 65%;
+    }
+    .legal {
+      margin-top: -1%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.twee-plus-een.en_fix .content {
+    .legal {
+      margin-top: 0;
+    }
+  }
+
+
+}
+
+
