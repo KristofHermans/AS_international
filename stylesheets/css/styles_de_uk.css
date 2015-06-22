@@ -594,7 +594,9 @@ html, body, #main {
     #homepage-wrapper .bxslider li {
       display: block;
       position: relative;
-      height: 410px; }
+      height: 410px;
+      font-size: 17px;
+      text-transform: uppercase; }
   @media (max-width: 1199px) {
     #homepage-wrapper .bxslider {
       margin-left: 0; }
