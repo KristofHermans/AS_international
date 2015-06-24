@@ -1010,6 +1010,65 @@ html, body, #main {
   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.fr_fix .content,
   #homepage-wrapper #xx_header .xx_slider ul li.schoenen-promo.en_fix .content {
     top: 6%; } }
+.baybeach-uk {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/baybeach.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .baybeach-uk {
+      background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/baybeach_mobile.jpg") no-repeat;
+      background-size: cover; } }
+  .baybeach-uk .baybeach-uk-cta {
+    background: #EB342E;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 8%;
+    bottom: 10%;
+    text-decoration: none;
+    width: 27.3504273504%; }
+    .baybeach-uk .baybeach-uk-cta:hover {
+      background: #e91d17; }
+    .baybeach-uk .baybeach-uk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .baybeach-uk .baybeach-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .baybeach-uk .baybeach-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .baybeach-uk .baybeach-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        right: inherit;
+        width: 60%; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
 .presales-uk {
   background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/presales.jpg") no-repeat;
   background-size: contain;
