@@ -1,0 +1,350 @@
+
+/* *********************************************************************************************************** */
+/* **                                         SOLDEN METRO JUL 15 (LUX)                                     ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.solden {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-solden2-jul15.jpg') no-repeat;
+  overflow: hidden;
+}
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+    position: absolute;
+    top: 0;
+    left: 5%;
+
+    z-index: 2;
+    /* background */
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-presolden.jpg') repeat-x;
+    /* box */
+    width: 26.3%;
+    height: 410px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    padding: 9px 19px 0;
+    color: #ffffff;
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 0px 15px rgba(0, 0, 0, 1);
+    box-shadow:         0px 0px 15px rgba(0, 0, 0, 1);
+
+    h2, span {
+      -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+
+    width: 23.3%;
+     left: 7%;
+
+    img {
+      position: relative;
+      z-index: 2;
+      margin: 0 auto 18px;
+    }
+    
+    .main-title {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 60px;
+      line-height: 66px;
+      font-weight: 600;
+      text-shadow: 0px 2px 1px #000000;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      display: block;
+      background: rgb(203, 11, 11);
+      color: inherit;
+      font-size: 20px;
+      width: 100%;
+      text-align: center;
+      font-weight: 600 !important;
+      text-transform: uppercase;
+      margin-bottom: 4%;
+
+      sup {
+          position: relative;
+          top: -4px;
+          text-transform: none;
+
+      }
+    }
+
+    .main-content {
+      /* position */
+      position: relative;
+      z-index: 2;
+      /* font */
+      color: #ffffff;
+      font-size: 13px;
+      line-height: 137%;
+      margin-bottom: 10px;
+    }
+
+    .footnote {
+      position: absolute;
+      z-index: 2;
+      color: #ffffff;
+      font-size: 10px;
+      margin-bottom: 0px;
+      bottom: 4px;
+    }
+  }
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta { 
+    width: 95%;
+    background-color: #4590bd ;
+    font-weight: 600;
+    display: inline-block;
+
+    &:hover {
+      background-color: #3c84af;
+    }
+  }
+
+
+  // FR & EN
+
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+    font-size: 63px;
+    line-height: 66px;
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+    font-size: 81px;
+    line-height: 81px;
+  }
+
+  /* *********************************************************************************************************** */
+  /* **                                              DESKTOP                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 1199px) {
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      padding-top: 13px;
+      padding-right: 10px;
+      background-position: 0px -25px;
+
+      img {
+        width: 140px;
+        margin-bottom: 20px;
+      }
+      
+      .main-title {
+        font-size: 46px;
+        line-height: 45px;
+        margin-bottom: 5px;
+      }
+
+      .subtitle {
+        font-size: 17px;
+        line-height: 1.9;
+        width: 97%;
+      }
+
+      .main-content {
+        font-size: 11px;
+        line-height: 130%;
+        margin-bottom: 6px;
+      }
+
+      .xx_cta {
+        width: 90%;
+      }
+
+      .footnote {
+        bottom: 101px;
+      }
+    }
+
+    //FR & EN
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+      font-size: 49px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
+      margin-bottom: 14px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .subtitle {
+      font-size: 15px;
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-content {
+      font-size: 9px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 63px;
+      line-height: 61px;
+    }
+
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 979px) {
+
+  	 #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      width: 31%;
+      padding-top: 8px;
+      background-position: 0px -28px;
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 48px;
+        line-height: 59px;
+        margin-bottom: 30px
+      }
+
+      .subtitle {
+        font-size: 17px;
+        line-height: 1.9;
+        width: 97%;
+      }
+
+      .main-content {
+        font-size: 10px;
+        line-height: 130%;
+        margin-bottom: 3px;
+      }
+
+      .xx_cta {
+        width: 90%;
+        text-align: left;
+        padding-left: 4%;
+        margin-top: 5.5%;
+
+        &:after {
+          display: block;
+          height: 30px;
+          background-size: 9px 9px;
+        }
+      }
+
+      .footnote {
+        bottom: 172px;
+      }
+    }
+
+    //FR & EN
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+      font-size: 51px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .subtitle {
+      font-size: 15px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 65px;
+    }
+
+  }
+
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) { 
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+      height: 25px;
+    }
+  }
+  /* *********************************************************************************************************** */
+  /* **                                               MOBILE                                                  ** */
+  /* *********************************************************************************************************** */
+  @media (max-width: 767px) {
+
+  	#homepage-wrapper #xx_header .xx_slider ul li.solden {
+      background: url('http://static.asadventure.com/includes/homepage/international/images/bg-solden2-jul15-mobile@2x.jpg') no-repeat;
+    }
+
+     #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
+      width: 90%;
+      padding-top:0;
+      background: none;
+      height: 101px;
+      top: 41%;
+      left: 6%;
+
+       -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+
+      img {
+        display: none;
+      }
+      
+      .main-title {
+        font-size: 29px;
+        line-height: 45px;
+        margin-bottom: 0px;
+        text-align: center
+      }
+
+      .subtitle {
+        display: none;
+      }
+
+      .main-content {
+        display: none;
+      }
+
+      .xx_cta{
+        font-size: 9px;
+          width: 53%;
+         height: 25px;
+        line-height: 25px;
+        margin-top: 1.5%;
+        display: block;
+        margin: 0 auto;
+        
+
+        &:after {
+            font-size: 8px;
+  padding-right: 3px;
+  width: auto;
+        }
+      }
+
+      .footnote {
+        font-size: 6px;
+        bottom: 3px;
+      }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content.mobile {
+      display: block;
+      font-size: 8px;
+        line-height: 130%;
+        margin-bottom: 3px;
+    }
+    
+    //FR
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
+      font-size: 30px;
+      line-height: 44px;
+    }
+
+    //LUX
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.lux .content .main-content {
+      display: block;
+    }
+
+    //EN
+    #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
+      font-size: 31px;
+      line-height: 47px;
+    }
+
+
+  }
+
+
