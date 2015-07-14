@@ -52,7 +52,20 @@
   -khtml-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #3f3f3f;
+
+  &:after {
+    content: "\f04b";
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
 }
+
 #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
   background: #3f3f3f;
 }
@@ -93,6 +106,8 @@
     -moz-box-shadow: inset 0 0 8px rgba(0,0,0,.6);
     -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,.6);
 }
+
+
 
 @media (max-width: 767px) {
 

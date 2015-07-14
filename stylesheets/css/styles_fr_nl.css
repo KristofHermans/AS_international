@@ -1109,6 +1109,16 @@ a:link {
   -khtml-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #3f3f3f; }
+  #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a:after {
+    content: "\f04b";
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
 
 #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
   background: #3f3f3f; }
@@ -1261,9 +1271,19 @@ a:link {
   display: inline-block; }
   #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:hover {
     background-color: #3c84af; }
+  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
+    content: "\f04b";
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-  font-size: 63px;
+  font-size: 57px;
   line-height: 66px; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
