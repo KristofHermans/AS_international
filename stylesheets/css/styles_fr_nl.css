@@ -37,7 +37,7 @@ a:link {
   -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
-    height: 32.52032%;
+    height: 32.5203170732%;
     margin-bottom: 1.7%; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.two-tabs {
     height: 49.4%;
@@ -728,7 +728,7 @@ a:link {
 #homepageWrapper .twoCol .ctaBlock {
   margin-top: 16px;
   padding: 140px 0 0 0;
-  width: 28.94737%; }
+  width: 28.9473684211%; }
   @media only screen and (max-width: 1199px) {
     #homepageWrapper .twoCol .ctaBlock {
       padding: 108px 0 0 0; } }
@@ -737,10 +737,10 @@ a:link {
       padding: 82px 0 0 0; } }
 
 #homepageWrapper .twoCol .ctaBlock.center {
-  margin-left: 35.96491%; }
+  margin-left: 35.9649122807%; }
 
 #homepageWrapper .twoCol .ctaBlock.right {
-  margin-right: 4.38596%; }
+  margin-right: 4.3859649123%; }
 
 #homepageWrapper .twoCol .ctaBlock li {
   height: 33px;
@@ -1067,10 +1067,7 @@ a:link {
   padding-top: 0px; }
 
 #homepage-wrapper #xx_header .xx_slider {
-  position: relative;
-  -moz-box-shadow: 0px 0px 12px #dcdbda;
-  -webkit-box-shadow: 0px 0px 12px #dcdbda;
-  box-shadow: 0px 0px 12px #dcdbda; }
+  position: relative; }
 
 #homepage-wrapper #xx_header .xx_slider .bx-pager {
   /* box */
@@ -1109,16 +1106,6 @@ a:link {
   -khtml-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #3f3f3f; }
-  #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a:after {
-    content: "\f04b";
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
 
 #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
   background: #3f3f3f; }
@@ -1271,19 +1258,9 @@ a:link {
   display: inline-block; }
   #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:hover {
     background-color: #3c84af; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
-    content: "\f04b";
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-  font-size: 57px;
+  font-size: 63px;
   line-height: 66px; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
