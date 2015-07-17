@@ -738,9 +738,6 @@ html, body, #main {
     line-height: 26px;
     margin-left: -29.5138888889%;
     padding: 0 10px 0 7px;
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
     text-decoration: none;
     width: 59.0277777778%; }
     #homepage-wrapper .cta:after, #homepage-wrapper .cta2:after {
@@ -750,6 +747,14 @@ html, body, #main {
       font-size: .8em; }
     #homepage-wrapper .cta:hover, #homepage-wrapper .cta2:hover {
       padding-right: 7px; }
+  #homepage-wrapper .cta {
+    position: absolute;
+    bottom: 15px;
+    left: 50%; }
+  #homepage-wrapper .cta2 {
+    position: absolute;
+    bottom: 60px;
+    left: 50%; }
   #homepage-wrapper .cta-dark {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
