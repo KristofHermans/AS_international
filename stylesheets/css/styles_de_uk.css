@@ -699,16 +699,16 @@ html, body, #main {
       @media only screen and (max-width: 979px) {
         #homepage-wrapper .product-category p {
           padding-right: 46.9613259669%; } }
-    #homepage-wrapper .product-category .cta {
+    #homepage-wrapper .product-category .cta, #homepage-wrapper .product-category .cta2 {
       position: absolute;
       left: inherit;
       right: 3.4364%;
       width: 29.2096219931%; }
       @media only screen and (max-width: 979px) {
-        #homepage-wrapper .product-category .cta {
+        #homepage-wrapper .product-category .cta, #homepage-wrapper .product-category .cta2 {
           width: 40.0552486188%; } }
       @media only screen and (max-width: 767px) {
-        #homepage-wrapper .product-category .cta {
+        #homepage-wrapper .product-category .cta, #homepage-wrapper .product-category .cta2 {
           width: 50%; } }
   #homepage-wrapper .gender-split {
     width: 74.7863%; }
@@ -729,7 +729,7 @@ html, body, #main {
     @media only screen and (max-width: 767px) {
       #homepage-wrapper .gender-transition {
         display: none; } }
-  #homepage-wrapper .cta {
+  #homepage-wrapper .cta, #homepage-wrapper .cta2 {
     border: 2px solid transparent;
     border-radius: 3px;
     font-size: 13px;
@@ -743,12 +743,12 @@ html, body, #main {
     left: 50%;
     text-decoration: none;
     width: 59.0277777778%; }
-    #homepage-wrapper .cta:after {
+    #homepage-wrapper .cta:after, #homepage-wrapper .cta2:after {
       content: "";
       float: right;
       font-family: "FontAwesome", "Font Awesome";
       font-size: .8em; }
-    #homepage-wrapper .cta:hover {
+    #homepage-wrapper .cta:hover, #homepage-wrapper .cta2:hover {
       padding-right: 7px; }
   #homepage-wrapper .cta-dark {
     background: url(../../images/transparent-bg.png);
