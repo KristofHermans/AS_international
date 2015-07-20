@@ -418,7 +418,7 @@ $baseline: 18px;
 		}
 	}
 
-	.cta{
+	.cta, .cta2{
 		position: absolute;
 			left: inherit;
 			right: 3.4364%;
@@ -462,7 +462,7 @@ $baseline: 18px;
 	}
 }
 
-.cta{
+.cta, .cta2{
 	border: 2px solid transparent;
 	border-radius: 3px;
 	font-size: 13px;
@@ -471,9 +471,6 @@ $baseline: 18px;
 	line-height: 26px;
 	margin-left: -(percentage(170/288) / 2);
 	padding: 0 10px 0 7px;
-	position: absolute;
-		bottom: 15px;
-		left: 50%;
 	text-decoration: none;
 	width: percentage(170/288);
 
@@ -488,6 +485,19 @@ $baseline: 18px;
 		padding-right: 7px;
 	}
 }
+
+.cta{
+	position: absolute;
+		bottom: 15px;
+		left: 50%;
+	}
+
+.cta2{
+	position: absolute;
+		bottom: 60px;
+		left: 50%;
+	}
+
 
 .cta-dark{
 	background: url(../../images/transparent-bg.png);
