@@ -4,7 +4,7 @@
 /* *********************************************************************************************************** */
 
 #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen {
-  background: url('../../images/bg-rondeprijzen15.jpg') no-repeat;
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-rondeprijzen15.jpg') no-repeat;
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
@@ -70,10 +70,19 @@
   }
 }
 
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content .xx_cta.mobile {
+  display: none;
+}
+
+
+// FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content {
+  top: 14%;
+}
 
 // EN FIX
 #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-  top: 19%;
+  top: 17%;
 }
 
 
@@ -107,9 +116,18 @@
     
   }
 
+  // FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content {
+    top: 4%;
+
+    .main-content {
+      font-size: 15px;
+    }
+  }
+
   // EN FIX
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 10%;
+    top: 7%;
   }
 
 }
@@ -121,7 +139,7 @@
 @media (max-width: 979px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content {
-    top: 3%;
+    top: 5%;
     width: 30%;
     left: 37%;
 
@@ -130,7 +148,7 @@
     }
 
     .main-content {
-      font-size: 14px;
+      font-size: 11px;
       margin-bottom: 8%;
     }
 
@@ -147,10 +165,19 @@
     
   }
 
+  // FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content {
+    top: 2%;
+
+    .main-content {
+      font-size: 11px;
+    }
+  }
+
 
   // EN FIX
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 3%;
+    top: 5%;
   }
 
 
@@ -170,12 +197,12 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen {
-    background: url('../../images/bg-rondeprijzen15-mobile@2x.jpg') no-repeat;
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-rondeprijzen15-mobile@2x.jpg') no-repeat;
   }
 
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen .content
    {
-    top: 7%;
+    top: 25%;
     left: 0;
     width: 100%;
     text-align: center;
@@ -191,6 +218,10 @@ and (orientation : portrait) {
     }
 
     .xx_cta {
+      display: none;
+    }
+
+    .xx_cta.mobile {
       width: 48%;
       font-size: 8px;
       background: #fff;
@@ -198,7 +229,6 @@ and (orientation : portrait) {
       padding-left: 2%;
       display: block;
       margin: 0 auto 1%;
-
     }
     
   }
@@ -206,7 +236,7 @@ and (orientation : portrait) {
   // FR FIX
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.fr_fix .content,
   #homepage-wrapper #xx_header .xx_slider ul li.ronde-prijzen.en_fix .content {
-    top: 7%;
+    top: 25%;
   }
 
 
