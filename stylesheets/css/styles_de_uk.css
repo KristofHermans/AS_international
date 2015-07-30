@@ -1429,6 +1429,136 @@ html, body, #main {
   .slider-wrapper {
     margin-bottom: 10px; } }
 
+#homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/baybeach.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/baybeach_mob.jpg") no-repeat;
+      background-size: cover; } }
+  #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach {
+    width: 72.6495726496%;
+    position: absolute;
+    top: 30%;
+    left: 13.6752136752%;
+    color: white;
+    text-align: center; }
+    #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach h3 {
+      margin-bottom: 15px;
+      font-size: 50px; }
+      @media only screen and (max-width: 767px) {
+        #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach h3 {
+          font-size: 30px; } }
+    #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta {
+      background: #FFFFB5;
+      color: #000000;
+      display: inline-block;
+      height: 50px;
+      line-height: 50px;
+      padding: 0 1em;
+      text-decoration: none;
+      width: 34.188034188%;
+      font-weight: 500;
+      min-width: 240px; }
+      #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta:hover {
+        background: #ffffcf; }
+      #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta:after {
+        content: "\f04b";
+        font-family: "Font Awesome", "FontAwesome";
+        font-size: 8px;
+        float: right; }
+      @media only screen and (max-width: 1199px) {
+        #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta {
+          height: 40px;
+          line-height: 40px; } }
+      @media only screen and (max-width: 979px) {
+        #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta {
+          font-size: .8em;
+          height: 32px;
+          line-height: 32px; } }
+      @media only screen and (max-width: 767px) {
+        #homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider .baybeachsales .text_baybeach a.baybeachsales-cta {
+          margin: 0 auto;
+          right: inherit;
+          width: 60%; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
+.fjallraven-uk {
+  background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/fjallraven.jpg") no-repeat;
+  background-size: contain;
+  position: relative; }
+  @media only screen and (max-width: 767px) {
+    .fjallraven-uk {
+      background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/fjallraven_mob.jpg") no-repeat;
+      background-size: auto 100%;
+      background-position: center; } }
+  .fjallraven-uk .fjallraven-uk-cta {
+    background: #cd071e;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 1em;
+    position: absolute;
+    right: 4.2735042735%;
+    bottom: 17%;
+    text-decoration: none;
+    width: 52%;
+    max-width: 500px; }
+    .fjallraven-uk .fjallraven-uk-cta:hover {
+      background: #b4061a; }
+    .fjallraven-uk .fjallraven-uk-cta:after {
+      content: "\f04b";
+      font-family: "Font Awesome", "FontAwesome";
+      font-size: 8px;
+      float: right; }
+    @media only screen and (max-width: 1199px) {
+      .fjallraven-uk .fjallraven-uk-cta {
+        height: 40px;
+        line-height: 40px; } }
+    @media only screen and (max-width: 979px) {
+      .fjallraven-uk .fjallraven-uk-cta {
+        font-size: .8em;
+        height: 32px;
+        line-height: 32px; } }
+    @media only screen and (max-width: 767px) {
+      .fjallraven-uk .fjallraven-uk-cta {
+        margin: 0 auto;
+        position: absolute;
+        left: 50%;
+        bottom: 10%;
+        right: inherit;
+        width: 380px;
+        margin-left: -190px; } }
+
+@media only screen and (max-width: 1199px) {
+  .bottom-bar {
+    bottom: -70px; } }
+@media only screen and (max-width: 979px) {
+  .bottom-bar {
+    bottom: -50px; } }
+
+@media only screen and (max-width: 979px) {
+  .slider-wrapper {
+    margin-bottom: 65px; } }
+@media only screen and (max-width: 767px) {
+  .slider-wrapper {
+    margin-bottom: 10px; } }
+
 /* ================================
 	CLOSE NESTING
 ================================ */
