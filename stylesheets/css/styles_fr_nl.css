@@ -1221,6 +1221,17 @@ a:link {
   margin: 0 auto; }
   #homepage-wrapper #xx_header .xx_slider ul li.ondergaande-prijzen .content .xx_cta:hover {
     background: #e7511a; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ondergaande-prijzen .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.ondergaande-prijzen.fr .content .xx_cta {
   width: 28%; }

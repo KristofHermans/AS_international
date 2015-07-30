@@ -62,6 +62,17 @@
   &:hover {
     background: darken(#EA6636, 6%);
   }
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
 }
 
 //FR FIX
