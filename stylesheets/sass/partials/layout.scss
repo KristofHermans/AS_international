@@ -4,6 +4,18 @@
 
 ========================================================================== */
 
+/* ================================
+	SASS-FILES SLIDER
+================================ */
+
+@import "partials/tabs";
+@import "partials/homepage_slider_fr_nl";
+//@import "partials/fonts";
+@import "partials/hp_int_content";
+@import "partials/brandshowcase";
+@import "partials/usp";
+@import "partials/slider";
+
 $baseline: 18px;
 
 /* ================================
@@ -28,273 +40,15 @@ $baseline: 18px;
 	}
 
 
-/* ================================
-	SLIDER
-================================ */
-
-.xx_slider{
-	// box-shadow: 0 0 5px #454545;
-	// box-shadow: 0 0 5px rgba(0,0,0,0.4);
-	margin-bottom: $baseline * 6;
-	//padding-bottom: percentage(410/1170);
-	position: relative;
-	width: 100%;
-
-	@media only screen and(max-width: 1199px) {
-		margin-bottom: $baseline * 5;
-	}
-
-	@media only screen and(max-width: 979px) {
-		margin-bottom: $baseline * 3;
-	}
-
-	@media only screen and(max-width: 767px){
-		margin: 10px 0;
-	}
-}
-
-.bottom-bar{
-	pointer-events: none;
-	position: absolute;
-		//bottom: -23px;
-		bottom: -60px;
-	width: 100%;
-
-	@media only screen and(max-width: 1199px){
-		bottom: -50px;
-	}
-
-	@media only screen and(max-width: 979px){
-		bottom: -30px;
-	}
-}
-
-.bottom-overlay{
-	max-width: 100%;
-	position: absolute;
-		bottom: -5px;
-
-	@media only screen and(max-width: 979px){
-		display: none;
-	}
-}
-
-// COPY-AREA
-
-.slide-copy{
-	background: url(../../images/transparent-bg.png);
-	color: #ffffff;
-	padding: 2.7% 2.5%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	width: 33%;
-
-	h2{
-		border-bottom: 2px solid #ffffff;
-		font-family: "Proxima Nova Extra Condensed";
-		font-size: 72px;
-		font-weight: 100;
-		line-height: 72px;
-		margin: 0 0 .6em;
-		padding-bottom: .05em;
-	}
-
-	p{
-		font-family: "Open Sans";
-		font-size: 13px;
-		font-weight: 100;
-	}
-}
-
-// CTA
-
-.overall-cta{
-	height: 100%;
-	position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-	width: 100%;
-	// z-index: 1;
-}
-
-.slide-cta{
-	background: url(../../images/transparent-bg.png);
-	border: 3px solid #ffffff;
-	border-radius: 3px;
-	color: #ffffff;
-	font-weight: 100;
-	padding: 9px 15px;
-	position: absolute;
-		right: 30px;
-		bottom: 110px;
-	text-decoration: none;
-
-	&:after{
-		content: "";
-		font-family: "FontAwesome", "Font Awesome";
-		margin-left: 78px;
-		padding: 0 5px;
-	}
-}
-
-// BX-SLIDER OVERWRITE
-
-.bx-wrapper{
-	margin-bottom: 0;
-	// position: absolute;
-	// 	top: 0;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	right: 0;
-}
-
-.bx-viewport.bx-viewport{
-	border: none;
-	box-shadow: none;
-	height: auto !important;
-	left: 0;
-}
-
-.bx-pager{
-	display: block !important;
-	margin: 0 auto;
-
-	&.one-slide{
-		width: 120px;
-
-		@media only screen and(max-width: 979px){
-			width: 90px;
-		}
-	}
-
-	&.two-slides{
-		width: 274px;
-
-		@media only screen and(max-width: 979px){
-			width: 200px;
-		}
-	}
-
-	&.three-slides{
-		width: 428px;
-
-		@media only screen and(max-width: 979px){
-			width: 310px;
-		}
-	}
-
-	@media only screen and(max-width: 767px){
-		display: none !important;
-	}
-
-	a{
-		float: left;
-		margin-right: 33px;
-		pointer-events: auto;
-
-		&:last-child{
-			margin-right: 0;
-		}
-
-		@media only screen and(max-width: 979px){
-			margin-right: 20px;
-			width: 90px;
-		}
-	}
-
-	img{
-		box-shadow: 0 0 5px rgba(0,0,0,0.5);
-	}
-}
-
-.bx-controls, .bx-controls-direction{
-	pointer-events: none;
-	height: 100%;
-	width: 100%;
-
-	.bx-prev, .bx-next{
-		pointer-events: auto;
-	}
-}
-
-.bx-controls{
-	display: none;
-	height: 95%;
-	position: absolute;
-		top: 0;
-
-	@media only screen and(max-width: 767px) {
-		display: block;
-	}
-
- 	.bx-prev.bx-prev {
-    background: url(../../images/slider-controls@2x.png) no-repeat 0px center;
-    background-size: cover;
-    position: absolute;
-    	top: inherit;
-    	bottom: 40%;
-	    left: 4px;
-	    z-index:0;
-  }
-
-  .bx-next.bx-next {
-    background: url(../../images/slider-controls@2x.png) no-repeat -34px center;
-    background-size: cover;
-    position: absolute;
-    	top: inherit;
-    	bottom: 40%;
-    	right: 4px;
-    	z-index:0;
-  }
-}
-
-.bxslider{
+// fix voor margin 
+#xx_header {
 	margin-left: 0;
-
-	li{
-		display: block;
-		position: relative;
-		height: 410px;
-		font-size: 17px;
-  		text-transform: uppercase;
+	margin-bottom: 2em;
+	@media (max-width: 767px) {
+		margin-left: auto;
 	}
 }
 
-@media (max-width:1199px){
-	.bxslider{
-		margin-left: 0;
-
-		li{
-			position: relative;
-			height: 330px;
-		}
-	}
-}
-
-@media (max-width:979px){
-	.bxslider{
-		margin-left: 0;
-
-		li{
-			position: relative;
-			height: 256px;
-		}
-	}
-}
-
-@media (max-width:767px){
-	.bxslider{
-		margin-left: 0;
-
-		li{
-			position: relative;
-			height: 260px;
-		}
-	}
-}
 
 /* ================================
 	MAIN-CONTENT

@@ -1,0 +1,250 @@
+
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.fiets {
+  background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+  position: absolute;
+  width: 75%;
+  top: 15px;
+  left:15px;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+  color: #fff;
+  text-align: left;
+  .bol{
+	  position:absolute;
+	  left:0px;
+	  top:0px;
+  }
+	.main-title_fr{
+	position:absolute;
+	top:90px;
+	left:90px;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 35px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    margin: 0;
+	}
+	.main-content_fr {
+		font-size: 32px;
+	}
+  .main-title {
+	position:absolute;
+	top:90px;
+	left:90px;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    margin: 0;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta { 
+  position:absolute;
+  top:220px;
+  left:90px;
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #ffffff;
+  color: #d23d48;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto;
+
+  &:hover {
+    background: #d23d48;
+	color:#ffffff;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+	width:70%;
+	top:10px;
+	left:10px;
+	.main-content_fr {
+		font-size: 23px;
+	}
+    .main-content {
+      font-size: 23px;
+    }
+	
+	.main-title_fr {
+      font-size: 30px;
+	  top:60px;
+	  left:100px;
+    }
+    .main-title {
+      font-size: 30px;
+	  top:60px;
+	  left:100px;
+    }
+
+    .xx_cta {
+      width: 215px;
+	  top: 150px;
+	  left:100px;
+    }
+    
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+	#homepage-wrapper #xx_header .xx_slider ul li.fiets {
+    background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets-medium.jpg') no-repeat;
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+    width: 80%;
+    top: 5px;
+    left: 5px;
+	
+	.bol{
+		width:60px;
+	}
+	.main-content_fr {
+		font-size: 23px;
+	}
+	.main-title_fr{
+		font-size: 23px;
+		left:90px;
+	  	top:50px;
+	}
+    .main-title {
+      font-size: 29px;
+	  left:90px;
+	  top:50px;
+    }
+
+    .xx_cta {
+	  width: 170px;
+	  top: 130px;
+	  left:90px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets {
+    background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets_m.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+    top: 5px;
+	left:5px;
+    width: 100%;
+	text-align:center;
+	.bol{
+		width:40px;
+	}
+	.main-title_fr {
+      font-size: 14px;
+	  width: 75%;
+	  top: 20px;
+	  left: 30px;
+	  font-weight: 800;
+    }
+    .main-title {
+      font-size: 15px;
+	  width:80%;
+	  top:30px;
+	  left:30px;
+	  font-weight: 800;
+    }
+	.main-content_fr {
+      font-size: 14px;
+      padding: 0 15%;
+	  font-weight: 800;
+    }
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+	  font-weight: 800;
+    }
+
+    .xx_cta {
+      width: 40%;
+	  top:80px;
+	  left:28%;
+      font-size: 8px;
+    }
+    
+  }
+
+
+
+}
+
+
