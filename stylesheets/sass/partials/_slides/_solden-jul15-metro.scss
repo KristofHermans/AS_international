@@ -108,24 +108,13 @@
     &:hover {
       background-color: #3c84af;
     }
-    &:after {
-  content: "\f04b";
-  background: none;
-  width: auto;
-  height: auto;
-  font-family: "FontAwesome";
-  font-size: 10px;
-  float: right;
-  margin-right: 6%;
-  color: inherit;
   }
-}
 
 
   // FR & EN
 
   #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-    font-size: 57px;
+    font-size: 63px;
     line-height: 66px;
   }
   #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
