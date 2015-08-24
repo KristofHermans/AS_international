@@ -1,0 +1,177 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER NEW FASHION ARRIVALS                                   ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+    position: absolute;
+    width: 40%;
+    top: 33%;
+    left: 27%;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+
+  .main-title {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 25px rgba(0,0,0,1);
+    font-weight: 400;
+
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 3%;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta { 
+  font-weight: 600;
+  width: 50%;
+  text-align: left;
+  margin-top: 0;
+  background: #2a324c;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 0 auto;
+
+  &:hover {
+    background: darken(#2a324c, 6%);
+  }
+
+    &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+
+}
+
+
+//FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {;
+    top: 27%;
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+
+    .main-title {
+      font-size: 36px;
+    }
+
+    .xx_cta {
+      width: 45%;
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {;
+      top: 21%;
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+
+    .main-title {
+      font-size: 27px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+      width: 50%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+    top: 26%;
+    width: 100%;
+    left: 0;
+
+    .main-title {
+      font-size: 19px;
+      padding: 0 5%;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {;
+      top: 26%;
+  }
+
+}
+
+
