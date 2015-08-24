@@ -198,6 +198,7 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -328,6 +329,8 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -455,6 +458,7 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.5203170732%;
@@ -684,7 +688,7 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
       right: 4px;
       background: url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat -34px center; } }
-@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background: url("http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png") no-repeat;
@@ -774,6 +778,8 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -816,11 +822,15 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
+  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
+  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -1276,11 +1286,15 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
+  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
+  -moz-transition: all .2s ease-out;
+  -o-transition: all .2s ease-out;
+  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -1288,6 +1302,8 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1507,6 +1523,10 @@ a:link {
   text-shadow: none;
   color: transparent;
   /* background */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
   -khtml-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #3f3f3f; }
@@ -1734,8 +1754,7 @@ a:link {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
     color: #ededed;
-    -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
+    transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-dark:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       color: #ffffff; }
@@ -1746,8 +1765,7 @@ a:link {
     background: #ffffff;
     border: 2px solid #454545;
     color: #454545;
-    -webkit-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out; }
+    transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-light:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 767px) {
@@ -1952,61 +1970,48 @@ a:link {
       left: 28%;
       font-size: 8px; } }
 /* *********************************************************************************************************** */
-/*                                               SLIDER RUGZAKKEN                                         ** */
+/*                                            SLIDER NEW FASHION ARRIVALS                                   ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.fashion {
-  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
   position: absolute;
-  width: 55%;
-  top: 85px;
-  left: 23px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashion .content span {
+  width: 40%;
+  top: 33%;
+  left: 27%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content h2, #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
   color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
     display: inline-block;
-    font-weight: 100;
-    font-size: 44px;
+    font-size: 40px;
     line-height: 120%;
-    color: #c2645f;
-    margin-bottom: 0;
-    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    color: inherit;
+    text-shadow: 0 0 25px black;
+    font-weight: 400;
     text-transform: uppercase;
-    margin: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 35px;
-    line-height: 120%;
-    color: #c2645f;
-    margin-bottom: 0;
-    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
-    text-transform: uppercase;
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 3%; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
-  position: absolute;
-  top: 190px;
-  left: 0;
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
   font-weight: 600;
-  width: 235px;
+  width: 50%;
   text-align: left;
   margin-top: 0;
-  background: #c2645f;
-  color: #ffffff;
+  background: #2a324c;
+  color: #fff;
   margin-bottom: 7%;
   display: block;
   margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:hover {
-    background: #ffffff;
-    color: #c2645f; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:hover {
+    background: #1f2538; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -2018,83 +2023,57 @@ a:link {
     margin-right: 6%;
     color: inherit; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
-  width: 35%; }
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+  top: 27%; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
-    top: 55px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
-      font-size: 23px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
-      font-size: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
-      font-size: 33px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
-      width: 215px;
-      top: 140px; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+    font-size: 36px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
+    width: 45%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+    top: 21%; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
-    width: 75%;
-    top: 40px;
-    left: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
-      font-size: 25px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
-      font-size: 23px;
-      left: 90px;
-      top: 50px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
-      font-size: 19px;
-      top: 55px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
-      width: 130px;
-      top: 100px;
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 6%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
-      width: 32%; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+    font-size: 27px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 6%;
+    width: 50%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion {
-    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2_m.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals-mobile@2x.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
-    top: 30px;
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+    top: 26%;
     width: 100%;
-    left: 35px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
-      font-size: 15px;
-      width: 64%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
-      font-size: 14px;
-      width: 75%;
-      top: 10px;
-      left: 30px;
-      font-weight: 800; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
-      font-size: 15px;
-      padding: 0 10%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+    left: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+      font-size: 19px;
+      padding: 0 5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
       width: 40%;
-      font-size: 8px;
-      top: 75px;
-      left: 0px; } }
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+    top: 26%; } }
 /* *********************************************************************************************************** */
 /*                                               SLIDER RUGZAKKEN                                         ** */
 /* *********************************************************************************************************** */
@@ -2397,6 +2376,150 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta {
       width: 40%;
       font-size: 8px; } }
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.fashion {
+  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+  position: absolute;
+  width: 55%;
+  top: 85px;
+  left: 23px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashion .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+  color: #fff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #c2645f;
+    margin-bottom: 0;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: #c2645f;
+    margin-bottom: 0;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
+    margin: 0; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #c2645f;
+  color: #ffffff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:hover {
+    background: #ffffff;
+    color: #c2645f; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
+  width: 35%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 55px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 30px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 33px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 215px;
+      top: 140px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    width: 75%;
+    top: 40px;
+    left: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 23px;
+      left: 90px;
+      top: 50px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 19px;
+      top: 55px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 130px;
+      top: 100px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
+      width: 32%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2_m.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 30px;
+    width: 100%;
+    left: 35px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 15px;
+      width: 64%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 14px;
+      width: 75%;
+      top: 10px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 40%;
+      font-size: 8px;
+      top: 75px;
+      left: 0px; } }
 /* ================================
 	CLOSE NESTING
 ================================ */
