@@ -1,0 +1,809 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+   <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+   <meta content="telephone=no" name="format-detection" />
+   <title>A.S.Adventure</title>
+   <style type="text/css">/* Outlook link fix */
+    
+    #outlook a {
+        padding: 0;
+    }
+    /* Hotmail background and line height fixes */
+    
+    .ExternalClass {
+        width: 100% !important;
+    }
+    
+    .ExternalClass,
+    .ExternalClass p,
+    .ExternalClass span,
+    .ExternalClass font,
+    .ExternalClass td,
+    .ExternalClass div {
+        line-height: 100%;
+    }
+    /* Image borders and formatting */
+    
+    img {
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+    }
+    
+    a img {
+        border: none;
+    }
+    /* Hotmail symbol fix for mobile devices */
+    
+    .ExternalClass img[class^=Emoji] {
+        width: 10px !important;
+        height: 10px !important;
+        display: inline !important;
+    }
+    
+    .highlight {
+        color: #d5652c !important;
+        font-weight: bold;
+    }
+    
+    .lowercase {
+        display: block;
+        text-transform: lowercase;
+    }
+    
+    .lowercase::first-letter {
+        text-transform: uppercase;
+    }
+    /* Media Query for desktop */
+    
+    .mob,
+    .moblast,
+    .mob_btw {
+        display: none !important;
+        height: 0px !important;
+        width: 0px !important;
+        font-size: 0px !important;
+        line-height: 0px !important;
+        overflow: hidden !important;
+        max-height: 0px !important;
+    }
+    
+    sup {
+        font-size: 7px !important;
+    }
+    /* Media Query for mobile */
+    
+    @media screen and (max-width: 640px) {
+        /* This resizes tables and images to be 100% wide with a proportionate height */
+        
+        table[class=emailwrapto100pc],
+        td[class=emailwrapto100pc],
+        img[class=emailwrapto100pc] {
+            width: 98% !important;
+            height: auto !important;
+        }
+        table[class=emailwrapto90pc],
+        td[class=emailwrapto90pc],
+        img[class=emailwrapto90pc] {
+            width: 90% !important;
+            height: auto !important;
+            margin: 0 auto !important;
+        }
+        td[class=nopadding] {
+            padding-left: 0 !important;
+            padding-right: 0px !important;
+        }
+        td[class=padding] {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+        td[class=font10] {
+            font-size: 10px !important;
+        }
+        img[class=resize] {
+            width: 90% !important;
+            height: 50px !important;
+        }
+        img[class=resize100] {
+            width: 100% !important;
+            height: auto !important;
+        }
+        img[class=resize1001] {
+            width: 100% !important;
+            height: auto !important;
+            padding: 10px 0 !important;
+        }
+        td[class=tabs] {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            text-align: center !important;
+            width: 90% !important;
+            height: auto !important;
+            float: left !important;
+            margin: 0 5% !important;
+        }
+        td[class=tabs2] {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            text-align: center !important;
+            width: 90% !important;
+            float: left !important;
+            margin: 10px 5% !important;
+            height: auto !important;
+            padding: 10px 0 !important;
+        }
+        table[class=invisible],
+        td[class=invisible] {
+            display: none !important;
+        }
+        td[class=noheight] {
+            height: auto;
+            padding-bottom: 20px;
+        }
+        table[class="mob-table"] {
+            border-bottom: 1px solid #9c9da0 !important;
+            display: table !important;
+            height: auto !important;
+            max-height: none !important;
+            width: 98% !important;
+            max-width: 640px !important;
+            font-size: 1px !important;
+            line-height: 1px !important;
+            overflow: visible !important;
+        }
+        tr[class=mob-row] {
+            display: table-row !important;
+            height: auto !important;
+            max-height: none !important;
+            width: 100% !important;
+            font-size: 1px !important;
+            line-height: 1px !important;
+            overflow: visible !important;
+        }
+        td[class=mob-cell] {
+            display: table-cell !important;
+            height: auto !important;
+            max-height: none !important;
+            overflow: visible !important;
+            font-size: 15px !important;
+            line-height: 18px !important;
+        }
+        td[class=mob-spacer-full] {
+            border-left: 1px solid #9c9da0 !important;
+            border-right: 1px solid #9c9da0 !important;
+            display: table-cell !important;
+            height: auto !important;
+            max-height: none !important;
+            font-size: 1px !important;
+            line-height: 10px !important;
+            height: 10px !important;
+            width: 100% !important;
+            overflow: visible !important;
+        }
+        td[class=mob-spacer-full-double] {
+            border-left: 1px solid #9c9da0 !important;
+            border-right: 1px solid #9c9da0 !important;
+            display: table-cell !important;
+            height: auto !important;
+            max-height: none !important;
+            font-size: 1px !important;
+            line-height: 20px !important;
+            height: 20px !important;
+            width: 100% !important;
+            overflow: visible !important;
+        }
+        td[class=mob-spacer-full-triple] {
+            border-left: 1px solid #9c9da0 !important;
+            border-right: 1px solid #9c9da0 !important;
+            display: table-cell !important;
+            height: auto !important;
+            max-height: none !important;
+            font-size: 1px !important;
+            line-height: 30px !important;
+            height: 30px !important;
+            width: 100% !important;
+            overflow: visible !important;
+        }
+        td[class=mob-spacer-left] {
+            border-left: 1px solid #9c9da0 !important;
+            border-right: 0 !important;
+            display: table-cell !important;
+            font-size: 1px !important;
+            line-height: 1px !important;
+            height: auto !important;
+            max-height: none !important;
+            overflow: visible !important;
+        }
+        td[class=mob-spacer-right] {
+            border-left: 0 !important;
+            border-right: 1px solid #9c9da0 !important;
+            display: table-cell !important;
+            font-size: 1px !important;
+            line-height: 1px !important;
+            height: auto !important;
+            max-height: none !important;
+            overflow: visible !important;
+        }
+        img[class=mob-logo-tnf] {
+            width: 193px !important;
+            height: auto !important;
+            max-width: 80% !important;
+        }
+        img[class=mob-logo-as] {
+            width: 204px !important;
+            height: auto !important;
+            max-width: 80% !important;
+        }
+        img[class=mob-barcode] {
+            width: 313px !important;
+            height: 72px !important;
+            max-width: 80% !important;
+        }
+        img[class=mob-social-icon] {
+            width: 24px !important;
+            height: 24px !important;
+        }
+        span[class="mob-legals"] {
+            display: block !important;
+            font-size: 10px !important;
+            line-height: 12px !important;
+            margin: 0 auto;
+            max-height: none !important;
+            width: 80% !important;
+        }
+        /* Displaying the products table correctly on mobile */
+        /* Hiding the desktop table */
+        
+        table[class=desktop-prod-table] {
+            display: none !important;
+            height: 0 !important;
+            width: 0!important;
+            font-size: 0 !important;
+            line-height: 0 !important;
+            overflow: hidden !important;
+            max-height: 0 !important;
+        }
+        /* Correctly re-initialising of the mobile table */
+        
+        tr[class=mob-prod-title-row] {
+            display: block !important;
+            text-align: center !important;
+            height: 40px !important;
+            width: 100% !important;
+            font-size: 15px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            color: #efefef !important;
+        }
+        td[class=mob-prod-title-cell] {
+            display: block !important;
+            text-align: center !important;
+            height: 40px !important;
+            width: 100% !important;
+            font-size: 15px !important;
+            line-height: 40px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            color: #efefef !important;
+        }
+        tr[class=mob-prod-row],
+        tr[class=mob-prod-row-border-bottom] {
+            display: block !important;
+            text-align: center !important;
+            width: 100% !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            color: #454545 !important;
+        }
+        td[class=mob-prod-cell] {
+            display: block !important;
+            text-align: center !important;
+            width: 100% !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            color: #454545 !important;
+            padding: 3px 0 !important;
+            padding: 10px 0;
+        }
+        tr[class=mob-prod-row-border-bottom] {
+            border-bottom: 1px solid #E5E9E8 !important;
+            padding: 15px 0 !important;
+        }
+        /* Making sure the images look good */
+        
+        tr[class=mob-prod-img-row] {
+            display: block !important;
+            text-align: center !important;
+            height: 68px !important;
+            width: 100% !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 68px !important;
+            color: #454545 !important;
+            padding: 15px 0 !important;
+        }
+        td[class=mob-prod-img-cell] {
+            display: block !important;
+            text-align: center !important;
+            height: 68px !important;
+            width: 100% !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 68px !important;
+            color: #454545 !important;
+            padding: 5px 0 !important;
+        }
+        td[class=mob-prod-img-cell] img {
+            display: block !important;
+            height: 58px !important;
+            width: 58px !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 58px !important;
+            color: #454545 !important;
+            margin: 0 auto;
+        }
+        td[class=mob-prod-img-cell] a {
+            display: block !important;
+            height: auto !important;
+            width: auto !important;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: inherit !important;
+            color: #454545 !important;
+        }
+        /* Displaying the totals table correctly on mobile */
+        
+        tr[class=mob-total-title-row],
+        tr[class=mob-tax-title-row],
+        tr[class=mob-tax-line-row],
+        tr[class=mob-tax-border-row] {
+            display: table-row !important;
+        }
+        td[class="mob-total-title-spacer"],
+        td[class=mob-total-title-total],
+        td[class=mob-total-title-cart],
+        td[class=mob-total-title-price],
+        td[class=mob-tax-title-cell],
+        td[class=mob-tax-subtitle-cell],
+        td[class=mob-tax-line-cell],
+        td[class=mob-tax-border-cell] {
+            display: table-cell !important;
+        }
+        /* Total */
+        
+        tr[class=mob-total-title-row] {
+            border-bottom: 1px solid #efefef;
+            text-align: left !important;
+            height: 40px !important;
+            width: 100% !important;
+            font-size: 15px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            color: #454545 !important;
+        }
+        td[class="mob-total-title-spacer"] {
+            width: 2% !important;
+            height: 40px !important;
+        }
+        td[class=mob-total-title-total],
+        td[class=mob-total-title-cart],
+        td[class=mob-total-title-price] {
+            text-align: left !important;
+            height: 40px !important;
+            font-size: 15px !important;
+            line-height: 40px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+            font-size: 15px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+            max-height: 40px !important;
+        }
+        td[class=mob-total-title-total] {
+            width: 20% !important;
+        }
+        td[class=mob-total-title-cart] {
+            width: 20% !important;
+        }
+        img[class=mob-total-title-cart-img] {
+            height: 12px !important;
+            width: 17px !important;
+            padding: 14px 0 !important;
+        }
+        td[class=mob-total-title-price] {
+            text-align: right !important;
+            width: 54% !important;
+        }
+        /* Tax */
+        
+        tr[class=mob-tax-title-row],
+        td[class=mob-tax-title-cell],
+        tr[class=mob-tax-line-row],
+        td[class=mob-tax-subtitle-cell],
+        td[class=mob-tax-line-cell] {
+            height: 19px !important;
+            max-height: 19px !important;
+            width: 100%;
+            font-size: 13px !important;
+            line-height: 15px !important;
+            overflow: visible !important;
+        }
+        tr[class=mob-tax-title-row],
+        td[class=mob-tax-title-cell] {
+            height: 30px !important;
+            max-height: 30px !important;
+        }
+        td[class=mob-tax-title-cell],
+        td[class=mob-tax-subtitle-cell],
+        td[class=mob-tax-line-cell] {
+            padding: 0 2% !important;
+        }
+        td[class=mob-tax-title-cell] {
+            font-weight: bold;
+            padding-left: 5% !important;
+        }
+        td[class=mob-tax-subtitle-cell] {
+            padding-left: 10% !important;
+            text-align: left;
+        }
+        td[class=mob-tax-line-cell] {
+            padding-left: 15% !important;
+            text-align: left;
+        }
+        span[class=mob-float-right] {
+            float: right !important;
+        }
+        tr[class=mob-tax-border-row],
+        td[class=mob-tax-border-cell] {
+            height: 10px !important;
+            border-left: 1px solid #9c9da0;
+            border-right: 1px solid #9c9da0;
+            border-bottom: 1px solid #9c9da0;
+        }
+        td[class=mob] {
+            display: block !important;
+            text-align: center !important;
+            height: 19px !important;
+            width: 90% !important;
+            font-size: 11px !important;
+            line-height: 19px !important;
+            overflow: visible !important;
+            max-height: 19px !important;
+            color: #454545 !important;
+            margin: 0 5% !important;
+            padding: 3px 0 !important;
+        }
+        td[class=moblast] {
+            display: block !important;
+            text-align: center !important;
+            height: 19px !important;
+            width: 90% !important;
+            font-size: 11px !important;
+            line-height: 19px !important;
+            overflow: visible !important;
+            max-height: 19px !important;
+            color: #454545 !important;
+            margin: 0 5% 10px 5% !important;
+            padding: 3px 0 !important;
+        }
+        sup {
+            font-size: 7px !important;
+        }
+    }
+    /* Additional Media Query for tablets */
+    
+    @media screen and (min-width: 641px) and (max-width: 1024px) {
+        /* Same as above */
+        
+        table[class=emailwrapto100pc],
+        img[class=emailwrapto100pc] {
+            width: auto !important;
+            max-width: 640px;
+            height: auto !important;
+        }
+        tr[class=mob],
+        td[class=mob],
+        td[class=moblast],
+        tr[yahoo]#mob,
+        td[yahoo]#mob,
+        td[yahoo]#moblast {
+            display: none !important;
+            height: 0px !important;
+            width: 0px !important;
+            font-size: 0px !important;
+            line-height: 0px !important;
+            overflow: hidden !important;
+            max-height: 0px !important;
+        }
+        sup {
+            font-size: 7px !important;
+        }
+    }
+   </style>
+</head>
+<body style="margin:0 auto;">
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-collapse: collapse;" width="640">
+   <tbody>
+      <tr>
+         <td align="center" style="font-family:Arial, Helvetica, sans-serif; background-color:#ffffff ; font-size:10px; line-height:14px; text-decoration:none; text-transform:none; color:#333333;" valign="middle" width="640">Is deze mail niet goed leesbaar? Bekijk hem in alle glorie via je <a href="$prefilledform(Copy of ACE-NL)$" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; line-height:14px; text-decoration:underline; text-transform:none; color:#333333;" target="_blank">webbrowser</a>.</td>
+      </tr>
+   </tbody>
+</table>
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left:1px solid #9c9da0; border-right:1px solid #9c9da0; border-collapse: collapse;" width="640"><!-- PREHEADER -->
+   <tbody>
+      <tr>
+         <td bgcolor="#555555" height="44" style="text-align:center; font-family:Arial, sans-serif; color:#ffffff;" width="638"><span style="font-weight:bold; font-size:15px;">Gevuld winkelmandje gespot</span></td>
+      </tr>
+      <!-- HEADER BANNER -->
+      <tr>
+         <td bgcolor="#E5E9E8" height="44" style="text-align:center; font-family:Arial, sans-serif; color:#ffffff; line-height:1px; font-size:1px; border-bottom: solid 1px #9c9da0;" width="640"><a href="http://www.asadventure.com/benl/index.cfm?link=header_header_all_nvt_nvt&amp;s2m_channel=102"><img alt="website" border="0" class="resize100" height="188" src="images/operational_mail_header.jpg" width="638" /></a></td>
+      </tr>
+      <!-- HEADER TEXT -->
+      <tr>
+         <td>
+         <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="638">
+            <tbody>
+               <tr>
+                  <td data-content-region-name="aanspreking" height="76" style="padding-left:12px; font-size:18px; color:#d5652c; font-weight:bold; font-family:Arial, sans-serif;" valign="middle" width="638">CONTENT_REGION_|aanspreking|</td>
+               </tr>
+               <tr>
+                  <td style="font-size:13px; color:#424243; font-family:Arial, sans-serif; line-height:20px; padding-left:12px; padding-right:18px;" valign="top">Fijn dat je kwam shoppen in onze webwinkel. Onze online conci&euml;rge botste tijdens zijn ronde op je <strong>gevulde winkelmandje</strong>. Geen zorgen: hij heeft het veilig ondergebracht, maar we wilden je toch even laten weten dat je bestelling <a href="http://$lookup(BasketLink)$?link=ACE-NL_basket_intro" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; text-decoration:underline; text-transform:none; color:#424243" target="_blank">hier</a> op je wacht.<br />
+                  &nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- ============== --><!-- ORDERLIJNEN DESKTOP --><!-- ============== -->
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="desktop-prod-table" style="border-bottom:1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr bgcolor="#555555">
+         <td bgcolor="#555555" height="38" style="border-left:1px solid #555555; border-right: 0;" valign="middle" width="9"></td>
+         <td bgcolor="#555555" colspan="10" height="38" style="text-align:left; font-size:14px; color:#efefef; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="620">Gespotte producten</td>
+         <td bgcolor="#555555" height="38" style="border-left:0; border-right:1px solid #555555;" valign="middle" width="9"></td>
+      </tr>
+      <tr style="border-bottom: 1px solid #9c9da0;">
+         <td height="38" style="border-left:1px solid #9c9da0; border-right: 0;" valign="middle" width="9"></td>
+         <td colspan="2" height="38" style="text-align:left; font-size:14px; color:#454545; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="233">Product</td>
+         <td height="38" style="border-left:0; border-right:0;" valign="middle" width="9"></td>
+         <td class="invisible" height="38" style="text-align:center; font-size:14px; color:#454545; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="106">Maat</td>
+         <td height="38" style="border-left:0; border-right:0;" valign="middle" width="10"></td>
+         <td class="invisible" height="38" style="text-align:center; font-size:14px; color:#454545; font-weight:bold; font-family:Arial, sans-serif;" valign="middle" width="92">Prijs</td>
+         <td height="38" style="border-left:0; border-right:0;" valign="middle" width="10"></td>
+         <td class="invisible" height="38" style="text-align:center; font-size:14px; color:#454545; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="75">Aantal</td>
+         <td height="38" style="border-left:0; border-right:0;" valign="middle" width="10"></td>
+         <td class="invisible" height="38" style="text-align:right; font-size:14px; color:#454545; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="76">Totaal</td>
+         <td height="38" style="border-left:0; border-right:1px solid #9c9da0;" valign="middle" width="9"></td>
+      </tr>
+   </tbody>
+</table>
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr class="mob-prod-title-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td bgcolor="#555555" class="mob-prod-title-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" valign="middle">Gespotte producten</td>
+      </tr>
+   </tbody>
+</table>
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="desktop-prod-table" style="border-bottom:1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody><#data VW_ABCART_TEST as abandon_cart><#filter RIID_=AS_CONTACT_LIST.RIID_1><#fields IMAGELINK PRODUCT SIZECODE CURRENCY PRICE QTY TOTAL>
+      <tr>
+         <td height="68" style="border-left:1px solid #9c9da0;" valign="middle" width="9"></td>
+         <td class="tabs" height="68" style="line-height:1px; font-size:1px; padding-top:10px; padding-bottom:10px;" valign="middle" width="68"><img border="0" src="https://static-images-asadventure.netdna-ssl.com/productimages/88x88/${abandon_cart.IMAGELINK}" style="display:block;" width="60" /></td>
+         <td class="tabs" height="68" style="text-align:left; font-family:Arial, sans-serif; font-size:11px; color:#454545; font-weight:normal; text-transform: lowercase;" valign="middle" width="182"><span class="lowercase">${abandon_cart.PRODUCT}</span></td>
+         <td height="38" valign="middle" width="10"></td>
+         <td class="invisible" height="68" style="text-align:center; font-size:11px; color:#444445; font-family:Arial, sans-serif;" valign="middle" width="110">${abandon_cart.SIZECODE}</td>
+         <td height="38" valign="middle" width="10"></td>
+         <td class="invisible" height="68" style="text-align:center; font-size:13px; color:#444445; font-family:Arial, sans-serif;" valign="middle" width="100"><span style="white-space: nowrap"><#noescape>${abandon_cart.CURRENCY + ' ' + abandon_cart.PRICE}</#noescape></span></td>
+         <td height="38" valign="middle" width="10"></td>
+         <td class="invisible" height="68" style="text-align:center; font-size:13px; color:#444445; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="80">${abandon_cart.QTY}</td>
+         <td height="38" valign="middle" width="10"></td>
+         <td class="invisible" height="68" style="text-align:right; font-size:13px; color:#d5652c; font-family:Arial, sans-serif;" valign="middle" width="80"><span style="font-weight: bold; white-space: nowrap"><#noescape>${abandon_cart.CURRENCY + ' ' + abandon_cart.PRICE}</#noescape></span></td>
+         <td height="68" style="border-right:1px solid #9c9da0;" valign="middle" width="9"></td>
+      </tr>
+      </#data>
+   </tbody>
+</table>
+<!-- // END ORDERRIJEN DESKTOP --><!-- ================= --><!-- ORDERRIJEN MOBILE--><!-- ================= -->
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody><#data VW_ABCART_TEST as abandon_cart><#filter RIID_=AS_CONTACT_LIST.RIID_1><#fields IMAGELINK PRODUCT SIZECODE CURRENCY PRICE QTY TOTAL>
+      <tr class="mob-prod-img-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td align="center" class="mob-prod-img-cell" height="0" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle" width="100%"><img alt="" border="0" height="0" src="$lookup(img)$" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; outline: none;" width="0" /></td>
+      </tr>
+      <tr class="mob-prod-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-prod-cell" style="color:#f6f6f6; font-family:Arial, sans-serif; font-weight:normal; display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle"><span class="lowercase">${abandon_cart.PRODUCT}</span></td>
+      </tr>
+      <tr class="mob-prod-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-prod-cell" style="color:#f6f6f6; font-family:Arial, sans-serif; font-weight:normal; display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle">Maat: ${abandon_cart.SIZECODE}</td>
+      </tr>
+      <tr class="mob-prod-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-prod-cell" style="color:#f6f6f6; font-family:Arial, sans-serif; font-weight:normal; display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle">Prijs: <#noescape>${abandon_cart.CURRENCY + ' ' + abandon_cart.PRICE}</#noescape></td>
+      </tr>
+      <tr class="mob-prod-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-prod-cell" style="color:#f6f6f6; font-family:Arial, sans-serif; font-weight:normal; display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle">Aantal: ${abandon_cart.QTY}</td>
+      </tr>
+      <tr class="mob-prod-row-border-bottom" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-prod-cell" style="color:#f6f6f6; font-family:Arial, sans-serif; font-weight:bold; display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;" valign="middle">Totaal: <#noescape>${abandon_cart.CURRENCY + ' ' + abandon_cart.TOTAL}</#noescape></td>
+      </tr>
+      </#data>
+   </tbody>
+</table>
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left:1px solid #9c9da0; border-bottom:1px solid #9c9da0; border-right:1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr>
+         <td>
+         <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" width="638">
+            <tbody>
+               <tr>
+                  <td height="25" style="padding-top:20px; padding-left:12px;font-size:14px;color:#d5652c;font-weight:bold;font-family:Arial, sans-serif;margin-top:30px;" valign="middle" width="638">Technische tegenwind?</td>
+               </tr>
+               <tr>
+                  <td style="font-size:13px; color:#424243; font-family:Arial, sans-serif; line-height:20px; padding-left:12px; padding-right:18px;border-collapse: collapse;" valign="top">Zat de techniek niet mee tijdens je bestelling? Laat ons dan zeker weten wat er fout ging via <a href="mailto:team@asadventure.com?subject=Gevuld winkelmandje" style="font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:16px; text-decoration:underline; text-transform:none; font-weight:bold; color:#424243">team@asadventure.com</a>. We helpen je zo snel mogelijk met het afronden van je surftrip &eacute;n het optimaliseren van je volgende bezoek.<br />
+                  &nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+<!-- ============== --><!-- SOCIAL DESKTOP --><!-- ============== -->
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="invisible" style="border-bottom:1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr>
+         <td height="10" style="border-left: 1px solid #9c9da0; border-right: 0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="436"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td colspan="3" height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="177"></td>
+         <td height="10" style="border-left: 0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td height="10" style="border-left: 1px solid #9c9da0; border-right: 0;" valign="middle" width="9"></td>
+         <td height="10" valign="middle" width="436"></td>
+         <td height="10" valign="middle" width="9"></td>
+         <td colspan="3" height="10" style="color: #A0A0A1; font-family: Arial, sans-serif; font-size: 12px; line-height: 12px; font-weight: bold; text-align: center;" valign="middle" width="177">Volg ons op de voet:</td>
+         <td height="10" style="border-left: 0; border-right: 1px solid #9c9da0;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td height="8" style="border-left: 1px solid #9c9da0; border-right: 0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td height="8" style="font-size: 1px; line-height: 1px;" valign="middle" width="436"></td>
+         <td height="8" style="font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td colspan="3" height="8" style="font-size: 1px; line-height: 1px;" valign="middle" width="177"></td>
+         <td height="8" style="border-left: 0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td style="border-left: 1px solid #9c9da0; border-right: 0;" valign="middle" width="9"></td>
+         <td style="font-size:18px; color:#424243; font-family:Arial, sans-serif; font-weight:bold;" valign="middle" width="436">Tot binnenkort op <a href="#" style="color:#d5652c; text-decoration:underline;">www.asadventure.com</a></td>
+         <td valign="middle" width="9"></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="76"><a href="http://www.facebook.com/ASAdventure?link=footer_fb_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="24" src="images/operational_mail_facebook.png" width="24" /></a></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="77"><a href="https://twitter.com/asadventure?link=footer_twitter_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="24" src="images/operational_mail_twitter.png" width="23" /></a></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="24"><a href="http://www.pinterest.com/asadventurepin/pins/?link=footer_pinterest_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="24" src="images/operational_mail_pinterest.png" width="24" /></a></td>
+         <td style="border-left: 0; border-right: 1px solid #9c9da0;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td height="10" style="border-left: 1px solid #9c9da0; border-right: 0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="436"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td colspan="3" height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="177"></td>
+         <td height="10" style="border-left: 0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td style="border-left: 1px solid #9c9da0; border-right: 0;" valign="middle" width="9"></td>
+         <td style="font-size:18px; color:#424243; font-family:Arial, sans-serif;" valign="middle" width="436">Het A.S.Adventure Team</td>
+         <td valign="middle" width="9"></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="76"><a href="http://instagram.com/asadventure?link=footer_instagram_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="23" src="images/operational_mail_instagram.png" width="24" /></a></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="77"><a href="http://www.youtube.com/user/ASadventure?link=footer_youtube_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="23" src="images/operational_mail_youtube.png" width="24" /></a></td>
+         <td style="line-height:1px; font-size:1px;" valign="top" width="24"><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.home?link=footer_blog_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" height="23" src="images/operational_mail_blog.png" width="24" /></a></td>
+         <td style="border-left: 0; border-right: 1px solid #9c9da0;" valign="middle" width="9"></td>
+      </tr>
+      <tr>
+         <td height="10" style="border-left: 1px solid #9c9da0; border-right: 0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="436"></td>
+         <td height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+         <td colspan="3" height="10" style="font-size: 1px; line-height: 1px;" valign="middle" width="177"></td>
+         <td height="10" style="border-left: 0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle" width="9"></td>
+      </tr>
+   </tbody>
+</table>
+<!-- ============= --><!-- SOCIAL MOBILE --><!-- ============= -->
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; border-bottom: 1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full-triple" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;">Tot binnenkort op<br />
+         <a href="#" style="color:#d5652c; text-decoration:underline;">www.asadventure.com</a></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;">Het A.S.Adventure Team</td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full-double" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;"><span class="mob-legals" style="color: #A0A0A1;">Volg ons op de voet:</span></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="http://www.facebook.com/ASAdventure?link=footer_fb_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="images/operational_mail_facebook.png" width="0" /></a></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="https://twitter.com/asadventure?link=footer_twitter_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="150714_abandonedcart_nl/operational_mail_twitter.png" width="0" /></a></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="http://www.pinterest.com/asadventurepin/pins/?link=footer_pinterest_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="images/operational_mail_pinterest.png" width="0" /></a></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="http://instagram.com/asadventure?link=footer_instagram_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="images/operational_mail_instagram.png" width="0" /></a></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="http://www.youtube.com/user/ASadventure?link=footer_youtube_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="images/operational_mail_youtube.png" width="0" /></a></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="33.3333%"><a href="http://www.asadventure.com/benl/index.cfm/fuseaction/content.home?link=footer_blog_nvt_nvt_nvt&amp;s2m_channel=102"><img alt="" border="0" class="mob-social-icon" height="0" src="images/operational_mail_blog.png" width="0" /></a></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full-triple" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+   </tbody>
+</table>
+<!-- ============== --><!-- LEGALS DESKTOP --><!-- ============== -->
+
+<table align="center" bgcolor="#F9F9F9" border="0" cellpadding="0" cellspacing="0" class="invisible" style="border-bottom:1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr>
+         <td colspan="3" height="10" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle"></td>
+      </tr>
+      <tr>
+         <td style="border-left: 1px solid #9c9da0; border-right: 0;" valign="middle" width="80"></td>
+         <td class="nopadding" style="font-size:10px; line-height:12px; color:#333333; font-family:Arial, sans-serif, sans-serif; text-align:center; -webkit-text-size-adjust: none;" valign="top" width="480">Je ontvangt deze mail voor operationele doeleinden. Je e-mailadres is niet toegevoegd aan een database.<br />
+         &copy; 2015 All rights reserved A.S.Adventure</td>
+         <td style="border-left: 0; border-right: 1px solid #9c9da0;" valign="middle" width="80"></td>
+      </tr>
+      <tr>
+         <td colspan="3" height="10" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; font-size: 1px; line-height: 1px;" valign="middle"></td>
+      </tr>
+   </tbody>
+</table>
+<!-- ============= --><!-- LEGALS MOBILE --><!-- ============= -->
+
+<table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="emailwrapto100pc" style="border-left: 1px solid #9c9da0; border-right: 1px solid #9c9da0; border-bottom: 1px solid #9c9da0; border-collapse: collapse;" width="640">
+   <tbody>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full-triple" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="4%"></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif;" width="92%"><span class="mob-legals">Je ontvangt deze mail voor operationele doeleinden. Je e-mailadres is niet toegevoegd aan een database.<br />
+         &copy; 2015 All rights reserved A.S.Adventure</span></td>
+         <td class="mob-cell" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: center; font-family: Arial, sans-serif; font-weight: bold;" width="4%"></td>
+      </tr>
+      <tr class="mob-row" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden;">
+         <td class="mob-spacer-full-triple" colspan="3" style="display: none; font-size: 0; max-height: 0; line-height: 0; padding: 0; mso-hide: all; overflow: hidden; text-align: left; font-family: Arial, sans-serif; font-weight: bold;" valign="middle"></td>
+      </tr>
+   </tbody>
+</table>
+</body>
+</html>
