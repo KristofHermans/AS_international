@@ -34,7 +34,6 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.5203170732%;
@@ -264,7 +263,7 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
       right: 4px;
       background: url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat -34px center; } }
-@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background: url("http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png") no-repeat;
@@ -354,8 +353,6 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -398,15 +395,11 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
-  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
-  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -862,15 +855,11 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -878,8 +867,6 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1099,10 +1086,6 @@ a:link {
   text-shadow: none;
   color: transparent;
   /* background */
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
   -khtml-border-radius: 50%;
   border-radius: 50%;
   border: 1px solid #3f3f3f; }
@@ -1174,497 +1157,73 @@ a:link {
 	BEGIN OUDE LIVE PARTIAL
 ========================== */
 /* *********************************************************************************************************** */
-/* **                                         SOLDEN METRO JUL 15 (LUX)                                     ** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.solden {
-  background: url("http://static.asadventure.com/includes/homepage/international/images/bg-solden2-jul15.jpg") no-repeat;
-  overflow: hidden; }
+#homepage-wrapper #xx_header .xx_slider ul li.fiets {
+  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.solden .content {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  z-index: 2;
-  /* background */
-  background: url("http://static.asadventure.com/includes/homepage/international/images/bg-presolden.jpg") repeat-x;
-  /* box */
-  width: 26.3%;
-  height: 410px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  padding: 9px 19px 0;
-  color: #ffffff;
-  -webkit-box-shadow: 0px 0px 15px black;
-  -moz-box-shadow: 0px 0px 15px black;
-  box-shadow: 0px 0px 15px black; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content h2, #homepage-wrapper #xx_header .xx_slider ul li.solden .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.solden .content {
-  width: 23.3%;
-  left: 7%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
-    position: relative;
-    z-index: 2;
-    margin: 0 auto 18px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
-    /* position */
-    position: relative;
-    z-index: 2;
-    /* font */
-    color: #ffffff;
-    font-size: 60px;
-    line-height: 66px;
-    font-weight: 600;
-    text-shadow: 0px 2px 1px #000000;
-    text-transform: uppercase; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .subtitle {
-    display: block;
-    background: #cb0b0b;
-    color: inherit;
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    font-weight: 600 !important;
-    text-transform: uppercase;
-    margin-bottom: 4%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .subtitle sup {
-      position: relative;
-      top: -4px;
-      text-transform: none; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
-    /* position */
-    position: relative;
-    z-index: 2;
-    /* font */
-    color: #ffffff;
-    font-size: 13px;
-    line-height: 137%;
-    margin-bottom: 10px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
-    position: absolute;
-    z-index: 2;
-    color: #ffffff;
-    font-size: 10px;
-    margin-bottom: 0px;
-    bottom: 4px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
-  width: 95%;
-  background-color: #4590bd;
-  font-weight: 600;
-  display: inline-block; }
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:hover {
-    background-color: #3c84af; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-  font-size: 63px;
-  line-height: 66px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
-  font-size: 81px;
-  line-height: 81px; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
-    padding-top: 13px;
-    padding-right: 10px;
-    background-position: 0px -25px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
-      width: 140px;
-      margin-bottom: 20px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
-      font-size: 46px;
-      line-height: 45px;
-      margin-bottom: 5px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .subtitle {
-      font-size: 17px;
-      line-height: 1.9;
-      width: 97%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
-      font-size: 11px;
-      line-height: 130%;
-      margin-bottom: 6px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
-      width: 90%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
-      bottom: 101px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-    font-size: 49px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
-    margin-bottom: 14px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .subtitle {
-    font-size: 15px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-content {
-    font-size: 9px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
-    font-size: 63px;
-    line-height: 61px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
-    width: 31%;
-    padding-top: 8px;
-    background-position: 0px -28px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
-      font-size: 48px;
-      line-height: 59px;
-      margin-bottom: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .subtitle {
-      font-size: 17px;
-      line-height: 1.9;
-      width: 97%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
-      font-size: 10px;
-      line-height: 130%;
-      margin-bottom: 3px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
-      width: 90%;
-      text-align: left;
-      padding-left: 4%;
-      margin-top: 5.5%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
-        display: block;
-        height: 30px;
-        background-size: 9px 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
-      bottom: 172px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-    font-size: 51px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .subtitle {
-    font-size: 15px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
-    font-size: 65px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.solden {
-    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-solden2-jul15-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content {
-    width: 90%;
-    padding-top: 0;
-    background: none;
-    height: 101px;
-    top: 41%;
-    left: 6%;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-title {
-      font-size: 29px;
-      line-height: 45px;
-      margin-bottom: 0px;
-      text-align: center; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .subtitle {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta {
-      font-size: 9px;
-      width: 53%;
-      height: 25px;
-      line-height: 25px;
-      margin-top: 1.5%;
-      display: block;
-      margin: 0 auto; }
-      #homepage-wrapper #xx_header .xx_slider ul li.solden .content .xx_cta:after {
-        font-size: 8px;
-        padding-right: 3px;
-        width: auto; }
-    #homepage-wrapper #xx_header .xx_slider ul li.solden .content .footnote {
-      font-size: 6px;
-      bottom: 3px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden .content .main-content.mobile {
-    display: block;
-    font-size: 8px;
-    line-height: 130%;
-    margin-bottom: 3px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.fr .content .main-title {
-    font-size: 30px;
-    line-height: 44px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.lux .content .main-content {
-    display: block; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.solden.en .content .main-title {
-    font-size: 31px;
-    line-height: 47px; } }
-/* *********************************************************************************************************** */
-/*                                                SLIDER ZWEMSHORTS                                         ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.zwemshorts {
-  background: url("http://static.asadventure.com/includes/homepage/international/images/bg-zwemshorts.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content {
-  position: absolute;
-  width: 30%;
-  top: 39%;
-  left: 6%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content h2, #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content {
-  color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-title {
-    font-size: 27px;
-    font-weight: bold;
-    color: inherit; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-content {
-    font-size: 16px;
-    color: inherit;
-    line-height: 120%;
-    margin-bottom: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
-
-#homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta {
-  font-weight: 600;
-  width: 65%;
-  text-align: left;
-  margin-top: 5%;
-  background: #bc1f1f;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta:hover {
-    background: #991515; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .xx_cta {
-  width: 72%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-title {
-    font-size: 23px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-content {
-    font-size: 13px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta {
-    width: 77%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .main-content {
-    font-size: 12px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .xx_cta {
-    width: 89%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.en .content .xx_cta {
-    width: 80%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-title {
-    font-size: 18px;
-    line-height: 1.2; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-content {
-    font-size: 10px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 6%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta:after {
-      display: block;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .main-content {
-    font-size: 9px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .xx_cta {
-    width: 96%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.en .content .xx_cta {
-    width: 88%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts {
-    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-zwemshorts-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content {
-    left: 13%;
-    top: 26%;
-    width: 75%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-title {
-      font-size: 12px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .main-content {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts .content .xx_cta {
-      width: 60%;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .main-content {
-    font-size: 8px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.fr .content .xx_cta {
-    width: 96%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.zwemshorts.en .content .xx_cta {
-    width: 63%; } }
-/* *********************************************************************************************************** */
-/*                                               SLIDER OUTDOOR XL                                          ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
   position: absolute;
   width: 75%;
-  top: 30%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content span {
+  top: 15px;
+  left: 15px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fiets .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: 300;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 5%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-  font-weight: 600;
-  width: 37%;
-  text-align: left;
-  margin-top: 0;
-  background: #18869b;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:hover {
-    background: #15798c;
-    color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 11px;
-    color: inherit; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    top: 25%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-      font-size: 26px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-    font-size: 20px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 4%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-      display: block;
-      font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-outdoor-xl-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content {
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .main-title {
-      font-size: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta {
-      padding-left: 10px;
-      width: 50%;
-      font-size: 8px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.outdoor-xl .content .xx_cta:after {
-        font-size: 7px; } }
-/* *********************************************************************************************************** */
-/*                                                SLIDER FESTIVAL                                           ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.festival {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-festival.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
-  position: absolute;
-  width: 35%;
-  top: 72%;
-  left: 6%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content h2, #homepage-wrapper #xx_header .xx_slider ul li.festival .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.festival .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
   color: #fff;
   text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-title {
-    display: none; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
-    font-size: 16px;
-    color: inherit;
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .bol {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title_fr {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 35px;
     line-height: 120%;
+    color: #ffffff;
     margin-bottom: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content_fr {
+    font-size: 32px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 40px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    margin: 0; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta {
+  position: absolute;
+  top: 220px;
+  left: 90px;
   font-weight: 600;
-  width: 40%;
+  width: 235px;
   text-align: left;
-  margin-top: 3%;
-  background: #f5840c;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:hover {
-    background: #de7a10; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+  margin-top: 0;
+  background: #ffffff;
+  color: #d23d48;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta:hover {
+    background: #d23d48;
+    color: #ffffff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -1680,728 +1239,424 @@ a:link {
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
-    font-size: 13px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
-    width: 50%; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+    width: 70%;
+    top: 10px;
+    left: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content_fr {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title_fr {
+      font-size: 30px;
+      top: 60px;
+      left: 100px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title {
+      font-size: 30px;
+      top: 60px;
+      left: 100px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta {
+      width: 215px;
+      top: 150px;
+      left: 100px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
-    top: 70%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
-      font-size: 10px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets-medium.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+    width: 80%;
+    top: 5px;
+    left: 5px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .bol {
+      width: 60px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content_fr {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title_fr {
+      font-size: 23px;
+      left: 90px;
+      top: 50px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title {
+      font-size: 29px;
+      left: 90px;
+      top: 50px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta {
+      width: 170px;
+      top: 130px;
+      left: 90px;
       text-align: left;
       padding-left: 10px;
       margin-bottom: 6%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+      #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta:after {
         display: block;
         font-size: 8px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.festival {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-festival-mobile@2x.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fiets_m.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.festival .content {
-    top: 56%;
-    width: 52%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .main-content {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.festival .content .xx_cta {
-      width: 60%;
+  #homepage-wrapper #xx_header .xx_slider ul li.fiets .content {
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    text-align: center; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .bol {
+      width: 40px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title_fr {
+      font-size: 14px;
+      width: 75%;
+      top: 20px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-title {
+      font-size: 15px;
+      width: 80%;
+      top: 30px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content_fr {
+      font-size: 14px;
+      padding: 0 15%;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fiets .content .xx_cta {
+      width: 40%;
+      top: 80px;
+      left: 28%;
       font-size: 8px; } }
 /* *********************************************************************************************************** */
-/*                                                SLIDER REISBOEKEN                                         ** */
+/*                                            SLIDER NEW FASHION ARRIVALS                                   ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken {
-  background: url("http://static.asadventure.com/includes/homepage/international/images/bg-reisboeken.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content {
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
   position: absolute;
-  width: 35%;
-  top: 46%;
-  left: 38%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content h2, #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content span {
+  width: 40%;
+  top: 33%;
+  left: 27%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content h2, #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content {
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
   color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-title {
-    font-size: 27px;
-    font-weight: bold;
-    color: inherit;
-    line-height: 1.2; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-content {
-    font-size: 16px;
-    color: inherit;
-    line-height: 120%;
-    margin-bottom: 0; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta {
-  font-weight: 600;
-  width: 50%;
-  text-align: left;
-  margin-top: 5%;
-  background: #265796;
-  color: #fff; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta:hover {
-    background: #19447b; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .xx_cta {
-  width: 60%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.reisboeken.en .content .xx_cta {
-  width: 52%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content {
-    top: 40%;
-    width: 33%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-title {
-      font-size: 23px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-content {
-      font-size: 13px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta {
-      width: 62%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .main-title {
-    font-size: 21px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .xx_cta {
-    width: 73%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.en .content .xx_cta {
-    width: 65%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-title {
-    font-size: 18px;
-    line-height: 1.2; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-content {
-    font-size: 10px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 6%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta:after {
-      display: block;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .main-title {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .xx_cta {
-    width: 80%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.en .content .xx_cta {
-    width: 65%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken {
-    background: url("http://static.asadventure.com/includes/homepage/international/images/bg-reisboeken-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content {
-    top: 34%;
-    width: 61%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-title {
-      font-size: 12px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .main-content {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.reisboeken .content .xx_cta {
-      width: 66%;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.fr .content .main-title {
-    font-size: 10px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.reisboeken.en .content .xx_cta {
-    width: 62%; } }
-/* ==========================
-	END OUDE LIVE PARTIAL
-========================== */
-/* *********************************************************************************************************** */
-/* **                                            PRESOLDEN JUL 15 (LUX)                                   ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
-  background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/solden.jpg") no-repeat;
-  overflow: hidden; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
-  background: url("http://static.asadventure.com/includes/homepage/international/images/_slides/pre-solden.jpg") no-repeat;
-  overflow: hidden; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  z-index: 2;
-  /* background */
-  /* box */
-  width: 26.3%;
-  height: 410px;
-  box-sizing: border-box;
-  padding: 22px 19px 0;
-  color: #ffffff; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
-  position: relative;
-  z-index: 2;
-  margin-bottom: 25px; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
-  /* position */
-  position: relative;
-  z-index: 2;
-  /* font */
-  color: #ffffff;
-  font-size: 38px;
-  line-height: 46px;
-  font-weight: 600;
-  text-shadow: 0px 2px 1px #000000;
-  text-transform: uppercase; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
-  /* position */
-  position: relative;
-  z-index: 2;
-  /* font */
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 137%; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
-  position: absolute;
-  z-index: 2;
-  color: #ffffff;
-  font-size: 10px;
-  bottom: -20px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
-  width: 75%;
-  position: relative;
-  background-color: #4590bd;
-  font-weight: 600;
-  display: inline-block;
-  top: 275px;
-  float: right;
-  text-align: left;
-  padding-left: 10px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:hover {
-    background-color: #3c84af; }
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    margin-right: 11px;
-    color: inherit;
-    text-align: right;
-    float: right; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  z-index: 2;
-  /* background */
-  /* box */
-  width: 26.3%;
-  height: 410px;
-  box-sizing: border-box;
-  padding: 22px 19px 0;
-  color: #ffffff; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
-  position: relative;
-  z-index: 2;
-  margin-bottom: 25px; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
-  /* position */
-  position: relative;
-  z-index: 2;
-  /* font */
-  color: #ffffff;
-  font-size: 38px;
-  line-height: 46px;
-  font-weight: 600;
-  text-shadow: 0px 2px 1px #000000;
-  text-transform: uppercase; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
-  /* position */
-  position: relative;
-  z-index: 2;
-  /* font */
-  color: #ffffff;
-  font-size: 13px;
-  line-height: 137%; }
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
-  position: absolute;
-  z-index: 2;
-  color: #ffffff;
-  font-size: 10px;
-  bottom: -20px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
-  width: 75%;
-  position: relative;
-  background-color: #4590bd;
-  font-weight: 600;
-  display: inline-block;
-  top: 275px;
-  float: right;
-  text-align: left;
-  padding-left: 10px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:hover {
-    background-color: #3c84af; }
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    margin-right: 11px;
-    color: inherit;
-    text-align: right;
-    float: right; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
-    padding-top: 13px;
-    padding-right: 10px;
-    background-position: 0px -54px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
-      width: 33%;
-      height: 10%;
-      margin-bottom: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
-      font-size: 29px;
-      line-height: 36px;
-      margin-bottom: 5px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
-      font-size: 11px;
-      line-height: 130%;
-      margin-bottom: 23px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
-      width: 90%;
-      top: 195px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
-      bottom: 80px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
-    padding-top: 13px;
-    padding-right: 10px;
-    background-position: 0px -54px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
-      width: 33%;
-      height: 10%;
-      margin-bottom: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
-      font-size: 29px;
-      line-height: 36px;
-      margin-bottom: 5px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
-      font-size: 11px;
-      line-height: 130%;
-      margin-bottom: 23px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
-      width: 90%;
-      top: 195px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
-      bottom: 80px; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
-    width: 31%;
-    padding-top: 8px;
-    background-position: 0px -28px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
-      font-size: 26px;
-      margin-bottom: 24px;
-      line-height: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
-      font-size: 11px;
-      line-height: 130%;
-      margin-bottom: 3px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
-      width: 70%;
-      text-align: left;
-      padding-left: 4%;
-      top: 155px;
-      margin-right: 45px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
-        display: block;
-        height: 30px;
-        background-size: 9px 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
-      bottom: 150px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
-    height: 25px; } }
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
-    width: 31%;
-    padding-top: 8px;
-    background-position: 0px -28px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
-      font-size: 26px;
-      margin-bottom: 24px;
-      line-height: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
-      font-size: 11px;
-      line-height: 130%;
-      margin-bottom: 3px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
-      width: 70%;
-      text-align: left;
-      padding-left: 4%;
-      top: 155px;
-      margin-right: 45px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
-        display: block;
-        height: 30px;
-        background-size: 9px 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
-      bottom: 150px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
-    background: url("http://static.asadventure.com/includes/homepage/international/images/solden-mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned {
-    background: url("http://static.asadventure.com/includes/homepage/international/images/pre-solden-mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
-    width: 90%;
-    padding-top: 0;
-    background: none;
-    height: 101px;
-    top: 41%;
-    left: 6%;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
-      font-size: 14px;
-      margin-bottom: 2px;
-      line-height: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
-      font-size: 9px;
-      line-height: 130%;
-      margin-bottom: 3px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
-      font-size: 9px;
-      width: 57%;
-      height: 25px;
-      line-height: 25px;
-      margin-top: 2px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
-        height: 25px;
-        background-size: 8px 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .footnote {
-      font-size: 6px;
-      bottom: -10px;
-      display: none; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content {
-    width: 90%;
-    padding-top: 0;
-    background: none;
-    height: 101px;
-    top: 41%;
-    left: 6%;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content img {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-title {
-      font-size: 14px;
-      margin-bottom: 2px;
-      line-height: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .main-content {
-      font-size: 9px;
-      line-height: 130%;
-      margin-bottom: 3px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta {
-      font-size: 9px;
-      width: 57%;
-      height: 25px;
-      line-height: 25px;
-      margin-top: 2px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .xx_cta:after {
-        height: 25px;
-        background-size: 8px 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.presolden_ned .content .footnote {
-      font-size: 6px;
-      bottom: -10px;
-      display: none; } }
-/* *********************************************************************************************************** */
-/*                                                SLIDER CAMPING ACTIE                                      ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-  position: absolute;
-  width: 30%;
-  top: 12%;
-  left: 2.5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content h2, #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-  color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-    margin-bottom: 6%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-    text-align: left;
-    font-size: 16px;
-    color: inherit;
-    line-height: 130%;
-    margin-bottom: 5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-    font-size: 10px;
-    color: inherit;
-    line-height: 130%;
-    margin-top: 12%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-  font-weight: 600;
-  width: 50%;
-  text-align: left;
-  margin-top: 0;
-  background: none;
-  border: 2px solid #fff;
-  color: #fff;
-  margin-bottom: 4%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:hover {
-    background: #fff;
-    color: #898234; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 11px;
-    color: inherit; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-  position: absolute;
-  bottom: 4%;
-  left: 57.5%;
-  width: 220px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
+  text-align: center;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
     display: inline-block;
-    vertical-align: top !important;
-    background: none;
-    width: 30px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-left: 5%;
-    opacity: 0.6;
-    -webkit-transition: opacity 0.25s ease-in-out;
-    -moz-transition: opacity 0.25s ease-in-out;
-    transition: opacity 0.25s ease-in-out; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:hover {
-      opacity: 1; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:after {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta img {
-      display: inline-block;
-      max-width: 100%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-  margin-top: 4%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    top: 9%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 200px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 13px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-      width: 55%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      margin-top: 5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    left: 53%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 0; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    top: 8%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 145px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 10px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 4%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    left: 51%;
-    bottom: 5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta {
-    width: 25px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons .icon-cta:nth-of-type(3) {
-      width: 15px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 0; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-campingactie-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
-    width: 80%;
-    left: 11%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-image {
-      width: 85px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .main-content {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .legal {
-      margin-top: 1%;
-      font-size: 6px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
-      border-width: 1px;
-      text-align: center;
-      padding-left: 0;
-      width: 44%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
-        display: none; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie .icons {
-    display: none; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .main-content {
-    margin-bottom: 4%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .xx_cta {
-    margin-bottom: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.campingactie.fr_fix .content .legal {
-    margin-top: 2%; } }
-/* *********************************************************************************************************** */
-/*                                               SLIDER BAY & BEACH                                         ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-baybeach-xl.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
-  position: absolute;
-  width: 75%;
-  top: 29%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
-    display: inline-block;
-    font-weight: 600;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 120%;
     color: inherit;
-    margin-bottom: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 25px black;
+    font-weight: 400;
     text-transform: uppercase;
-    margin: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
-    font-size: 30px;
-    color: inherit;
-    line-height: 120%;
-    margin-bottom: 3%;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+    margin: 0;
+    margin-bottom: 3%; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
   font-weight: 600;
-  width: 20%;
+  width: 50%;
   text-align: left;
   margin-top: 0;
-  background: #3671ea;
+  background: #2a324c;
   color: #fff;
   margin-bottom: 7%;
   display: block;
   margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:hover {
-    background: #2e63cf; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:hover {
+    background: #1f2538; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+  top: 27%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+    font-size: 36px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
+    width: 45%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+    top: 21%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+    font-size: 27px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 6%;
+    width: 50%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
+    top: 26%;
+    width: 100%;
+    left: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
+      font-size: 19px;
+      padding: 0 5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
+      width: 40%;
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
+    top: 26%; } }
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken {
+  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-rugzakken.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+  position: absolute;
+  width: 75%;
+  top: 20px;
+  left: 0;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content h2, #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title_fr {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: #3A3939;
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #3A3939;
+    text-transform: uppercase;
+    margin: 0; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta {
+  position: relative;
+  top: 275px;
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #f2f2f2;
+  color: #434343;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta:hover {
+    background: #a1a0a0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .frans {
+  width: 29%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-content {
+    font-size: 23px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title_fr {
+    font-size: 30px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title {
+    font-size: 35px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta {
+    width: 215px;
+    top: 195px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .frans {
+    width: 36%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    width: 74%;
+    top: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title {
+      font-size: 29px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title_fr {
+      font-size: 23px;
+      left: 90px;
+      top: 40px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-content {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta {
+      width: 170px;
+      top: 150px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .frans {
+      width: 40%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    top: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title {
+      font-size: 29px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta:after {
+    height: 25px; }
+
+  .xx_cta {
+    top: 100px;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 6%; }
+    .xx_cta:after {
+      display: block;
+      font-size: 8px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-rugzakken_m.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    top: 15px;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title_fr {
+      font-size: 14px;
+      width: 75%;
+      top: 10px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-title {
+      font-size: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta {
+      width: 40%;
+      font-size: 8px;
+      top: 85px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .frans {
+      width: 55%;
+      top: 75px; } }
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool {
+  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-backtoschool.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+  position: absolute;
+  width: 75%;
+  top: 23%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content h2, #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title_fr {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content_fr {
+    font-size: 35px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content {
+    font-size: 44px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta {
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #ffffff;
+  color: #8ca13f;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta:hover {
+    background: #8ca13f;
+    color: #ffffff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta:after {
     content: "\f04b";
     /* arrow */
     background: none;
@@ -2417,51 +1672,222 @@ a:link {
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
-    font-size: 23px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content_fr {
+    font-size: 30px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content {
     font-size: 35px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
-    width: 24%; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title_fr {
+    font-size: 30px;
+    top: 60px;
+    left: 100px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title {
+    font-size: 35px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta {
+    width: 215px; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
     width: 74%;
     top: 27%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title_fr {
+      font-size: 23px;
+      left: 90px;
+      top: 50px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title {
       font-size: 29px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content_fr {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content {
+      font-size: 29px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta {
+      width: 170px;
       text-align: left;
       padding-left: 10px;
       margin-bottom: 6%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+      #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta:after {
         display: block;
         font-size: 8px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-baybeach-xl.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-backtoschool_m.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content {
-    top: 26%;
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+    top: 25%;
     width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-title {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .main-content {
-      font-size: 15px;
-      padding: 0 10%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.baybeach-xl .content .xx_cta {
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title_fr {
+      font-size: 14px;
+      width: 75%;
+      top: 20px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-title {
+      font-size: 16px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content_fr {
+      font-size: 12px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .main-content {
+      font-size: 16px;
+      padding: 0 10%;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta {
       width: 40%;
       font-size: 8px; } }
+/* ==========================
+	END OUDE LIVE PARTIAL
+========================== */
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.fashion {
+  background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+  position: absolute;
+  width: 55%;
+  top: 85px;
+  left: 23px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashion .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+  color: #fff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #c2645f;
+    margin-bottom: 0;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: #c2645f;
+    margin-bottom: 0;
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);*/
+    text-transform: uppercase;
+    margin: 0; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+  position: absolute;
+  top: 190px;
+  left: 0;
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #c2645f;
+  color: #ffffff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:hover {
+    background: #ffffff;
+    color: #c2645f; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+    content: "\f04b";
+    /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
+  width: 35%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 55px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 23px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 30px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 33px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 215px;
+      top: 140px; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    width: 75%;
+    top: 40px;
+    left: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 23px;
+      left: 90px;
+      top: 50px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 19px;
+      top: 55px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 130px;
+      top: 100px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .frans {
+      width: 32%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion {
+    background: url("https://static.asadventure.com/includes/homepage/national/new/images/bg-fashion2_m.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 30px;
+    width: 100%;
+    left: 35px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 15px;
+      width: 64%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title_fr {
+      font-size: 14px;
+      width: 75%;
+      top: 10px;
+      left: 30px;
+      font-weight: 800; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 40%;
+      font-size: 8px;
+      top: 75px;
+      left: 0px; } }
 /* ------------------------------------------------------------------------- */
 /* ==========================
 	BEGIN NIEUWE LIVE PARTIAL

@@ -1,0 +1,232 @@
+
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool {
+  background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-backtoschool.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+  position: absolute;
+  width: 75%;
+  top: 23%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+  color: #fff;
+  text-align: center;
+	.main-title_fr {
+		display: inline-block;
+		font-weight: 100;
+		font-size: 35px;
+		line-height: 120%;
+		color: #ffffff;
+		margin-bottom: 0;
+		text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	
+		text-transform: uppercase;
+		margin: 0;
+	  }
+    .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+	.main-content_fr {
+    font-size: 35px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	 text-transform: uppercase;
+  }
+  
+  .main-content {
+    font-size: 44px;
+    color: inherit;
+    line-height: 120%;
+    margin-bottom: 3%;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	 text-transform: uppercase;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta { 
+  font-weight: 600;
+  width: 235px;
+  text-align: left;
+  margin-top: 0;
+  background: #ffffff;
+  color: #8ca13f;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 0 auto;
+
+  &:hover {
+    background: #8ca13f;
+	color: #ffffff;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+
+	.main-content_fr {
+      font-size: 30px;
+    }
+    .main-content {
+      font-size: 35px;
+    }
+	.main-title_fr {
+      font-size: 30px;
+	  top:60px;
+	  left:100px;
+    }
+    .main-title {
+      font-size: 35px;
+    }
+
+    .xx_cta {
+      width: 215px;
+    }
+    
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+    width: 74%;
+    top: 27%;
+	
+	.main-title_fr{
+		font-size: 23px;
+		left:90px;
+	  	top:50px;
+	}
+    .main-title {
+      font-size: 29px;
+    }
+	.main-content_fr {
+      font-size: 23px;
+    }
+    .main-content {
+      font-size: 29px;
+    }
+
+    .xx_cta {
+	  width: 170px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool {
+    background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-backtoschool_m.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.backtoschool .content {
+    top: 25%;
+    width: 100%;
+	
+	
+	.main-title_fr {
+      font-size: 14px;
+	  width: 75%;
+	  top: 20px;
+	  left: 30px;
+	  font-weight: 800;
+    }
+    .main-title {
+      font-size: 16px;
+	  font-weight: 800;
+    }
+	
+	.main-content_fr {
+      font-size: 12px;
+	  font-weight: 800;
+    }
+    .main-content {
+      font-size: 16px;
+      padding: 0 10%;
+	  font-weight: 800;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+    }
+    
+  }
+
+
+
+}
+
+

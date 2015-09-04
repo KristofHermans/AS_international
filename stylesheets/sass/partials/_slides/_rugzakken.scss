@@ -1,0 +1,235 @@
+
+/* *********************************************************************************************************** */
+/*                                               SLIDER RUGZAKKEN                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken {
+  background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-rugzakken.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+  position: absolute;
+  width: 75%;
+  top: 20px;
+  left: 0;
+  text-align:center;
+  h2, span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+  color: #fff;
+  text-align: center;
+
+.main-title_fr{
+	display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: #3A3939;
+    text-transform: uppercase;
+    margin:0;
+	}
+	
+  .main-title {
+	 
+    display: inline-block;
+    font-weight: 100;
+    font-size: 44px;
+    line-height: 120%;
+    color: #3A3939;
+    text-transform: uppercase;
+    margin:0;
+  }
+	
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta { 
+	position:relative;
+	top:275px;
+	font-weight: 600;
+	width: 235px;
+	text-align: left;
+	margin-top: 0;
+	background: #f2f2f2;
+	color: #434343;
+	margin-bottom: 7%;
+  
+	display: block;
+	margin: 0 auto;
+
+  &:hover {
+    background: #a1a0a0;
+  }
+  
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  } 
+}
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content{
+.frans{
+		width:29%;
+	}
+}
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+
+    .main-content {
+      font-size: 23px;
+    }
+
+	.main-title_fr {
+		font-size: 30px;
+	}
+	
+    .main-title {
+      font-size: 35px;
+    }
+
+    .xx_cta {
+      width: 215px;
+	  top:195px;
+    }
+    .frans{
+		width: 36%;
+	}
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    width: 74%;
+    top: 15px;
+
+    .main-title {
+      font-size: 29px;
+    }
+
+	.main-title_fr{
+		font-size: 23px;
+		left:90px;
+	  	top:40px;
+	}
+	
+    .main-content {
+      font-size: 19px;
+    }
+
+    .xx_cta {
+	  width:170px;
+	  top:150px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+	  
+    }
+    .frans{
+		  width:40%;
+	  }
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+#homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    top: 10px;
+
+    .main-title {
+      font-size: 29px;
+    }
+}
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content .xx_cta:after {
+    height: 25px;
+  }
+    .xx_cta {
+		top:100px;
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+	}
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken {
+    background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-rugzakken_m.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.rugzakken .content {
+    top: 15px;
+    width: 100%;
+
+	.main-title_fr {
+      font-size: 14px;
+	  width: 75%;
+	  top: 10px;
+	  left: 30px;
+	  font-weight: 800;
+    }
+	
+    .main-title {
+      font-size: 15px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+	  top:85px;
+    }
+    .frans{
+		width: 55%;
+		top:75px;
+	}
+  }
+
+
+
+}
+
+

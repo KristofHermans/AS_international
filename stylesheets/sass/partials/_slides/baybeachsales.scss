@@ -1,0 +1,95 @@
+#homepage-wrapper #xx_header .bx-wrapper .bx-viewport .bxslider {
+.baybeachsales{
+	background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/baybeach.jpg") no-repeat;
+	background-size: contain;
+	position: relative;
+
+	@media only screen and(max-width: 767px) {
+		background: url("https://static.asadventure.com/includes/homepage/international/images/_slides/baybeach_mob.jpg") no-repeat;
+		background-size: cover;
+	}
+
+	.text_baybeach {
+		width: percentage(850/1170);
+		position: absolute;
+		top: 30%;
+		left: percentage(160/1170);
+		color: white;
+		text-align: center;
+
+		h3 {
+			margin-bottom:15px;
+			font-size: 50px;
+
+			@media only screen and(max-width: 767px) {
+				font-size: 30px;
+			}
+
+		}
+
+	a.baybeachsales-cta{
+		background: #FFFFB5;
+		color: #000000;
+		display: inline-block;
+		height: 50px;
+		line-height: 50px;
+		padding: 0 1em;
+		text-decoration: none;
+		width: percentage(400/1170);
+		font-weight: 500;
+		min-width: 240px;
+
+		&:hover{
+			background: lighten(#FFFFB5, 5%);
+		}
+
+		&:after{
+			content: "\f04b";
+			font-family: "Font Awesome", "FontAwesome";
+			font-size: 8px;
+			float: right;
+		}
+
+		@media only screen and(max-width: 1199px) {
+			height: 40px;
+			line-height: 40px;
+		}
+
+		@media only screen and(max-width: 979px) {
+			font-size: .8em;
+			height: 32px;
+			line-height: 32px;
+		}
+
+		@media only screen and(max-width: 767px) {
+			margin: 0 auto; 
+				right: inherit;
+			width: 60%;
+		}
+	}
+
+	}
+}
+
+}
+
+.bottom-bar{
+	@media only screen and(max-width: 1199px) {
+		bottom: -70px;
+	}
+
+	@media only screen and(max-width: 979px) {
+		bottom: -50px;
+	}
+}
+
+.slider-wrapper{
+	@media only screen and(max-width: 979px) {
+		margin-bottom: 65px;
+	}
+
+
+	@media only screen and(max-width: 767px) {
+		margin-bottom: 10px;
+	}
+}
