@@ -1,0 +1,203 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER WANDELSCHOENEN                                        ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen.jpg') no-repeat;
+
+  &.fr {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-fr.jpg') no-repeat;
+  }
+  &.en {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-en.jpg') no-repeat;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 45px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 3%;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta { 
+  font-weight: 600;
+  width: 35%;
+  text-align: left;
+  margin-top: 0;
+  background: #ed881c;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 0 auto;
+
+  &:hover {
+    background: darken(#ed881c, 6%);
+  }
+}
+
+//FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta { 
+  width: 28%;
+}
+#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
+  font-size: 28px;
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+
+    .main-title {
+      font-size: 35px;
+    }
+
+    .xx_cta {
+      width: 38%;
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta { 
+    width: 40%;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
+    font-size: 23px;
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+    width: 74%;
+    top: 27%;
+
+    .main-title {
+      font-size: 29px;
+    }
+
+    .main-content {
+      font-size: 19px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+      width: 38%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+  
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta { 
+    width: 40%;
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
+    font-size: 17px;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-mobile@2x.jpg') no-repeat;
+
+    &.fr {
+      background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-fr-mobile@2x.jpg') no-repeat;
+    }
+    &.en {
+      background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-en-mobile@2x.jpg') no-repeat;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+    top: 26%;
+    width: 100%;
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+    }
+
+    .xx_cta {
+      width: 50%;
+      font-size: 8px;
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta { 
+    width: 52%;
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
+    font-size: 14px;
+  }
+
+}
+
+

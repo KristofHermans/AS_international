@@ -1,0 +1,168 @@
+
+/* *********************************************************************************************************** */
+/*                                                SLIDER fashionxlXL                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionxl {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionxl.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
+  position: absolute;
+  width: 37%;
+  top: 31%;
+  left: 3%;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
+  color: #fff;
+  text-align: left;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 200;
+    font-size: 39px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    margin: 0;
+    margin-bottom: 2%;
+  }
+
+  .main-content {
+    font-size: 18px;
+    margin-bottom: 6%;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta { 
+  font-weight: 600;
+  width: 60%;
+  text-align: left;
+  margin-top: 0;
+  background: #af3d63;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+
+  &:hover {
+    background: darken(#af3d63, 6%);
+  }
+}
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
+
+    top: 29%;
+    .main-content {
+      font-size: 16px;
+    }
+	
+    .main-title {
+      font-size: 31px;
+    }
+
+    .xx_cta {
+      width: 70%;
+    }
+
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
+	
+    .main-content {
+      font-size: 11px;
+      line-height: 1.5;
+    }
+  
+    .main-title {
+      font-size: 21px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+      width:75%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+	  
+    }
+  }
+
+
+}
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionxl-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
+    width: 100%;
+    text-align: center;
+    top: 15%;
+    padding: 0 16%;
+	 
+    .main-content {
+      font-size: 11px;
+      line-height: 1.2;
+    }
+  
+    .main-title {
+      font-size: 19px;
+    }
+
+    .xx_cta {
+      width: 80%;
+      font-size: 8px;
+      margin: 0 auto;
+    }
+    
+  }
+
+
+
+}
+
+
