@@ -1221,224 +1221,166 @@ a:link {
 	BEGIN OUDE LIVE PARTIAL
 ========================== */
 /* *********************************************************************************************************** */
-/*                                             SLIDER WANDELSCHOENEN                                        ** */
+/*                                             SLIDER FASHIONKORTING                                        ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen.jpg") no-repeat; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-fr.jpg") no-repeat; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.en {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-en.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionkorting.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
   position: absolute;
-  width: 75%;
-  top: 29%;
+  width: 28%;
+  top: 14%;
   left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content h2, #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content span {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
   color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-title {
+  text-align: center;
+  padding: 10px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title {
     display: inline-block;
-    font-weight: 200;
-    font-size: 45px;
-    line-height: 120%;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1.1;
     color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 3%; }
+    margin: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title span {
+      font-size: 75px;
+      font-weight: inherit;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      margin-left: 7px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-content {
+    font-size: 17px;
+    padding: 0 10%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .legal {
+    margin-top: 16%;
+    font-size: 10px;
+    line-height: 1.3;
+    margin-bottom: 0; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta {
   font-weight: 600;
-  width: 35%;
+  width: 55%;
   text-align: left;
   margin-top: 0;
-  background: #ed881c;
-  color: #fff;
-  margin-bottom: 7%;
+  background: #fff;
+  color: #00569b;
   display: block;
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta:hover {
-    background: #d97911; }
+  margin: 0 auto 4%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta:hover {
+    background: #f0f0f0; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta {
-  width: 28%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
-  font-size: 28px; }
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content {
+  top: 11%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content .legal {
+    margin-top: 14%; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-title {
-    font-size: 35px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta {
-    width: 38%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title {
+      font-size: 75px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title span {
+        font-size: 60px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-content {
+      font-size: 16px;
+      padding: 0;
+      margin-bottom: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta {
+      width: 60%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .legal {
+      font-size: 9px;
+      margin-top: 9%; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta {
-    width: 40%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content {
+    top: 5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content .legal {
+      margin-top: 8%; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
-    font-size: 23px; } }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content .legal {
+    margin-top: 14%; } }
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
-    width: 74%;
-    top: 27%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-title {
-      font-size: 29px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-content {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title {
+      font-size: 55px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title span {
+        font-size: 45px;
+        margin-left: 4px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-content {
+      font-size: 11px;
+      padding: 0 5%;
+      margin-bottom: 6%;
+      line-height: 1.5; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta {
       text-align: left;
       padding-left: 10px;
-      margin-bottom: 6%;
-      width: 38%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta:after {
+      margin-bottom: 4%;
+      width: 55%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta:after {
         display: block;
         font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta {
-    width: 40%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
-    font-size: 17px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-mobile@2x.jpg") no-repeat; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr {
-      background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-fr-mobile@2x.jpg") no-repeat; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.en {
-      background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wandelschoenen-en-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content {
-    top: 26%;
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-title {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .main-content {
-      font-size: 15px;
-      padding: 0 10%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen .content .xx_cta {
-      width: 50%;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .xx_cta {
-    width: 52%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelschoenen.fr .content .main-content {
-    font-size: 14px; } }
-/* *********************************************************************************************************** */
-/*                                                SLIDER fashionxlXL                                         ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.fashionxl {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionxl.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
-  position: absolute;
-  width: 37%;
-  top: 31%;
-  left: 3%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
-  color: #fff;
-  text-align: left; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-title {
-    display: inline-block;
-    font-weight: 200;
-    font-size: 39px;
-    line-height: 120%;
-    text-transform: uppercase;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    margin: 0;
-    margin-bottom: 2%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-content {
-    font-size: 18px;
-    margin-bottom: 6%;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7); }
-
-#homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta {
-  font-weight: 600;
-  width: 60%;
-  text-align: left;
-  margin-top: 0;
-  background: #af3d63;
-  color: #fff;
-  margin-bottom: 7%;
-  display: block; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta:hover {
-    background: #983556; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
-    top: 29%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-content {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-title {
-      font-size: 31px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta {
-      width: 70%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-content {
-    font-size: 11px;
-    line-height: 1.5; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-title {
-    font-size: 21px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 6%;
-    width: 75%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta:after {
-      display: block;
-      font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionxl-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content {
-    width: 100%;
-    text-align: center;
-    top: 15%;
-    padding: 0 16%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-content {
-      font-size: 11px;
-      line-height: 1.2; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .main-title {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.fashionxl .content .xx_cta {
-      width: 80%;
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .legal {
       font-size: 8px;
-      margin: 0 auto; } }
+      margin-top: 10%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content {
+    top: 2%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content .legal {
+      margin-top: 8%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content {
+    top: 4%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content .legal {
+      margin-top: 14%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionkorting-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 1%;
+    width: 100%;
+    padding: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title {
+      font-size: 45px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-title span {
+        font-size: 35px;
+        margin-left: 4px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .main-content {
+      font-size: 12px;
+      padding: 0 18%;
+      margin-bottom: 3%;
+      line-height: 1.5; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta {
+      width: 23%;
+      margin-bottom: 2%;
+      display: inline-block;
+      margin-left: 2%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta:first-child {
+        margin-left: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .legal {
+      font-size: 8px;
+      margin-top: 3%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content .legal,
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content .legal {
+    margin-top: 3%; } }
 /* *********************************************************************************************************** */
 /*                                                SLIDER OUTDOORXL                                          ** */
 /* *********************************************************************************************************** */
@@ -1463,7 +1405,7 @@ a:link {
   text-align: center; }
   #homepage-wrapper #xx_header .xx_slider ul li.outdoorxl .content .main-title {
     display: inline-block;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 45px;
     line-height: 120%;
     color: inherit;
@@ -1533,6 +1475,108 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider ul li.outdoorxl .content .xx_cta {
       width: 40%;
       font-size: 8px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER JUNIORJASSEN                                        ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.juniorjassen {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-juniorjassen.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content h2, #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 3%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  margin-top: 0;
+  background: #23b8dd;
+  color: #fff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta:hover {
+    background: #1ea2c3; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.juniorjassen.en .content .xx_cta {
+  width: 24%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-title {
+    font-size: 33px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta {
+    width: 22%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen.en .content .xx_cta {
+    width: 28%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content {
+    width: 74%;
+    top: 27%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-title {
+      font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-content {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+      width: 25%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen.en .content .xx_cta {
+    width: 31%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-juniorjassen-mobile@2x.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content {
+    top: 26%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-title {
+      font-size: 19px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .main-content {
+      font-size: 15px;
+      padding: 0 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta {
+      width: 38%;
+      font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen.en .content .xx_cta {
+    width: 40%; } }
 /* *********************************************************************************************************** */
 /*                                               SLIDER RUGZAKKEN                                         ** */
 /* *********************************************************************************************************** */
@@ -1711,111 +1755,6 @@ a:link {
       top: 80px;
       left: 28%;
       font-size: 8px; } }
-/* *********************************************************************************************************** */
-/*                                            SLIDER NEW FASHION ARRIVALS                                   ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
-  position: absolute;
-  width: 40%;
-  top: 33%;
-  left: 27%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content h2, #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
-  color: #fff;
-  text-align: center;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
-    display: inline-block;
-    font-size: 40px;
-    line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 25px black;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 3%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
-  font-weight: 600;
-  width: 50%;
-  text-align: left;
-  margin-top: 0;
-  background: #2a324c;
-  color: #fff;
-  margin-bottom: 7%;
-  display: block;
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:hover {
-    background: #1f2538; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
-    content: "\f04b";
-    /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
-  top: 27%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
-    font-size: 36px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
-    width: 45%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
-    top: 21%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
-    font-size: 27px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
-    text-align: left;
-    padding-left: 10px;
-    margin-bottom: 6%;
-    width: 50%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
-      display: block;
-      font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-new-fashion-arrivals-mobile@2x.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content {
-    top: 26%;
-    width: 100%;
-    left: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .main-title {
-      font-size: 19px;
-      padding: 0 5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals .content .xx_cta {
-      width: 40%;
-      font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.new-fashion-arrivals.fr .content {
-    top: 26%; } }
 /* ==========================
 	END OUDE LIVE PARTIAL
 ========================== */
