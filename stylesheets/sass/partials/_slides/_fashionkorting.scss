@@ -1,0 +1,266 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER FASHIONKORTING                                        ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionkorting.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+  position: absolute;
+  width: 28%;
+  top: 14%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1.1;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+    text-transform: uppercase;
+    margin: 0;
+
+    span {
+      font-size: 75px;
+      font-weight: inherit;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      margin-left: 7px;
+    }
+  }
+
+  .main-content {
+    font-size: 17px;
+    padding: 0 10%;
+  }
+
+  .legal {
+    margin-top: 16%;
+    font-size: 10px;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta { 
+  font-weight: 600;
+  width: 55%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #00569b;
+
+  display: block;
+  margin: 0 auto 4%;
+
+  &:hover {
+    background: darken(#fff, 6%);
+  }
+}
+
+//FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content { 
+  top: 11%;
+  .legal {
+     margin-top: 14%;
+  }
+}
+
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 6%;
+
+    .main-title {
+      font-size: 75px;
+
+      span {
+        font-size: 60px;
+      }
+    }
+
+    .main-content {
+      font-size: 16px;
+      padding: 0;
+      margin-bottom: 6%;
+    }
+
+    .xx_cta {
+      width: 60%;
+    }
+
+    .legal {
+      font-size: 9px;
+      margin-top: 9%;
+    }
+    
+  }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content { 
+    top: 5%;
+    .legal {
+       margin-top: 8%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content .legal { 
+    margin-top: 14%;
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 0%;
+
+    .main-title {
+      font-size: 55px;
+
+      span {
+        font-size: 45px;
+        margin-left: 4px;
+      }
+    }
+
+    .main-content {
+          font-size: 11px;
+        padding: 0 5%;
+        margin-bottom: 6%;
+        line-height: 1.5;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%;
+      width: 55%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+
+    .legal {
+      font-size: 8px;
+      margin-top: 10%;
+    }
+    
+  }
+  
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content { 
+    top: 2%;
+    .legal {
+       margin-top: 8%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content { 
+    top: 4%;
+    .legal {
+      margin-top: 14%;
+    }
+    
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-fashionkorting-mobile@2x.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting .content {
+    top: 1%;
+    width: 100%;
+    padding: 0;
+
+     .main-title {
+      font-size: 45px;
+
+      span {
+        font-size: 35px;
+        margin-left: 4px;
+      }
+    }
+
+    .main-content {
+          font-size: 12px;
+        padding: 0 18%;
+        margin-bottom: 3%;
+        line-height: 1.5;
+    }
+
+    .xx_cta {
+          width: 23%;
+        margin-bottom: 2%;
+        display: inline-block;
+        margin-left: 2%;
+
+        &:first-child {
+          margin-left: 0;
+        }
+    }
+
+    .legal {
+      font-size: 8px;
+      margin-top: 3%;
+    }
+    
+  }
+
+  //FR & EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.fr .content .legal,
+  #homepage-wrapper #xx_header .xx_slider ul li.fashionkorting.en .content .legal { 
+    margin-top: 3%;
+  }
+
+}
+
+
