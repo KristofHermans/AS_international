@@ -1,0 +1,265 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER MERKEN                                                 ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-merken.jpg') no-repeat;
+
+
+.aanbod{
+  margin-left: 3%;
+}
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken .content {
+  color: #434343;
+  text-align: center;
+  position: absolute;
+  width: 75%; 
+  top: 10%;
+  left: 0;
+  h2, span {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 120%;
+    color: inherit;
+    /*margin-bottom: 2%;*/
+    /*text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    text-transform: uppercase;
+    /* margin: 0; */
+  }
+
+  .main-content {
+    font-size: 17px;
+    /*margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;*/
+    line-height: 130%;
+    margin-bottom:2%;
+  }
+
+  .prize {
+    font-size: 20px;
+    margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 120%;
+  }
+
+  .img-block{
+    margin-left: 9%;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken .content .xx_cta { 
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background: #90A711;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 3% auto 0;
+
+  &:hover {
+    background: #70820D;
+  }
+}
+
+
+/* G O E D P L A A T S E N  V A N  L I N K E N  L O G O ' S! ! ! */
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken div a.logo_opl{
+
+  width: auto;
+  height: auto;
+  margin-right: 10%;
+  padding-left: 0px;
+  background: none;
+  margin-bottom: 3%;
+
+      &:after {
+        display: none;
+        font-size: 8px;
+      }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-merken.jpg') no-repeat;
+
+
+.aanbod{
+  margin-left: 3%;
+  width: 7%;
+}
+}
+
+  #homepage-wrapper #xx_header .xx_slider ul li.merken .content {
+
+  margin-top: 1.5%;
+
+    .main-content {
+    font-size: 15px;
+    margin-bottom:0;
+    }
+
+    .main-title {
+      font-size: 27px;
+    }
+  
+  .prize{
+    font-size: 16px;
+    margin-top:0;
+  } 
+
+  .img-block{
+    margin-left: 2.5%;
+  }
+
+}
+
+  #homepage-wrapper #xx_header .xx_slider ul li.merken div a.logo_opl{
+
+  width: 14%;
+  height: auto;
+  margin-right: 2%;
+  padding-left: 0px;
+  background: none;
+  margin-bottom: 3%;
+
+      &:after {
+        display: none;
+        font-size: 8px;
+      }
+  }
+}
+
+
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-merken.jpg') no-repeat;
+
+
+.aanbod{
+  display: none;
+}
+}
+
+  #homepage-wrapper #xx_header .xx_slider ul li.merken .content {
+    width: 75%;
+    top:8%;
+
+    .main-title {
+      font-size: 15px;
+    }
+
+    .main-content {
+      font-size: 16px;
+    }
+    
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.merken .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.merken {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-merken_mobile.jpg') no-repeat;
+  
+  .aanbod{
+   display: none;
+  }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.merken .content {
+    top: 5%;
+    width: 100%;
+
+    .main-title {
+      font-size: 12px;
+    }
+
+    .main-content {
+      font-size: 10px;
+      padding: 0 10%;
+      display: none;
+    }
+
+    .prize {
+      font-size: 10px;
+      color: #fff;
+      margin-bottom: 0;
+    }
+
+    .img-block{
+      margin-top: -2%;
+      margin-left: 8.5%;
+    }
+  }
+
+/* G O E D P L A A T S E N  V A N  L I N K E N  L O G O ' S! ! ! */
+
+#homepage-wrapper #xx_header .xx_slider ul li.merken div a.logo_opl{
+
+  width: 18%;
+  height: auto;
+  margin-right: 7%;
+  padding-left: 0px;
+  background: none;
+  margin-bottom: 0%;
+
+      &:after {
+        display: none;
+        font-size: 8px;
+      }
+}
+
+}
+
+
