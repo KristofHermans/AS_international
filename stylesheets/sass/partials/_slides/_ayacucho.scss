@@ -1,0 +1,212 @@
+
+/* *********************************************************************************************************** */
+/*                                            SLIDER AYACUCHO                                            ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
+  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
+  position: absolute;
+  width: 75%;
+  top: 27%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: inherit;
+    /*margin-bottom: 2%;*/
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    /* margin: 0; */
+  }
+
+  .main-content {
+    /*font-size: 24px;
+    margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 120%;*/
+	margin-bottom:2%;
+  }
+
+  .prize {
+    font-size: 20px;
+    margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 120%;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta { 
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background: #90A711;
+  color: #fff;
+  margin-bottom: 7%;
+
+  display: block;
+  margin: 3% auto 0;
+
+  &:hover {
+    background: #70820D;
+  }
+
+  &:after {
+    content: "\f04b"; /* arrow */
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 10px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+  }
+}
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
+
+    .main-content {
+      font-size: 28px;
+	  margin-bottom:0;
+    }
+
+    .main-title {
+      font-size: 30px;
+    }
+	
+	.prize{
+		font-size: 16px;
+		margin-top:0;
+	}
+    .xx_cta {
+      width: 30%;
+    }
+    
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
+    width: 75%;
+	top:18%;
+    .main-title {
+      font-size: 24px;
+    }
+
+    .main-content {
+      font-size: 16px;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+	  width:32%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+    
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
+    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
+    top: 15%;
+    width: 100%;
+
+    .main-title {
+      font-size: 17px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 10%;
+    }
+
+    .prize {
+        font-size: 10px;
+/*		margin: 0;
+		margin-top: -7px;
+*/        color: #fff;
+    	margin-bottom: 0;
+    }
+
+    .xx_cta {
+      width: 40%;
+      font-size: 8px;
+	  &:after {
+        display: none;
+      }
+    }
+    
+  }
+
+
+
+}
+
+
