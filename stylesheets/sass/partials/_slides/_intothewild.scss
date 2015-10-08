@@ -1,0 +1,357 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER INTO THE WILD                                        ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.intothewild {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-intothewild.jpg') no-repeat;
+
+  .block{
+  display: block; 
+  position: relative;
+  top: 140px;
+  }
+
+  .txt-img{
+    margin-left: 40%;
+  }
+
+  .folder-img{
+    margin-top: -15px;
+    margin-left: 40%;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
+  position: absolute;
+  width: 28%;
+  top: 21%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 1.1;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+    text-transform: uppercase;
+    margin: 0;
+
+    span {
+      font-size: 75px;
+      font-weight: inherit;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      margin-left: 7px;
+    }
+  }
+
+  .main-content {
+    font-size: 17px;
+    padding: 0 10%;
+  }
+
+  .legal {
+    margin-top: 16%;
+    font-size: 10px;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .xx_cta { 
+  font-weight: 600;
+  width: 75%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #434343;
+
+  display: block;
+  margin: 0 auto 4%;
+
+  &:hover {
+    background: darken(#fff, 6%);
+  }
+}
+
+//FR FIX
+#homepage-wrapper #xx_header .xx_slider ul li.intothewild.fr .content { 
+  top: 11%;
+  .legal {
+     margin-top: 14%;
+  }
+}
+
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-intothewild.jpg') no-repeat;
+    
+    .block{
+      display: block; 
+      position: relative;
+      top: 100px;
+   }
+
+    .txt-img{
+      margin-left: 37%;
+    }
+
+    .folder-img{
+    margin-top: -15px;
+    margin-left: 37%;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
+    top: 6%;
+
+    .main-title {
+      font-size: 75px;
+
+      span {
+        font-size: 60px;
+      }
+    }
+
+    .main-content {
+      font-size: 16px;
+      padding: 0;
+      margin-bottom: 6%;
+    }
+
+    .xx_cta {
+      width: 60%;
+    }
+
+    .legal {
+      font-size: 9px;
+      margin-top: 9%;
+    }
+    
+  }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .xx_cta { 
+      font-weight: 600;
+      width: 85%;
+      text-align: left;
+      margin-top: 0;
+      background: #fff;
+      color: #434343;
+
+     display: block;
+     margin: 0 auto 4%;
+    }
+
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.fr .content { 
+    top: 5%;
+    .legal {
+       margin-top: 8%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.en .content .legal { 
+    margin-top: 14%;
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild {
+
+    .block{
+      display: block; 
+      position: relative;
+      top: 90px;
+   }
+
+    .txt-img{
+      width: 30%;
+      margin-left: 38%;
+    }
+
+    .folder-img{
+      width: 30%;
+    margin-top: -15px;
+    margin-left: 37.5%;
+    }
+  }
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
+    top: 9%;
+
+    .main-title {
+      font-size: 55px;
+
+      span {
+        font-size: 45px;
+        margin-left: 4px;
+      }
+
+    }
+
+    .main-content {
+        font-size: 11px;
+        padding: 0 5%;
+        margin-bottom: 6%;
+        line-height: 1.5;
+    }
+
+    .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 4%;
+      width: 85%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+
+    .legal {
+      font-size: 8px;
+      margin-top: 10%;
+    }
+    
+  }
+  
+  //FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.fr .content { 
+    top: 2%;
+    .legal {
+       margin-top: 8%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.en .content { 
+    top: 4%;
+    .legal {
+      margin-top: 14%;
+    }
+    
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-intothewild_mobile.jpg') no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+   
+   .block{
+      display: block; 
+      position: relative;
+      top: 10px;
+   }
+    .txt-img{
+      width: 50%;
+      margin-left: 25%;
+    }
+
+    .folder-img{
+    display: none;
+    } 
+
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
+    top: 35%;
+    width: 100%;
+    padding: 0;
+    margin-left: -1%; // NEGATIEVE MARGIN OM CONTENT TE CENTREREN
+
+     .main-title {
+      font-size: 45px;
+
+      span {
+        font-size: 35px;
+        margin-left: 4px;
+      }
+    }
+
+    .main-content {
+        font-size: 12px;
+        padding: 0 18%;
+        margin-bottom: 3%;
+        line-height: 1.5;
+    }
+
+    .overall-cta{
+      margin-top: 20%;
+    }
+
+    .xx_cta {
+        width: 35%;
+        margin-top: -1%;
+        display: inline-block;
+        margin-left: 2%;
+
+        &:first-child {
+        }
+
+        &:last-child {
+        width: 73.5%;
+        }
+    }
+
+    .legal {
+      font-size: 8px;
+      margin-top: 3%;
+    }
+    
+  }
+
+  //FR & EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.fr .content .legal,
+  #homepage-wrapper #xx_header .xx_slider ul li.intothewild.en .content .legal { 
+    margin-top: 3%;
+  }
+
+}
+
+
