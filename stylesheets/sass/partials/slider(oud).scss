@@ -1,4 +1,4 @@
- 
+
 /* *********************************************************************************************************** */
 /* **                                                 SLIDER                                               ** */
 /* *********************************************************************************************************** */
@@ -6,31 +6,7 @@
 /***********************************************
     General styles 
 ***********************************************/
-/*safari 9.0 fix*/
 
-#homepage-wrapper h2{
-  background:none;}
-_::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider ul li .content .main-title{
-  width:100%;
-  margin-bottom: 0.6em !important;}
-_::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-title{ 
-  position:relative;
-  top:15px;
-   } 
-_::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content .tab-intro{ 
-  position:relative;
-  top:-20px;
-   } 
-_::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport{
-  width:99.99%;
-}
-#homepage-wrapper #xx_header .xx_slider ul li .content .main-title{
-  width:100%;
-}
-#homepage-wrapper #xx_header .xx_slider #bx-pager .tab .tab-content{
-  overflow:hidden;
-}
-/*___________________________*/
 #homepage-wrapper #xx_header {
   padding-top: 0px;
 }
@@ -59,7 +35,24 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport{
 #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item:first-child {
   margin-left: 0;
 }
-
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a {
+  /* box */
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  /* background */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #3f3f3f;
+}
 #homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
   background: #3f3f3f;
 }
@@ -75,24 +68,8 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport{
   /* position */
   position: relative;
   /* box */
-  height: 410px;
-
-  @media (max-width: 1199px) {
-    height: 311px;
-    background-size: 940px 311px !important;
-  }
-
-  @media (max-width: 979px) {
-    height: 240px;
-    background-size: 724px 240px !important;
-  }
-  @media (max-width: 767px) {
-    height: 160px;
-    background-size: 302px 160px !important;
-  }
+  //height: 386px;
 }
-
-
 #homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper > a {
   position: absolute;
   top: 0;
@@ -117,11 +94,31 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport{
     -webkit-box-shadow: inset 0 0 8px rgba(0,0,0,.6);
 }
 
-//overall CTA
-#homepage-wrapper #xx_header .xx_slider ul li a.overall-cta{
-  display: block;
-  width: 74%;
-  height: 100%;
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider {
+    //display: none;
+    margin-top: 5%;
+  } 
+   /******* MOBILE HEADER **********/
+  
+  #homepage-wrapper #xx_header_mobile {
+    display: block;
+  }
+
+  /****** Mobile Homepage *******/
+  #homepage-wrapper #xx_footer,
+  #homepage-wrapper #xx_content {
+    display: none;
+  }
+  // quick fix
+  #homepage-wrapper #xx_header {
+    display: block;
+    width: 302px;
+    height: 160px;
+    margin: 0 auto 4%;
+  }
+  
 }
 
 //Buttons 
@@ -180,34 +177,4 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport{
     color: inherit;
 
   }
-}
-
-
-
-
-@media (max-width: 767px) {
-
-  #homepage-wrapper #xx_header .xx_slider {
-    //display: none;
-    margin-top: 5%;
-  } 
-   /******* MOBILE HEADER **********/
-  
-  #homepage-wrapper #xx_header_mobile {
-    display: block;
-  }
-
-  /****** Mobile Homepage *******/
-  #homepage-wrapper #xx_footer,
-  #homepage-wrapper #xx_content {
-    display: none;
-  }
-  // quick fix
-  #homepage-wrapper #xx_header {
-    display: block;
-    width: 302px;
-    height: 160px;
-    margin: 0 auto 4%;
-  }
-  
 }
