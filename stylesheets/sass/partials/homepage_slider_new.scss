@@ -1,0 +1,86 @@
+/*******************************************     
+  Global                                              
+*******************************************/
+
+/*******************************************     
+  Header                                              
+*******************************************/
+#homepage-wrapper #xx_header {
+  margin-top: 0px;
+	max-width: 1170px;
+  padding-top: 0px;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+#homepage-wrapper #xx_header .xx_slider{
+  position: relative;
+  box-shadow: 0 0 5px #D4D3D1;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#homepage-wrapper #xx_header .bx-wrapper{
+  margin: 0 auto;
+}
+
+#homepage-wrapper #xx_header .bx-viewport{
+  border: 0;
+  box-shadow: none;
+  left: 0;
+}
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager {
+  /* box */
+  margin-top: 20px;
+  /* font */
+  text-align: center;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul {
+  /* box */
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li {
+  /* position */
+  position: relative;
+  /* box */
+  height: 410px;
+}
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 311px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header {
+    display: block;
+  }
+
+ 	#homepage-wrapper #xx_header .xx_slider ul li {
+    height: 240px;
+  } 
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header{
+    margin: 10px auto;
+    max-width: 302px;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 160px;
+    width: 100%;
+  }
+}

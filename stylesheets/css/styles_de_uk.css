@@ -198,7 +198,6 @@ figure {
  * Address differences between Firefox and other browsers.
  */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -329,8 +328,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -458,7 +455,6 @@ a:link {
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
   -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab.three-tabs {
     height: 32.52032%;
@@ -688,7 +684,7 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
       right: 4px;
       background: url(http://static.asadventure.com/includes/homepage/international/images/slider-controls.png) no-repeat -34px center; } }
-@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background: url("http://static.asadventure.com/includes/homepage/international/images/slider-controls@2x.png") no-repeat;
@@ -779,8 +775,6 @@ a:link {
       display: block; } }
 
 #homepageWrapper * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -823,15 +817,11 @@ a:link {
   border: 1px solid #A35E1E; }
 
 #homepageWrapper .blockHeader {
-  -webkit-box-shadow: 0 3px 3px #cccccc;
   box-shadow: 0 3px 3px #cccccc;
-  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
 
 #homepageWrapper .boxShadow {
-  -webkit-box-shadow: 0 0 5px #aaaaaa;
   box-shadow: 0 0 5px #aaaaaa;
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
 
 #homepageWrapper b {
@@ -1287,15 +1277,11 @@ a:link {
   background: #ffffff;
   float: left;
   margin: 0 0.2564103%;
-  -webkit-box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
   max-height: 100px;
   max-width: 12.0512821%;
   padding: 0;
   -webkit-transition: all .2s ease-out;
-  -moz-transition: all .2s ease-out;
-  -o-transition: all .2s ease-out;
-  -ms-transition: all .2s ease-out;
   transition: all .2s ease-out; }
 
 #homepageWrapper .brandCard:hover {
@@ -1303,8 +1289,6 @@ a:link {
   position: relative;
   top: -2px;
   -webkit-transform: scale(1.03);
-  -moz-transform: scale(1.03);
-  -o-transform: scale(1.03);
   -ms-transform: scale(1.03);
   transform: scale(1.03); }
 
@@ -1828,7 +1812,8 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport {
     background: url(../../images/transparent-bg.png);
     border: 2px solid #ededed;
     color: #ededed;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-dark:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
       color: #ffffff; }
@@ -1839,7 +1824,8 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport {
     background: #ffffff;
     border: 2px solid #454545;
     color: #454545;
-    transition: all .2s ease-in-out; }
+    -webkit-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out; }
     #homepage-wrapper .cta-light:hover {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
   @media only screen and (max-width: 767px) {

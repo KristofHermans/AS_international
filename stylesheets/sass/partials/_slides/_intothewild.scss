@@ -300,10 +300,11 @@ and (orientation : portrait) {
   }
 
   #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
-    top: 35%;
+    top: 50%;
     width: 100%;
     padding: 0;
-    margin-left: -1%; // NEGATIEVE MARGIN OM CONTENT TE CENTREREN
+    margin-left: 8%;
+    text-align: left;
 
      .main-title {
       font-size: 45px;
@@ -335,7 +336,7 @@ and (orientation : portrait) {
         }
 
         &:last-child {
-        width: 73.5%;
+        width: 35%;
         }
     }
 
