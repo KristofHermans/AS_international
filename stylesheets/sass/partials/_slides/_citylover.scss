@@ -1,0 +1,218 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER CITYLOVER                                             ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.citylover {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-bigcitylights.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.8%;
+  }
+
+  .main-content {
+    text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta { 
+  font-weight: 600;
+  width: 27%;
+  text-align: left;
+  margin-top: 0;
+  background: #c8825f;
+  color: #fff;
+  margin-bottom: 7%;
+
+  /*display: block;*/
+  margin: 0 auto;
+
+  &:hover {
+    background: darken(#c8825f, 6%);
+  }
+}
+
+//cta aanpassing
+
+#homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman { 
+  display: block;
+  margin-bottom: 5%;
+  font-weight: 600;
+  width: 27%;
+  text-align: left;
+  margin-top: 0;
+  background: #5a6eba;
+  color: #fff;
+  margin: 0 auto;
+  margin-bottom: 1%;
+
+  &:hover {
+    background: darken(#5a6eba, 6%);
+  }
+}
+
+//FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover.fr .content { 
+
+  .main-content{
+    padding: 0 20px;
+  }
+
+  @media (max-width: 1200px) {
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+  }
+  @media (max-width: 767px) {
+    top: 15%;
+    }
+  }
+
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
+    top: 22%;
+
+    .main-title {
+      font-size: 32px;
+    }
+
+    .main-content{
+      font-size: 16px;
+    }
+
+    .xx_cta, .xx_cta_woman {
+      width: 30%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta { 
+    width: 30%;
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
+    width: 74%;
+    top: 14%;
+
+    .main-title {
+      font-size: 30px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 20%;
+    }
+
+    .xx_cta, .xx_cta_woman {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 1%;
+      width: 30%;
+
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+  }
+  
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta { 
+    width: 31%;
+  }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-bigcitylights_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
+    top: 25%;
+    width: 100%;
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .main-content {
+      font-size: 10px;
+      padding: 0 10%;
+      margin-bottom: 1%;
+    }
+
+    .xx_cta, .xx_cta_woman {
+      width: 35%;
+      font-size: 8px;
+    }
+    .xx_cta_woman {
+      display: inline-block;
+      margin-right: 1%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta { 
+    width: 40%;
+  }
+
+}
+
+

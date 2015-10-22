@@ -332,6 +332,9 @@ a:link {
   #homepage-wrapper #xx_header {
     display: block; }
 
+  #homepage-wrapper #xx_header .bx-wrapper {
+    margin: 10px auto 0; }
+
   #homepage-wrapper #xx_header .xx_slider ul li {
     height: 240px; } }
 /* *********************************************************************************************************** */
@@ -1434,10 +1437,11 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport {
       display: none; }
 
   #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content {
-    top: 35%;
+    top: 50%;
     width: 100%;
     padding: 0;
-    margin-left: -1%; }
+    margin-left: 8%;
+    text-align: left; }
     #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .main-title {
       font-size: 45px; }
       #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .main-title span {
@@ -1456,7 +1460,7 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport {
       display: inline-block;
       margin-left: 2%; }
       #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .xx_cta:last-child {
-        width: 73.5%; }
+        width: 35%; }
     #homepage-wrapper #xx_header .xx_slider ul li.intothewild .content .legal {
       font-size: 8px;
       margin-top: 3%; }
@@ -2196,7 +2200,7 @@ _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .bx-viewport {
   background: #23b8dd;
   color: #fff;
   margin-bottom: 7%;
-  display: block;
+  /*display: block;*/
   margin: 0 auto; }
   #homepage-wrapper #xx_header .xx_slider ul li.juniorjassen .content .xx_cta:hover {
     background: #1ea2c3; }
