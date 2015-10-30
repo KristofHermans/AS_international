@@ -1,0 +1,175 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER MIDSEASON                                             ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason {
+  background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_NL.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason.en {
+  background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_EN.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason.fr {
+  background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_FR.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+  position: absolute;
+  width: 70%;
+  top: 80%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+  color: #fff;
+  text-align: right;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.8%;
+  }
+
+  .main-content {
+    text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.midseason .content .xx_cta { 
+  font-weight: 600;
+  width: 15%;
+  text-align: left;
+  margin-top: 0;
+  background: white;
+  color: black;
+  margin-bottom: 0%;
+
+  /*display: block;*/
+  margin: 0 auto;
+  margin-left: 1%;
+
+  &:hover {
+    background: darken(white, 6%);
+  }
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+    .main-title {
+      font-size: 32px;
+    }
+
+    .main-content{
+      font-size: 16px;
+    }
+  }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+
+    .main-title {
+      font-size: 30px;
+    }
+
+    .main-content {
+      font-size: 15px;
+      padding: 0 20%;
+    }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason .content .xx_cta { 
+    width: 40%;
+  }
+
+    .xx_cta {
+      padding-left: 1%;
+      &:after {
+        display: block;
+        font-size: 8px;
+      }
+    }
+  }
+
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_NL_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason.en {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_EN_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason.fr {
+    background: url('http://static.asadventure.com/includes/homepage/national/images/bg-midseason_FR_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+    top: 25%;
+    width: 100%;
+
+    .main-title {
+      font-size: 19px;
+    }
+
+    .xx_cta {
+      width: 35%;
+      font-size: 8px;
+      display:block;
+      margin-bottom: 2%;
+      margin-left: 48%;
+    }
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.midseason.en .content .xx_cta { 
+    width: 40%;
+  }
+
+}
+
+

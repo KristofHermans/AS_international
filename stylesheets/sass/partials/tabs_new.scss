@@ -102,7 +102,7 @@ a:link { -webkit-tap-highlight-color: rgba(0,0,0,0); }
 
 #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:before {
   content: "";
-  background: url('../../images/arrow-tab.png') no-repeat center center;
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/arrow-tab.png') no-repeat center center;
   width: 25px;
   height: 99px;
   position: relative;
@@ -292,7 +292,7 @@ only screen and (                min-resolution: 2dppx) {
 
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
-    background: url('../images/slider-controls@2x.png') no-repeat;
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/slider-controls@2x.png') no-repeat;
     background-size: 44px 23px; //verleden: 66px 34px;
   }
 
