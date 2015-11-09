@@ -1,7 +1,7 @@
 <!-- ================
 <!--   HOMEPAGE CSS   -->
 <!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
-<link rel="stylesheet" href="http://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_en_new.css?v=1510070900">
+<link rel="stylesheet" href="//static.asadventure.com/includes/homepage/international/stylesheets/css/styles_en_new.css?v=1510070900">
 <!-- <link href="https://static.asadventure.com/includes/homepage/national/new/stylesheets/style151012.css" rel="stylesheet" /> -->
 <!--  <link rel="stylesheet" href="stylesheets/css/styles_de_uk.css">
 -->
@@ -17,9 +17,17 @@
     <div class="xx_slider">
       <ul class="bxslider">
 
+        <li class="midseason en">
+                    <a href="/mid-season?icn=MSS&ici=homepage-main-banner1" class="overall-cta"></a>
+                    <div class="content">
+                        <a href="/promotions/women?icn=MSS_dames&ici=homepage-main-banner1" class="xx_cta">Women</a>
+                        <a href="/promotions/men?icn=MSS_heren&ici=homepage-main-banner1" class="xx_cta">Men</a>
+                        <a href="/promotions/junior?icn=MSS_junior&ici=homepage-main-banner1" class="xx_cta">Junior</a>
+                    </div>
+        </li>
+
         <li class="intothewild">
-          <div class="block"> <img class="txt-img" src="http://static.asadventure.com/includes/homepage/national/new/images/txt-intothewild.png" /> 
-            <!--<img class="folder-img" src="http://static.asadventure.com/includes/homepage/national/new/images/folder-EN.png" /> --> </div>
+          <div class="block"> <img class="txt-img" src="http://static.asadventure.com/includes/homepage/national/new/images/txt-intothewild.png" /> <!--<img class="folder-img" src="http://static.asadventure.com/includes/homepage/national/new/images/folder-EN.png" />--> </div>
           <a href="#" class="overall-cta"></a>
           <div class="content"> <a href="/autumn-must-haves/women?icn=herfstfolder_women&ici=homepage-main-banner1" class="xx_cta">Women</a> <a href="/autumn-must-haves/men?icn=herfstfolder_men&ici=homepage-main-banner1" class="xx_cta">Men</a> <a href="/autumn-must-haves/junior?icn=herfstfolder_junior&ici=homepage-main-banner1" class="xx_cta">Kids</a> <a href="/autumn-must-haves/equipment?icn=herfstfolder_equipment&ici=homepage-main-banner1" class="xx_cta">Equipment</a> </div>
         </li>
@@ -29,20 +37,10 @@
           <div class="content">
           <h2 class="main-title">Bike & Run</h2>
           <p class="main-content">Get your legs moving with these new trends and gadgets.</p>
-          <a href="http://www.asadventure.co.uk/cycling-running?icn=bikerunxl&ici=homepage-main-banner2" class="xx_cta">Be inspired</a>
+          <a href="http://www.asadventure.dk/cycling-running?icn=bikerunxl&ici=homepage-main-banner2" class="xx_cta">Be inspired</a>
           </div>
         </li>
         
-        <li class="citylover">
-          <a href="#" class="overall-cta"></a>
-          <div class="content">
-            <h2 class="main-title">Big city lights</h2>
-            <p class="main-content">The night is still young…just like you. Go out in style with these urban outfits!</p>
-            <a href="http://www.asadventure.co.uk/discover-more/outfits-looks-men-/big-city-lights?icn=lookbookcityheren&ici=homepage-main-banner3" class="xx_cta_woman">Women</a>
-            <a href="http://www.asadventure.co.uk/discover-more/outfits-looks-men-/big-city-lights?icn=lookbookcityheren&ici=homepage-main-banner3" class="xx_cta">Men</a>
-          </div>
-        </li>
-
         <li class="wintersport"> 
           <a href="/ski-snowboard/ski-s-snowboards?icn=skisnowboard&ici=homepage-main-banner4" class="overall-cta"></a>
           <div class="content">
@@ -55,25 +53,25 @@
       </ul>
       <!-- Sidebar TABS -->
       <div id="bx-pager"> 
+        
+        <a data-slide-index="0" href="#" class="tab">
+          <div class="tab-content">
+            <h2 class="tab-title">Mid Season Sales</h2>
+            <p class="tab-intro">Treat yourself at the Mid Season Sales</p>
+          </div>
+        </a>
 
-        <a data-slide-index="0" href="#" class="tab active">
+        <a data-slide-index="1" href="#" class="tab active">
           <div class="tab-content">
             <h2 class="tab-title">Into the wild</h2>
             <p class="tab-intro">Completely wild about 40 promotions</p>
           </div>
         </a> 
         
-        <a data-slide-index="1" href="#" class="tab">
+        <a data-slide-index="2" href="#" class="tab">
           <div class="tab-content">
             <h2 class="tab-title">Bike & Run</h2>
             <p class="tab-intro">Inspiration for extra cycling and hiking fun</p>    
-          </div>
-        </a>
-
-        <a data-slide-index="2" href="#" class="tab">
-          <div class="tab-content">
-            <h2 class="tab-title">Outfits for city lovers</h2>
-            <p class="tab-intro">Be inspired by our new urban looks.</p>
           </div>
         </a>
 
@@ -85,7 +83,7 @@
         </a> 
 
       </div>
-      
+
       <!-- END Sidebar TABS --> 
       
     </div>
@@ -93,6 +91,26 @@
   <!-- End xx_header -->
   
   <div id="xx_content" class="span12">
+
+<div class="content-row">
+            <a class="col-6 row-2 photo-block" href="/discover-more/outfits-looks-men-/winterwarm?icn=lookbookwinterwarm&ici=homepage-lookbook-item1">
+                <div class="black-hover"></div>
+                <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/lookbook_zee.jpg" class="background" alt="Lookbook zee" />
+                <div class="copy">
+                    <h2 class="item-title">The man and the sea</h2>
+                    <button class="cta">Shop de look</button>
+                </div>
+            </a>
+            <a class="col-6 row-2 photo-block" href="/discover-more/outfits-looks-women-/big-city-lights?icn=lookbookbigcitylights&ici=homepage-lookbook-item2">
+                <div class="black-hover"></div>
+                <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/livethegoodlife.jpg" class="background" alt="Live the good life" />
+                <div class="copy">
+                    <h2 class="item-title">Living the good life</h2>
+                    <button class="cta">Shop de look</button>
+                </div>
+            </a>
+        </div>
+    
     <div class="content-row"> 
       <!-- LINK NOG TOEVOEGEN --> 
       <a class="col-6 row-3 photo-block" href="/tomtom-heart-rate-monitor-runner-2-music-2523d52001?id_colour=4169?icn=tomtomrunner&ici=homepage-row1-box1">
@@ -119,11 +137,11 @@
             &nbsp;</p>
           <a href="/ayacucho?&flt_type_gender=dames&filters=type_gender|LIST&icn=ayacucho-heren&ici=homepage-row2-box1" class="cta color">Our product range</a> </div>
       </div>
-      <div class="col-4 row-3 content-block"> <a href="http://www.asadventure.co.uk/en/content/en/ayacucho?icn=ayacucho&ici=homepage-row2-box2"> <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/ayacucho.jpg" alt="Ayacucho" class="image-top"/> </a>
+      <div class="col-4 row-3 content-block"> <a href="http://www.asadventure.dk/en/content/en/ayacucho?icn=ayacucho&ici=homepage-row2-box2"> <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/ayacucho.jpg" alt="Ayacucho" class="image-top"/> </a>
         <div class="copy bottom">
           <h2 class="item-title">Ayacucho</h2>
           <p class="item-intro">This sustainable brand can be found exclusively at A.S.Adventure.</p>
-          <a href="http://www.asadventure.co.uk/en/content/en/ayacucho?icn=ayacucho&ici=homepage-row2-box2" class="cta color">Read more</a> </div>
+          <a href="http://www.asadventure.dk/en/content/en/ayacucho?icn=ayacucho&ici=homepage-row2-box2" class="cta color">Read more</a> </div>
       </div>
       <div class="col-4 row-3 content-block"> <a href="/ayacucho?&flt_type_gender=heren&filters=type_gender|LIST&icn=ayacucho-heren&ici=homepage-row2-box3"> <img data-src="http://static.asadventure.com/includes/homepage/international/images/ayacucho-heren.jpg" alt="Ayacucho for him" class="image-top"/> </a>
         <div class="copy bottom">
@@ -134,7 +152,7 @@
           <a href="/ayacucho?&flt_type_gender=heren&filters=type_gender|LIST&icn=ayacucho-heren&ici=homepage-row2-box3" class="cta color">Our product range</a> </div>
       </div>
     </div>
-    <div class="content-row"> <a class="col-6 row-3 photo-block" href="http://www.asadventure.co.uk/content/en/explore-more-en?icn=explore-more&ici=homepage-row3-box1">
+    <div class="content-row"> <a class="col-6 row-3 photo-block" href="http://www.asadventure.dk/content/en/explore-more-en?icn=explore-more&ici=homepage-row3-box1">
       <div class="black-hover"></div>
       <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/explore-more.jpg" class="background" alt="Explore More"/>
       <div class="copy extra-pad">
@@ -142,7 +160,7 @@
         <p class="item-intro">Being a member has its advantages ... Exclusive promotions</p>
         <button class="cta">More info</button>
       </div>
-      </a> <a class="col-6 row-3 photo-block" href="http://www.asadventure.co.uk/content/en/gift-vouchers?icn=cadeaucheques&ici=homepage-row3-box2">
+      </a> <a class="col-6 row-3 photo-block" href="http://www.asadventure.dk/content/en/gift-vouchers?icn=cadeaucheques&ici=homepage-row3-box2">
       <div class="black-hover"></div>
       <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/cadeaucheques.jpg" class="background" alt="Cadeaucheques"/>
       <div class="copy extra-pad">
@@ -169,7 +187,7 @@
       <div class="col-12 row-1 icon-row">
         <div class="icon-row-item"> 
           <!-- <a href="/content/en/purchase-information-shipping" class="item2"><span>Free delivery until October 25</span></a> --> 
-          <span class="item2"><span>Free delivery on orders over &pound; 30</span></span> </div>
+          <span class="item2"><span>Free delivery on orders over DKK 250</span></span> </div>
         <div class="icon-row-item"> 
           <!-- <a href="/content/en/purchase-information-returns" class="item3"><span>Returns possible within 14 days</span></a> --> 
           <span class="item3"><span>Returns possible within 14 days</span></span> </div>

@@ -1,7 +1,7 @@
 <!-- ================
 <!--   HOMEPAGE CSS   -->
 <!-- The file under this comment needs to be adapted through our preprocessor (SASS) for each iteration of the homepage. After which the version-number needs to be changed for cache invalidation. The clearest way to change the version-number is for it to reflect the date of the last change. Formatting will be as follows 1412291146 which means the last cache invalidation happened at 11:46 on december 29th of the year 2014. This way any developer can easily check the timestamp to see whether or not the cache was correctly invalidated. IMPORTANT: Make sure to only invalidate the cache after making sure all servers are serving the latest version of the compiled css-file. -->
-<link rel="stylesheet" href="http://static.asadventure.com/includes/homepage/international/stylesheets/css/styles_en_new.css?v=1510070900">
+<link rel="stylesheet" href="//static.asadventure.com/includes/homepage/international/stylesheets/css/styles_en_new.css?v=1510070900">
 <!-- <link href="https://static.asadventure.com/includes/homepage/national/new/stylesheets/style151012.css" rel="stylesheet" /> -->
 <!--  <link rel="stylesheet" href="stylesheets/css/styles_de_uk.css">
 -->
@@ -16,6 +16,15 @@
   <div class="span12" id="xx_header">
         <div class="xx_slider">
             <ul class="bxslider">
+
+              <li class="midseason fr">
+                    <a href="/mi-saison?icn=MSS&ici=homepage-main-banner1" class="overall-cta"></a>
+                    <div class="content">
+                        <a href="/promotions/femmes?icn=MSS_dames&ici=homepage-main-banner1" class="xx_cta">Femmes</a>
+                        <a href="/promotions/hommes?icn=MSS_heren&ici=homepage-main-banner1" class="xx_cta">Hommes</a>
+                        <a href="/promotions/junior?icn=MSS_junior&ici=homepage-main-banner1" class="xx_cta">Junior</a>
+                    </div>
+                </li>
 
               <li class="intothewild">
                     <div class="block">
@@ -40,16 +49,6 @@
                             <a href="/content/fr/moveyouras?icn=bikerunxl&ici=homepage-main-banner2" class="xx_cta">Trouvez l’inspiration</a>
                             </div>
                         </li>
-        
-                        <li class="citylover fr">
-                          <a href="#" class="overall-cta"></a>
-                          <div class="content">
-                          <h2 class="main-title">Les lumières de la ville</h2>
-                          <p class="main-content">La nuit ne fait que commencer… et elle vous appartient ! Vous serez à votre avantage grâce à ces tenues urbaines !</p>
-                          <a href="/decouvrez-plus/outfits-looks-femmes-/big-city-lights?icn=lookbookcitydames&ici=homepage-main-banner3" class="xx_cta_woman">Femmes</a>
-                          <a href="/decouvrez-plus/outfits-looks-hommes-/big-city-lights?icn=lookbookcityheren&ici=homepage-main-banner3" class="xx_cta">Hommes</a>
-                          </div>
-                        </li>
 
                         <li class="wintersport">
                           <a href="/content/fr/location-ski?icn=skiverhuur&ici=homepage-main-banner4" class="overall-cta"></a>
@@ -65,24 +64,25 @@
             </ul>
             <!-- Sidebar TABS -->
             <div id="bx-pager">
+
                     <a data-slide-index="0" href="#" class="tab active">
+                      <div class="tab-content">
+                        <h2 class="tab-title">Promotions de mi-saison</h2>
+                        <p class="tab-intro">Profitez pleinement des promotions de mi-saison</p>
+                      </div>
+                    </a>
+
+                    <a data-slide-index="1" href="#" class="tab active">
                       <div class="tab-content">
                         <h2 class="tab-title">Vers l’inconnu</h2>
                         <p class="tab-intro">40 promos exceptionnelles</p>
                       </div>
                     </a>
 
-                    <a data-slide-index="1" href="#" class="tab">
+                    <a data-slide-index="2" href="#" class="tab">
                       <div class="tab-content">
                         <h2 class="tab-title">Cyclisme & Course</h2>
                         <p class="tab-intro">Plaisir accru à pied et à vélo</p>    
-                      </div>
-                    </a>
-
-                    <a data-slide-index="2" href="#" class="tab">
-                      <div class="tab-content">
-                        <h2 class="tab-title">Tenues pour les amoureux des villes</h2>
-                        <p class="tab-intro">Inspirez-vous de nos nouveaux looks urbains.</p>
                       </div>
                     </a>
 
@@ -99,6 +99,26 @@
   <!-- End xx_header -->
   
   <div id="xx_content" class="span12">
+
+        <div class="content-row">
+            <a class="col-6 row-2 photo-block" href="/decouvrez-plus/outfits-looks-hommes-/l-hiver-au-chaud?icn=lookbookwinterwarm&ici=homepage-lookbook-item1">
+                <div class="black-hover"></div>
+                <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/lookbook_zee.jpg" class="background" alt="Lookbook zee" />
+                <div class="copy">
+                    <h2 class="item-title">L'Homme et la mer</h2>
+                    <button class="cta">Shop de look</button>
+                </div>
+            </a>
+            <a class="col-6 row-2 photo-block" href="/decouvrez-plus/outfits-looks-femmes-/big-city-lights?icn=lookbookbigcitylights&ici=homepage-lookbook-item2">
+                <div class="black-hover"></div>
+                <img data-src="http://static.asadventure.com/includes/homepage/national/new/images/livethegoodlife.jpg" class="background" alt="Live the good life" />
+                <div class="copy">
+                    <h2 class="item-title">Living the good life</h2>
+                    <button class="cta">Shop de look</button>
+                </div>
+            </a>
+        </div>
+    
     <div class="content-row"> 
       <!-- LINK NOG TOEVOEGEN --> 
       <a class="col-6 row-3 photo-block" href="/tomtom-heart-rate-monitor-runner-2-music-2523d52001?id_colour=4169?icn=tomtomrunner&ici=homepage-row1-box1">

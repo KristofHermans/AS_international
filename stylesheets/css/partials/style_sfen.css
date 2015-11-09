@@ -1,0 +1,590 @@
+/*******************************************     
+  Parts                                              
+*******************************************/
+#homepage-wrapper .blockHeader {
+  -webkit-box-shadow: 0 3px 3px #cccccc;
+  box-shadow: 0 3px 3px #cccccc;
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2); }
+
+#homepage-wrapper .boxShadow {
+  -webkit-box-shadow: 0 0 5px #aaaaaa;
+  box-shadow: 0 0 5px #aaaaaa;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); }
+
+#homepage-wrapper b {
+  font-weight: bold; }
+
+/*******************************************     
+  Global                                              
+*******************************************/
+#homepage-wrapper {
+  max-width: 1170px; }
+
+.clearfix:before, #homepage-wrapper #xx_content .xx_row1 .span4 .xx_middle ul li a:before,
+.clearfix:after,
+#homepage-wrapper #xx_content .xx_row1 .span4 .xx_middle ul li a:after, #homepage-wrapper #xx_content .xx_row1 .span4 .xx_middle ul li
+a:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after, #homepage-wrapper #xx_content .xx_row1 .span4 .xx_middle ul li a:after {
+  clear: both; }
+
+.clearfix, #homepage-wrapper #xx_content .xx_row1 .span4 .xx_middle ul li a {
+  *zoom: 1; }
+
+#homepage-wrapper h1, #homepage-wrapper h2, #homepage-wrapper h3, #homepage-wrapper h4, #homepage-wrapper h5, #homepage-wrapper a, #homepage-wrapper p, #homepage-wrapper span, #homepage-wrapper li {
+  /* font */
+  color: #545454;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  line-height: 20px; }
+
+#homepage-wrapper h1, #homepage-wrapper h2, #homepage-wrapper h3, #homepage-wrapper h4, #homepage-wrapper h5 {
+  /* font */
+  color: #545454;
+  font-weight: 600; }
+
+#homepage-wrapper h2 {
+  /* box */
+  float: none;
+  width: auto;
+  filter: none;
+  /* font */
+  text-transform: none;
+  /* background */
+  box-shadow: none;
+  background: none; }
+
+#homepage-wrapper a {
+  /* font */
+  color: #545454;
+  text-decoration: none; }
+
+/*******************************************     
+  Header                                              
+*******************************************/
+#homepage-wrapper #xx_header {
+  margin-bottom: 30px;
+  padding-top: 0px; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager {
+  /* box */
+  margin-top: 20px;
+  /* font */
+  text-align: center; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  margin-left: 5px; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item {
+  *display: inline; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item:first-child {
+  margin-left: 0; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a {
+  /* box */
+  height: 20px;
+  width: 20px;
+  display: block;
+  border: none;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+  /* background */
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #3f3f3f; }
+
+#homepage-wrapper #xx_header .xx_slider .bx-pager .bx-pager-item a.active {
+  background: #3f3f3f; }
+
+#homepage-wrapper #xx_header .xx_slider ul {
+  /* box */
+  margin: 0;
+  list-style: none;
+  list-style-type: none;
+  list-style-image: none; }
+
+#homepage-wrapper #xx_header .xx_slider ul li {
+  /* position */
+  position: relative;
+  /* box */
+  height: 386px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper img {
+  width: 100%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li .xx_img_wrapper img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.6); }
+
+/*******************************************     
+  Content                                              
+*******************************************/
+/***************************     
+  Row 1                                              
+***************************/
+/****************     
+  General                                              
+****************/
+/****************
+  CTA 
+****************/
+#homepage-wrapper #xx_content .xx_row1 .span4 .xx_cta_button {
+  color: #ffffff;
+  line-height: 38px;
+  position: absolute;
+  bottom: 10px; }
+
+#homepage-wrapper #xx_content .xx_row1 .span4 .xx_cta_button.pos_fix {
+  margin-top: 30px; }
+
+.xx_cta_container {
+  position: absolute;
+  top: 130px;
+  right: 20px; }
+
+.xx_cta_button {
+  /* box */
+  margin-top: 10px;
+  width: 91.8918919%;
+  /* font */
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 38px;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #b2b2b2;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  vertical-align: middle;
+  *vertical-align: auto;
+  /* style */
+  background: #df9a34;
+  /* box */
+  height: 38px;
+  padding: 0 10px;
+  display: block;
+  padding-right: 0; }
+
+.xx_cta_button:hover {
+  text-decoration: none;
+  background: #cd8d2f;
+  /* Old browsers */ }
+
+.xx_cta_button:after {
+  content: "";
+  /* box */
+  width: 40px;
+  height: 38px;
+  float: right;
+  /* background */
+  background: url("../images/arrow.png") no-repeat center center;
+  border-left: 1px solid #999999;
+  border-left: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* END CTA BUTTON */
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 311px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide1 .xx_txt {
+    bottom: 37px;
+    right: 258px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide1 .xx_txt.pos_fix {
+    bottom: 37px;
+    right: 81px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide1 .xx_txt.pos_fix2 {
+    display: none; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 .xx_lookbook_hover a {
+    width: 300px;
+    height: 181px;
+    line-height: 50px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook .xx_img_wrapper {
+    margin-bottom: 40px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_wintersport p,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_cadeaucheques p,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_merkenoverzicht p {
+    margin-bottom: 15px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_jobs .xx_cta,
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_ayacucho .xx_cta {
+    margin-top: 20px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_left {
+    width: 44%; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_right {
+    width: 55%; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6.xx_item_explore .xx_left {
+    background-image: url("http://static.asadventure.com/includes/homepage/national/new/images/xx_exploremore_tablet.png"); }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6.xx_item_stores .xx_left {
+    background-image: url("http://static.asadventure.com/includes/homepage/national/new/images/xx_storemap_tablet.jpg"); }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_magazine .xx_bottom {
+    padding-top: 19px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_cta_mfl_container {
+    top: 14px;
+    width: 280px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_cta_mfl_container h2 {
+    font-size: 26px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_cta_mfl_container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_cta_mfl_container a.xx_cta_mfl.tablet {
+    display: block;
+    width: 165px;
+    height: 29px;
+    font-size: 13px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_cta_mfl_container a.xx_cta_mfl.desktop {
+    display: none; }
+
+  /***** NEW FASHION ******/
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt {
+    top: 51px;
+    left: 52px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_cta_fashion {
+    right: 41px;
+    bottom: 19px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_cta_fashion .xx_cta {
+    width: 123px; }
+
+  /***** RONDE PRIJZEN ******/
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt {
+    top: 63px;
+    right: 116px;
+    width: 335px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .main-title {
+    font-size: 45px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .main-content {
+    font-size: 16px;
+    margin-top: 37px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .xx_cta {
+    line-height: 44px;
+    font-size: 18px;
+    width: 94%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header {
+    display: block; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 240px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt {
+    width: 50%;
+    margin: 0 3% 0 47%;
+    padding-top: 35px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3 {
+    width: 49%;
+    float: none;
+    display: -moz-inline-box;
+    -moz-box-orient: vertical;
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: auto; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3 {
+    *display: inline; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_ayacucho, #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_jobs {
+    margin-bottom: 30px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_b2b {
+    border-left: none;
+    border-left-width: 0; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_cta {
+    width: 322px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_left {
+    display: none; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_right {
+    width: 100%;
+    padding-top: 40px; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item a span {
+    line-height: 14px !important; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item a {
+    height: 40px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 h3 {
+    margin-bottom: 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_wintersport,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_cadeaucheques,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_merkenoverzicht {
+    width: 48%; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_magazine {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook {
+    margin-left: 2%; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook .xx_img_wrapper {
+    margin-bottom: 28px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 .xx_lookbook_hover a {
+    width: 354px;
+    height: 214px;
+    line-height: 60px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_jobs .xx_cta,
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_ayacucho .xx_cta {
+    margin-top: 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_magazine .xx_bottom {
+    padding-top: 20px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6.xx_item_stores h3 {
+    margin-bottom: 12px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6.xx_item_stores {
+    padding-left: 10px; }
+
+  /***** NEW FASHION ******/
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt {
+    top: 46px;
+    left: 53px;
+    width: 158px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .main-title img {
+    float: left;
+    margin-right: 8px;
+    width: 50px;
+    margin-top: -19px;
+    margin-top: 0px;
+    /* IE8+9  */ }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .main-title {
+    text-transform: uppercase; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .main-title .first {
+    font-size: 67px;
+    margin-top: 19px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .main-title .second {
+    font-size: 54px;
+    margin-top: 29px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .main-title .third {
+    font-size: 49px;
+    margin-top: 22px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .sub-title {
+    font-size: 21px;
+    margin-top: 10px;
+    margin-right: 4px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_txt .sub-title .first {
+    font-size: 13px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_cta_fashion {
+    right: 28px;
+    bottom: 10px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_cta_fashion .xx_cta {
+    width: 97px;
+    font-size: 12px;
+    line-height: 34px;
+    height: 33px;
+    margin-left: 9px;
+    margin-top: 15px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide3 .xx_cta_fashion .xx_cta:after {
+    background: url("../images/arrow_dark.png") no-repeat center 12px;
+    height: 33px;
+    width: 36px; }
+
+  /***** RONDE PRIJZEN ******/
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt {
+    top: -7px;
+    right: 75px;
+    width: 261px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .main-title {
+    font-size: 35px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .main-content {
+    font-size: 14px;
+    margin-top: 28px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .xx_cta {
+    line-height: 44px;
+    font-size: 16px;
+    width: 92%; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide1 .xx_txt.pos_fix2 {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li {
+    height: 89px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide1 .xx_txt {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt h2 {
+    display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .xx_cta {
+    /* box */
+    width: 125px;
+    height: 35px;
+    /* position */
+    bottom: 10px;
+    right: 10px;
+    /* font */
+    font-size: 12px;
+    line-height: 35px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.xx_slide2 .xx_txt .xx_cta:after {
+    display: none; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 {
+    margin-bottom: 50px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 .xx_bottom {
+    padding: 15px 0 0 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_wintersport,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_cadeaucheques,
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_merkenoverzicht {
+    width: 100%;
+    margin-left: 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 .xx_lookbook_hover a {
+    width: 302px;
+    height: 182px;
+    line-height: 50px; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_lookbook .xx_img_wrapper {
+    margin-bottom: 0px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3 {
+    width: 100%;
+    border-left: none;
+    border-left-width: 0; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3 p {
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3 .xx_cta {
+    margin-top: 0 !important; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 {
+    padding: 0;
+    width: 100%;
+    margin-left: 0; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 {
+    margin-top: 15px;
+    margin-bottom: 40px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6 .xx_cta {
+    width: 291px; }
+
+  #homepage-wrapper #xx_content .xx_row3 .span6.xx_item_stores {
+    height: 200px;
+    margin-bottom: 20px; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item {
+    width: 50%;
+    margin-bottom: 20px; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item:last-child {
+    margin-bottom: 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4 .xx_bottom {
+    padding-bottom: 15px; }
+
+  #homepage-wrapper #xx_footer {
+    margin-bottom: 30px; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item.xx_1 {
+    display: none; }
+
+  #homepage-wrapper #xx_footer .xx_footer_item.xx_4,
+  #homepage-wrapper #xx_footer .xx_footer_item.xx_5 {
+    margin-bottom: 0; }
+
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_ayacucho,
+  #homepage-wrapper #xx_content .xx_row2 .span3.xx_item_jobs {
+    margin-bottom: 0; }
+
+  #homepage-wrapper #xx_content .xx_row1 .span4.xx_item_magazine {
+    margin-bottom: 5px; } }
+html.touch #homepage-wrapper #xx_content .xx_row1 .span4 .xx_lookbook_hover a {
+  display: block;
+  background: none;
+  opacity: 0; }
