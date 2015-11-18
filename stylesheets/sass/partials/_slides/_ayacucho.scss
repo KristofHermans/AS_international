@@ -1,94 +1,137 @@
 
 /* *********************************************************************************************************** */
-/*                                            SLIDER AYACUCHO                                            ** */
+/*                                             SLIDER ayacucho                                                  ** */
 /* *********************************************************************************************************** */
 
 #homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
-  background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho.jpg') no-repeat;
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix.jpg') no-repeat;
+  -webkit-font-smoothing:antialiased;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.eng {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix_en.jpg') no-repeat;
+  -webkit-font-smoothing:antialiased;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fra {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix_fr.jpg') no-repeat;
+  -webkit-font-smoothing:antialiased;
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
   position: absolute;
   width: 75%;
-  top: 27%;
-  left: 0;
+  top: 9%; /*Oorspr: 29*/
+  left: 5.5%; /*Oorspr: 0 - 14*/
+  color: #434341;
   h2, span {
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   }
 }
 
+#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .rood{
+  color: #941612;
+  }
 
 #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
   color: #fff;
-  text-align: center;
+  text-align: left; /*Oorspr: center;*/
+
 
   .main-title {
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 100;
-    font-size: 35px;
+    /*font-weight: 100;*/
+    font-size: 18px;
     line-height: 120%;
-    color: inherit;
-    /*margin-bottom: 2%;*/
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    text-transform: uppercase;
-    /* margin: 0; */
+    color: #434341;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);*/
+    /*text-transform: uppercase;*/
+    margin: 0;
+    /*margin-bottom: 1.5%;*/
   }
 
-  .main-content {
-    /*font-size: 24px;
-    margin-top: 7px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    width: 80%;
-    margin-left: 10%;
-    line-height: 120%;*/
-	margin-bottom:2%;
-  }
+    .main-content {
+      font-size: 18px; /*Oorspr: 20*/;
+      margin-bottom: 19%; 
+      color: #434341;
+    }
 
-  .prize {
-    font-size: 20px;
-    margin-top: 7px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    color: #fff;
-    width: 80%;
-    margin-left: 10%;
-    line-height: 120%;
-  }
+    .main-content.quality {
+      font-size: 12px;
+      text-align: center;
+      margin-left: 19.5%;
+      margin-bottom: 0.5%;
+      font-weight: 700;
+    }
 
+    .main-content.small {
+      font-size: 11px;
+      color: #434341;
+      text-align: center;
+      margin-bottom: 0.5%;
+      margin-left: 19.5%;
+      line-height: 130%;
+    }
+
+    .main-content.small.fr{
+      font-size: 10px;
+      margin-bottom: 0;
+    }
+
+    .main-content.red {
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #941612; /*ROOD*/
+      text-align: center;
+      margin-bottom: 0.5%;
+      margin-left: 19.5%;
+      font-weight: 700;
+    }
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta { 
   font-weight: 600;
-  width: 25%;
+  width: 20%;
   text-align: left;
   margin-top: 0;
-  background: #90A711;
+  background: #0070b0;
   color: #fff;
   margin-bottom: 7%;
-
-  display: block;
-  margin: 3% auto 0;
+  margin: 0 auto;
+  margin-right: 1%;
 
   &:hover {
-    background: #70820D;
-  }
-
-  &:after {
-    content: "\f04b"; /* arrow */
-    background: none;
-    width: auto;
-    height: auto;
-    font-family: "FontAwesome";
-    font-size: 10px;
-    float: right;
-    margin-right: 6%;
-    color: inherit;
+    background: darken(#0070b0, 6%);
   }
 }
 
+//LINKS FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left { 
+    margin-left: 38.5%;
+  }
+
+
+//EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta { 
+    width: 24%;
+  }
+
+//FR FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fr .content { 
+
+  .main-content{
+    padding: 0 20px;
+  }
+
+  @media (max-width: 1200px) {
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+  }
+  @media (max-width: 767px) {
+    top: 15%;
+    }
+  }
 
 
 // IE8 fix 
@@ -103,24 +146,59 @@
 
   #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
 
-    .main-content {
-      font-size: 28px;
-	  margin-bottom:0;
-    }
+    top: 7%; /*Oorspr: 29*/
 
     .main-title {
-      font-size: 30px;
+      font-size: 14px;
     }
-	
-	.prize{
-		font-size: 16px;
-		margin-top:0;
-	}
+
+    .main-content{
+      font-size: 14px;
+      margin-bottom: 16.5%;
+    }
+
+    .main-content.small{
+      font-size: 9.5px;
+      margin-bottom: 0;
+    }
+
+    .main-content.small.fr{
+      font-size: 8.5px;
+      margin-bottom: 0;
+    }
+
+    .main-content.red{
+      font-size: 9.5px;
+      margin-bottom: 0;
+    }
+
+    .main-content.quality{
+      font-size: 9.5px;
+      margin-bottom: 0;
+    }
+
     .xx_cta {
-      width: 30%;
+      width: 22%;
     }
-    
   }
+
+  //CTA KLEINER
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho div a{
+    line-height: 33px;
+    height: 33px;
+  }
+
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta { 
+    width: 28%;
+  }
+
+
+//LINKS FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left { 
+    margin-left: 35.8%;
+  }
+
 }
 
 
@@ -130,30 +208,65 @@
 @media (max-width: 979px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-    width: 75%;
-	top:18%;
+    width: 74%;
+    top: 7%;
+
     .main-title {
-      font-size: 24px;
+      font-size: 11px;
     }
 
     .main-content {
-      font-size: 16px;
+      font-size: 11px;
+      margin-top: -1%;
+      margin-bottom: 17%;
     }
 
     .xx_cta {
       text-align: left;
       padding-left: 10px;
       margin-bottom: 6%;
-	  width:32%;
+      width: 20%;
 
       &:after {
         display: block;
         font-size: 8px;
       }
     }
+
+    .main-content.small{
+      display: none;
+    }
+
+    .main-content.red{
+      font-size: 9.5px;
+      margin-bottom: 0.5%;
+      width: 40%;
+      line-height: 1.5;
+      margin-left: 40%;
+    }
+
+    .main-content.quality{
+      font-size: 10.5px;
+      margin-bottom: 0.5%;
+    }
     
   }
 
+//LINKS FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left { 
+    margin-left: 37.1%;
+  }
+  
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta { 
+    width: 17%;
+  }
+
+  //CTA KLEINER
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho div a{
+    line-height: 25px;
+    height: 25px;
+  }
 
 }
 
@@ -171,41 +284,71 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-ayacucho_mobile.jpg') no-repeat;
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg') no-repeat;
+    background-color: #941612;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.eng {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg') no-repeat;
+    background-color: #941612;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fra {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg') no-repeat;
+    background-color: #941612;
   }
 
   #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-    top: 15%;
+    top: 30%;
     width: 100%;
+    left: 0%;
+    text-align: center;
 
     .main-title {
-      font-size: 17px;
+      font-size: 10px;
+      text-align: center;
+      margin-left: 0%;
+      display: none;
     }
 
-    .main-content {
-      font-size: 15px;
-      padding: 0 10%;
-    }
-
-    .prize {
-        font-size: 10px;
-/*		margin: 0;
-		margin-top: -7px;
-*/        color: #fff;
-    	margin-bottom: 0;
+    .main-content.important{
+      display: none;
     }
 
     .xx_cta {
-      width: 40%;
-      font-size: 8px;
-	  &:after {
-        display: none;
-      }
+      width: 23%;
+      font-size: 7px;
+    }
+
+    .main-content.small{
+      display: none;
+    }
+
+    .main-content.red{
+      font-size: 9.5px;
+      margin-bottom: 0.5;
+      width: 50%;
+      padding-left: 25%;
+      padding-right: 25%;
+      line-height: 1.5;
+      margin-left: 0%;
+    }
+
+    .main-content.quality{
+      display: none;
     }
     
   }
 
+  //EN FIX
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta { 
+    width: 40%;
+  }
 
+  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left { 
+    margin-left: 23.5%;
+    margin-right: -21%;
+  }
 
 }
 
