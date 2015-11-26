@@ -309,17 +309,21 @@ html, body {
 
 #countbox1 {
   width: 1170px;
-  height: 100px;
+  height: 120px;
   background-color: #000;
   color: #fff;
-  background-image: url("http://static.asadventure.com/includes/homepage/international/images/blackfriday.jpg"); }
+  background-image: url("http://static.asadventure.com/includes/banner/category-page/151125_blackfriday/CB_blackfriday_counter.jpg");
+  padding-left: 60px;
+  padding-top: 0px;
+  margin: 0; }
 
 #countbox2 {
-  padding: 25px 30px;
+  margin-top: -5px;
   font-size: 20px;
-  font-family: 'Open Sans',  sans-serif;
+  font-family: 'Open Sans';
   text-transform: uppercase;
-  font-weight: 900; }
+  font-weight: 900;
+  line-height: normal; }
 
 #countbox {
   padding-top: 5px; }
@@ -335,15 +339,9 @@ li.cijfer-text {
   color: #fff;
   font-weight: 900;
   text-transform: uppercase; }
-  li.cijfer-text:first-child {
-    margin-right: 20px; }
 
-.cijfer {
-  font-size: 30px;
-  color: #000;
-  background-color: #fff;
-  padding: 4px;
-  border-radius: 20%; }
+li.cijfer-text:first-child {
+  margin-right: 20px; }
 
 li.cijfer {
   text-decoration: none;
@@ -359,8 +357,9 @@ li.cijfer {
   background-color: #fff;
   font-weight: 900;
   font-family: 'Open Sans'; }
-  li.cijfer:first-child {
-    margin-right: 20px; }
+
+li.cijfer:first-child {
+  margin-right: 20px; }
 
 ul {
   padding: 0;
