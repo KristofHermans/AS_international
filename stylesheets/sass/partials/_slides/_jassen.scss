@@ -1,0 +1,191 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER jassen                                             ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.jassen {
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-lookbook_jassen.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
+
+  position: absolute;
+  width: 75%;
+  top: 43%;
+  left: 0;
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  }
+
+  color: #fff;
+  text-align: center;
+
+  .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.5%;
+
+      .gold{
+        color: #bba661;
+        font-weight: 700;
+      }
+  }
+
+  .main-content {
+    text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+    font-size: 18px;
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta { 
+  font-weight: 600;
+  width: 23%;
+  text-align: left;
+  margin-top: 0;
+  background: #b36c4a;
+  color: #fff;
+  margin-bottom: 7%;
+  margin: 0 auto;
+
+  &:hover {
+    background: darken(#b36c4a, 6%);
+  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta.leftcta { 
+  margin-right: 3%;
+}
+
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
+
+    .main-title {
+      font-size: 32px;
+    }
+
+    .main-content{
+      font-size: 16px;
+    }
+
+    .xx_cta{
+      width: 30%;
+    }
+  }
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
+
+  top: 40%;
+
+    .xx_cta{
+      width: 30%;
+      padding-left: 2%;
+    }
+
+    .main-title {
+      font-size: 30px;
+      margin-bottom: 0%;
+    }
+
+    .main-content {
+      font-size: 15px;
+      margin-top: 1%;
+      margin-bottom: 2%;
+    }
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen{
+    .txt-img{
+      width: 25%;
+    }
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-lookbook_jassen_mobile.jpg') no-repeat;
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
+
+width: 100%;
+top: 10%;
+
+    .main-title {
+      font-size: 20px;
+    }
+
+    .main-content {
+      font-size: 11px;
+      padding-left: 13%;
+      padding-right: 13%;
+      line-height: 130%;
+    }
+
+    .xx_cta{
+      width: 55%;
+      padding-left: 2%;
+      margin-bottom: 2%;
+      margin-right: 0%;
+    }
+
+    .xx_cta.leftcta{
+      margin-right: 0%;
+      margin-left: 1%;
+    }
+  }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.jassen{
+    .txt-img{
+      width: 40%;
+    }
+  }
+
+
+/*SAFARI FIX*/
+
+_::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider ul li.jassen .content{
+ top: 5%;
+}
+
+/*EINDE SAFARI FIX*/
+
+}
+
+

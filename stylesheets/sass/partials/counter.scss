@@ -1,8 +1,13 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> feature/update_151227
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700);
 .row-height {
   height: 120px; }
 
 #countbox1 {
+<<<<<<< HEAD
   width: 1170px;
   height: 120px;
   background-color: #000;
@@ -19,10 +24,32 @@
   text-transform: uppercase;
   font-weight: 900;
   line-height: normal; }
+=======
+	width: 1170px; 
+	height: 100px; 
+	background-color: #000; 
+	color: #fff;
+	background-image: url("http://static.asadventure.com/includes/homepage/international/images/blackfriday.jpg");;
+}
+
+#countbox2 {
+	padding: 25px 30px; 
+	font-size:20px; 
+	font-family: 'Open Sans', 
+	sans-serif; text-transform:uppercase; 
+	font-weight:900
+}
+
+
+#countbox { 
+	padding-top:5px;
+}
+>>>>>>> feature/update_151227
 
 #countbox {
   padding-top: 5px; }
 
+<<<<<<< HEAD
 li.cijfer-text {
   display: inline-block;
   margin-right: 5px;
@@ -53,6 +80,34 @@ li.cijfer {
   font-family: 'Open Sans'; }
   li.cijfer:first-child {
     margin-right: 20px; }
+=======
+.cijfer {
+	font-size: 30px;
+	color:#000;
+	background-color: #fff;
+	padding:4px;
+	border-radius: 20%;
+}
+
+li.cijfer{
+	text-decoration: none;
+	display: inline-block;
+	margin-right:5px;
+	text-align: center;
+	height:100%;
+	width:45px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 25px;
+	color:#000;
+	background-color: #fff;
+	font-weight:900;
+	font-family: 'Open Sans'; 
+		&:first-child{
+			margin-right: 20px;
+		}
+}
+>>>>>>> feature/update_151227
 
 ul {
   padding: 0;
@@ -72,6 +127,7 @@ ul {
   width: 110px; }
 
 .xx_cta_counter {
+<<<<<<< HEAD
   text-decoration: none;
   color: #000;
   font-family: 'Open Sans';
@@ -89,3 +145,24 @@ ul {
 	    color: inherit;
 	    margin-top: 6px; }
 }
+=======
+	text-decoration: none;
+	color:#000;
+	font-family: 'Open Sans';
+	font-weight:900;
+	line-height: normal;
+		&::after{
+			content: "\f04b";
+		    background: none;
+		    width: auto;
+		    height: auto;
+		    font-family: "FontAwesome";
+		    font-size: 8px;
+		    float: right;
+		    margin-right: 6%;
+		    color: inherit;
+		    margin-top: 6px;
+	}
+}
+
+>>>>>>> feature/update_151227
