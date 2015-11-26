@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800,600,700);
+.row-height {
+  height: 120px; }
+
+#countbox1 {
+  width: 1170px;
+  height: 120px;
+  background-color: #000;
+  color: #fff;
+  background-image: url("http://static.asadventure.com/includes/homepage/international/images/blackfriday.jpg");
+  padding-left: 60px;
+  padding-top: 0px;
+  margin: 0; }
+
+#countbox2 {
+  margin-top: -5px;
+  font-size: 20px;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-weight: 900;
+  line-height: normal; }
+
+#countbox {
+  padding-top: 5px; }
+
+li.cijfer-text {
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  height: 30px;
+  width: 45px;
+  font-size: 10px;
+  font-family: 'Open Sans';
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase; }
+  li.cijfer-text:first-child {
+    margin-right: 20px; }
+
+li.cijfer {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5px;
+  text-align: center;
+  height: 100%;
+  width: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  color: #000;
+  background-color: #fff;
+  font-weight: 900;
+  font-family: 'Open Sans'; }
+  li.cijfer:first-child {
+    margin-right: 20px; }
+
+ul {
+  padding: 0;
+  margin: 5px 0; }
+
+.text {
+  font-size: 10px;
+  font-weight: 900;
+  font-family: "Open Sans" !important;
+  text-transform: uppercase; }
+
+.cta_counter {
+  margin-top: 40px;
+  position: absolute;
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  width: 110px; }
+
+.xx_cta_counter {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Open Sans';
+  font-weight: 900;
+  line-height: normal; }
+  .xx_cta_counter::after {
+    content: "\f04b";
+    background: none;
+    width: auto;
+    height: auto;
+    font-family: "FontAwesome";
+    font-size: 8px;
+    float: right;
+    margin-right: 6%;
+    color: inherit;
+    margin-top: 6px; }
