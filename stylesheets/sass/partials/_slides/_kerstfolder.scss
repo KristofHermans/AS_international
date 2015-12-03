@@ -1,366 +1,261 @@
-
-/* *********************************************************************************************************** */
-/* **                                          SLIDER KERSTFOLDER 14                                        ** */
 /* *********************************************************************************************************** */
 
-@-webkit-keyframes letItSnow1 {
-  0% {
-    top: 0px; }
-  100% {
-    top: 360px;
-    left: 0; } }
 
-@keyframes letItSnow1 {
-  0% {
-    top: 0px; }
-  100% {
-    top: 360px;
-    left: 0; } }
-@-webkit-keyframes letItSnow2 {
-  0% {
-    top: -360px; }
-  100% {
-    top: 0px;
-    left: 0; } }
-@keyframes letItSnow2 {
-  0% {
-    top: -360px; }
-  100% {
-    top: 0px;
-    left: 0; } }
+/*                                             SLIDER kerstfolder                                                  ** */
+
+
+/* *********************************************************************************************************** */
 
 #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder {
-  background: url(../../images/bg-kerstfolder.jpg) no-repeat;
-}
-
-#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
-  position: absolute;
-  width: 308px;
-  top: 19%;
-  left: 5%;
-  text-align: center;
-
-  h2, span {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-kerstfolder.jpg') no-repeat;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-kerstfolder-fr.jpg') no-repeat;
+    -webkit-font-smoothing: antialiased;
+    .content {
+        width: 50%;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-kerstfolder-en.jpg') no-repeat;
+    -webkit-font-smoothing: antialiased;
+    .content {
+        top: 14%;
+    }
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
-
-  .ribbon {
-    display: block;
-    width: 163px;
     position: absolute;
-    top: -78px;
-    left: -59px;
-  }
-
-  .main-image {
-    display: inline-block;
-    margin-bottom: 6%;
-  }
-
-  .main-title {
-    display: none;
-
-  }
-
-  .main-content {
-    font-family: "Open Sans", sans-serif;
-    font-size: 13px;
-    font-weight: 400;
-    color: #434244;
-    line-height: 130%;
-    margin-bottom: 3%;
-  }
-
-  .legal {
-    font-size: 11px;
-    margin-top: 3%;
-    margin-bottom: 0;
-    visibility: hidden;
-  }
+    width: 40%;
+    top: 9%;
+    right: 27%;
+    color: #fff;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta { 
-  width: 70%;
-  background-color: #b11116;
-  font-weight: 600;
-  display: inline-block;
-
-  &:hover {
-    background-color: #9c0d12;
-  }
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+    color: #fff;
+    text-align: center;
+    .banner {
+        display: none;
+    }
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 120%;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 1.5%;
+    }
+    .main-content {
+        font-size: 18px;
+        /*Oorspr: 20*/
+        ;
+        margin-bottom: 1.5em;
+    }
 }
 
-//animation
-.animated-area{
-  height: 360px;
-  overflow: hidden;
-  position: absolute;
-  top: 25px;
-  right: 27%;
-  width: 38.9812%;
-}
-.small-snow{
-  background: url(../images/small-snow.png) no-repeat center center;
-  background-size: contain;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 11;
-
-  &.part-1{
-    -webkit-animation: letItSnow1 48s infinite;
-    animation: letItSnow1 48s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-
-  &.part-2{
-    -webkit-animation: letItSnow2 48s infinite;
-    animation: letItSnow2 48s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-}
-
-.medium-snow{
-  background: url(../images/medium-snow.png) no-repeat center center;
-  background-size: contain;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 12;
-
-  &.part-1{
-     -webkit-animation: letItSnow1 24s infinite;
-    animation: letItSnow1 24s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-
-  &.part-2{
-     -webkit-animation: letItSnow2 24s infinite;
-    animation: letItSnow2 24s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-}
-
-.large-snow{
-  background: url(../images/large-snow.png) no-repeat center center;
-  background-size: contain;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 13;
-
-  &.part-1{
-    -webkit-animation: letItSnow1 12s infinite;
-    animation: letItSnow1 12s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-
-  &.part-2{
-    -webkit-animation: letItSnow2 12s infinite;
-    animation: letItSnow2 12s infinite;
-    -webkit-animation-timing-function: linear;
-    animation-timing-function: linear;
-  }
-}
-
-
-// EN FIX
-#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
-  top: 25%;
-
-  .ribbon {
-    top: -103px;
-  }
+#homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta {
+    font-weight: 600;
+    width: 180px;
+    background: none;
+    margin: 1em auto;
+    display: block;
+    border: 2px solid white;
+    height: 33px;
+    /* zonder border 37px */
+    line-height: 33px;
+    /* idem */
+    &:hover {
+        background: #fff;
+        color: #254862;
+    }
 }
 
 // IE8 fix 
-@media \0screen {
-  
-} 
+@media \0screen {}
+
 
 /* *********************************************************************************************************** */
+
+
 /* **                                              DESKTOP                                                  ** */
+
+
 /* *********************************************************************************************************** */
+
 @media (max-width: 1199px) {
-
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
-    top: 16%;
-    left: 4%;
-    width: 259px;
-
-    .ribbon {
-      width: 128px;
-      top: -50px;
-      left: -40px;
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+        top: 3%;
+        /*Oorspr: 29*/
+        right: 28%;
+        .main-title {
+            font-size: 32px;
+            margin-bottom: 0;
+        }
+        .main-content {
+            font-size: 16px;
+            margin: 0.6em 0 1em 0;
+        }
+        .xx_cta {
+            height: 30px;
+            line-height: 30px;
+            margin: 0.7em auto;
+            border: 1px solid white;
+        }
     }
-
-    .legal {
-      font-size: 9px;
-      margin-top: 2%;
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en .content {
+        top: 10%;
     }
-
-    .xx_cta {
-      width: 77%;
-      height: 30px;
-      line-height: 30px;
-      font-size: 11px;
-
-      &:after {
-        height: 30px;
-        background-size: 9px 9px;
-      }
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr .content {
+        top: 8%;
+        .main-title {
+            font-size: 25px;
+        }
     }
-    
-  }
-
-  .animated-area {
-    height: 273px;
-    top: 19px;
-  }
-
-  // EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
-    .ribbon {
-      top: -75px;
-    }
-  }
-  
 }
 
 
-
 /* *********************************************************************************************************** */
+
+
 /* **                                               TABLET                                                  ** */
+
+
 /* *********************************************************************************************************** */
+
 @media (max-width: 979px) {
-
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
-    top: 13%;
-    left: 4%;
-    width: 204px;
-
-    .ribbon {
-      width: 89px;
-      top: -31px;
-      left: -28px;
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+        width: 60%;
+        right: 30%;
+        text-align: right;
+        .main-title {
+            font-size: 25px;
+        }
+        .main-content {
+            margin-right: 4%;
+            margin-top: 0.4em;
+        }
+        .xx_cta {
+            margin-right: 12%;
+            height: 28px;
+            line-height: 28px;
+            width: 140px;
+            &:after {
+                display: block;
+                font-size: 8px;
+            }
+        }
     }
-
-    .xx_cta {
-      width: 90%;
-      text-align: left;
-      padding-left: 4%;
-      margin-top: 3%;
-
-      &:after {
-        display: block;
-        height: 30px;
-        background-size: 9px 9px;
-      }
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr .content {
+        text-align: center;
+        width: 65%;
+        right: 26%;
+        top: 3%;
+        .main-title {
+            font-size: 21px;
+        }
+        .main-content {
+            font-size: 15px;
+        }
     }
-
-    .legal {
-      font-size: 7px;
-      margin-top: 0%;
-    }
-    
-  }
-
-  .animated-area {
-    height: 211px;
-    top: 15px;
-  }
-
-  // EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
-    top: 22%;
-    .ribbon {
-      top: -55px;
-    }
-  }
-
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
-    height: 25px;
-  }
-}
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder {
-    background: url('http://static.asadventure.com/includes/homepage/international/images/bg-kerstfolder-mobile@2x.jpg') no-repeat;
-  }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
-    top: 10%;
-    width: 54%;
-    left: 22%;
-
-    .ribbon {
-      width: 89px;
-      top: -16px;
-      left: -66px;
-    }
-
-    .main-image {
-      width: 80%;
-    }
-
-    .xx_cta {
-      font-size: 9px;
-       height: 25px;
-      line-height: 25px;
-
-      &:after {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content .xx_cta:after {
         height: 25px;
-        background-size: 8px 8px;
-      }
     }
-    
-  }
-
-  .animated-area {
-    height: 145px;
-    top: 8px;
-    width: 95%;
-    left: 7px;
-  }
-
-
-  // EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en_fix .content {
-    top: 14%;
-
-    .main-image {
-      width: 100%;
-    }
-
-    .ribbon {
-      top: -22px;
-    }
-  }
-
-
 }
 
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder,
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr,
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-kerstfolder-mobile.jpg') no-repeat;
+        background-size: 100% !important;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder .content {
+        top: 0;
+        width: 100%;
+        right: 0%;
+        text-align: center;
+        .banner {
+            display: block;
+            font-size: 10px;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        .main-title {
+            font-size: 15px;
+            text-align: center;
+        }
+        .main-content {
+            margin: 0.2em 0 0;
+            font-size: 12px;
+        }
+        .xx_cta {
+            font-size: 10px;
+            height: 23px;
+            line-height: 23px;
+            display: inline-block;
+            margin: 8px 0 0 0;
+            width: 205px;
+        }
+        .xx_cta.small {
+            width: 55px;
+        }
+        .xx_cta.small.midden {
+            margin: 8px 4px 0 4px;
+        }
+        .xx_cta:last-child {
+            margin-left: -4px;
+        }
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.en .content {
+        top: 0;
+        margin-top: 0;
+        .main-content {
+            margin: 0.8em 0 0;
+        }
+        .banner {
+            margin-bottom: 17px;
+        }
+        .xx_cta {
+            margin: 16px 0 0 0;
+        }
+        .xx_cta.small.midden {
+            margin: 16px 4px 0 4px;
+        }
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr .content {
+        margin-top: 0;
+        top: 0;
+        width: 100%;
+        right: 0;
+        .main-title {
+            font-size: 14px;
+            text-align: center;
+        }
+        .main-content {
+            font-size: 9px;
+        }
+    }
+}

@@ -20,7 +20,6 @@
 
 // LAYOUT
 @import "partials/layout_new";
-@import "partials/counter";
 
 // THEME
 @import "partials/theme_new";
@@ -37,10 +36,6 @@
 // tabs
 
 // OLD
-
-@import "partials/_slides/_midseason";
-
-// NEW
 @import "partials/_slides/_blackfriday";
 @import "partials/_slides/_jassen";
 @import "partials/_slides/_snow";
@@ -49,5 +44,10 @@
 @import "partials/_slides/_winterwarm";
 @import "partials/_slides/_wintersport";
 
+// NEW
+@import "partials/_slides/_snow";
+@import "partials/_slides/_kerstfolder";
+@import "partials/_slides/_wintersport";
+@import "partials/_slides/_winterjas";
 
 
