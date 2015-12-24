@@ -1345,6 +1345,149 @@ a:link {
   #homepage-wrapper #xx_header .xx_slider ul li.midseason.en .content .xx_cta {
     width: 40%; } }
 /* *********************************************************************************************************** */
+/*                                             SLIDER presolden                                             ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.presolden.fr.fix {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/150618-homepage-pre-solden_UK.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden.nl {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/150618-homepage-pre-solden_NEDER.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden.fr {
+  background: url("http://static.asadventure.com/includes/homepage/international/images/150618-homepage-pre-solden_FRANK.jpg") no-repeat; }
+
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr.fix {
+    background: url("../images/bg-presolden-mobile-2015-en.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden.nl {
+    background: url("../images/bg-presolden-mobile-2015-nl.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr {
+    background: url("../images/bg-presolden-mobile-2015-fr.jpg") no-repeat; } }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden .content {
+  position: absolute;
+  width: 41%;
+  top: 65% !important;
+  left: 8%;
+  color: #434343;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content h2, #homepage-wrapper #xx_header .xx_slider ul li.presolden .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: #e6912b;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-content {
+    /*text-shadow: 0 0 80px black; */
+    font-size: 18px;
+    color: #434343;
+    margin: 1em 0;
+    line-height: 125%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta {
+  font-weight: 600;
+  width: 26%;
+  height: 34px;
+  line-height: 34px;
+  text-align: left;
+  margin-top: 0.75em;
+  margin-right: 2%;
+  background: #d0222b;
+  color: #fff;
+  padding-right: 0.3%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta.fr {
+    width: 22%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta:hover {
+    background: #91151C; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta.show_mobile {
+    display: none; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden.nl .content .main-title {
+  margin-top: 3%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content {
+    left: 8%;
+    top: 60% !important; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-title {
+      font-size: 32px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-title .gold {
+        font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-content {
+      font-size: 16px;
+      margin: 0.8em 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta {
+      height: 30px;
+      line-height: 30px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr .content {
+    top: 15%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content {
+    width: 46%;
+    left: 2.5%;
+    top: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta {
+      height: 25px;
+      line-height: 25px;
+      padding-left: 2%;
+      margin-right: 1%;
+      width: 24%;
+      margin-top: 0.5em; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-title {
+      font-size: 29px;
+      margin-bottom: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-content {
+      font-size: 14px; } }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden.fr .content {
+  top: 15%; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr .content {
+    width: 70%;
+    top: 14%;
+    left: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr .content .main-title {
+      font-size: 17px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden.fr .content .xx_cta.show_mobile {
+      width: 72%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden .content {
+    width: 70%;
+    top: 2%;
+    left: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-title {
+      font-size: 20px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .main-content {
+      font-size: 10px;
+      line-height: 130%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta {
+      margin-top: 0.8em;
+      font-size: 10px;
+      line-height: 25px;
+      width: 110px;
+      height: 25px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta.hide_mobile {
+        display: none; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden .content .xx_cta.show_mobile {
+        display: block; } }
+/* *********************************************************************************************************** */
 /*                                             SLIDER blackfriday                                             ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.blackfriday {

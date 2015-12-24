@@ -433,6 +433,7 @@ button.cta {
 .photo-block {
   display: block;
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
   position: relative;
   text-align: center; }
@@ -679,6 +680,9 @@ button.cta {
 
 .lazy-loaded {
   -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
   opacity: 1; }
 
@@ -772,6 +776,8 @@ ___ */
 
 #homepage-wrapper #xx_header .xx_slider {
   position: relative;
+  -moz-box-shadow: 0px 0px 12px #dcdbda;
+  -webkit-box-shadow: 0px 0px 12px #dcdbda;
   box-shadow: 0px 0px 12px #dcdbda; }
 
 #homepage-wrapper #xx_header .xx_slider .bx-pager {
@@ -941,6 +947,8 @@ a:link {
   background-color: rgba(255, 255, 255, 0.6); }
 
 #homepage-wrapper #xx_header .xx_slider #bx-pager .tab {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   display: block;
   width: 100%;
@@ -951,7 +959,10 @@ a:link {
   margin-bottom: 1.6%;
   font-family: 'Open Sans', sans-serif;
   -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
   transform-style: preserve-3d;
+  -moz-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
   -webkit-transition: all 0.35s ease-in-out;
   transition: all 0.35s ease-in-out; }
   #homepage-wrapper #xx_header .xx_slider #bx-pager .tab:nth-child(2n) {
@@ -991,6 +1002,8 @@ a:link {
   float: left;
   margin-left: -45px;
   opacity: 0;
+  -moz-transition: opacity 0.35s ease-in-out;
+  -o-transition: opacity 0.35s ease-in-out;
   -webkit-transition: opacity 0.35s ease-in-out;
   transition: opacity 0.35s ease-in-out; }
 
@@ -1104,7 +1117,7 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
       right: 4px;
       background: url(../images/slider-controls.png) no-repeat -23px center; } }
-@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+@media only screen and (max-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-prev,
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background: url("http://static.asadventure.com/includes/homepage/national/new/images/slider-controls@2x.png") no-repeat;
@@ -1116,241 +1129,132 @@ a:link {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background-position: -23px center; } }
 /* *********************************************************************************************************** */
-/*                                             SLIDER blackfriday                                             ** */
+/*                                             SLIDER presolden_LUX                                         ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.blackfriday {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/blackfriday.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-lux.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fr {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-fr.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
   position: absolute;
-  width: 75%;
-  top: 43%;
-  left: 0;
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content h2, #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content span {
+  width: 41%;
+  top: 28%;
+  left: 6.5%;
+  color: #ffffff;
+  text-align: left; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content h2, #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
     display: inline-block;
     font-weight: 100;
-    font-size: 41px;
+    font-size: 35px;
     line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    color: #fffff;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 1.5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title .gold {
-      color: #bba661;
-      font-weight: 700;
-      font-size: 41px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
+    width: 54%;
+    font-weight: 600; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 0;
+    line-height: 125%;
+    width: 54%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .small {
+    margin-top: 1%;
+    font-size: 10px; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
   font-weight: 600;
-  width: 13%;
+  display: block;
+  width: 53%;
+  height: 37px;
   text-align: left;
-  margin-top: 0;
-  background: #bba661;
-  color: #fff;
-  margin-bottom: 7%;
-  padding-right: 0.3%;
-  /*display: block;*/
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta.fr {
-    width: 22%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta:hover {
-    background: #b19a4c; }
+  margin-top: 0.9em;
+  margin-right: 2%;
+  background: #4590bd;
+  /*blauw*/
+  color: #fffff;
+  padding-right: 0.3%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:hover {
+    background: #4590bd;
+    /*blauw*/ }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta.show_mobile {
+    display: none; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title {
-    font-size: 32px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title .gold {
-      font-size: 32px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-content {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta {
-    width: 13%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta.fr {
-      width: 25%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    top: 30%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 17px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 13px;
+      margin-bottom: -1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      height: 32px;
+      line-height: 32px;
+      padding-left: 2%;
+      margin-right: 1%;
+      width: 53%;
+      margin-top: 2.5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .small {
+      font-size: 9px; }
 
   /* *********************************************************************************************************** */
   /* **                                               TABLET                                                  ** */
   /* *********************************************************************************************************** */ }
 @media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content {
-    top: 40%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta {
-      width: 15%;
-      padding-left: 1%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta.fr {
-        width: 27%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title {
-      font-size: 30px;
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    width: 46%;
+    top: 30%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      height: 25px;
+      line-height: 25px;
+      padding-left: 2%;
+      margin-right: 1%;
+      width: 47%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 14px;
       margin-bottom: 0%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title .gold {
-        font-size: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-content {
-      font-size: 15px;
-      margin-top: 1%;
-      margin-bottom: 2%; } }
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .txt-img {
-    width: 25%; } }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 9px;
+      width: 50%;
+      margin-top: 1%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-blackfriday_mobile.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-lux-mobile.jpg") no-repeat; }
 
-  /*SAFARI FIX*/
-  _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title {
-    margin-bottom: -1em !important; }
-
-  /*EINDE SAFARI FIX*/
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content {
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title {
-      font-size: 15px; }
-      #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-title .gold {
-        font-size: 15px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .main-content {
-      font-size: 11px;
+  #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {
+    width: 110%;
+    top: 35%;
+    left: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-title {
+      font-size: 12px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .main-content {
+      font-size: 8px;
       line-height: 130%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta {
-      width: 20%;
-      padding-left: 2%;
-      padding-right: 1%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .content .xx_cta.fr {
-        width: 45%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.blackfriday .txt-img {
-    width: 40%; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER jassen                                             ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.jassen {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-lookbook_jassen.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
-  position: absolute;
-  width: 75%;
-  top: 43%;
-  left: 0;
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content h2, #homepage-wrapper #xx_header .xx_slider ul li.jassen .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
-    line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 1.5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-title .gold {
-      color: #bba661;
-      font-weight: 700; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta {
-  font-weight: 600;
-  width: 23%;
-  text-align: left;
-  margin-top: 0;
-  background: #b36c4a;
-  color: #fff;
-  margin-bottom: 7%;
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta:hover {
-    background: #9d5f41; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta.leftcta {
-  margin-right: 3%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-title {
-    font-size: 32px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-content {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta {
-    width: 30%; }
-
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */ }
-@media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
-    top: 40%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta {
-      width: 30%;
-      padding-left: 2%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-title {
-      font-size: 30px;
-      margin-bottom: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-content {
-      font-size: 15px;
-      margin-top: 1%;
-      margin-bottom: 2%; } }
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .txt-img {
-    width: 25%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-lookbook_jassen_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
-    width: 100%;
-    top: 10%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-title {
-      font-size: 20px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .main-content {
-      font-size: 11px;
-      padding-left: 13%;
-      padding-right: 13%;
-      line-height: 130%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta {
-      width: 55%;
-      padding-left: 2%;
-      margin-bottom: 2%;
-      margin-right: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.jassen .content .xx_cta.leftcta {
-      margin-right: 0%;
-      margin-left: 1%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.jassen .txt-img {
-    width: 40%; }
-
-  /*SAFARI FIX*/
-  _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider ul li.jassen .content {
-    top: 5%; }
-
-  /*EINDE SAFARI FIX*/ }
+    #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta {
+      margin-top: 2%;
+      font-size: 9.5px;
+      line-height: 25px;
+      width: 50%;
+      height: 25px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta.hide_mobile {
+        display: none; }
+      #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content .xx_cta.show_mobile {
+        display: block; } }
 /* *********************************************************************************************************** */
 /*                                             SLIDER snow                                             ** */
 /* *********************************************************************************************************** */
@@ -1459,607 +1363,6 @@ a:link {
     top: 28%; }
 
   /*EINDE SAFARI FIX*/ }
-/* *********************************************************************************************************** */
-/*                                             SLIDER ayacucho                                                  ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix.jpg") no-repeat;
-  -webkit-font-smoothing: antialiased; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.eng {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix_en.jpg") no-repeat;
-  -webkit-font-smoothing: antialiased; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.uk {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix_uk.jpg") no-repeat;
-  -webkit-font-smoothing: antialiased; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fra {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_fix_fr.jpg") no-repeat;
-  -webkit-font-smoothing: antialiased; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-  position: absolute;
-  width: 75%;
-  top: 9%;
-  /*Oorspr: 29*/
-  left: 5.5%;
-  /*Oorspr: 0 - 14*/
-  color: #434341; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content h2, #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .rood {
-  color: #941612; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-  color: #fff;
-  text-align: left;
-  /*Oorspr: center;*/ }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-title {
-    display: inline-block;
-    /*font-weight: 100;*/
-    font-size: 18px;
-    line-height: 120%;
-    color: #434341;
-    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);*/
-    /*text-transform: uppercase;*/
-    margin: 0;
-    /*margin-bottom: 1.5%;*/ }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content {
-    font-size: 18px;
-    /*Oorspr: 20*/
-    margin-bottom: 19%;
-    color: #434341; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.quality {
-    font-size: 12px;
-    text-align: center;
-    margin-left: 19.5%;
-    margin-bottom: 0.5%;
-    font-weight: 700; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small {
-    font-size: 11px;
-    color: #434341;
-    text-align: center;
-    margin-bottom: 0.5%;
-    margin-left: 19.5%;
-    line-height: 130%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small.fr {
-    font-size: 10px;
-    margin-bottom: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.red {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #941612;
-    /*ROOD*/
-    text-align: center;
-    margin-bottom: 0.5%;
-    margin-left: 19.5%;
-    font-weight: 700; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta {
-  font-weight: 600;
-  width: 20%;
-  text-align: left;
-  margin-top: 0;
-  background: #0070b0;
-  color: #fff;
-  margin-bottom: 7%;
-  margin: 0 auto;
-  margin-right: 1%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta:hover {
-    background: #005d91; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left {
-  margin-left: 38.5%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta {
-  width: 24%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fr .content .main-content {
-  padding: 0 20px; }
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fr .content {
-    top: 15%; } }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-    top: 7%;
-    /*Oorspr: 29*/ }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-title {
-      font-size: 14px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content {
-      font-size: 14px;
-      margin-bottom: 16.5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small {
-      font-size: 9.5px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small.fr {
-      font-size: 8.5px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.red {
-      font-size: 9.5px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.quality {
-      font-size: 9.5px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta {
-      width: 22%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho div a {
-    line-height: 33px;
-    height: 33px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta {
-    width: 28%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left {
-    margin-left: 35.8%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-    width: 74%;
-    top: 7%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-title {
-      font-size: 11px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content {
-      font-size: 11px;
-      margin-top: -1%;
-      margin-bottom: 17%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 6%;
-      width: 20%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.red {
-      font-size: 9.5px;
-      margin-bottom: 0.5%;
-      width: 40%;
-      line-height: 1.5;
-      margin-left: 40%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.quality {
-      font-size: 10.5px;
-      margin-bottom: 0.5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left {
-    margin-left: 37.1%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta {
-    width: 17%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho div a {
-    line-height: 25px;
-    height: 25px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg") no-repeat;
-    background-color: #941612; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.eng {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg") no-repeat;
-    background-color: #941612; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.fra {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ayacuchodons_mobile.jpg") no-repeat;
-    background-color: #941612; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content {
-    top: 30%;
-    width: 100%;
-    left: 0%;
-    text-align: center; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-title {
-      font-size: 10px;
-      text-align: center;
-      margin-left: 0%;
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.important {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta {
-      width: 23%;
-      font-size: 7px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.small {
-      display: none; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.red {
-      font-size: 9.5px;
-      margin-bottom: 0.5;
-      width: 50%;
-      padding-left: 25%;
-      padding-right: 25%;
-      line-height: 1.5;
-      margin-left: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .main-content.quality {
-      display: none; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho.en .content .xx_cta {
-    width: 40%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.ayacucho .content .xx_cta.left {
-    margin-left: 23.5%;
-    margin-right: -21%; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER CITYLOVER                                             ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.citylover {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-bigcitylights.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
-  position: absolute;
-  width: 75%;
-  top: 29%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content h2, #homepage-wrapper #xx_header .xx_slider ul li.citylover .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
-    line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 1.8%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta {
-  font-weight: 600;
-  width: 27%;
-  text-align: left;
-  margin-top: 0;
-  background: #c8825f;
-  color: #fff;
-  margin-bottom: 7%;
-  /*display: block;*/
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta:hover {
-    background: #c07048; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman {
-  display: block;
-  margin-bottom: 5%;
-  font-weight: 600;
-  width: 27%;
-  text-align: left;
-  margin-top: 0;
-  background: #5a6eba;
-  color: #fff;
-  margin: 0 auto;
-  margin-bottom: 1%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman:hover {
-    background: #485dad; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.citylover.fr .content .main-content {
-  padding: 0 20px; }
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover.fr .content {
-    top: 15%; } }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
-    top: 22%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-title {
-      font-size: 32px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-content {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta, #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman {
-      width: 30%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta {
-    width: 30%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
-    width: 74%;
-    top: 14%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-title {
-      font-size: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-content {
-      font-size: 15px;
-      padding: 0 20%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta, #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 1%;
-      width: 30%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta:after, #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman:after {
-        display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta {
-    width: 31%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-bigcitylights_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover .content {
-    top: 25%;
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-title {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .main-content {
-      font-size: 10px;
-      padding: 0 10%;
-      margin-bottom: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta, #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman {
-      width: 35%;
-      font-size: 8px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.citylover .content .xx_cta_woman {
-      display: inline-block;
-      margin-right: 1%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.citylover.en .content .xx_cta {
-    width: 40%; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER winterwarm                                             ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-winterwarm.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content a.xx_cta {
-  padding-left: 1%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content {
-  position: absolute;
-  width: 75%;
-  top: 29%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content h2, #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
-    line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
-    text-transform: uppercase;
-    margin: 0;
-    margin-top: 3%;
-    margin-bottom: 3%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta {
-  font-weight: 600;
-  width: 18%;
-  text-align: left;
-  margin-top: 0;
-  background: #b0b8b4;
-  color: #fff;
-  margin-bottom: 7%;
-  margin-right: 3%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta:hover {
-    background: #a0aaa5; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.winterwarm.fr .content .main-content {
-  padding: 0 20px; }
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm.fr .content {
-    top: 15%; } }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content {
-    top: 22%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-title {
-      font-size: 32px;
-      margin-top: 5%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-content {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta, #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta_woman {
-      width: 20%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content {
-    width: 74%;
-    top: 25%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-title {
-      font-size: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-content {
-      font-size: 15px;
-      padding: 0 20%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta, #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta_woman {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 1%;
-      width: 20%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta:after, #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta_woman:after {
-        display: block;
-        font-size: 8px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-winterwarm_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content {
-    top: 25%;
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-title {
-      font-size: 19px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .main-content {
-      font-size: 10px;
-      padding: 0 10%;
-      margin-bottom: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.winterwarm .content .xx_cta {
-      width: 21%;
-      font-size: 8px;
-      margin-right: 1%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm.en .content .xx_cta {
-    width: 24%;
-    font-size: 8px;
-    margin-right: 0.8%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.winterwarm.en .content a.xx_cta {
-    padding-left: 1%; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER WINTERSPORT                                        ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-  position: absolute;
-  width: 75%;
-  top: 55%;
-  left: 0; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content h2, #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 28px;
-    line-height: 120%;
-    color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 0%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-    font-size: 20px;
-    margin-top: 7px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    color: #fff;
-    width: 80%;
-    margin-left: 10%;
-    line-height: 120%; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-  font-weight: 600;
-  width: 25%;
-  text-align: left;
-  margin-top: 0;
-  background: #90A711;
-  color: #fff;
-  margin-bottom: 7%;
-  display: block;
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:hover {
-    background: #788b0e; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-  width: 24%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-    font-size: 18px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-    width: 22%;
-    margin-top: -2%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-    width: 33%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 28%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-    width: 74%;
-    top: 52%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-      font-size: 15px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
-      font-size: 17px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 6%;
-      width: 35%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 31%; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-    top: 35%;
-    width: 100%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-      font-size: 11px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-      width: 41%;
-      font-size: 8px;
-      margin-top: -5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 40%; } }
 /* *********************************************************************************************************** */
 /*                                             SLIDER kerstfolder                                                  ** */
 /* *********************************************************************************************************** */
@@ -2248,6 +1551,123 @@ a:link {
     #homepage-wrapper #xx_header .xx_slider ul li.kerstfolder.fr .content .main-content {
       font-size: 9px; } }
 /* *********************************************************************************************************** */
+/*                                             SLIDER WINTERSPORT                                        ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+  position: absolute;
+  width: 75%;
+  top: 55%;
+  left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content h2, #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 28px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 0%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
+    font-size: 20px;
+    margin-top: 7px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    line-height: 120%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background: #90A711;
+  color: #fff;
+  margin-bottom: 7%;
+  display: block;
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:hover {
+    background: #788b0e; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
+  width: 24%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
+    font-size: 18px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
+    width: 22%;
+    margin-top: -2%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
+    width: 33%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
+    width: 28%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+    width: 74%;
+    top: 52%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
+      font-size: 15px;
+      margin-bottom: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
+      font-size: 17px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
+      text-align: left;
+      padding-left: 10px;
+      margin-bottom: 6%;
+      width: 35%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
+        display: block;
+        font-size: 8px; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
+    width: 31%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport_mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+    top: 35%;
+    width: 100%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
+      font-size: 9px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
+      font-size: 11px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
+      width: 41%;
+      font-size: 8px;
+      margin-top: -5%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
+    width: 40%; } }
+/* *********************************************************************************************************** */
 /*                                             SLIDER Winterjas                                             ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.winterjas {
@@ -2345,3 +1765,151 @@ a:link {
       line-height: 25px;
       width: 110px;
       height: 25px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER musicforlife                                            ** */
+/* *********************************************************************************************************** */
+/* =====================
+  FONT VOOR MFL 
+======================*/
+@font-face {
+  font-family: 'ywft_ultramagneticbold';
+  src: url(data:font/woff;base64,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) format("woff");
+  font-weight: normal;
+  font-style: normal; }
+#homepage-wrapper #xx_header .xx_slider ul li.musicforlife {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-mfl.jpg") no-repeat; }
+@font-face {
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife {
+    font-family: 'ywft_ultramagneticbold';
+    src: url(font/YWFT-Ultramagnetic-Bold.otf);
+    font-weight: normal;
+    font-style: normal; } }
+#homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content {
+  position: absolute;
+  width: 75%;
+  top: 5%;
+  left: 18.5%;
+  /*was left: 0;*/
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content h2, #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    line-height: 120%;
+    color: inherit;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 0.5%;
+    font-family: 'ywft_ultramagneticbold', sans-serif !important; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-content {
+    /*text-shadow: 0 0 80px rgba(0, 0, 0, 1);*/
+    font-size: 18px;
+    margin-bottom: 1.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_top {
+    margin-left: 46%;
+    margin-bottom: 1%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_bottom {
+    width: 40%;
+    margin-left: 30%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta {
+  font-weight: 600;
+  width: 23%;
+  text-align: left;
+  margin-top: 0;
+  background: #3a9fd6;
+  color: #fff;
+  margin-bottom: 7%;
+  padding-right: 0.3%;
+  margin: 0 auto;
+  margin-right: 3%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta:hover {
+    background: #2a90c8; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content {
+    top: 8%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-title {
+      font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta {
+      width: 25%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_top {
+      width: 8%;
+      margin-left: 46%;
+      margin-bottom: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_bottom {
+      width: 35%;
+      margin-left: 32.5%; } }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content {
+    top: 7%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta {
+      width: 24%;
+      padding-left: 2%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-title {
+      font-size: 20px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-content {
+      font-size: 15px;
+      margin-top: 0%;
+      margin-bottom: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_top {
+      margin-left: 46%;
+      margin-bottom: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_bottom {
+      width: 40%;
+      margin-left: 31%; } }
+#homepage-wrapper #xx_header .xx_slider ul li.musicforlife .txt-img {
+  width: 25%; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-mfl-mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content {
+    width: 100%;
+    top: 4%;
+    left: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-title {
+      font-size: 14px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .main-content {
+      font-size: 12px;
+      line-height: 110%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content .xx_cta {
+      width: 34%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_top {
+      margin-left: 46%;
+      margin-bottom: 1%;
+      width: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content img.img_mfl_bottom {
+      margin-left: 15%;
+      width: 70%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .txt-img {
+    width: 40%; }
+
+  /*SAFARI FIX
+  
+  _::-webkit-:not(:root:root), #homepage-wrapper #xx_header .xx_slider ul li.musicforlife .content{
+   top: 28%;
+  }
+  
+  EINDE SAFARI FIX*/ }
