@@ -6,7 +6,7 @@
 $oranje: #e6912b;
 
 #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
-  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-lux.jpg') no-repeat;
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden2-lux.jpg') no-repeat;
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.fr {
@@ -152,7 +152,11 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux {
-  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-lux-mobile.jpg') no-repeat;
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden2-lux-mobile.jpg') no-repeat;
+} 
+
+  #homepage-wrapper #xx_header .xx_slider ul li.fr {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-presolden-fr-mobile.jpg') no-repeat;
 } 
   
   #homepage-wrapper #xx_header .xx_slider ul li.presolden_lux .content {

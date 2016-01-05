@@ -1832,7 +1832,7 @@ a:link {
 
   /*EINDE SAFARI FIX*/ }
 /* *********************************************************************************************************** */
-/*                                             SLIDER WINTERSPORT                                        ** */
+/*                                             SLIDER wintersport                                             ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.wintersport {
   background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport.jpg") no-repeat; }
@@ -1840,33 +1840,26 @@ a:link {
 #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
   position: absolute;
   width: 75%;
-  top: 55%;
-  left: 0; }
+  top: 29%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content h2, #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-  color: #fff;
-  text-align: center; }
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
     display: inline-block;
     font-weight: 100;
-    font-size: 28px;
+    font-size: 41px;
     line-height: 120%;
     color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 0%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-    font-size: 20px;
-    margin-top: 7px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-    color: #fff;
-    width: 80%;
-    margin-left: 10%;
-    line-height: 120%; }
+    margin-bottom: 1.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
+    text-shadow: 0 0 80px black;
+    font-size: 18px; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
   font-weight: 600;
@@ -1876,54 +1869,46 @@ a:link {
   background: #90A711;
   color: #fff;
   margin-bottom: 7%;
-  display: block;
+  padding-right: 0.3%;
+  /*display: block;*/
   margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta.fr {
+    width: 22%; }
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:hover {
     background: #788b0e; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-  width: 24%; }
+#homepage-wrapper #xx_header .xx_slider ul li.wintersport.nl .content .main-title {
+  margin-top: 3%; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-    font-size: 18px; }
+    font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title .gold {
+      font-size: 32px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
+    font-size: 16px; }
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-    width: 22%;
-    margin-top: -2%; }
+    width: 30%; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-    width: 33%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 28%; } }
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 979px) {
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-    width: 74%;
-    top: 52%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-      font-size: 15px;
-      margin-bottom: 0; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
-      font-size: 17px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-      font-size: 16px; }
+    top: 29%; }
     #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 6%;
-      width: 35%; }
-      #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
-        display: block;
-        font-size: 8px; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 31%; } }
+      width: 35%;
+      padding-left: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
+      font-size: 30px;
+      margin-bottom: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
+      font-size: 15px;
+      margin-top: 1%;
+      margin-bottom: 2%; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
     height: 25px; } }
@@ -1935,16 +1920,12 @@ a:link {
     background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport_mobile.jpg") no-repeat; }
 
   #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
-    top: 35%;
     width: 100%; }
     #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-title {
-      font-size: 9px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .prize {
-      font-size: 11px; }
+      font-size: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .main-content {
+      font-size: 10px;
+      line-height: 130%; }
     #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta {
-      width: 41%;
-      font-size: 8px;
-      margin-top: -5%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport.en .content .xx_cta {
-    width: 40%; } }
+      width: 53%;
+      padding-left: 2%; } }
