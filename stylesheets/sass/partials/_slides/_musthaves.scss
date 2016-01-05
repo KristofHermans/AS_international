@@ -1,25 +1,20 @@
 
 /* *********************************************************************************************************** */
-/*                                             SLIDER wintersport                                             ** */
+/*                                             SLIDER musthaves                                             ** */
 /* *********************************************************************************************************** */
 
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport {
-  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport.jpg') no-repeat;
+#homepage-wrapper #xx_header .xx_slider ul li.musthaves {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-must-haves.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+#homepage-wrapper #xx_header .xx_slider ul li.musthaves .content {
 
-  position: absolute;
-  width: 75%;
-  top: 29%;
-  left: 0;
-  h2, span {
-    -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  }
-
-  color: #fff;
-  text-align: center;
+    position: absolute;
+    width: 42%;
+    top: 27%;
+    left: 32%;
+    color: #fff;
+    text-align: center;
 
   .main-title {
     display: inline-block;
@@ -27,7 +22,7 @@
     font-size: 41px;
     line-height: 120%;
     color: inherit;
-    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
 
     text-transform: uppercase;
     margin: 0;
@@ -35,17 +30,18 @@
   }
 
   .main-content {
-    text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
     font-size: 18px;
   }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta { 
+#homepage-wrapper #xx_header .xx_slider ul li.musthaves .content .xx_cta { 
   font-weight: 600;
-  width: 25%;
+  width: 50%;
+  max-width: 220px;
   text-align: left;
   margin-top: 0;
-  background: #90A711;
+  background: #266098;
   color: #fff;
   margin-bottom: 7%;
   padding-right: 0.3%;
@@ -58,12 +54,12 @@
   }
 
   &:hover {
-    background: darken(#90A711, 6%);
+    background: darken(#266098, 6%);
   }
 }
 
 //NL fix
-#homepage-wrapper #xx_header .xx_slider ul li.wintersport.nl .content {
+#homepage-wrapper #xx_header .xx_slider ul li.musthaves.nl .content {
    .main-title {
     margin-top: 3%;
   }
@@ -80,7 +76,7 @@
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.musthaves .content {
 
     .main-title {
       font-size: 32px;
@@ -94,10 +90,6 @@
     .main-content{
       font-size: 16px;
     }
-
-    .xx_cta{
-      width: 30%;
-    }
   }
 
 
@@ -106,12 +98,12 @@
 /* *********************************************************************************************************** */
 @media (max-width: 979px) {
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.musthaves .content {
 
-  top: 29%;
+    top: 25%;
+    left: 27%;
 
     .xx_cta{
-      width: 35%;
       padding-left: 1%;
     }
 
@@ -134,7 +126,7 @@
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) 
 and (orientation : portrait) { 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.musthaves .content .xx_cta:after {
     height: 25px;
   }
 }
@@ -143,14 +135,17 @@ and (orientation : portrait) {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport {
-    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-wintersport_mobile.jpg') no-repeat;
+  #homepage-wrapper #xx_header .xx_slider ul li.musthaves {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-must-haves-mobile.jpg') no-repeat;
   }
 
 
-  #homepage-wrapper #xx_header .xx_slider ul li.wintersport .content {
+  #homepage-wrapper #xx_header .xx_slider ul li.musthaves .content {
 
-width: 100%;
+    width: 90%;
+    left: 5%;
+    top: 28%;
+
 
     .main-title {
       font-size: 15px;
@@ -158,7 +153,10 @@ width: 100%;
 
     .main-content {
       font-size: 10px;
-      line-height: 130%;
+    line-height: 130%;
+    max-width: 80%;
+    display: block;
+    margin: 2% auto 3%;
     }
 
     .xx_cta{
