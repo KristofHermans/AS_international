@@ -1,0 +1,456 @@
+
+/* *********************************************************************************************************** */
+/*                                             SLIDER welkepiste                                             ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.welkepiste {
+  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-welkepiste.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content {
+
+  position: absolute;
+  width: 40%;
+  top: 6%;
+  left: 30%;
+  color: #fff;
+  text-align: center;
+
+  h2, span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #454545;
+  }
+
+  .main-title.fr {
+    font-size: 25px;
+  }
+
+  .main-content {
+    font-size: 14px;
+    color: #454545;
+  }
+
+  .main-content.bis{
+    margin-top: -4%;
+    margin-bottom: 2%;
+  }
+
+  .main-content.klein{
+    font-size: 10px;
+    line-height: 120%;
+  }
+
+  .main-content.aanpgroen {
+    font-size: 14.5px;
+    line-height: 230%;
+    display: inline-block;
+    margin-right: 2%;
+    width: 40%;
+
+    .number{
+      background-color: #00a651;
+      font-size: 25px;
+      padding: 2% 8% 2% 8%; /*TRBL*/
+      color: white;
+    }
+
+    .tekst{
+      color: #454545;
+    }
+  }
+
+  .main-content.aanpblauw {
+    font-size: 14.5px;
+    line-height: 230%;
+    display: inline-block;
+    width: 40%;
+
+    .number{
+      background-color: #00aeef;
+      padding: 2% 8% 2% 8%; /*TRBL*/
+      font-size: 25px;
+      color: white;
+    }
+
+    .tekst{
+      color: #454545;
+    }
+  }
+
+  .main-content.aanprood {
+    font-size: 14.5px;
+    line-height: 230%;
+    display: inline-block;
+    margin-right: 2%;
+    width: 40%;
+
+    .number{
+      background-color: #ed1c24;
+      padding: 2% 8% 2% 8%; /*TRBL*/
+      font-size: 25px;
+      color: white;
+    }
+
+    .tekst{
+      color: #454545;
+    }
+  }
+
+  .main-content.aanpzwart {
+    font-size: 14.5px;
+    line-height: 230%;
+    display: inline-block;
+    width: 40%;
+
+    .number{
+      background-color: #000000;
+      padding: 3.5% 8% 3.5% 8%; /*TRBL*/
+      font-size: 22px;
+      color: white;
+    }
+    .tekst{
+      color: #454545;
+    }
+  }
+
+  .linkse{
+    display: block;
+    margin-bottom: 0%;
+    margin-top: 5%;
+  }
+
+  .linkse.fr{
+    margin-top: 6%;
+  }
+  .main-content.aanpgroen.fr, .main-content.aanpblauw.fr, .main-content.aanprood.fr {
+    .number{
+      font-size: 18px;
+    }
+  }
+
+  .main-content.aanpzwart.fr {
+    .number{
+      font-size: 16px;
+      padding: 2.5% 7% 2.5% 7%; /*TRBL*/
+    }
+  }
+}
+
+
+#homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content .xx_cta { 
+  font-weight: 600;
+  text-align: left;
+  color: #fff;
+  margin: 0 auto; /*TRBL*/
+  margin-bottom: 3%;
+
+  background: #454545;
+  &:hover {
+    background: darken(#454545, 6%);
+  }
+
+  &.small{
+    width: 20%;
+  }
+
+  &.medium{
+    width: 25%;
+  }
+
+  &.large{
+    width: 30%;
+  }
+
+  &.xlarge{
+    width: 40%;
+  }
+}
+
+// IE8 fix 
+@media \0screen {
+
+} 
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content {
+
+    top: 7%;
+
+    .main-title {
+      font-size: 32px;
+    }
+
+    .main-title.fr{
+      font-size: 20px;
+    }
+
+    .main-content{
+      font-size: 12px;
+      line-height: 120%;
+
+      &.aanpgroen .number, &.aanprood .number, &.aanpblauw .number{
+        font-size: 16px;
+      } 
+
+      &.aanpzwart .number{
+        font-size: 14px;
+      } 
+
+      &.aanpgroen, &.aanprood, &.aanpblauw, &.aanpzwart{
+        font-size: 10px;
+        width: 30%;
+      } 
+
+      &.klein{
+    font-size: 9px;
+    line-height: 130%;
+      }
+    }
+
+  .main-content.bis{
+    margin-top: -5%;
+    margin-bottom: 3%;
+  }
+
+    .xx_cta{
+        &.small{
+          width: 28%;
+        }
+
+        &.medium{
+          width: 32%;
+        }
+
+        &.large{
+          width: 38%;
+        }
+
+        &.xlarge{
+          width: 45%;
+        }
+    }
+
+      .linkse{
+        margin-bottom: -5%;
+        margin-top: 5%;
+      }
+
+    .main-content.aanpgroen.fr, .main-content.aanpblauw.fr, .main-content.aanprood.fr {
+
+      width: 32%;
+
+      .number{
+        font-size: 12px;
+      }
+
+      .tekst{
+        font-size: 10px;
+      }
+    }
+
+    .main-content.aanpzwart.fr {
+      .number{
+        font-size: 11px;
+        padding: 2.5% 8% 2.5% 8%; /*TRBL*/
+      }
+      .tekst{
+        font-size: 9px;
+      }
+    }
+  }
+
+
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 979px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content {
+
+  .linkse.fr{
+    margin-top: 3%;
+  }
+
+  top: 2%;
+
+  &.en{
+    top: 4%;
+  }
+
+    .xx_cta{
+      width: 35%;
+      padding-left: 1%;
+    }
+
+    .main-title {
+      font-size: 15px;
+      margin-bottom: 0%;
+
+      &.fr{
+        font-size: 15px;
+      }
+
+    }
+      .linkse{
+        margin-top: 3%;
+      }
+
+  .main-content.bis{
+    margin-top: -8%;
+    margin-bottom: 2%;
+  }
+
+.main-content{
+      font-size: 9px;
+      line-height: 130%;
+
+      &.aanpgroen .number, &.aanprood .number, &.aanpblauw .number{
+        font-size: 14px;
+      } 
+
+      &.aanpzwart .number{
+        font-size: 13px;
+      } 
+
+      &.aanpgroen, &.aanprood, &.aanpblauw, &.aanpzwart{
+        font-size: 9px;
+        width: 35%;
+      } 
+
+      &.klein{
+        font-size: 8.5px;
+        line-height: 120%;
+      }
+    }
+
+    .main-content.aanpgroen.fr, .main-content.aanpblauw.fr, .main-content.aanprood.fr {
+
+      width: 34%;
+
+      .number{
+        font-size: 10px;
+      }
+
+      .tekst{
+        font-size: 8px;
+      }
+    }
+
+    .main-content.aanpzwart.fr {
+      .number{
+        font-size: 10px;
+        padding: 2.5% 8% 2.5% 8%; /*TRBL*/
+      }
+      .tekst{
+        font-size: 8px;
+      }
+    }
+  }
+  }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+  #homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content .xx_cta:after {
+    height: 25px;
+  }
+}
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+
+  #homepage-wrapper #xx_header .xx_slider ul li.welkepiste {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-welkepiste_mobile.jpg') no-repeat;
+  }
+
+
+  #homepage-wrapper #xx_header .xx_slider ul li.welkepiste .content {
+
+width: 100%;
+left: 0%;
+padding-left: 3%;
+padding-right: 3%;
+
+    .main-title {
+      font-size: 15px;
+    }
+
+      .linkse{
+        margin-bottom: -7%;
+      }
+
+.main-content{
+      font-size: 8px;
+      line-height: 120%;
+
+      &.aanpgroen .number, &.aanprood .number, &.aanpblauw .number{
+        font-size: 12px;
+      } 
+
+      &.aanpzwart .number{
+        font-size: 10px;
+      } 
+
+      &.aanpgroen, &.aanprood, &.aanpblauw, &.aanpzwart{
+        font-size: 7px;
+        width: 30%;
+      } 
+
+      &.klein{
+          font-size: 7px;
+        &.en{
+          font-size: 7px;
+        }
+      }
+    }
+
+    .main-content.aanpgroen.fr, .main-content.aanpblauw.fr, .main-content.aanprood.fr {
+
+      width: 41%;
+
+      .number{
+        font-size: 9px;
+      }
+
+      .tekst{
+        font-size: 8px;
+      }
+    }
+
+    .main-content.aanpzwart.fr {
+      width: 41%;
+
+      .number{
+        font-size: 9px;
+        padding: 2.5% 8% 2.5% 8%; /*TRBL*/
+      }
+      .tekst{
+        font-size: 8px;
+      }
+    }
+
+    .xx_cta{
+      display: none;
+    }
+  }
+
+}
+
+
