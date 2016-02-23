@@ -1133,6 +1133,155 @@ a:link {
 /*@import "partials/_slides/_snowready";*/
 /*@import "partials/_slides/_pisteproof";*/
 /* *********************************************************************************************************** */
+/*                                             SLIDER timeforfashion                                        ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-timeforfashion.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
+  margin-left: 62%;
+  margin-top: 340px;
+  z-index: 1;
+  position: absolute; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
+  position: absolute;
+  width: 75%;
+  top: 29%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
+    text-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+    font-size: 18px;
+    padding-left: 15%;
+    padding-right: 15%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
+    background-color: #627d78;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 11%;
+    font-size: 16px;
+    position: relative; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
+  font-weight: 600;
+  width: 17%;
+  text-align: left;
+  margin-top: 0;
+  background-color: #ffffff;
+  color: #627d78;
+  margin-bottom: 7%;
+  padding-right: 0.3%;
+  margin: 0 auto;
+  margin-left: 1.5%;
+  margin-right: 1%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta:hover {
+    background-color: #627d78;
+    color: #ffffff;
+    /*background: darken(#a3aa00, 6%);*/ }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
+    margin-left: 64%;
+    margin-top: 257px;
+    z-index: 1;
+    position: absolute;
+    width: 7%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
+    font-size: 32px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
+    font-size: 16px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
+    width: 18%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
+    margin-top: 8.2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 14px; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
+    margin-left: 63%;
+    margin-top: 190px;
+    z-index: 1;
+    position: absolute;
+    width: 8%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
+    top: 22%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
+      width: 20%;
+      padding-left: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
+      font-size: 30px;
+      margin-bottom: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
+      font-size: 15px;
+      margin-top: 0%;
+      margin-bottom: 2%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
+      margin-top: 4.7%;
+      padding-top: 0.5%;
+      padding-bottom: 0.5%;
+      font-size: 13px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-timeforfashion_mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
+    margin-left: 82%;
+    margin-top: 120px;
+    z-index: 1;
+    position: absolute;
+    width: 15%; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
+    width: 100%;
+    top: 15%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
+      font-size: 16px;
+      margin-bottom: 2%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      margin-bottom: 4%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
+      font-size: 10px;
+      padding-top: 1.5%;
+      padding-bottom: 2%;
+      margin-top: 4%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
+      width: 26%;
+      padding-left: 1%;
+      font-size: 10px; } }
+/* *********************************************************************************************************** */
 /*                                             SLIDER wintersport                                             ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.wintersport {
@@ -1444,152 +1593,148 @@ a:link {
         width: 60%;
         margin-bottom: 2%; } }
 /* *********************************************************************************************************** */
-/*                                             SLIDER timeforfashion                                        ** */
+/*                                             SLIDER fashion                                        ** */
 /* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-timeforfashion.jpg") no-repeat; }
+#homepage-wrapper #xx_header .xx_slider ul li.fashion {
+  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashion-new.jpg") no-repeat; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion img {
   margin-left: 62%;
   margin-top: 340px;
   z-index: 1;
   position: absolute; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
   position: absolute;
-  width: 75%;
-  top: 29%;
-  left: 0;
-  color: #fff;
+  width: 50%;
+  top: 6%;
+  left: 30%;
+  color: #414141;
   text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content span {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content h2, #homepage-wrapper #xx_header .xx_slider ul li.fashion .content span {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
     display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
+    font-weight: 700;
+    font-size: 39px;
     line-height: 120%;
     color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 1.5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
-    text-shadow: 0 0 80px rgba(0, 0, 0, 0.9);
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
     font-size: 18px;
-    padding-left: 15%;
-    padding-right: 15%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
-    background-color: #627d78;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    margin-top: 11%;
-    font-size: 16px;
+    padding-left: 25%;
+    padding-right: 25%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content.extra {
+    margin-top: 4%;
+    font-size: 12px;
     position: relative; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title.en {
+    font-size: 30px;
+    margin-top: 2%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+    padding-left: 20%;
+    padding-right: 20%; }
 
-#homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
   font-weight: 600;
-  width: 17%;
+  width: 50%;
   text-align: left;
   margin-top: 0;
-  background-color: #ffffff;
-  color: #627d78;
-  margin-bottom: 7%;
+  background-color: #5c92d6;
+  color: #ffffff;
   padding-right: 0.3%;
+  display: block;
   margin: 0 auto;
-  margin-left: 1.5%;
-  margin-right: 1%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta:hover {
-    background-color: #627d78;
-    color: #ffffff;
-    /*background: darken(#a3aa00, 6%);*/ }
+  margin-bottom: 2.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:hover {
+    background: #4482d0; }
 
 /* *********************************************************************************************************** */
 /* **                                              DESKTOP                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
-    margin-left: 64%;
-    margin-top: 257px;
-    z-index: 1;
-    position: absolute;
-    width: 7%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
-    font-size: 32px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
-    width: 18%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
-    margin-top: 8.2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-size: 14px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 5%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 28px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 14px;
+      margin-bottom: 3%;
+      line-height: 15px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 50%;
+      margin-bottom: 2%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content.extra {
+      margin-top: 0%;
+      font-size: 10px;
+      line-height: 11px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title.en {
+      font-size: 23px;
+      margin-top: 2%; }
 
   /* *********************************************************************************************************** */
   /* **                                               TABLET                                                  ** */
   /* *********************************************************************************************************** */ }
 @media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
-    margin-left: 63%;
-    margin-top: 190px;
-    z-index: 1;
-    position: absolute;
-    width: 8%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
-    top: 22%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
-      width: 20%;
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    top: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 55%;
       padding-left: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
-      font-size: 30px;
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 20px;
       margin-bottom: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
-      font-size: 15px;
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
+      font-size: 11px;
       margin-top: 0%;
       margin-bottom: 2%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
-      margin-top: 4.7%;
-      padding-top: 0.5%;
-      padding-bottom: 0.5%;
-      font-size: 13px; } }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title.en {
+      font-size: 16px;
+      margin-top: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content.extra {
+      margin-top: 2%;
+      font-size: 9px; } }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta:after {
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta:after {
     height: 25px; } }
 /* *********************************************************************************************************** */
 /* **                                               MOBILE                                                  ** */
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-timeforfashion_mobile.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion {
+    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fashion-new_mobile.jpg") no-repeat; }
 
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion img {
-    margin-left: 82%;
-    margin-top: 120px;
-    z-index: 1;
-    position: absolute;
-    width: 15%; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content {
-    width: 100%;
-    top: 15%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-title {
-      font-size: 16px;
+  #homepage-wrapper #xx_header .xx_slider ul li.fashion .content {
+    width: 65%;
+    top: 5%;
+    margin-left: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title {
+      font-size: 14px;
       margin-bottom: 2%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content {
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content {
       font-size: 10px;
       line-height: 130%;
-      margin-bottom: 4%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .main-content.extra {
-      font-size: 10px;
-      padding-top: 1.5%;
-      padding-bottom: 2%;
-      margin-top: 4%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.timeforfashion .content .xx_cta {
-      width: 26%;
+      margin-bottom: 4%;
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content.extra {
+      font-size: 9px;
+      margin-top: 0%;
+      display: block;
+      padding-left: 0;
+      padding-right: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-content.extra.fr {
+      font-size: 8px;
+      margin-top: 0%;
+      display: block;
+      padding-left: 0;
+      padding-right: 0; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .main-title.en {
+      font-size: 13px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.fashion .content .xx_cta {
+      width: 80%;
       padding-left: 1%;
       font-size: 10px; } }
 /* *********************************************************************************************************** */
