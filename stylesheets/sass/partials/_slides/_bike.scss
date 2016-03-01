@@ -1,13 +1,14 @@
 
 /* *********************************************************************************************************** */
-/*                                             SLIDER BIKE                                                  ** */
+/*                                             SLIDER bike                                        ** */
 /* *********************************************************************************************************** */
 
 #homepage-wrapper #xx_header .xx_slider ul li.bike {
-  background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-bike.jpg') no-repeat;
+  background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bike.jpg') no-repeat;
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.bike .content {
+
   position: absolute;
   width: 75%;
   top: 29%;
@@ -16,10 +17,7 @@
     -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   }
-}
 
-
-#homepage-wrapper #xx_header .xx_slider ul li.bike .content {
   color: #fff;
   text-align: center;
 
@@ -29,19 +27,19 @@
     font-size: 41px;
     line-height: 120%;
     color: inherit;
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
 
     text-transform: uppercase;
     margin: 0;
     margin-bottom: 1.5%;
   }
 
-    .main-content {
-      font-size: 20px;
-      margin-bottom: 2.5%;
-      text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    }
-
+  .main-content {
+    /*text-shadow: 0 0 80px rgba(0, 0, 0, 1);*/
+    font-size: 18px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 #homepage-wrapper #xx_header .xx_slider ul li.bike .content .xx_cta { 
@@ -49,39 +47,18 @@
   width: 20%;
   text-align: left;
   margin-top: 0;
-  background: #520531;
-  color: #fff;
+  background-color: #1474b8;
+  color: #ffffff;
   margin-bottom: 7%;
-
-  /*display: block;*/
+  padding-right: 0.3%;
   margin: 0 auto;
+  margin-left: 1.5%;
+  margin-right: 1%;
 
   &:hover {
-    background: darken(#520531, 6%);
+    background: darken(#1474b8, 6%);
   }
 }
-
-//EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.bike.en .content .xx_cta { 
-    width: 24%;
-  }
-
-//FR FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.bike.fr .content { 
-
-  .main-content{
-    padding: 0 20px;
-  }
-
-  @media (max-width: 1200px) {
-  }
-  @media (min-width: 768px) and (max-width: 979px) {
-  }
-  @media (max-width: 767px) {
-    top: 15%;
-    }
-  }
-
 
 // IE8 fix 
 @media \0screen {
@@ -96,20 +73,17 @@
   #homepage-wrapper #xx_header .xx_slider ul li.bike .content {
 
     .main-title {
-      font-size: 33px;
+      font-size: 32px;
     }
 
-    .xx_cta {
-      width: 22%;
+    .main-content{
+      font-size: 16px;
     }
-    
-  }
 
-  //EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.bike.en .content .xx_cta { 
-    width: 28%;
+    .xx_cta{
+      width: 25%;
+    }
   }
-}
 
 
 /* *********************************************************************************************************** */
@@ -118,36 +92,27 @@
 @media (max-width: 979px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.bike .content {
-    width: 74%;
-    top: 27%;
+
+  top: 22%;
+
+    .xx_cta{
+      width: 35%;
+      padding-left: 1%;
+    }
 
     .main-title {
       font-size: 25px;
+      margin-bottom: 2%;
     }
 
     .main-content {
-      font-size: 19px;
+      font-size: 15px;
+      margin-bottom: 2%;
+      padding-left: 15%;
+      padding-right: 15%;
     }
-
-    .xx_cta {
-      text-align: left;
-      padding-left: 10px;
-      margin-bottom: 6%;
-      width: 25%;
-
-      &:after {
-        display: block;
-        font-size: 8px;
-      }
     }
-    
   }
-  
-  //EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.bike.en .content .xx_cta { 
-    width: 31%;
-  }
-
 }
 
 @media only screen 
@@ -164,34 +129,35 @@ and (orientation : portrait) {
 @media (max-width: 767px) {
 
   #homepage-wrapper #xx_header .xx_slider ul li.bike {
-    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-bike-mobile.jpg') no-repeat;
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bike_mobile.jpg') no-repeat;
   }
 
+
   #homepage-wrapper #xx_header .xx_slider ul li.bike .content {
-    top: 26%;
-    width: 100%;
+
+width: 100%;
+top: 20%;
+padding-left: 5%;
+padding-right: 5%;
 
     .main-title {
-      font-size: 19px;
+      font-size: 15px;
+      margin-bottom: 2%;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
     }
 
     .main-content {
-      font-size: 15px;
-      padding: 0 10%;
+      font-size: 10px;
+      line-height: 130%;
+      margin-bottom: 4%;
     }
 
-    .xx_cta {
-      width: 38%;
-      font-size: 8px;
+    .xx_cta{
+      width: 50%;
+      padding-left: 1%;
+      font-size: 10px;
     }
-    
   }
-
-  //EN FIX
-  #homepage-wrapper #xx_header .xx_slider ul li.bike.en .content .xx_cta { 
-    width: 40%;
-  }
-
 }
 
 
