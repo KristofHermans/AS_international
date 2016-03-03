@@ -1,0 +1,180 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER outdoorfashion                                             ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-outdoorfashion.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content {
+    position: absolute;
+    width: 75%;
+    top: 15%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 39px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 1.5%;
+    }
+    .main-title.fr {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 35px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 1.5%;
+    }
+    .main-content {
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+        font-size: 18px;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content .xx_cta {
+    font-weight: 600;
+    width: 18%;
+    text-align: left;
+    margin-top: 0;
+    background: #f9795b;
+    color: #fff;
+    margin-bottom: 7%;
+    padding-right: 0.3%;
+    /*display: block;*/
+    margin: 0 auto;
+    margin: 0 1% 0 1%;/*trbl*/
+    &:hover {
+        background: darken(#f9795b, 6%);
+    }
+    &.donker{
+        background-color: #e55038;
+            &:hover {
+                background: darken(#e55038, 6%);
+            }
+    }
+}
+
+//NL fix
+#homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion.nl .content {
+    .main-title {
+        margin-top: 3%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content {
+        .main-title {
+            font-size: 32px;
+        }
+        .main-title.fr {
+            font-size: 27px;
+        }
+        .main-content {
+            font-size: 16px;
+            margin-bottom: 2%;
+        }
+        .xx_cta {
+            width: 20%;
+        }
+    }
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content {
+            top: 12%;
+            .xx_cta {
+                width: 20%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                margin-bottom: 0%;
+            }
+            .main-title.fr {
+                font-size: 21px;
+                margin-bottom: 0%;
+            }
+            .main-content {
+                font-size: 15px;
+                margin-top: 1%;
+                margin-bottom: 2%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-outdoorfashion_mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.outdoorfashion .content {
+        width: 100%;
+        top: 12%;
+        .main-title {
+            font-size: 15px;
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        .main-title.fr {
+            font-size: 15px;
+        }
+        .main-content {
+            font-size: 11px;
+            line-height: 130%;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .xx_cta {
+            width: 25%;
+            padding-left: 2%;
+        }
+        .xx_cta.en {
+            width: 35%;
+            padding-left: 2%;
+        }
+    }
+}
