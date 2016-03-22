@@ -1,0 +1,157 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER reisronddeklok                                             ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-timeisrunning.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content {
+    position: absolute;
+    width: 75%;
+    top: 31%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 41px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+        margin-bottom: 1.5%;
+    }
+    .main-content {
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+        font-size: 18px;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content .xx_cta {
+    font-weight: 600;
+    width: 25%;
+    text-align: left;
+    margin-top: 0;
+    background: #6f802f;
+    color: #fff;
+    margin-bottom: 7%;
+    padding-right: 0.3%;
+    /*display: block;*/
+    margin: 0 auto;
+    &.fr {
+        width: 22%;
+    }
+    &:hover {
+        background: darken(#6f802f, 6%);
+    }
+}
+
+//NL fix
+#homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok.nl .content {
+    .main-title {
+        margin-top: 3%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content {
+        .main-title {
+            font-size: 32px;
+            .gold {
+                font-size: 32px;
+            }
+        }
+        .main-content {
+            font-size: 16px;
+        }
+        .xx_cta {
+            width: 30%;
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content {
+            top: 29%;
+            .xx_cta {
+                width: 35%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                margin-bottom: 0%;
+            }
+            .main-content {
+                font-size: 15px;
+                margin-top: 1%;
+                margin-bottom: 2%;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-timeisrunning_mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.reisronddeklok .content {
+        width: 100%;
+        top: 23%;
+        .hide_mobile {
+            display: none;
+        }
+        .main-title {
+            font-size: 14px;
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+        }
+        .xx_cta {
+            width: 53%;
+            padding-left: 2%;
+        }
+    }
+}
