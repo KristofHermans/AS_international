@@ -1675,6 +1675,120 @@ a:link {
       font-size: 10px; }
       #homepage-wrapper #xx_header .xx_slider ul li.vijftienprocent .content .xx_cta.en {
         width: 60%; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER wielerpak                                             ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.wielerpak {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wielerpak.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content {
+  position: absolute;
+  width: 75%;
+  top: 31%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content h2,
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 1.5%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-content {
+    text-shadow: 0 0 80px black;
+    font-size: 18px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta {
+  font-weight: 600;
+  width: 25%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #454545;
+  margin-bottom: 7%;
+  padding-right: 0.3%;
+  /*display: block;*/
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta.en {
+    width: 27%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta:hover {
+    background: #f0f0f0; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wielerpak.nl .content .main-title {
+  margin-top: 3%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content {
+    top: 25%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-title {
+      font-size: 32px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-title .gold {
+        font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta {
+      width: 30%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta.en {
+        width: 35%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content {
+    top: 22%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta {
+      width: 35%;
+      padding-left: 1%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta.en {
+        width: 37%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-title {
+      font-size: 25px;
+      margin-bottom: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-content {
+      font-size: 15px;
+      margin-top: 1%;
+      margin-bottom: 2%;
+      padding-left: 40px;
+      padding-right: 40px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wielerpak_mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content {
+    width: 100%;
+    top: 23%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .hide_mobile {
+      display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-title {
+      font-size: 14px;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      text-shadow: 0 0 20px rgba(0, 0, 0, 0.9); }
+    #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta {
+      width: 53%;
+      padding-left: 2%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.wielerpak .content .xx_cta.en {
+        width: 60%; } }
 @font-face {
   font-family: 'la_compagnie_des_ombresRg';
   src: url("lacompagniedesombres-webfont.eot"); }
