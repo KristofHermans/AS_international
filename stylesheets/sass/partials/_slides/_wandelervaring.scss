@@ -1,27 +1,16 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER midseason                                             ** */
+/*                                             SLIDER wandelervaring                                        ** */
 /* *********************************************************************************************************** */
 
-#homepage-wrapper #xx_header .xx_slider ul li.midseason {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-midseason.jpg') no-repeat;
-    z-index: -1;
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.midseason img{
-    /*box-shadow: 3px 3px 80px #000000;*/
-    -webkit-filter: drop-shadow(2px 2px 20px #000000);
-    filter:         drop-shadow(2px 2px 20px #000000); 
-}
-
-#homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
     position: absolute;
     width: 75%;
-    top: 80%;
-    left: 12.7%;
-    background-color: rgba(255,255,255,0.7);
-    padding-top: 1%;
-    padding-bottom: 1%;
-    z-index: -1;
+    top: 6%;
+    left: 0;
     h2,
     span {
         -webkit-font-smoothing: antialiased;
@@ -32,13 +21,13 @@
     .main-title {
         display: inline-block;
         font-weight: 100;
-        font-size: 41px;
+        font-size: 45px;
         line-height: 120%;
         color: inherit;
         /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
-        text-transform: uppercase;
+        text-transform: none;
         margin: 0;
-        margin-bottom: 1.5%;
+        margin-bottom: 30%;
     }
     .main-content {
         text-shadow: 0 0 80px rgba(0, 0, 0, 1);
@@ -46,29 +35,20 @@
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.midseason .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
     font-weight: 600;
-    width: 17%;
+    width: 29%;
     text-align: left;
     margin-top: 0;
-    background: #75c044;
-    color: #fff;
+    background: #fff;
+    color: #7d8c5b;
     margin-bottom: 7%;
     padding-right: 0.3%;
     /*display: block;*/
     margin: 0 auto;
-    &.links {
-        margin-right: 3.5%;
-    }
     &:hover {
-        background: darken(#75c044, 6%);
-    }
-}
-
-//NL fix
-#homepage-wrapper #xx_header .xx_slider ul li.midseason.nl .content {
-    .main-title {
-        margin-top: 3%;
+        background-color: #7d8c5b;
+        color: #fff;
     }
 }
 
@@ -81,42 +61,35 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason img{
-        width: 25%;
-    }
-
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
-            top: 75%;
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+            top: 6%;
 
         .main-title {
             font-size: 32px;
+            margin-bottom: 28%;
+
         }
         .main-content {
             font-size: 16px;
         }
         .xx_cta {
-            width: 15%;
-            &.links {
-                margin-right: 5%;
-            }
+            width: 35%;
         }
     }
+
 /* *********************************************************************************************************** */
 /* **                                               TABLET                                                  ** */
 /* *********************************************************************************************************** */
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
-            top: 75%;
+        #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+            top: 8%;
             .xx_cta {
-                width: 15%;
+                width: 35%;
                 padding-left: 1%;
-                &.en {
-                    width: 37%;
-                }
             }
             .main-title {
                 font-size: 25px;
-                margin-bottom: 0%;
+                margin-bottom: 27%;
             }
             .main-content {
                 font-size: 15px;
@@ -130,7 +103,7 @@
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -141,25 +114,23 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-midseason_mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring_mobile.jpg') no-repeat;
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason img{
-        width: 40%;
-        margin-top: -1.5%;
-    }
-    #homepage-wrapper #xx_header .xx_slider ul li.midseason .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
         width: 100%;
-        top: 18%;
-        padding-top: 3%;
-        left: 16%;
+        top: 10%;
+        .main-title {
+            font-size: 18px;
+            /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+            margin-bottom: 28%;
+        }
+
+
 
         .xx_cta {
-            width: 40%;
+            width: 60%;
             padding-left: 2%;
-            margin: 0 auto !important;
-            display: block;
-            margin-bottom: 2% !important;
         }
     }
 }
