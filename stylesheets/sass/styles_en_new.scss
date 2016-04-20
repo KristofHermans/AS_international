@@ -1,0 +1,64 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/style.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+/* *********************************************************************************************************** */
+/* **                                                 IMPORTS                                               ** */
+/* *********************************************************************************************************** */
+@import "compass/css3";
+@import "partials/fonts";
+
+/* ===============
+   MAIN STYLES
+=============== */
+// VARIABLES
+@import "partials/variables_new";
+
+// BASE
+@import "partials/base_new";
+
+// LAYOUT
+@import "partials/layout_new";
+
+// THEME
+@import "partials/theme_new";
+
+
+/* ===============
+   SLIDER
+=============== */
+// main slider styles
+@import "partials/slider_new";
+// main tab styles
+@import "partials/tabs_new";
+
+// tabs
+
+// OLD
+
+@import "partials/_slides/_gps";
+@import "partials/_slides/_noordzee";
+@import "partials/_slides/_vlottebouwers";
+
+// NEW
+
+@import "partials/_slides/_wandelschoenen";
+@import "partials/_slides/_midseason";
+@import "partials/_slides/_lifeatthelake";
+@import "partials/_slides/_wandelervaring";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

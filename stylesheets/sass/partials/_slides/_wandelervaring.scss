@@ -1,0 +1,136 @@
+/* *********************************************************************************************************** */
+/*                                             SLIDER wandelervaring                                        ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+    position: absolute;
+    width: 75%;
+    top: 6%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 45px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: none;
+        margin: 0;
+        margin-bottom: 30%;
+    }
+    .main-content {
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+        font-size: 18px;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
+    font-weight: 600;
+    width: 29%;
+    text-align: left;
+    margin-top: 0;
+    background: #fff;
+    color: #7d8c5b;
+    margin-bottom: 7%;
+    padding-right: 0.3%;
+    /*display: block;*/
+    margin: 0 auto;
+    &:hover {
+        background-color: #7d8c5b;
+        color: #fff;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+            top: 6%;
+
+        .main-title {
+            font-size: 32px;
+            margin-bottom: 28%;
+
+        }
+        .main-content {
+            font-size: 16px;
+        }
+        .xx_cta {
+            width: 35%;
+        }
+    }
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+            top: 8%;
+            .xx_cta {
+                width: 35%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                margin-bottom: 27%;
+            }
+            .main-content {
+                font-size: 15px;
+                margin-top: 1%;
+                margin-bottom: 2%;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring_mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+        width: 100%;
+        top: 10%;
+        .main-title {
+            font-size: 18px;
+            /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+            margin-bottom: 28%;
+        }
+
+
+
+        .xx_cta {
+            width: 60%;
+            padding-left: 2%;
+        }
+    }
+}
