@@ -1,15 +1,15 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER fietspak                                         ** */
+/*                                             SLIDER ibiza                                         ** */
 /* *********************************************************************************************************** */
 
-#homepage-wrapper #xx_header .xx_slider ul li.fietspak {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-fietspak.jpg') no-repeat;
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ibiza.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
     position: absolute;
     width: 75%;
-    top: 28%;
+    top: 30%;
     left: 0;
     h2,
     span {
@@ -24,9 +24,9 @@
         font-size: 41px;
         line-height: 120%;
         color: inherit;
-        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
         text-transform: uppercase;
-        margin: 0;
+        margin: 0 0 1em 0;
     }
     .main-content {
         text-shadow: 0 0 80px rgba(0, 0, 0, 1);
@@ -37,18 +37,16 @@
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.fietspak .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta {
     font-weight: 600;
-    width: 23%;
+    width: 20%;
     text-align: left;
-    margin-top: 0;
-    background: #ffffff;
-    color: #8d912e;
-    margin-bottom: 7%;
+    background: #fb404d;
+    color: #fff;
+    padding-right: 0.3%;
+    margin: 0 8px;
     &:hover {
-        /*background: darken(#ac8b01, 6%);*/
-        background-color: #8d912e;
-        color: #ffffff;
+        background: darken(#fb404d, 6%);
     }
     &.links {
         margin-right: 2%;
@@ -64,15 +62,16 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
         .main-title {
             font-size: 32px;
         }
         .main-content {
             font-size: 16px;
+            width: 70%;
         }
         .xx_cta {
-            width: 28%;
+            width: 25%;
         }
 }
 
@@ -81,29 +80,28 @@
 /* *********************************************************************************************************** */
 
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
+        #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
             top: 27%;
             .xx_cta {
-                width: 32%;
+                width: 25%;
                 padding-left: 1%;
             }
             .main-title {
                 font-size: 25px;
-                .hide_mobile{
-                    display: none;
-                }
             }
             .main-content {
                 font-size: 15px;
-                margin: 1em auto 1.5em;
-                width: 83%;
+                    margin: 1em auto 1.5em;
+                    .hide_mobile{
+                display: none;
+            }
             }
         }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -114,12 +112,12 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.fietspak {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-fietspak-mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ibiza-mobile.jpg') no-repeat;
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
         width: 100%;
-        top: 15%;
+        top: 33%;
         .main-title {
             font-size: 14px;
         }
@@ -130,11 +128,8 @@
             margin: 1.2em auto 1.7em;
         }
         .xx_cta {
-            width: 45%;
-            padding-left: 2%;
-            padding-right: 0;
+            width: 30%;
             margin: 0 auto !important;
-            margin-bottom: 3% !important;
             &.links {
                 margin-right: 2%!important;
             }

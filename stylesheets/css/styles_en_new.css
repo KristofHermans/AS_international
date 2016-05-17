@@ -1129,312 +1129,6 @@ a:link {
   #homepage-wrapper #xx_header .xx_slider .bx-controls-direction a.bx-next {
     background-position: -23px center; } }
 /* *********************************************************************************************************** */
-/*                                             SLIDER lifeatthelake                                         ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-lifeatthelake.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content {
-  position: absolute;
-  width: 75%;
-  top: 40%;
-  left: 0;
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content h2,
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
-    line-height: 120%;
-    color: inherit;
-    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 1.5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta {
-  font-weight: 600;
-  width: 20%;
-  text-align: left;
-  margin-top: 0;
-  background: #ac8b01;
-  color: #fff;
-  margin-bottom: 7%;
-  padding-right: 0.3%;
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta:hover {
-    background: #8e7201; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta.links {
-    margin-right: 2%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-title {
-    font-size: 32px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-content {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta {
-    width: 25%; }
-
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */ }
-@media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content {
-    top: 35%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta {
-      width: 25%;
-      padding-left: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-title {
-      font-size: 25px;
-      margin-bottom: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-content {
-      font-size: 15px;
-      margin-top: 1%;
-      margin-bottom: 2%;
-      padding-left: 80px;
-      padding-right: 80px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-lifeatthelake_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content {
-    width: 100%;
-    top: 30%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-title {
-      font-size: 14px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .main-content {
-      font-size: 10px;
-      line-height: 130%;
-      padding-left: 30px;
-      padding-right: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta {
-      width: 30%;
-      padding-left: 2%;
-      padding-right: 0;
-      margin: 0 auto !important;
-      margin-bottom: 3% !important; }
-      #homepage-wrapper #xx_header .xx_slider ul li.lifeatthelake .content .xx_cta.links {
-        margin-right: 2% !important; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER wandelervaring                                        ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
-  position: absolute;
-  width: 75%;
-  top: 6%;
-  left: 0;
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content h2,
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 45px;
-    line-height: 120%;
-    color: inherit;
-    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
-    text-transform: none;
-    margin: 0;
-    margin-bottom: 30%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
-  font-weight: 600;
-  width: 29%;
-  text-align: left;
-  margin-top: 0;
-  background: #fff;
-  color: #7d8c5b;
-  margin-bottom: 7%;
-  padding-right: 0.3%;
-  /*display: block;*/
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:hover {
-    background-color: #7d8c5b;
-    color: #fff; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
-    top: 6%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
-      font-size: 32px;
-      margin-bottom: 28%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
-      font-size: 16px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
-      width: 35%; }
-
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */ }
-@media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
-    top: 8%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
-      width: 35%;
-      padding-left: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
-      font-size: 25px;
-      margin-bottom: 27%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
-      font-size: 15px;
-      margin-top: 1%;
-      margin-bottom: 2%;
-      padding-left: 40px;
-      padding-right: 40px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
-    width: 100%;
-    top: 10%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
-      font-size: 18px;
-      /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
-      margin-bottom: 28%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
-      width: 60%;
-      padding-left: 2%; } }
-/* *********************************************************************************************************** */
-/*                                             SLIDER gps                                             ** */
-/* *********************************************************************************************************** */
-#homepage-wrapper #xx_header .xx_slider ul li.gps {
-  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-gps.jpg") no-repeat; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.gps .content {
-  position: absolute;
-  width: 75%;
-  top: 31%;
-  left: 0;
-  color: #fff;
-  text-align: center; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content h2,
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content span {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-title {
-    display: inline-block;
-    font-weight: 100;
-    font-size: 41px;
-    line-height: 120%;
-    color: inherit;
-    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
-    text-transform: uppercase;
-    margin: 0;
-    margin-bottom: 1.5%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta {
-  font-weight: 600;
-  width: 28%;
-  text-align: left;
-  margin-top: 0;
-  background: #8b8f2b;
-  color: #fff;
-  margin-bottom: 7%;
-  padding-right: 0.3%;
-  /*display: block;*/
-  margin: 0 auto; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta.links {
-    margin-right: 2%; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta:hover {
-    background: #747724; }
-
-#homepage-wrapper #xx_header .xx_slider ul li.gps.nl .content .main-title {
-  margin-top: 3%; }
-
-/* *********************************************************************************************************** */
-/* **                                              DESKTOP                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 1199px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-title {
-    font-size: 32px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-content {
-    font-size: 16px; }
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta {
-    width: 35%; }
-
-  /* *********************************************************************************************************** */
-  /* **                                               TABLET                                                  ** */
-  /* *********************************************************************************************************** */ }
-@media (max-width: 1199px) and (max-width: 979px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content {
-    top: 29%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta {
-      width: 37%;
-      padding-left: 1%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-title {
-      font-size: 25px;
-      margin-bottom: 0%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-content {
-      font-size: 15px;
-      margin-top: 1%;
-      margin-bottom: 2%;
-      padding-left: 80px;
-      padding-right: 80px; } }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta:after {
-    height: 25px; } }
-/* *********************************************************************************************************** */
-/* **                                               MOBILE                                                  ** */
-/* *********************************************************************************************************** */
-@media (max-width: 767px) {
-  #homepage-wrapper #xx_header .xx_slider ul li.gps {
-    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-gps_mobile.jpg") no-repeat; }
-
-  #homepage-wrapper #xx_header .xx_slider ul li.gps .content {
-    width: 100%;
-    top: 12%; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-title {
-      font-size: 14px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .main-content {
-      font-size: 10px;
-      line-height: 130%;
-      padding-left: 30px;
-      padding-right: 30px; }
-    #homepage-wrapper #xx_header .xx_slider ul li.gps .content .xx_cta {
-      width: 60%;
-      padding-left: 2%;
-      padding-right: 0;
-      margin: 0 auto !important;
-      margin-bottom: 3% !important; } }
-/* *********************************************************************************************************** */
 /*                                             SLIDER splash                                         ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.splash {
@@ -1677,10 +1371,109 @@ a:link {
       display: block;
       margin-bottom: 2% !important; } }
 /* *********************************************************************************************************** */
+/*                                             SLIDER ibiza                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ibiza.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
+  position: absolute;
+  width: 75%;
+  top: 30%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content h2,
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 32px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin: 0 0 1em 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-content {
+    text-shadow: 0 0 80px black;
+    font-size: 18px;
+    margin: 1.5em auto 1.5em;
+    width: 65%;
+    line-height: 130%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta {
+  font-weight: 600;
+  width: 20%;
+  text-align: left;
+  background: #fb404d;
+  color: #fff;
+  padding-right: 0.3%;
+  margin: 0 8px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta:hover {
+    background: #fa2231; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta.links {
+    margin-right: 2%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-title {
+    font-size: 32px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-content {
+    font-size: 16px;
+    width: 70%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta {
+    width: 25%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
+    top: 27%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta {
+      width: 25%;
+      padding-left: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-title {
+      font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-content {
+      font-size: 15px;
+      margin: 1em auto 1.5em; }
+      #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-content .hide_mobile {
+        display: none; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-ibiza-mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content {
+    width: 100%;
+    top: 33%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-title {
+      font-size: 14px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      width: 80%;
+      margin: 1.2em auto 1.7em; }
+    #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta {
+      width: 30%;
+      margin: 0 auto !important; }
+      #homepage-wrapper #xx_header .xx_slider ul li.ibiza .content .xx_cta.links {
+        margin-right: 2% !important; } }
+/* *********************************************************************************************************** */
 /*                                             SLIDER glamping                                         ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.glamping {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-glamping.jpg") no-repeat; }
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-glamping.jpg") no-repeat; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
   position: absolute;
@@ -1758,7 +1551,7 @@ a:link {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
   #homepage-wrapper #xx_header .xx_slider ul li.glamping {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-glamping-mobile.jpg") no-repeat; }
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-glamping-mobile.jpg") no-repeat; }
 
   #homepage-wrapper #xx_header .xx_slider ul li.glamping .content {
     width: 100%;
@@ -1779,7 +1572,7 @@ a:link {
 /*                                             SLIDER fietspak                                         ** */
 /* *********************************************************************************************************** */
 #homepage-wrapper #xx_header .xx_slider ul li.fietspak {
-  background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fietspak.jpg") no-repeat; }
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-fietspak.jpg") no-repeat; }
 
 #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
   position: absolute;
@@ -1859,7 +1652,7 @@ a:link {
 /* *********************************************************************************************************** */
 @media (max-width: 767px) {
   #homepage-wrapper #xx_header .xx_slider ul li.fietspak {
-    background: url("http://static.asadventure.com/includes/homepage/national/new/images/bg-fietspak-mobile.jpg") no-repeat; }
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-fietspak-mobile.jpg") no-repeat; }
 
   #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content {
     width: 100%;
@@ -1879,3 +1672,101 @@ a:link {
       margin-bottom: 3% !important; }
       #homepage-wrapper #xx_header .xx_slider ul li.fietspak .content .xx_cta.links {
         margin-right: 2% !important; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER wandelervaring                                        ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+  position: absolute;
+  width: 75%;
+  top: 6%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content h2,
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 45px;
+    line-height: 120%;
+    color: inherit;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-transform: none;
+    margin: 0;
+    margin-bottom: 30%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
+    text-shadow: 0 0 80px black;
+    font-size: 18px; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
+  font-weight: 600;
+  width: 29%;
+  text-align: left;
+  margin-top: 0;
+  background: #fff;
+  color: #7d8c5b;
+  margin-bottom: 7%;
+  padding-right: 0.3%;
+  /*display: block;*/
+  margin: 0 auto; }
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:hover {
+    background-color: #7d8c5b;
+    color: #fff; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+    top: 6%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
+      font-size: 32px;
+      margin-bottom: 28%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
+      width: 35%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+    top: 8%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
+      width: 35%;
+      padding-left: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
+      font-size: 25px;
+      margin-bottom: 27%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-content {
+      font-size: 15px;
+      margin-top: 1%;
+      margin-bottom: 2%;
+      padding-left: 40px;
+      padding-right: 40px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-wandelervaring_mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content {
+    width: 100%;
+    top: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .main-title {
+      font-size: 18px;
+      /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+      margin-bottom: 28%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.wandelervaring .content .xx_cta {
+      width: 60%;
+      padding-left: 2%; } }
