@@ -1,0 +1,142 @@
+/* *********************************************************************************************************** */
+/*                                             SLIDER benen                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.benen {
+    background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-benen.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.benen .content {
+    position: absolute;
+    width: 75%;
+    top: 30%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 41px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .main-content {
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+        font-size: 18px;
+        margin: 1.5em auto 1.5em;
+        width: 65%;
+        line-height: 130%;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.benen .content .xx_cta {
+    font-weight: 600;
+    width: 23%;
+    text-align: left;
+    margin-top: 0;
+    background: #efab02;
+    color: #ffffff;
+    margin-bottom: 7%;
+    &:hover {
+       background: darken(#efab02, 6%);
+        color: #ffffff;
+    }
+    &.links {
+        margin-right: 2%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.benen .content {
+        .main-title {
+            font-size: 32px;
+        }
+        .main-content {
+            font-size: 16px;
+        }
+        .xx_cta {
+            width: 28%;
+        }
+}
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.benen .content {
+            top: 29%;
+            .xx_cta {
+                width: 32%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                .hide_mobile{
+                    display: none;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: 1em auto 1.5em;
+                width: 83%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.benen .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.benen {
+        background: url('https://static.asadventure.com/includes/homepage/national/new/images/bg-benen-mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.benen .content {
+        width: 100%;
+        top: 15%;
+        .main-title {
+            font-size: 14px;
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 80%;
+            margin: 1.2em auto 1.7em;
+        }
+        .xx_cta {
+            width: 45%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;
+            &.links {
+               /* margin-right: 2%!important;*/
+            }
+        }
+    }
+}
