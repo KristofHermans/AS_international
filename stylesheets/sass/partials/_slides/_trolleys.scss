@@ -1,0 +1,199 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER trolleys                                         ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.trolleys {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-trolleys.jpg') no-repeat;
+    .imgblock{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 150px;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.trolleys .content {
+    position: absolute;
+    width: 75%;
+    top: 40%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 41px;
+        line-height: 120%;
+        color: inherit;
+        text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .main-content {
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
+        font-size: 18px;
+        margin: 1.2em auto 1.8em;
+        width: 100%;
+        line-height: 130%;
+        &.fr{
+            width: 65%;
+        }
+    }
+    .xx_cta {
+        font-weight: 600;
+        width: 23%;
+        text-align: left;
+        margin-top: 0;
+        background: #598527;
+        color: #ffffff;
+        &:hover {
+            background: darken(#598527, 6%);
+            color: #ffffff;
+        }
+        &.links {
+            margin-right: 2%;
+        }
+    }
+    .legal {
+        font-size: 13px;
+        line-height: 120%;
+        margin-top: 6%;
+        &.fr{
+            margin-top: 4%;
+        }
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.trolleys .imgblock{
+        width: 125px;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.trolleys .content {
+        .main-title {
+            font-size: 32px;
+        }
+        .main-content {
+            font-size: 16px;
+            &.fr{
+            margin: .8em auto 1em;
+            }
+        }
+        .xx_cta {
+            width: 28%;
+        }
+        .legal{
+            margin-top: 3%;
+            &.fr{
+                margin-top: 2%;
+            }
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.trolleys .imgblock{
+        width: 105px;
+    }
+        #homepage-wrapper #xx_header .xx_slider ul li.trolleys .content {
+            top: 32%;
+            .xx_cta {
+                width: 32%;
+                padding-left: 3%;
+            }
+            .main-title {
+                font-size: 25px;
+                .hide_mobile {
+                    display: none;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: 1em auto 1.5em;
+                width: 94%;
+            }
+            .legal{
+                &.fr{
+                    margin-top: 2%;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.trolleys .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.trolleys {
+        background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-trolleys-mobile.jpg') no-repeat;
+    }
+     #homepage-wrapper #xx_header .xx_slider ul li.trolleys .imgblock{
+        display:none;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.trolleys .content {
+        width: 100%;
+        top: 7%;
+        .main-title {
+            font-size: 14px;
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 80%;
+            margin: 1.2em auto 1.7em;
+            &.fr{
+                padding: 0;
+                margin: 1.2em auto 1.7em;
+                width: 80%;
+            }
+        }
+        .xx_cta {
+            width: 45%;
+            padding-left: 3%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;
+            &.links {
+                margin-right: 2%!important;
+            }
+        }
+        .legal{
+            font-size: 10px;
+            margin-top: 5%;
+        }
+    }
+}

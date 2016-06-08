@@ -1,20 +1,18 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER junior                                         ** */
-/* *********************************************************************************************************** */
+/*                                             SLIDER summerdeals                                         ** */
+/* *********************************************************************************************************** */  
 
-#homepage-wrapper #xx_header .xx_slider ul li.junior {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacucho.jpg') no-repeat;
-    background-size: cover !important;
+#homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.junior .content {
+#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
     position: absolute;
-    width: 42%;
-    margin-left: 27%;
-    text-align: right;
-    top: 14%;
-    left: 0;
+    width: 75%;
+    top: 9%;
     color: #fff;
+    text-align: left;
+    padding-left: 3%;
     h2,
     span {
         -webkit-font-smoothing: antialiased;
@@ -26,33 +24,38 @@
         font-size: 41px;
         line-height: 120%;
         color: inherit;
-        text-shadow: 0 0 50px rgba(0, 0, 0, .7);
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
         text-transform: uppercase;
         margin: 0;
     }
     .main-content {
-        text-shadow: 0 0 50px rgba(0, 0, 0, .5);
+        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
         font-size: 18px;
-        margin: 1.5em auto 1.5em;
-        width: 100%;
+        margin: 1.1em 0 1.8em;
+        width: 65%;
         line-height: 130%;
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta {
     font-weight: 600;
-    width: 45%;
+    width: 27%;
     text-align: left;
-    background: #a3aa00;
-    color: #fff;
-    padding-right: 0.3%;
-    padding-left: 3%;
-    /*margin: 0 8px;*/
+    margin: 0 0 10px;
+    background: #df8f12;
+    color: #ffffff;
+    display: block; /*override general styles = inline-block*/
     &:hover {
-        background: darken(#a3aa00, 6%);
+       background: darken(#df8f12, 6%);
+        color: #ffffff;
     }
-    &.links {
-        margin-right: 2%;
+    &.folder {
+        background-color: #fff;
+        color: #df8f12;
+        &:hover{
+            background-color: #df8f12;
+            color: #fff;
+        }
     }
 }
 
@@ -65,18 +68,16 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
-        width: 41%;
-        margin-left: 28%;
+    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
+        top: 3%;
         .main-title {
             font-size: 32px;
         }
         .main-content {
             font-size: 16px;
-            width: 100%;
         }
         .xx_cta {
-            width: 57%;
+            width: 32%;
         }
 }
 
@@ -85,28 +86,30 @@
 /* *********************************************************************************************************** */
 
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
-            top: 12%;
+        #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
+            /*top: 29%;*/
             .xx_cta {
-                width: 62%;
-                padding-left: 3%;
+                width: 35%;
+                padding-left: 1%;
+                margin: 0 0 8px;
             }
             .main-title {
                 font-size: 25px;
-            }
-            .main-content {
-                font-size: 15px;
-                margin: .8em auto .8em;
                 .hide_mobile{
                     display: none;
                 }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: .6em 0 1em;
+                width: 83%;
             }
         }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -117,28 +120,34 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.junior {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-ayacucho-mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
+        background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals-mobile.jpg') no-repeat;
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
-        width: 100%;
-        top: 22%;
-        margin: 0;
-        text-align: center;
+    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
+            width: 100%;
+            top: 5%;
+            padding: 0;
+            text-align: center;
         .main-title {
             font-size: 14px;
         }
         .main-content {
             font-size: 10px;
             line-height: 130%;
-            width: 80%;
-            margin: 1.2em auto 1.7em;
+            width: 100%;
+            margin: .5em auto 1em;
         }
         .xx_cta {
-            width: 58%;
+            width: 52%;
+            padding-left: 2%;
+            padding-right: 0;
             margin: 0 auto !important;
+            margin-bottom: 7px !important;
             &.links {
-                margin-right: 2% !important;
+               /* margin-right: 2%!important;*/
+            }
+            &.folder{
+                display: none;
             }
         }
     }

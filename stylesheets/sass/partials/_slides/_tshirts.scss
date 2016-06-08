@@ -1,0 +1,242 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER tshirts                                         ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.tshirts {
+    background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-tshirts.jpg') no-repeat;
+    background-size: cover !important;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.tshirts .content {
+    position: absolute;
+    width: 75%;
+    text-align: right;
+    top: 14%;
+    left: 0;
+    color: #fff;
+    padding-right: 4%;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 41px;
+        line-height: 120%;
+        color: inherit;
+        text-shadow: 0 0 50px rgba(0, 0, 0, .7);
+        text-transform: uppercase;
+        margin: 0;
+        &.fr {
+            font-size: 38px;
+        }
+    }
+    .main-content {
+        text-shadow: 0 0 50px rgba(0, 0, 0, .5);
+        font-size: 18px;
+        margin: 1.5em auto 1.5em;
+        width: 100%;
+        line-height: 130%;
+    }
+    .imgblock {
+        width: 155px;
+        margin-right: 30px;
+        display: inline-block !important;
+    }
+    .ctablock {
+        float: right;
+        width: 28%;
+        padding-top: 25px;
+        .xx_cta {
+            font-weight: 600;
+            width: 100%;
+            text-align: left;
+            color: #fff;
+            padding-right: 0.3%;
+            padding-left: 3%;
+            &.dms {
+                background-color: #d6577c;
+                &:hover {
+                    background: darken(#d6577c, 6%);
+                }
+            }
+            &.hrn {
+                background-color: #4acec3;
+                &:hover {
+                    background: darken(#4acec3, 6%);
+                }
+            }
+            &.links {
+                margin-right: 2%;
+            }
+        }
+    }
+    .legal {
+        padding-left: 30%;
+        font-size: 13px;
+        line-height: 100%;
+        margin-top: 33px;
+        text-align: left;
+        text-shadow: 0 0 30px rgba(0, 0, 0, 1);
+        &.fr {
+            padding-left: 2%;
+        }
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.tshirts .content {
+        top: 5%;
+        .main-title {
+            font-size: 32px;
+            &.fr{
+                font-size: 35px;
+            }
+        }
+        .main-content {
+            font-size: 16px;
+            width: 100%;
+            margin: 1em auto;
+        }
+        .imgblock {
+            width: 125px;
+            margin-right: 25px;
+        }
+        .ctablock {
+            padding-top: 10px;
+        }
+        .xx_cta {
+            width: 57%;
+        }
+        .legal{
+            padding-left: 2%;
+            &.fr{
+                margin-top: 30px;
+            }
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.tshirts .content {
+            .xx_cta {
+                width: 62%;
+                padding-left: 3%;
+            }
+            .main-title {
+                font-size: 25px;
+                &.fr{
+                    font-size: 25px;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: .8em auto .8em;
+                &.fr{
+                      margin: .3em auto .5em;
+                }
+                .hide_mobile {
+                    display: none;
+                }
+            }
+            .imgblock {
+                width: 110px;
+            }
+            .ctablock {
+                width: 35%;
+            }
+            .legal {
+                font-size: 12px;
+                margin-top: 12px;
+                &.fr{
+                    margin-top: 12px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.tshirts .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.tshirts {
+        background: url('http://static.asadventure.com/includes/homepage/national/new/images/bg-tshirts-mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.tshirts .content {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        padding: 0 2%;
+        .main-title {
+            font-size: 14px;
+            &.fr{
+                font-size: 14px;
+            }
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 100%;
+            margin: .3em auto .8em;
+        }
+        .imgblock {
+            display: none !important;
+        }
+        .ctablock {
+            width: 100%;
+            padding: 0;
+            .xx_cta {
+                width: 58%;
+                margin-top: 4px;
+                padding-top: 0;
+                &.dms {
+                    margin-left: 4px;
+                    /*position fix*/
+                }
+            }
+        }
+        .legal {
+            width: 100%;
+            font-size: 10px;
+            padding-top: .9em;
+            padding-left: 2%;
+            clear: both;
+            text-align: center;
+            &.fr{
+            font-size: 9px;
+            }
+        }
+    }
+}
