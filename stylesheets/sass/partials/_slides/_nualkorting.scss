@@ -1,15 +1,15 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER summerdeals                                         ** */
+/*                                             SLIDER nualkorting                                         ** */
 /* *********************************************************************************************************** */  
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals.jpg') no-repeat;
+#homepage-wrapper #xx_header .xx_slider ul li.nualkorting {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-nualkorting.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
+#homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content {
     position: absolute;
     width: 75%;
-    top: 9%;
+    top: 6%;
     color: #fff;
     text-align: left;
     padding-left: 3%;
@@ -20,42 +20,39 @@
     }
     .main-title {
         display: inline-block;
-        font-weight: 100;
+        /*font-weight: 100;*/
+        font-weight: 700!important;
         font-size: 41px;
         line-height: 120%;
         color: inherit;
         /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
         text-transform: uppercase;
         margin: 0;
+        color: #95d5d2;
     }
     .main-content {
-        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
-        font-size: 18px;
-        margin: 1.1em 0 1.8em;
-        width: 65%;
+        font-size: 15px;
+        margin: 1.0em 0 1.4em;
+        width: 50%;
         line-height: 130%;
+        color: #8c8c8c;
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content .xx_cta {
     font-weight: 600;
     width: 27%;
     text-align: left;
     margin: 0 0 10px;
-    background: #df8f12;
+    background: #95d5d2;
     color: #ffffff;
     display: block; /*override general styles = inline-block*/
     &:hover {
-       background: darken(#df8f12, 6%);
+       background: darken(#95d5d2, 6%);
         color: #ffffff;
     }
-    &.folder {
-        background-color: #fff;
-        color: #df8f12;
-        &:hover{
-            background-color: #df8f12;
-            color: #fff;
-        }
+    &.hide_mob {
+       display: none;
     }
 }
 
@@ -68,16 +65,23 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-        top: 3%;
+    #homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content {
+        top: 5%;
         .main-title {
-            font-size: 32px;
+            font-size: 28px;
         }
         .main-content {
-            font-size: 16px;
+            font-size: 12px;
+            width: 71%;
+            margin: 0.9em 0 1.2em;
+            &.fr{
+                width: 64%;
+            }    
         }
         .xx_cta {
             width: 32%;
+            height: 32px;
+            line-height: 32px;
         }
 }
 
@@ -86,30 +90,37 @@
 /* *********************************************************************************************************** */
 
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-            /*top: 29%;*/
-            .xx_cta {
-                width: 35%;
-                padding-left: 1%;
-                margin: 0 0 8px;
+        #homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content {
+            top: 8%;
+        .xx_cta {
+            display: none;
+            &.hide_mob {
+               display: block;
+               width: 30%;
+               padding-left: 1%;
             }
+        }
             .main-title {
                 font-size: 25px;
                 .hide_mobile{
                     display: none;
-                }
+                } 
             }
             .main-content {
-                font-size: 15px;
+                font-size: 11px;
                 margin: .6em 0 1em;
-                width: 83%;
+                width: 50%;
+                &.fr{
+                   width: 47%;
+                   font-size: 10px;
+                }  
             }
         }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -120,34 +131,43 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals-mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.nualkorting {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-nualkorting-mobile.jpg') no-repeat;
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-            width: 100%;
-            top: 5%;
-            padding: 0;
-            text-align: center;
+    #homepage-wrapper #xx_header .xx_slider ul li.nualkorting .content {
+        width: 75%;
+        margin-left: 13%;
+        top: 5%;
+        padding: 0;
+        text-align: left;
+                &.fr{
+                   top: 2%;
+                }  
         .main-title {
             font-size: 14px;
+            margin-top: 0%;
+                &.fr{
+                    font-size: 12px !important;
+                    margin-top: 9% !important;
+                }  
         }
         .main-content {
-            font-size: 10px;
+            font-size: 8px;
             line-height: 130%;
             width: 100%;
             margin: .5em auto 1em;
+            width: 103%;
+            font-size: 9px;
+                &.fr{
+                    width: 103%;
+                    font-size: 9px;
+                }  
         }
         .xx_cta {
-            width: 52%;
-            padding-left: 2%;
-            padding-right: 0;
-            margin: 0 auto !important;
-            margin-bottom: 7px !important;
-            &.links {
-               /* margin-right: 2%!important;*/
-            }
-            &.folder{
-                display: none;
+            display: none;
+            &.hide_mob {
+               display: block;
+               width: 60%;
             }
         }
     }
