@@ -2284,3 +2284,109 @@ a:link {
       text-align: center; }
       #homepage-wrapper #xx_header .xx_slider ul li.tshirts .content .legal.fr {
         font-size: 9px; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER festivalzomer                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.festivalzomer {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-festival.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content {
+  position: absolute;
+  width: 75%;
+  top: 6%;
+  left: 0;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content h2,
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-title {
+    display: inline-block;
+    font-weight: 100;
+    font-size: 41px;
+    line-height: 120%;
+    color: inherit;
+    text-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    margin: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-content {
+    text-shadow: 0 0 30px black;
+    font-size: 18px;
+    margin: 1.1em auto 25%;
+    width: 100%;
+    line-height: 130%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta {
+  font-weight: 600;
+  width: 28%;
+  text-align: left;
+  margin: 0;
+  background: #cc3333;
+  color: #ffffff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta:hover {
+    background: #b42d2d;
+    color: #ffffff; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta.links {
+    margin-right: 2%; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content {
+    top: 7%;
+    width: 73%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-title {
+      font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-content {
+      font-size: 16px;
+      margin: .5em auto 24%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta {
+      width: 34%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta {
+    width: 37%;
+    padding-left: 1%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-title {
+    font-size: 25px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-title .hide_mobile {
+      display: none; }
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-content {
+    font-size: 15px;
+    margin: .5em auto 19%;
+    width: 70%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-festival-mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content {
+    width: 100%;
+    top: 10%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-title {
+      font-size: 14px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      width: 80%;
+      margin: .5em auto 18%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta {
+      width: 52%;
+      padding-left: 2%;
+      padding-right: 0;
+      margin: 0 auto !important;
+      margin-bottom: 3% !important; }
+      #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta.links {
+        /* margin-right: 2%!important;*/ }
+      #homepage-wrapper #xx_header .xx_slider ul li.festivalzomer .content .xx_cta.en {
+        width: 57%; } }
