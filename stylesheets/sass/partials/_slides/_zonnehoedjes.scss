@@ -1,0 +1,148 @@
+/* *********************************************************************************************************** */
+/*                                             SLIDER zonnehoedjes                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-zonnehoedjes.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+    position: absolute;
+    width: 75%;
+    top: 48%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 41px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .main-content {
+        text-shadow: 0 0 80px black;
+    font-size: 18px;
+    margin: 1.1em auto 1.5em;
+    width: 100%;
+    line-height: 130%;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content .xx_cta {
+    font-weight: 600;
+    width: 28%;
+    text-align: left;
+    margin-top: 0;
+    background: #e1a28c;
+    color: #ffffff;
+    margin-bottom: 7%;
+    &:hover {
+       background: darken(#e1a28c, 6%);
+        color: #ffffff;
+    }
+    &.links {
+        margin-right: 2%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+        top: 46%;
+        width: 73%;
+        .main-title {
+            font-size: 32px;
+        }
+        .main-content {
+            font-size: 16px;
+            width: 69%;
+            margin: 0.7em auto 1.0em;
+        }
+        .xx_cta {
+            width: 34%;
+        }
+}
+
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+            top: 42%;
+            .xx_cta {
+                width: 37%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                .hide_mobile{
+                    display: none;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: .5em auto .8em;
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-zonnehoedjes-mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+        width: 100%;
+        top: 36%;
+        .main-title {
+            font-size: 18px;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        }
+        .main-content {
+            font-size: 11px !important;
+            line-height: 130%;
+            width: 80%;
+            margin: 0.2em auto 0.7em;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+        }
+        .xx_cta {
+            width: 50%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;
+            &.links {
+               /* margin-right: 2%!important;*/
+            }
+        }
+    }
+}
