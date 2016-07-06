@@ -1,23 +1,23 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER summerdeals                                         ** */
-/* *********************************************************************************************************** */  
+/*                                             SLIDER zonnehoedjes                                         ** */
+/* *********************************************************************************************************** */
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals.jpg') no-repeat;
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-zonnehoedjes.jpg') no-repeat;
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
     position: absolute;
     width: 75%;
-    top: 9%;
-    color: #fff;
-    text-align: left;
-    padding-left: 3%;
+    top: 48%;
+    left: 0;
     h2,
     span {
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+    color: #fff;
+    text-align: center;
     .main-title {
         display: inline-block;
         font-weight: 100;
@@ -29,33 +29,28 @@
         margin: 0;
     }
     .main-content {
-        text-shadow: 0 0 80px rgba(0, 0, 0, 1);
-        font-size: 18px;
-        margin: 1.1em 0 1.8em;
-        width: 65%;
-        line-height: 130%;
+        text-shadow: 0 0 80px black;
+    font-size: 18px;
+    margin: 1.1em auto 1.5em;
+    width: 100%;
+    line-height: 130%;
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content .xx_cta {
     font-weight: 600;
-    width: 27%;
+    width: 28%;
     text-align: left;
-    margin: 0 0 10px;
-    background: #df8f12;
+    margin-top: 0;
+    background: #e1a28c;
     color: #ffffff;
-    display: block; /*override general styles = inline-block*/
+    margin-bottom: 7%;
     &:hover {
-       background: darken(#df8f12, 6%);
+       background: darken(#e1a28c, 6%);
         color: #ffffff;
     }
-    &.folder {
-        background-color: #fff;
-        color: #df8f12;
-        &:hover{
-            background-color: #df8f12;
-            color: #fff;
-        }
+    &.links {
+        margin-right: 2%;
     }
 }
 
@@ -68,16 +63,19 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-        top: 3%;
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+        top: 46%;
+        width: 73%;
         .main-title {
             font-size: 32px;
         }
         .main-content {
             font-size: 16px;
+            width: 69%;
+            margin: 0.7em auto 1.0em;
         }
         .xx_cta {
-            width: 32%;
+            width: 34%;
         }
 }
 
@@ -86,12 +84,11 @@
 /* *********************************************************************************************************** */
 
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-            /*top: 29%;*/
+        #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+            top: 42%;
             .xx_cta {
-                width: 35%;
+                width: 37%;
                 padding-left: 1%;
-                margin: 0 0 8px;
             }
             .main-title {
                 font-size: 25px;
@@ -101,15 +98,15 @@
             }
             .main-content {
                 font-size: 15px;
-                margin: .6em 0 1em;
-                width: 83%;
+                margin: .5em auto .8em;
+                width: 80%;
             }
         }
     }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content .xx_cta:after {
         height: 25px;
     }
 }
@@ -120,34 +117,31 @@
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-summerdeals-mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-zonnehoedjes-mobile.jpg') no-repeat;
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.summerdeals .content {
-            width: 100%;
-            top: 5%;
-            padding: 0;
-            text-align: center;
+    #homepage-wrapper #xx_header .xx_slider ul li.zonnehoedjes .content {
+        width: 100%;
+        top: 36%;
         .main-title {
-            font-size: 14px;
+            font-size: 18px;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
         }
         .main-content {
-            font-size: 10px;
+            font-size: 11px !important;
             line-height: 130%;
-            width: 100%;
-            margin: .5em auto 1em;
+            width: 80%;
+            margin: 0.2em auto 0.7em;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
         }
         .xx_cta {
-            width: 52%;
+            width: 50%;
             padding-left: 2%;
             padding-right: 0;
             margin: 0 auto !important;
-            margin-bottom: 7px !important;
+            margin-bottom: 3% !important;
             &.links {
                /* margin-right: 2%!important;*/
-            }
-            &.folder{
-                display: none;
             }
         }
     }
