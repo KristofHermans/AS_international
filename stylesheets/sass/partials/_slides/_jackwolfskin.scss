@@ -1,0 +1,317 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER jackwolfskin                                         ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-jackwolfskin.jpg') no-repeat;
+}
+
+.logo {
+    position: absolute;
+    left: 2%;
+    top: 0;
+    width: 9%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content {
+    position: absolute;
+    width: 75%;
+    top: 12%;
+    left: 0;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    color: #fff;
+    text-align: center;
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 55px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+        &::before {
+            content: '';
+            background-image: url("//static.asadventure.com/includes/homepage/national/new/images/jw_tree.png");
+            background-size: 100%;
+            display: inline-block;
+            position: relative;
+            height: 50px;
+            width: 28px;
+            margin-right: 15px;
+            margin-bottom: -6px;
+        }
+        &::after {
+            content: '';
+            background-image: url("//static.asadventure.com/includes/homepage/national/new/images/jw_tree.png");
+            background-size: 100%;
+            display: inline-block;
+            position: relative;
+            height: 50px;
+            width: 28px;
+            margin-left: 15px;
+            margin-bottom: -6px;
+        }
+    }
+    .main-content {
+        text-shadow: 0 0 80px black;
+        font-size: 18px;
+        margin: 4.8em auto 1.2em;
+        width: 100%;
+        line-height: 130%;
+        .show_mobile {
+            display: none;
+        }
+        p {
+            margin: .7em 0;
+        }
+        .overlay {
+            background-color: white;
+            padding: 5px;
+            color: black;
+            font-weight: bold;
+        }
+        .geel {
+            color: #fdb813;
+            font-weight: bold;
+        }
+        .links {
+            float: left;
+            text-align: right;
+            width: 43%;
+            margin-left: 19%;
+            &.fr{
+                width:51%;
+                margin-left: 16%;
+            }
+            &.en{
+                width:51%;
+                margin-left: 16%;
+            }
+        }
+        .rechts {
+            float: left;
+            width: 15%;
+            font-size: 45px;
+            margin: 19px 0 0 0;
+        }
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content .xx_cta {
+    font-weight: 600;
+    width: 28%;
+    text-align: left;
+    margin-top: 0;
+    background: #fdb813;
+    color: #000;
+    margin-bottom: 7%;
+    &:hover {
+        background: darken(#fdb813, 20%);
+        //color: #ffffff;
+    }
+    &.links {
+        margin-right: 2%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content {
+        /*top: 46%;*/
+        width: 73%;
+        .main-title {
+            font-size: 45px;
+            &::before {
+                height: 45px;
+                width: 24px;
+            }
+            &::after {
+                height: 45px;
+                width: 24px;
+            }
+            p {
+                margin: .5em 0;
+            }
+        }
+        .main-content {
+            font-size: 16px;
+            margin: 2.8em auto .8em;
+            .links{
+                width: 48%;
+                margin-left: 17%;
+                &.fr{
+                    width: 56%;
+                    margin-left: 14%;
+                }
+                &.en{
+                width: 59%;
+                margin-left: 12%;
+                }
+            }
+            .rechts {
+                float: left;
+                width: 12%;
+                font-size: 35px;
+                margin: 22px 0 0 10px;
+            }
+        }
+        .xx_cta {
+            width: 34%;
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content {
+            top: 11%;
+           
+            .xx_cta {
+                width: 37%;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 40px;
+                &::before {
+                    height: 36px;
+                    width: 18px;
+                    margin-bottom: -4px;
+                }
+                &::after {
+                    height: 36px;
+                    width: 18px;
+                    margin-bottom: -4px;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: 1em auto .7em;
+                width: 90%;
+                p {
+                    margin: .4em 0;
+
+                }
+                .overlay{
+                    padding: 2px 5px;
+                }
+                .links,.links.fr {
+                    width: 78%;
+                    margin-left: 0;
+                }
+                .links.en{
+                    width: 83%;
+                    margin-left: -2%;
+                }
+                .rechts{
+                    margin: 19px 0 0 10px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-jackwolfskin-mobile.jpg') no-repeat;
+        .logo {
+            width: 16%;
+        }
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.jackwolfskin .content {
+        width: 100%;
+        top: 9%;
+        &.fr{
+            top:3%;
+        }
+        .main-title {
+            font-size: 24px;
+            &::before {
+                display: none;
+            }
+            &::after {
+                display: none;
+            }
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 96%;
+            margin: 1em auto .8em;
+            .show_mobile {
+                display: block;
+                    height: 5px;
+            }
+            p {
+                font-size: 12px;
+                line-height: 120%;
+                margin: 0;
+            }
+            .rechts{
+                width: 12%;
+                font-size: 22px;
+                margin: 0px 0 0 2px;
+            }
+            .links.en{
+                margin-bottom: -5px;
+            }
+            .overlay {
+                padding: 0 4px;
+                margin-bottom: -5px;
+            }
+        }
+        .xx_cta {
+            width: 63%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;
+            &.links {
+                /* margin-right: 2%!important;*/
+            }
+        }
+    }
+}
