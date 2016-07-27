@@ -1,0 +1,168 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER smeltendeprijzen                                         ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-smeltendeprijzen.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content {
+    &.fr {
+        top: 19%;
+    }
+    position:absolute;
+    width: 38%;
+    top: 26%;
+    left: 34%;
+    color: #fff;
+    text-align: center;
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 120%;
+        color: #ba3f2a !important;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .main-content {
+        //text-shadow: 0 0 80px black;
+        font-size: 18px;
+        margin: 1.1em auto 1.5em;
+        width: 100%;
+        line-height: 130%;
+        color: #464646 !important;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content .xx_cta {
+    font-weight: 600;
+    width: 230px;
+    text-align: left;
+    margin-top: 0;
+    background: #ba3f2a;
+    color: #ffffff;
+    margin-bottom: 7%;
+    &:hover {
+        background: darken(#ba3f2a, 15%);
+        color: #ffffff;
+    }
+    &.links {
+        margin-right: 2%;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content {
+        &.fr {
+            top: 16%;
+        }
+        &.en{
+            top: 18%;
+        }
+        .main-title {
+            font-size: 32px;
+        }
+        .main-content {
+            font-size: 16px;
+        }
+        .xx_cta {
+            /* width: 34%;*/
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content {
+            top: 20%;
+            .xx_cta {
+                width: 180px;
+                padding-left: 1%;
+            }
+            .main-title {
+                font-size: 25px;
+                .hide_mobile {
+                    display: none;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: .6em auto 1.2em;
+                /*width: 80%;*/
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-smeltendeprijzen-mobile.jpg') no-repeat;
+        &.fr{
+            background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-smeltendeprijzen-mobileFR.jpg') no-repeat;
+        }
+        &.en{
+            background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-smeltendeprijzen-mobileEN.jpg') no-repeat;
+        }
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.smeltendeprijzen .content {
+        width: 100%;
+        top: 21%;
+        text-align: center;
+        .main-title {
+            display: none;
+        }
+        .main-content {
+            /*font-size: 10px;
+            line-height: 130%;
+            width: 80%;
+            margin: 1.2em auto 1.7em;*/
+            display: none;
+        }
+        .xx_cta {
+            /*width: 55%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;*/
+           display: none;
+        }
+    }
+}
