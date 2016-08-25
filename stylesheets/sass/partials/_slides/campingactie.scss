@@ -1,0 +1,217 @@
+/* *********************************************************************************************************** */
+/*                                             SLIDER campingactie                                         ** */
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-campingactie.jpg') no-repeat;
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    position: absolute;
+    width: 60%;
+    top: 54%;
+    left: 3%;
+    color: #fff;
+    text-align: left;
+
+    &.en{
+        width: 42%;
+        top: 43%;
+    }
+    h2,
+    span {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .main-title {
+        display: inline-block;
+        font-weight: 100;
+        font-size: 40px;
+        line-height: 120%;
+        color: inherit;
+        /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+        text-transform: uppercase;
+        margin: 0;
+    }
+    .main-content {
+        /*text-shadow: 0 0 80px black;*/
+        font-size: 18px;
+        margin: 0.7em auto 1em;
+        width: 100%;
+        line-height: 130%;
+    }
+}
+
+#homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta {
+    font-weight: 600;
+    width: 255px;
+    text-align: left;
+    margin-top: 0;
+    background: #3968ab;
+    color: #ffffff;
+    margin-bottom: 7%;
+    &:hover {
+       background: darken(#3968ab, 6%);
+        color: #ffffff;
+    }
+    &.en{
+        width: 290px;
+    }
+    &.fr{
+        width: 170px;
+    }
+}
+
+// IE8 fix 
+@media \0screen {}
+
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+    width: 63%;
+    top: 48%;
+               &.en{
+                    top: 36%;
+                }
+        .main-title {
+            font-size: 32px;
+               &.en{
+                    font-size: 30px;
+                }
+        }
+        .main-content {
+            font-size: 16px;
+        }
+        .xx_cta {
+           width: 260px;
+               &.en{
+                    width: 284px;
+                }
+                &.fr{
+                    width: 183px;
+                }
+        }
+}
+
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .patch {
+        width: 16%;
+        &.en{
+            width: 14%;
+        }
+    }
+/* *********************************************************************************************************** */
+/* **                                               TABLET                                                  ** */
+/* *********************************************************************************************************** */
+
+    @media (max-width: 979px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .patch {
+        width: 14%;
+        &.en{
+            width: 15%;
+        }
+    }
+        #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+            top: 43%;
+            width: 54%;
+               &.en{
+                    top: 32%;
+                }
+            .xx_cta {
+                width: 218px;
+                padding-left: 1%;
+               &.en{
+                    width: 247px;
+                }
+                &.fr{
+                    width: 159px;
+                }
+            }
+            .main-title {
+                font-size: 25px;
+               &.en{
+                    font-size: 23px;
+                    margin: .4em auto 0em;
+                }
+            }
+            .main-content {
+                font-size: 15px;
+                margin: .6em auto 1.2em;
+               &.en{
+                    font-size: 13px;
+                    margin: 0.4em auto 1.0em;;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-campingactie-mobile.jpg') no-repeat;
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .patch {
+        width: 30%;
+               &.en{
+                    width: 30%;
+                }
+    }
+
+    #homepage-wrapper #xx_header .xx_slider ul li.campingactie .content {
+        width: 100%;
+        top: 32%;
+        text-align: center;
+        left: 0%;
+               &.en{
+                    width: 100%;
+                    top: 22%;
+                }
+        .main-title {
+            font-size: 15px;
+            width: 80%;
+            line-height: 19px;
+            text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+                &.en{
+                    font-size: 15px;
+                }
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 80%;
+            margin: 0.4em auto 1em;
+            float: center;
+                &.en{
+                    font-size: 10px;
+                }
+        }
+        .xx_cta {
+            width: 67%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 3% !important;
+               &.en{
+                    width: 74%;
+                }
+                &.fr{
+                    width: 45%;
+                }
+        }
+    }
+}
