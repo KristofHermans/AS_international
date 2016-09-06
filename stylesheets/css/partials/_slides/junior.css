@@ -1,0 +1,108 @@
+/* *********************************************************************************************************** */
+/*                                             SLIDER junior                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.junior {
+  background: url("../images/bg-junior.jpg") no-repeat; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.junior .content {
+  position: absolute;
+  width: 75%;
+  top: 45%;
+  color: #fff;
+  text-align: center; }
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content h2,
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content span {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-title {
+    display: block;
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 120%;
+    color: inherit;
+    /*text-shadow: 0 0 20px rgba(0, 0, 0, 0.9);*/
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 2%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-content {
+    /*text-shadow: 0 0 80px black;*/
+    font-size: 18px;
+    margin: 1.1em auto 1.5em;
+    width: 100%;
+    line-height: 130%; }
+
+#homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta {
+  font-weight: 600;
+  width: 230px;
+  text-align: left;
+  margin-top: 0;
+  background: #2a87ea;
+  color: #ffffff;
+  margin-bottom: 7%; }
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta:hover {
+    background: #1678df;
+    color: #ffffff; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
+    top: 43%;
+    width: 73%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-title {
+      font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta {
+      width: 208px; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
+    top: 42%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta {
+      width: 180px;
+      padding-left: 1%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-title {
+      font-size: 25px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-title .hide_mobile {
+        display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-content {
+      font-size: 15px;
+      margin: .6em auto 1.2em;
+      /*width: 80%;*/ } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.junior {
+    background: url("../images/bg-junior-mobile.jpg") no-repeat; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.junior .content {
+    width: 100%;
+    top: 37%;
+    text-align: center; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-title {
+      font-size: 15px;
+      width: 62%;
+      line-height: 19px;
+      display: inline-block;
+      margin-bottom: 3%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      width: 80%;
+      margin: -0.6em auto 1em;
+      float: left; }
+    #homepage-wrapper #xx_header .xx_slider ul li.junior .content .xx_cta {
+      width: 51%;
+      padding-left: 2%;
+      padding-right: 0;
+      margin: 0 auto !important;
+      margin-bottom: 3% !important; } }
