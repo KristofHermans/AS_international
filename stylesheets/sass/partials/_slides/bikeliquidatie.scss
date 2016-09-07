@@ -1,12 +1,21 @@
 /* *********************************************************************************************************** */
-/*                                             SLIDER newfashionarrivals                                         ** */
+
+
+/*                                             SLIDER bikeliquidatie                                         ** */
+
+
 /* *********************************************************************************************************** */
 
-#homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals {
-    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-newfashionarrivals-brussel.jpg') no-repeat;
+#homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bikeliquidatie.jpg') no-repeat;
+    .patch {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content {
+#homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie .content {
     position: absolute;
     width: 75%;
     top: 33%;
@@ -17,6 +26,11 @@
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
     }
+    &.en{
+        .main-title{
+            width: 70%;
+        }
+    }
     .main-title {
         display: inline-block;
         font-weight: 100;
@@ -25,27 +39,29 @@
         color: inherit;
         text-transform: uppercase;
         margin: 0;
+        width: 62%;
+        text-shadow: 0 0 80px black;
     }
     .main-content {
-    text-shadow: 0 0 80px black;
-    font-size: 18px;
-    margin: 0.7em auto 1em;
-    width: 62%;
-    line-height: 130%;
+        text-shadow: 0 0 80px black;
+        font-size: 18px;
+        margin: 0.7em auto 1em;
+        width: 62%;
+        line-height: 130%;
     }
 }
 
-#homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content .xx_cta {
+#homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie .content .xx_cta {
     font-weight: 600;
     width: 27%;
     margin-right: 2%;
     display: inline-block;
     margin-top: 0;
-    background: #b8424c;
+    background: #0ba198;
     color: #ffffff;
     margin-bottom: 2%;
     &:hover {
-       background: darken(#b8424c, 6%);
+        background: darken(#0ba198, 6%);
         color: #ffffff;
     }
 }
@@ -55,32 +71,42 @@
 
 
 /* *********************************************************************************************************** */
+
+
 /* **                                              DESKTOP                                                  ** */
+
+
 /* *********************************************************************************************************** */
 
 @media (max-width: 1199px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content {
-        top: 32%;
-
-        .main-title {
-            font-size: 32px;
+    #homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie {
+        .patch {
+            width: 135px;
         }
-        .main-content {
-            font-size: 16px;
+        .content {
+            top: 32%;
+            .main-title {
+                font-size: 32px;
+            }
+            .main-content {
+                font-size: 16px;
+            }
+            .xx_cta {
+                width: 31%;
+            }
         }
-        .xx_cta {
-           width: 31%;
-        }
-}
-
-/* *********************************************************************************************************** */
-/* **                                               TABLET                                                  ** */
-/* *********************************************************************************************************** */
-
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
     @media (max-width: 979px) {
-        #homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content {
-            /*top: 40%;
-            width: 57.5%;*/
+        #homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie{
+            .patch {
+            width: 125px;
+        }
+         .content {
+            top: 26%;
+            /*width: 57.5%;*/
             .xx_cta {
                 width: 180px;
                 padding-left: 1%;
@@ -89,7 +115,7 @@
             }
             .main-title {
                 font-size: 25px;
-                .hide_mobile{
+                .hide_mobile {
                     display: none;
                 }
             }
@@ -101,23 +127,31 @@
         }
     }
 }
+}
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    #homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content .xx_cta:after {
+    #homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie .content .xx_cta:after {
         height: 25px;
     }
 }
 
 
 /* *********************************************************************************************************** */
+
+
 /* **                                               MOBILE                                                  ** */
+
+
 /* *********************************************************************************************************** */
 
 @media (max-width: 767px) {
-    #homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals {
-        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-newfashionarrivals-brussel-mobile.jpg') no-repeat;
+    #homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-bikeliquidatie-mobile.jpg') no-repeat;
+        .patch{
+            display: none;
+        }
     }
-    #homepage-wrapper #xx_header .xx_slider ul li.newfashionarrivals .content {
+    #homepage-wrapper #xx_header .xx_slider ul li.bikeliquidatie .content {
         width: 100%;
         top: 11%;
         text-align: center;
