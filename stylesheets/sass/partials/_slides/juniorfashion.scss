@@ -1,0 +1,185 @@
+/* *********************************************************************************************************** */
+
+
+/*                                             SLIDER juniorfashion                                         ** */
+
+
+/* *********************************************************************************************************** */
+
+#homepage-wrapper #xx_header .xx_slider ul li.juniorfashion {
+    background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-juniorfashion.jpg') no-repeat;
+    .content {
+        position: absolute;
+        width: 75%;
+        top: 33%;
+        color: #fff;
+        text-align: center;
+        h2,
+        span {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        &.en {
+            .main-title {
+                width: 70%;
+            }
+        }
+        .main-title {
+            display: inline-block;
+            font-weight: 100;
+            font-size: 40px;
+            line-height: 120%;
+            color: inherit;
+            text-transform: uppercase;
+            margin: 0;
+            width: 62%;
+            text-shadow: 0 0 80px black;
+        }
+        .main-content {
+            text-shadow: 0 0 80px black;
+            font-size: 18px;
+            margin: 0.7em auto 1em;
+            width: 75%;
+            line-height: 130%;
+        }
+        .xx_cta {
+            font-weight: 600;
+            width: 25%;
+            margin-right: 2%;
+            display: inline-block;
+            margin-top: 0;
+            background: #3781aa;
+            color: #ffffff;
+            margin-bottom: 4%;
+            &:hover {
+                background: darken(#3781aa, 8%);
+                color: #ffffff;
+            }
+        }
+        &.en {
+            .xx_cta {
+                width: 30%;
+            }
+        }
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                              DESKTOP                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 1199px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorfashion {
+        .content {
+            top: 30%;
+            .main-title {
+                font-size: 32px;
+            }
+            .main-content {
+                font-size: 16px;
+            }
+            .xx_cta {
+                width: 30%;
+                margin-bottom: 3%;
+            }
+            &.en {
+                .xx_cta {
+                    width: 34%;
+                }
+            }
+        }
+    }
+    /* *********************************************************************************************************** */
+    /* **                                               TABLET                                                  ** */
+    /* *********************************************************************************************************** */
+    @media (max-width: 979px) {
+        #homepage-wrapper #xx_header .xx_slider ul li.juniorfashion {
+            .content {
+                top: 18%;
+                /*width: 57.5%;*/
+                .xx_cta {
+                    width: 30%;
+                    padding-left: 1%;
+                    margin-bottom: 2% !important;
+                    text-align: left;
+                }
+                .main-title {
+                    font-size: 25px;
+                    .hide_mobile {
+                        display: none;
+                    }
+                }
+                .main-content {
+                    font-size: 14px;
+                    margin: .6em auto 1.2em;
+                    width: 80%;
+                }
+                &.en {
+                    .xx_cta {
+                        width: 37%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorfashion .content .xx_cta:after {
+        height: 25px;
+    }
+}
+
+
+/* *********************************************************************************************************** */
+
+
+/* **                                               MOBILE                                                  ** */
+
+
+/* *********************************************************************************************************** */
+
+@media (max-width: 767px) {
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorfashion {
+        background: url('//static.asadventure.com/includes/homepage/national/new/images/bg-juniorfashion-mobile.jpg') no-repeat;
+    }
+    #homepage-wrapper #xx_header .xx_slider ul li.juniorfashion .content {
+        width: 100%;
+        top: 10%;
+        text-align: center;
+        left: 0%;
+        .main-title {
+            font-size: 18px;
+        }
+        .main-content {
+            font-size: 10px;
+            line-height: 130%;
+            width: 80%;
+            margin: 0.6em auto 1.3em;
+        }
+        .xx_cta {
+            width: 50%;
+            padding-left: 2%;
+            padding-right: 0;
+            margin: 0 auto !important;
+            margin-bottom: 1.5% !important;
+            display: block;
+            float: inherit;
+        }
+        &.fr {
+            .main-title {
+                width: 80%;
+            }
+        }
+        &.en {
+            .xx_cta {
+                width: 65%;
+            }
+        }
+    }
+}
