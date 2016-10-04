@@ -205,7 +205,7 @@ html, body {
       width: 100%; } }
   @media only screen and (max-width: 979px) {
     .col-12 {
-      width: 100.0%; } }
+      width: 100%; } }
   @media only screen and (max-width: 767px) {
     .col-12 {
       width: 100%; } }
@@ -1405,6 +1405,147 @@ a:link {
       padding-right: 0;
       margin: 0 auto !important;
       margin-bottom: 3% !important; } }
+/* *********************************************************************************************************** */
+/*                                             SLIDER baskenland                                         ** */
+/* *********************************************************************************************************** */
+#homepage-wrapper #xx_header .xx_slider ul li.baskenland {
+  background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-baskenland.jpg") no-repeat; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .patch {
+    position: relative;
+    top: 0;
+    left: 0; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content {
+    position: absolute;
+    width: 72%;
+    top: 36%;
+    color: #fff;
+    text-align: center; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content h2,
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content span {
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr .xx_cta {
+      width: 36%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.en .main-title {
+      width: 70%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-content {
+      text-shadow: 0 0 80px black;
+      font-size: 18px;
+      margin: 0.7em auto 1em;
+      width: 75%;
+      line-height: 130%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-title {
+      display: inline-block;
+      font-weight: 100;
+      font-size: 40px;
+      line-height: 120%;
+      color: inherit;
+      text-transform: uppercase;
+      margin: 0;
+      width: 62%;
+      text-shadow: 0 0 80px black; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .sub {
+      font-size: 14px;
+      font-style: italic; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta {
+      font-weight: 600;
+      width: 29%;
+      /*margin-right: 2%;*/
+      display: inline-block;
+      margin-top: 1.2em;
+      background: #da552c;
+      color: #ffffff;
+      margin-bottom: 4%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta:hover {
+        background: #c54923;
+        color: #ffffff; }
+
+/* *********************************************************************************************************** */
+/* **                                              DESKTOP                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 1199px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .patch {
+    width: 135px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content {
+    top: 30%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-title {
+      font-size: 32px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-content {
+      font-size: 16px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta {
+      width: 36%;
+      margin-bottom: 3%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr {
+      /*top: 14%;*/ }
+      #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr .xx_cta {
+        width: 44%; }
+
+  /* *********************************************************************************************************** */
+  /* **                                               TABLET                                                  ** */
+  /* *********************************************************************************************************** */ }
+@media (max-width: 1199px) and (max-width: 979px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .patch {
+    width: 100px; }
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content {
+    top: 30%;
+    /*width: 57.5%;*/ }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta {
+      width: 39%;
+      padding-left: 1%;
+      margin-bottom: 2% !important;
+      text-align: left; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-title {
+      font-size: 25px; }
+      #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-title .hide_mobile {
+        display: none; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-content {
+      font-size: 14px;
+      margin: .6em auto 1.2em;
+      width: 80%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .sub {
+      font-size: 12px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr .xx_cta {
+      width: 48%; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta:after {
+    height: 25px; } }
+/* *********************************************************************************************************** */
+/* **                                               MOBILE                                                  ** */
+/* *********************************************************************************************************** */
+@media (max-width: 767px) {
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland {
+    background: url("//static.asadventure.com/includes/homepage/national/new/images/bg-baskenland-mobile.jpg") no-repeat; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .patch {
+      display: none; }
+
+  #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content {
+    width: 100%;
+    top: 21%;
+    text-align: center;
+    left: 0%; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-title {
+      font-size: 18px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .main-content {
+      font-size: 10px;
+      line-height: 130%;
+      width: 80%;
+      margin: 0.6em auto 1.3em; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .xx_cta {
+      width: 61%;
+      padding-left: 2%;
+      padding-right: 0;
+      margin: 1em auto !important;
+      margin-bottom: 1.5% !important;
+      display: block;
+      float: inherit; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content .sub {
+      font-size: 10px; }
+    #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr {
+      /*top: 4%;*/ }
+      #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr .xx_cta {
+        width: 74%; }
+      #homepage-wrapper #xx_header .xx_slider ul li.baskenland .content.fr .main-title {
+        width: 70%; } }
 /* *********************************************************************************************************** */
 /*                                             SLIDER newfashionarrivals                                         ** */
 /* *********************************************************************************************************** */
